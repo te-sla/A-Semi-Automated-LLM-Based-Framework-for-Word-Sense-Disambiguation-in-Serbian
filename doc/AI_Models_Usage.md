@@ -1,6 +1,10 @@
-# AI Models Usage in LexiSense-SR
+# AI Models Usage
 
-This document provides a comprehensive overview of all AI/LLM models used in the LexiSense-SR Word Sense Disambiguation (WSD) toolkit for Serbian language resources.
+> Part of the companion repository for *A Semi-Automated LLM-Based Framework
+> for Word Sense Disambiguation in Serbian* (submitted to SAGE Journal).
+
+This document provides a comprehensive overview of all AI/LLM models used in
+the WSD framework for Serbian language resources.
 
 ---
 
@@ -37,7 +41,9 @@ All LLM pipelines share a common architecture using LangChain for prompt managem
 |-------|------|-------------|--------------|---------------|
 | GPT-5 / GPT-4.1-nano | Cloud LLM | LangChain + OpenAI | Yes | `ChatGPT_sense.ipynb` |
 | Gemini 2.0 Flash Lite | Cloud LLM | LangChain + Google GenAI | Yes | `GEMINI_sense.ipynb` |
-| Llama 3.3 | Local LLM | LangChain + Ollama | No | `Llama_sense.ipynb` |
+| Llama 3.3 | Local LLM | LangChain + Ollama | No | `Llama_sense.ipynb` ¹ |
+
+¹ Llama was not used in the paper due to computational constraints on the available local machine (see [Llama section](#llama-local-via-ollama) for details).
 | all-MiniLM-L6-v2 | Embeddings | Sentence Transformers | No | `simple_wsd.py` |
 | OpenAI Embeddings | Embeddings | LangChain + OpenAI | Yes | `ChatGPT_second_round.ipynb` |
 
@@ -125,6 +131,12 @@ result = chain.invoke(inputs)
 ---
 
 ## Llama (Local via Ollama)
+
+> **Note:** Llama 3.3 was not included in the paper's evaluation. Local
+> inference was too slow on the available hardware to complete full-scale
+> annotation within a practical time frame. A 10-sample test confirmed the
+> pipeline works correctly; the code is included here for completeness and
+> reproducibility.
 
 ### Model Used
 - `llama3.3`
@@ -394,12 +406,22 @@ Each annotation includes an `Origine` field tracking how it was determined:
 
 ### Output Files
 
+Outputs are organised by experimental round, then by model:
+
 ```
 output/
-├── ai_generated_senses.jsonl    # AI-generated new senses
-├── Chat_test_out.tsv            # ChatGPT annotated output
-├── filtered_first_origin_*.tsv  # Filtered results by origin
-└── ...
+├── round_I/          # Round I (initial annotation)
+│   ├── ChatGPT/
+│   ├── Gemini/
+│   ├── SimpleWSD/
+│   └── SimpleWSD_Tesla/
+├── round_II/
+│   └── GPT-5/
+├── round_III/        # Round III (expanded sense inventory)
+│   ├── GPT-5/
+│   ├── SimpleWSD/
+│   └── SimpleWSD_Tesla/
+└── misc/             # Auxiliary files & prompt examples
 ```
 
 ---

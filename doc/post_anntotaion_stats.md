@@ -1,6 +1,11 @@
 # post_anntotaion_stats.ipynb
 
-This notebook performs post-hoc analysis and comparison of sense-annotated TSV files produced by different LLM pipelines. It is structured as follows:
+> Part of the companion repository for *A Semi-Automated LLM-Based Framework
+> for Word Sense Disambiguation in Serbian* (submitted to SAGE Journal).
+
+This notebook performs post-hoc analysis and comparison of sense-annotated TSV
+files produced by different LLM pipelines across the multi-round annotation
+workflow. It is structured as follows:
 
 1. **Introduction**: Explains the purpose and objectives of the analysis.
 2. **Imports and Constants**: Loads required libraries and sets up constants for analysis (e.g., agreement columns, NEW_SENSE flags).

@@ -1,60 +1,123 @@
-# LexiSense-SR
+# A Semi-Automated LLM-Based Framework for Word Sense Disambiguation in Serbian
 
-LexiSense-SR is a toolkit for word sense disambiguation (WSD) and lexical analysis, focused on Serbian language resources. It provides scripts, notebooks, and data for processing, evaluating, and experimenting with sense-annotated corpora and AI models.
+Companion code and data for the paper:
+
+> **A Semi-Automated LLM-Based Framework for Word Sense Disambiguation in Serbian**
+> *Submitted to SAGE Journal*
+
+This repository implements a semi-automated annotation workflow for Word Sense
+Disambiguation (WSD) in Serbian, leveraging Large Language Models (LLMs) through
+specialised prompt engineering with zero-shot inference and constrained
+JSON-formatted output. The framework guides LLMs in selecting the appropriate
+sense from a custom inventory built on the Serbian WordNet and enhanced with
+additional senses.
+
+## Key Results
+
+| Model | Single-word accuracy | Multi-word accuracy |
+|-------|---------------------|---------------------|
+| GPT 4.1 | 83.1 % | 100 % |
+| GPT 5 | adaptive reasoning, excels on extreme polysemy & verbs | — |
+| Baselines (XLM-RoBERTa, all-MiniLM-L6-v2) | significantly lower | — |
 
 ## Features
-- Word Sense Disambiguation (WSD) using multiple models (ChatGPT, Gemini, Llama)
-- Knowledge-based WSD using domain-specific sense repositories
-- Automatic extraction of multiword expressions
-- Named-entity resolution and lemma-based filtering
-- Data preprocessing and cleaning utilities
-- Evaluation scripts and outputs for model predictions
-- Logging of model outputs and processing steps for later review
 
-## Project Structure
-- `ChatGPT_sense.ipynb`, `GEMINI_sense.ipynb`, `Llama_sense.ipynb`: Notebooks for running and evaluating different AI models on sense disambiguation tasks.
-- `config.py`, `preprocessing.py`, `domain.py`: Scripts for configuration, preprocessing, and domain logic.
-- `Data/`: Main lexical resources and test datasets (e.g., `Elexis-WSD-Repo-sr-v2.xlsx`, `sr-elexis_*.tsv`).
-- `output/`: Model outputs and evaluation results (e.g., `LexiSense.tsv`, `LexiSense_Debug.tsv`, `gemini_test.tsv`).
-- `*.log`: Log files for model runs and processing steps.
-- `*.tsv`, `*.csv`, `*.json`: Data files for input, output, and intermediate results.
+- **LLM-based WSD** – zero-shot sense disambiguation via GPT 4.1 / GPT 5, Gemini 2.0 Flash Lite, and Llama 3.3
+  > *Note:* Llama 3.3 was not included in the paper's evaluation — local inference was too slow on the available hardware for full-scale annotation, though it produced correct results on a 10-sample test run. The pipeline is fully functional and included here for reproducibility.
+- **Embedding baseline** – cosine-similarity WSD with `all-MiniLM-L6-v2` sentence transformer
+- **Custom sense inventory** – Serbian WordNet senses enriched with additional entries (`Elexis-WSD-Repo-sr-v2.xlsx`)
+- **Semi-automated annotation** – structured prompts produce constrained JSON; multi-round workflow with validation and retry logic
+- **Multi-word expression handling** – automatic MWE extraction and disambiguation
+- **WebAnno / INCEpTION export** – TSV writers compatible with both annotation platforms
+
+## Repository Structure
+
+```
+├── ChatGPT_sense.ipynb          # GPT 4.1 / GPT 5 WSD pipeline
+├── ChatGPT_second_round.ipynb   # RAG-based second-round refinement
+├── GEMINI_sense.ipynb           # Gemini 2.0 Flash Lite WSD pipeline
+├── Llama_sense.ipynb            # Llama 3.3 (local, via Ollama) WSD pipeline
+├── SimpleWSD_sense.ipynb        # Embedding-baseline WSD notebook
+├── post_anntotaion_stats.ipynb  # Inter-model agreement & statistics
+├── config.py                    # Paths, constants, field names
+├── preprocessing.py             # Token/MWE filtering, sense collection
+├── process_senses.py            # LLM disambiguation loop (shared)
+├── data_loader.py               # Sense-repo & chunked-TSV loaders
+├── domain.py                    # EN→SR domain-label translation
+├── writers.py                   # WebAnno / INCEpTION TSV export
+├── simple_wsd.py                # Sentence-transformer baseline
+├── Data/
+│   ├── Elexis-WSD-Repo-sr-v2.xlsx   # Sense inventory (current)
+│   ├── Elexis-WSD-Repo-sr-v1.xlsx   # Sense inventory (v1)
+│   └── sr-elexis-WSD_*.tsv          # Annotation chunks (500-sentence groups)
+├── output/                      # Model outputs organised by round & model
+│   ├── round_I/                 #   Round I results
+│   │   ├── ChatGPT/
+│   │   ├── Gemini/
+│   │   ├── SimpleWSD/
+│   │   └── SimpleWSD_Tesla/
+│   ├── round_II/                #   Round II results
+│   │   └── GPT-5/
+│   ├── round_III/               #   Round III results
+│   │   ├── GPT-5/
+│   │   ├── SimpleWSD/
+│   │   └── SimpleWSD_Tesla/
+│   └── misc/                    #   Auxiliary files & prompt examples
+├── stats/                       # Agreement CSVs produced by the notebooks
+└── doc/                         # Per-file documentation
+```
 
 ## Installation
 
-```powershell
+```bash
 # 1. Clone the repo
-git clone https://github.com/te-sla/LexiSense-SR.git
-cd LexiSense-SR
+git clone https://github.com/te-sla/A-Semi-Automated-LLM-Based-Framework-for-Word-Sense-Disambiguation-in-Serbian.git
+cd A-Semi-Automated-LLM-Based-Framework-for-Word-Sense-Disambiguation-in-Serbian
 
 # 2. Create and activate a virtual environment
 python -m venv .env
-# On Windows:
+# Windows:
 .env\Scripts\activate
-# On Linux/macOS:
+# Linux / macOS:
 source .env/bin/activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
 ```
 
+For local Llama inference, install [Ollama](https://ollama.com/) and pull the
+model: `ollama pull llama3.3`.
+
 ## Usage
 
-1. Place your lexical resources in the `Data/` directory.
-2. Open any of the provided Jupyter notebooks (e.g., `ChatGPT_sense.ipynb`, `GEMINI_sense.ipynb`, `Llama_sense.ipynb`) to experiment with different models.
-3. The notebooks will:
-   - Load input data (e.g., `sr-elexis_20250506.tsv`).
-   - Use `Elexis-WSD-Repo-sr-v2.xlsx` as the sense repository.
-   - Disambiguate each token’s sense via the selected AI model.
-   - Write output files to the `output/` directory (e.g., `LexiSense.tsv`, `LexiSense_Debug.tsv`).
-   - Log processing steps and model outputs for later review (see `*.log` files).
+1. Copy API keys into a `.env` file (see `config.py` for the expected variable names: `OPENAI_API_KEY`, `GOOGLE_GENAI_API_KEY`).
+2. Place lexical resources in `Data/`.
+3. Open one of the WSD notebooks (`ChatGPT_sense.ipynb`, `GEMINI_sense.ipynb`, `Llama_sense.ipynb`, or `SimpleWSD_sense.ipynb`).
+4. The notebook will:
+   - Load annotation chunks (`sr-elexis-WSD_*.tsv`).
+   - Load the sense inventory (`Elexis-WSD-Repo-sr-v2.xlsx`).
+   - Disambiguate each token/MWE via the selected model.
+   - Write WebAnno-compatible TSVs to `output/`.
 
 ## Data
-- **Elexis-WSD-Repo-sr-v2.xlsx:** Main sense-annotated lexicon (v1 available as `Elexis-WSD-Repo-sr-v1.xlsx`).
-- **sr-elexis_*.tsv:** Processed or test datasets.
-- **output/**: Contains model predictions and evaluation results.
 
-## Logging
-- Model runs and processing steps are logged in files like `gemini.log`, `llama.log`, and others for later review.
+| File | Description |
+|------|-------------|
+| `Elexis-WSD-Repo-sr-v2.xlsx` | Enhanced sense inventory (Serbian WordNet + additional senses) |
+| `Elexis-WSD-Repo-sr-v1.xlsx` | Original sense inventory used in Round I |
+| `sr-elexis-WSD_XXXX_YYYY.tsv` | Pre-chunked annotation files (500 sentences each) |
+
+## Citation
+
+If you use this code or data, please cite:
+
+```
+@article{lexisense-sr-2026,
+  title   = {A Semi-Automated LLM-Based Framework for Word Sense Disambiguation in Serbian},
+  journal = {SAGE Journal},
+  year    = {2026}
+}
+```
 
 ## License
 

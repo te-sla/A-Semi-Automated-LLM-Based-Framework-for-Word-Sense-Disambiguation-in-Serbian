@@ -1,21 +1,26 @@
 # config.py
 
+> Part of the companion repository for *A Semi-Automated LLM-Based Framework
+> for Word Sense Disambiguation in Serbian* (submitted to SAGE Journal).
+
 Central repository for constants shared across the annotation and analysis
-pipelines. The module loads optional environment variables (e.g.
-`OPENAI_API_KEY`, `GOOGLE_GENAI_API_KEY`) via `python-dotenv`, defines the
-project root, and exposes canonical paths for the `Data/`, `output/`, and
-`stats/` directories.
+pipelines. The module loads optional environment variables (`OPENAI_API_KEY`,
+`GOOGLE_GENAI_API_KEY`) via `python-dotenv`, defines the project root, and
+exposes canonical paths for the `Data/`, `output/`, and `stats/` directories.
 
 Key groups of settings:
 
+- **Sense inventory paths** – `SENSE_REPO` points to the current inventory
+	(`Elexis-WSD-Repo-sr-v2.xlsx`); `SENSE_REPO_OLD` points to the Round I
+	inventory (`Elexis-WSD-Repo-sr-v1.xlsx`).
 - **Annotation chunks** – `ANNOTATION_CHUNKS` enumerates the pre-split TSV
-	ranges used during the second annotation round, while `ANNOTATIONS_TSV`
+	ranges used during the multi-round annotation workflow, while `ANNOTATIONS_TSV`
 	preserves backwards compatibility with the first chunk.
 - **Lexis field names** – constants such as `L_LEMMA`, `L_UPOS`, and the MWE
 	field identifiers mirror WebAnno export column names, preventing typos in the
 	processing code.
 - **Sense repository columns** – `S_LEMMA`, `S_ID`, `S_DOMAIN`, etc., capture
-	the expected schema of `Elexis-WSD-Repo-sr-v2.xlsx`.
+	the expected schema of the sense inventory.
 - **Annotation output fields** – WebAnno custom layer keys (`SENSE_ID_FIELD`,
 	`SENSE_LIST_FIELD`, `SENSE_AINOTES_FIELD`, `SENSE_COMMENT_FIELD`, `SENSE_ORIGIN`)
 	used by `writers.py` and `process_senses.py` when emitting TSVs.

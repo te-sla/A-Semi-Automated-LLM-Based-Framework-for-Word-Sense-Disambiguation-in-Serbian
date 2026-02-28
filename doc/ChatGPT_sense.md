@@ -1,10 +1,16 @@
 # ChatGPT_sense.ipynb
 
-Notebook for running and analyzing sense assignment using the ChatGPT LLM pipeline. Typical workflow includes:
-- Loading model outputs and sense-annotated data
-- Processing and cleaning sense assignments
-- Visualizing sense distributions and model performance
-- Comparing results with other models or gold standards
+> Part of the companion repository for *A Semi-Automated LLM-Based Framework
+> for Word Sense Disambiguation in Serbian* (submitted to SAGE Journal).
+
+Primary WSD notebook using OpenAI GPT 4.1 / GPT 5 via LangChain. Workflow:
+
+1. Load annotation chunks (`sr-elexis-WSD_*.tsv`) and the sense inventory (`Elexis-WSD-Repo-sr-v2.xlsx`).
+2. Build structured Serbian-language prompts with constrained JSON output.
+3. Run zero-shot disambiguation via `process_senses.py`.
+4. Export WebAnno / INCEpTION-compatible TSVs to `output/`.
+
+Results are organised under `output/round_*/ChatGPT/` (or `GPT-5/`).
 
 **Usage:**
-Use this notebook to evaluate and explore the performance of ChatGPT on sense annotation tasks.
+Set `OPENAI_API_KEY` in a `.env` file and run the notebook cells sequentially.

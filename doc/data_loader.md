@@ -1,7 +1,9 @@
 # data_loader.py
 
-Utility module that centralises loading and discovery of LexiSense data
-artifacts.
+> Part of the companion repository for *A Semi-Automated LLM-Based Framework
+> for Word Sense Disambiguation in Serbian* (submitted to SAGE Journal).
+
+Utility module that centralises loading and discovery of data artifacts.
 
 ## Sense repository helpers
 

@@ -1,5 +1,8 @@
 # preprocessing.py
 
+> Part of the companion repository for *A Semi-Automated LLM-Based Framework
+> for Word Sense Disambiguation in Serbian* (submitted to SAGE Journal).
+
 Helper routines that operate on `webanno_spacy_converter` sentence objects prior
 to (or during) LLM-based disambiguation. Core capabilities:
 

@@ -1,10 +1,15 @@
 # GEMINI_sense.ipynb
 
-Notebook for running and analyzing sense assignment using the Gemini LLM pipeline. Typical workflow includes:
-- Loading Gemini model outputs and sense-annotated data
-- Processing and cleaning sense assignments
-- Visualizing sense distributions and model performance
-- Comparing results with other models or gold standards
+> Part of the companion repository for *A Semi-Automated LLM-Based Framework
+> for Word Sense Disambiguation in Serbian* (submitted to SAGE Journal).
+
+WSD notebook using Gemini 2.0 Flash Lite via LangChain + Google GenAI. Uses the
+same shared pipeline as the ChatGPT notebook but adds rate-limit throttling
+(`RATE_LIMIT_DELAY`) between API calls.
+
+1. Load annotation chunks and the sense inventory (`Elexis-WSD-Repo-sr-v2.xlsx`).
+2. Disambiguate tokens/MWEs with zero-shot JSON-constrained prompts.
+3. Export results to `output/round_*/Gemini/`.
 
 **Usage:**
-Use this notebook to evaluate and explore the performance of Gemini on sense annotation tasks.
+Set `GOOGLE_GENAI_API_KEY` in a `.env` file and run the notebook cells sequentially.

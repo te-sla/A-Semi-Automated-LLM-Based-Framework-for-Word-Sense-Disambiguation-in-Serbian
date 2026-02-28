@@ -1,7 +1,12 @@
 # simple_wsd.py
 
-Implements the lightweight "Simple WSD" baseline built on cosine similarity
-between sentence-transformer embeddings and candidate glosses.
+> Part of the companion repository for *A Semi-Automated LLM-Based Framework
+> for Word Sense Disambiguation in Serbian* (submitted to SAGE Journal).
+
+Implements the embedding-based WSD baseline (`all-MiniLM-L6-v2`) built on
+cosine similarity between sentence-transformer embeddings and candidate glosses.
+This serves as one of the two baseline models evaluated in the paper (alongside
+the Serbian-specific XLM-RoBERTa model).
 
 ## Key functions
 

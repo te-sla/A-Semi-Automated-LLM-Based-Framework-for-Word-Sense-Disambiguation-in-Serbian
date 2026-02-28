@@ -1,7 +1,10 @@
 # domain.py
 
+> Part of the companion repository for *A Semi-Automated LLM-Based Framework
+> for Word Sense Disambiguation in Serbian* (submitted to SAGE Journal).
+
 Provides a lightweight mapping between the English domain labels present in the
-ELEXIS sense repository and their Serbian equivalents. The module exposes:
+sense inventory and their Serbian equivalents. The module exposes:
 
 - `DOMAIN_MAP`: dictionary keyed by the English domain slug (e.g.,
 	`"chemistry"`, `"computer_science"`) with translated Serbian strings.

@@ -1,7 +1,10 @@
 # process_senses.py
 
-Coordinates the large-language-model (LLM) disambiguation workflow shared by
-the ChatGPT, Gemini, and Llama pipelines. Major components:
+> Part of the companion repository for *A Semi-Automated LLM-Based Framework
+> for Word Sense Disambiguation in Serbian* (submitted to SAGE Journal).
+
+Coordinates the LLM disambiguation workflow shared by the ChatGPT (GPT 4.1 /
+GPT 5), Gemini, and Llama pipelines. Major components:
 
 - `process_senses_with_chain(...)` – main entry point that iterates over
 	sentences, prepares candidate senses via `preprocessing`, invokes a LangChain
