@@ -15,7 +15,7 @@ Key groups of settings:
 	field identifiers mirror WebAnno export column names, preventing typos in the
 	processing code.
 - **Sense repository columns** – `S_LEMMA`, `S_ID`, `S_DOMAIN`, etc., capture
-	the expected schema of `Elexis-WSD-Repo.xlsx`.
+	the expected schema of `Elexis-WSD-Repo-sr-v2.xlsx`.
 - **Annotation output fields** – WebAnno custom layer keys (`SENSE_ID_FIELD`,
 	`SENSE_LIST_FIELD`, `SENSE_AINOTES_FIELD`, `SENSE_COMMENT_FIELD`, `SENSE_ORIGIN`)
 	used by `writers.py` and `process_senses.py` when emitting TSVs.

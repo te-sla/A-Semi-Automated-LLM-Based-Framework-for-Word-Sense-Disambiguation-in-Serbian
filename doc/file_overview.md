@@ -57,7 +57,8 @@ Utility notebooks for testing CUDA setup and running miscellaneous tests or expe
 
 ### Data/
 Contains input data files, such as:
-- Elexis-WSD-Repo.xlsx: Main lexical resource.
+- Elexis-WSD-Repo-sr-v2.xlsx: Main lexical resource (current version).
+- Elexis-WSD-Repo-sr-v1.xlsx: Previous version of the lexical resource.
 - sr-elexis_*.tsv: Sense-annotated TSV files for Serbian.
 - test_sr_lexix.tsv: Test data for evaluation.
 

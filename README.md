@@ -14,7 +14,7 @@ LexiSense-SR is a toolkit for word sense disambiguation (WSD) and lexical analys
 ## Project Structure
 - `ChatGPT_sense.ipynb`, `GEMINI_sense.ipynb`, `Llama_sense.ipynb`: Notebooks for running and evaluating different AI models on sense disambiguation tasks.
 - `config.py`, `preprocessing.py`, `domain.py`: Scripts for configuration, preprocessing, and domain logic.
-- `Data/`: Main lexical resources and test datasets (e.g., `Elexis-WSD-Repo.xlsx`, `sr-elexis_*.tsv`).
+- `Data/`: Main lexical resources and test datasets (e.g., `Elexis-WSD-Repo-sr-v2.xlsx`, `sr-elexis_*.tsv`).
 - `output/`: Model outputs and evaluation results (e.g., `LexiSense.tsv`, `LexiSense_Debug.tsv`, `gemini_test.tsv`).
 - `*.log`: Log files for model runs and processing steps.
 - `*.tsv`, `*.csv`, `*.json`: Data files for input, output, and intermediate results.
@@ -43,13 +43,13 @@ pip install -r requirements.txt
 2. Open any of the provided Jupyter notebooks (e.g., `ChatGPT_sense.ipynb`, `GEMINI_sense.ipynb`, `Llama_sense.ipynb`) to experiment with different models.
 3. The notebooks will:
    - Load input data (e.g., `sr-elexis_20250506.tsv`).
-   - Use `Elexis-WSD-Repo.xlsx` as the sense repository.
+   - Use `Elexis-WSD-Repo-sr-v2.xlsx` as the sense repository.
    - Disambiguate each token’s sense via the selected AI model.
    - Write output files to the `output/` directory (e.g., `LexiSense.tsv`, `LexiSense_Debug.tsv`).
    - Log processing steps and model outputs for later review (see `*.log` files).
 
 ## Data
-- **Elexis-WSD-Repo.xlsx:** Main sense-annotated lexicon.
+- **Elexis-WSD-Repo-sr-v2.xlsx:** Main sense-annotated lexicon (v1 available as `Elexis-WSD-Repo-sr-v1.xlsx`).
 - **sr-elexis_*.tsv:** Processed or test datasets.
 - **output/**: Contains model predictions and evaluation results.
 

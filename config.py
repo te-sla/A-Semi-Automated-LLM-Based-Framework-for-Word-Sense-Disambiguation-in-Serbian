@@ -27,8 +27,8 @@ STATS_DIR   = BASE_DIR / "stats"
 # Data files
 # Second round uses pre-chunked TSVs grouped by 500 sentences: sr-elexis-WSD_0001_0500.tsv, ...
 TEST_TSV        = DATA_DIR / "test_sr_lexix.tsv"
-SENSE_REPO      = DATA_DIR / "Elexis-WSD-Repo.xlsx"
-SENSE_REPO_OLD  = DATA_DIR / "Elexis-WSD-Repo-old.xlsx"  # Round 1 sense repository
+SENSE_REPO      = DATA_DIR / "Elexis-WSD-Repo-sr-v2.xlsx"
+SENSE_REPO_OLD  = DATA_DIR / "Elexis-WSD-Repo-sr-v1.xlsx"  # Round 1 sense repository
 
 # Human-readable list of pre-chunked TSVs as (begin, end, filename)
 ANNOTATION_CHUNKS: List[Tuple[int, int, str]] = [
