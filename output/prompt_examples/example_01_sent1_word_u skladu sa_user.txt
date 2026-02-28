@@ -1,0 +1,7 @@
+Kontekst rečenice (ciljna reč je označena kao bold):
+"U petoj sezoni program je održan \textbf{u} \textbf{skladu} \textbf{sa} novim konceptom: jedan mladi fudbaler iz svake zemlje izabran je kao njen predstavnik."
+
+Ciljna reč: "u skladu sa"
+
+Lista mogućih značenja:
+1. ID: LLM-0288 — U harmoniji sa; prema nečemu; saglasno nečemu.

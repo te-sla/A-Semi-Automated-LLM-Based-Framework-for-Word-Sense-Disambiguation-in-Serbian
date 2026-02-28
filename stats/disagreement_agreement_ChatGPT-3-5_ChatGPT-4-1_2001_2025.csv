@@ -1,0 +1,50 @@
+Sentence	Token	Sentence index	Token index	First Model NEW_SENSE	Second Model NEW_SENSE
+Tehnološki faktori podrazumevaju tehnološke aspekte, kao što su aktivnosti istraživanja i razvoja, automatizacija, tehnološki podsticaji i stopa tehnoloških promena.	podrazumevaju	1.0	3.0	True	False
+Tehnološki faktori podrazumevaju tehnološke aspekte, kao što su aktivnosti istraživanja i razvoja, automatizacija, tehnološki podsticaji i stopa tehnoloških promena.	aspekte	1.0	5.0	False	False
+Tehnološki faktori podrazumevaju tehnološke aspekte, kao što su aktivnosti istraživanja i razvoja, automatizacija, tehnološki podsticaji i stopa tehnoloških promena.	promena	1.0	22.0	False	False
+AH-1 je bio okosnica flote jurišnih helikoptera američke vojske, ali ga je u vojnoj službi zamenio AH-64 Apač.	vojske	3.0	9.0	False	False
+AH-1 je bio okosnica flote jurišnih helikoptera američke vojske, ali ga je u vojnoj službi zamenio AH-64 Apač.	službi	3.0	16.0	False	False
+U požaru je došlo do urušavanja krova, a bomba je uništila deo severne strane.	deo	4.0	13.0	False	False
+U požaru je došlo do urušavanja krova, a bomba je uništila deo severne strane.	strane	4.0	15.0	False	False
+Čovek se može slobodno kretati u prostoru, ali ne i u vremenu.	se			False	False
+To je možda bio pokušaj da se objasni teorija tadašnjih grčkih astronoma, među njima i Eratostena–da je Zemlja okrugla.	objasni	6.0	8.0	False	False
+To je možda bio pokušaj da se objasni teorija tadašnjih grčkih astronoma, među njima i Eratostena–da je Zemlja okrugla.	okrugla	6.0	22.0	False	False
+Različite strane planine u velikoj meri se razlikuju jedna od druge.	strane	7.0	2.0	False	False
+Različite strane planine u velikoj meri se razlikuju jedna od druge.	velikoj	7.0	5.0	False	False
+Različite strane planine u velikoj meri se razlikuju jedna od druge.	meri	7.0	6.0	False	False
+Različite strane planine u velikoj meri se razlikuju jedna od druge.	druge	7.0	11.0	False	False
+Takve oluje mogu da traju samo nekoliko sati ili da se otegnu vekovima.	nekoliko	8.0	7.0	False	False
+Takve oluje mogu da traju samo nekoliko sati ili da se otegnu vekovima.	vekovima	8.0	13.0	True	False
+Ona mora da izbegava nepotrebne reči, a on ne sme da se previše uzda u njene godine i njenu pobožnost.	izbegava	9.0	4.0	False	False
+Ona mora da izbegava nepotrebne reči, a on ne sme da se previše uzda u njene godine i njenu pobožnost.	reči	9.0	6.0	False	False
+Ona mora da izbegava nepotrebne reči, a on ne sme da se previše uzda u njene godine i njenu pobožnost.	sme	9.0	11.0	False	False
+Ona mora da izbegava nepotrebne reči, a on ne sme da se previše uzda u njene godine i njenu pobožnost.	godine	9.0	18.0	True	False
+Ona mora da izbegava nepotrebne reči, a on ne sme da se previše uzda u njene godine i njenu pobožnost.	pobožnost	9.0	21.0	True	False
+Godine 1805. Žozef Luj Ge-Lisak i Aleksandar fon Humbolt su pokazali da se voda sastoji od dva dela vodonika i jednog dela kiseonika.	Godine	10.0	1.0	False	False
+Godine 1805. Žozef Luj Ge-Lisak i Aleksandar fon Humbolt su pokazali da se voda sastoji od dva dela vodonika i jednog dela kiseonika.	voda	10.0	16.0	True	False
+Godine 1805. Žozef Luj Ge-Lisak i Aleksandar fon Humbolt su pokazali da se voda sastoji od dva dela vodonika i jednog dela kiseonika.	dela	10.0	20.0	False	False
+Godine 1805. Žozef Luj Ge-Lisak i Aleksandar fon Humbolt su pokazali da se voda sastoji od dva dela vodonika i jednog dela kiseonika.	dela	10.0	24.0	False	False
+Paleografska studija u Britanskom muzeju iz 1938. godine otkrila je da je tekst pretrpeo nekoliko korekcija.	studija	11.0	2.0	False	False
+Paleografska studija u Britanskom muzeju iz 1938. godine otkrila je da je tekst pretrpeo nekoliko korekcija.	godine	11.0	8.0	False	False
+Može čak i da preživi u svemirskom vakuumu.	vakuumu	12.0	8.0	False	False
+Enskombov kvartet se sastoji od četiri skupa podataka, čije su jednostavne deskriptivne statističke karakteristike gotovo identične, ali izgledaju potpuno različito kada se prikažu grafički.	se			False	False
+Nakon popuštanja verskih tenzija bilo je nekih radova na restauraciji katedrale.	restauraciji	14.0	10.0	False	False
+Pošto je problem odolevao napadima vodećih matematičara tog vremena, dvadesetosmogodišnji Ojler je rešivši problem odmah postao slavan.	problem	15.0	3.0	False	False
+Pošto je problem odolevao napadima vodećih matematičara tog vremena, dvadesetosmogodišnji Ojler je rešivši problem odmah postao slavan.	postao	15.0	17.0	False	False
+Prema uslovima tog Sporazuma, Boemund je pristao da postane carski vazal i da brani carstvo kad god zatreba.	Sporazuma	16.0	4.0	False	False
+Prema uslovima tog Sporazuma, Boemund je pristao da postane carski vazal i da brani carstvo kad god zatreba.	postane	16.0	10.0	False	False
+Prema uslovima tog Sporazuma, Boemund je pristao da postane carski vazal i da brani carstvo kad god zatreba.	brani	16.0	15.0	False	False
+Prema uslovima tog Sporazuma, Boemund je pristao da postane carski vazal i da brani carstvo kad god zatreba.	carstvo	16.0	16.0	False	False
+Na ovoj poziciji podržavao je careve interese i na kraju postao jedan od njegovih najbližih savetnika.	interese	18.0	7.0	False	False
+Na ovoj poziciji podržavao je careve interese i na kraju postao jedan od njegovih najbližih savetnika.	postao	18.0	11.0	False	False
+Na ovoj poziciji podržavao je careve interese i na kraju postao jedan od njegovih najbližih savetnika.	najbližih	18.0	15.0	False	False
+Univerzitet se sastoji od 18 koledža i škola koje nude preko 150 studijskih programa.	se			False	False
+Univerzitet se sastoji od 18 koledža i škola koje nude preko 150 studijskih programa.	Univerzitet	19.0	1.0	False	False
+Univerzitet se sastoji od 18 koledža i škola koje nude preko 150 studijskih programa.	nude	19.0	10.0	False	False
+Drugi amandman ustava Sjedinjenih Država daje nam pravo da nosimo oružje.	nosimo	21.0	10.0	False	False
+Drugi amandman ustava Sjedinjenih Država daje nam pravo da nosimo oružje.	oružje	21.0	11.0	False	False
+Koristi se i za pravljenje sladoleda.	Koristi	22.0	1.0	False	False
+Robot ne sme da povredi ljudsko biće ili da, nečinjenjem, dozvoli da se ljudsko biće povredi.	sme	23.0	3.0	False	False
+Robot ne sme da povredi ljudsko biće ili da, nečinjenjem, dozvoli da se ljudsko biće povredi.	dozvoli	23.0	13.0	False	False
+Odnosi su se dodatno pogoršali kada je Čen pozvao anarhiste, komuniste i federaliste u pokret.	se			False	False
+Odnosi su se dodatno pogoršali kada je Čen pozvao anarhiste, komuniste i federaliste u pokret.	pozvao	24.0	9.0	False	False

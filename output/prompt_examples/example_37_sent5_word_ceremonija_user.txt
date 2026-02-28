@@ -1,0 +1,9 @@
+Kontekst rečenice (ciljna reč je označena kao bold):
+"Kulminacija je bila \textbf{ceremonija} dodele Kupa devet vrednosti (Nine Values Cup), koji je osvojio fudbalski klub Barselona."
+
+Ciljna reč: "ceremonija"
+
+Lista mogućih značenja:
+1. ID: ENG30-01027379-n — Propisno ili uobičajeno ponašanje u nekoj svečanoj prilici.
+2. ID: ENG30-07450842-n — Formalan događaj koji se izvodi u posebnoj prilici.
+3. ID: ENG30-07452251-n — bogata i spektakularna ceremonija

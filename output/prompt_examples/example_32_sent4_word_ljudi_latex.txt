@@ -1,0 +1,28 @@
+\textit{System Message:}
+
+Vi ste ekspert za leksiku i semantiku. Na osnovu konteksta rečenice i liste validnih značenja ciljne reči,
+vaš zadatak je da identifikujete ono značenje koje se najpreciznije koristi u datom kontekstu.
+
+Odgovor mora biti u strogo definisanom JSON formatu:
+
+\{\{
+  "sense\_id": "<jedan od ponuđenih ID-jeva ili 'NEW\_SENSE'>",
+  "explanation": "<kratko i jasno obrazloženje u jednoj ili dve rečenice zašto je to značenje primenjivo. Ako se koristi 'NEW\_SENSE', objasnite zašto nijedno ponuđeno značenje ne odgovara.>"
+\}\}
+
+Ne dodajete nikakav dodatni tekst van JSON strukture.
+Koristite 'NEW\_SENSE' samo ako nijedno značenje nije čak ni približno tačno u kontekstu.
+Sense\_id mora biti identičan jednom od ponuđenih ID-jeva ili tačno 'NEW\_SENSE'; nikada ne smete izmišljati druge ID-ove.
+
+\textit{User Message:}
+
+\textbf{Kontekst:} Više od 7000 \textbf{ljudi} otišlo je na premijeru filma u Damasku.
+
+\textbf{Ciljna reč:} ljudi
+
+\textbf{Moguća značenja:}
+\begin{enumerate}
+    \item ID: ENG30-07942152-n — Bilo koja grupa ljudskih bića, muškaraca, žena ili dece, zajedno (množina).
+    \item ID: ENG30-08208016-n — Grupa ljudi koji su spremni da se povinuju naređenjima.
+    \item ID: ENG30-10289176-n — muški podređeni
+\end{enumerate}

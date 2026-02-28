@@ -1,0 +1,9 @@
+Kontekst rečenice (ciljna reč je označena kao bold):
+"Više od 7000 \textbf{ljudi} otišlo je na premijeru filma u Damasku."
+
+Ciljna reč: "ljudi"
+
+Lista mogućih značenja:
+1. ID: ENG30-07942152-n — Bilo koja grupa ljudskih bića, muškaraca, žena ili dece, zajedno (množina).
+2. ID: ENG30-08208016-n — Grupa ljudi koji su spremni da se povinuju naređenjima.
+3. ID: ENG30-10289176-n — muški podređeni

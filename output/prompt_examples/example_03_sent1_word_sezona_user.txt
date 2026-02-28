@@ -1,0 +1,7 @@
+Kontekst rečenice (ciljna reč je označena kao bold):
+"U petoj \textbf{sezoni} program je održan u skladu sa novim konceptom: jedan mladi fudbaler iz svake zemlje izabran je kao njen predstavnik."
+
+Ciljna reč: "sezona"
+
+Lista mogućih značenja:
+1. ID: ENG30-15239579-n — period godine koji označavaju posebni događaji ili aktivnosti u nekom polju

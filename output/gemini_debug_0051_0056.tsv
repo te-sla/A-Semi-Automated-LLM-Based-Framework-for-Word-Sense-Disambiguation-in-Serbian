@@ -1,0 +1,97 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue|coarseValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_SP=webanno.custom.MWE|MWEid|MWElemma|MWEtype
+#T_SP=webanno.custom.sense|SenseID|Number_of_candidate_senses|List_of_candidate_senses|Ainotes
+
+
+#Text=Uglavnom predlažemo prekid njihove dalje proizvodnje i početak uklanjanja svih zaliha na Zemlji.
+52-1	0-8	Uglavnom	ADV	ADV	_	_	uglavnom	_	_	_	ENG30-00073897-b	4	ENG30-00006105-b;ENG30-00041954-b;ENG30-00073897-b;ENG30-00155621-b	Značenje 'najvećim delom' najbolje odgovara kontekstu rečenice, jer se predlog odnosi na prekid proizvodnje i uklanjanje zaliha u najvećoj meri.	
+52-2	9-19	predlažemo	V	VERB	_	_	predlagati	_	_	_	ENG30-00879356-v	1	ENG30-00879356-v	U kontekstu rečenice, 'predlagati' se koristi u smislu formalnog predlaganja prekida proizvodnje i uklanjanja zaliha, što odgovara značenju 'formalno predložiti'.	
+52-3	20-26	prekid	N	NOUN	_	_	prekid	_	_	_	ENG30-00383952-n	6	ENG30-00383952-n;ENG30-00553173-n;ENG30-07367812-n;ENG30-08566554-n;ENG30-14417551-n;ENG30-15271008-n	U kontekstu rečenice, 'prekid' se odnosi na čin zaustavljanja ili raskidanja kontinuiteta proizvodnje, što se poklapa sa značenjem 'čin raskidanja nekog kontinuiteta'.	
+52-4	27-34	njihove	PRO	DET	_	_	njihov	_	_	_	_	_	_	_	
+52-5	35-40	dalje	A	ADJ	_	_	dalji	_	_	_	ENG30-00443988-a	1	ENG30-00443988-a	U datom kontekstu, 'dalje' se odnosi na nastavak proizvodnje, što implicira udaljenost od trenutnog stanja u smislu napredovanja ili nastavka aktivnosti.	
+52-6	41-52	proizvodnje	N	NOUN	_	_	proizvodnja	_	_	_	ENG30-00912960-n	4	ENG30-00912001-n;ENG30-00912960-n;ENG30-00913705-n;ENG30-13758745-n	Značenje 'čin ili proces proizvodnje nečega' najbolje odgovara kontekstu rečenice, jer se odnosi na prekid procesa stvaranja ili pravljenja nečega.	
+52-7	53-54	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+52-8	55-62	početak	N	NOUN	_	_	početak	_	_	_	ENG30-00235435-n	7	ENG30-00235435-n;ENG30-05868051-n;ENG30-07325190-n;ENG30-07325990-n;ENG30-08507558-n;ENG30-15168790-n;ENG30-15265518-n	U kontekstu rečenice, 'početak' se odnosi na čin započinjanja procesa uklanjanja zaliha, što odgovara značenju 'čin počinjanja nečega'.	
+52-9	63-73	uklanjanja	N	NOUN	_	_	uklanjanje	_	_	_	ENG30-00391599-n	2	ENG30-00209446-n;ENG30-00391599-n	U kontekstu rečenice, 'uklanjanje' se odnosi na čin uklanjanja zaliha, što odgovara značenju 'čin uklanjanja nečega'.	
+52-10	74-78	svih	PRO	DET	_	_	sav	_	_	_	_	_	_	_	
+52-11	79-85	zaliha	N	NOUN	_	_	zaliha	_	_	_	ENG30-13777344-n	4	ENG30-13367070-n;ENG30-13367448-n;ENG30-13368052-n;ENG30-13777344-n	U kontekstu rečenice, 'zalihe' se odnose na količinu nečega (proizvoda) koja je dostupna za uklanjanje, što odgovara značenju 'Količina nečega dostupnog za upotrebu'.	
+52-12	86-88	na	PREP	ADP	_	_	na	_	_	_	_	_	_	_	
+52-13	89-95	Zemlji	N	PROPN	http://www.wikidata.org/entity/Q2	LOC	Zemlja	_	_	_	_	_	_	_	
+52-14	95-96	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Sovjetski narod dobro zna koliko je rat užasan.
+53-1	96-105	Sovjetski	A	ADJ	_	_	sovjetski	_	_	_	ENG30-02959406-a	1	ENG30-02959406-a	Rečenica govori o narodu koji je živeo u Sovjetskom Savezu, stoga se značenje 'odnosi se na ili je karakteristično za bivši Sovjetski Savez ili njegove ljude' savršeno uklapa.	
+53-2	106-111	narod	N	NOUN	_	_	narod	_	_	_	ENG30-08166552-n	4	ENG30-07947255-n;ENG30-08160276-n;ENG30-08166552-n;ENG30-08168117-n	U kontekstu rečenice, 'narod' se odnosi na ljude koji žive u Sovjetskom Savezu, što odgovara značenju 'Ljudi koji žive u jednoj zemlji'.	
+53-3	112-117	dobro	ADV	ADV	_	_	dobro	_	_	_	ENG30-00015007-b	4	ENG30-00013092-b;ENG30-00014285-b;ENG30-00014616-b;ENG30-00015007-b	U datom kontekstu, 'dobro zna' znači da sovjetski narod ima veliko i temeljno znanje o tome koliko je rat užasan, što odgovara značenju 'sa velikim ili posebno temeljnim znanjem'.	
+53-4	118-121	zna	V	VERB	_	_	znati	_	_	_	ENG30-00594621-v	9	ENG30-00592883-v;ENG30-00594337-v;ENG30-00594621-v;ENG30-00595630-v;ENG30-00595935-v;ENG30-00596644-v;ENG30-00608372-v;ENG30-00608502-v;ENG30-00608670-v	U ovom kontekstu, 'znati' znači biti svestan činjenice da je rat užasan, što odgovara značenju 'Biti svestan neke činjenice ili određene informacije; imati znanje ili informaciju o nečemu.'	
+53-5	122-128	koliko	ADV	ADV	_	_	koliko	_	_	_	ENG30-00111546-b	1	ENG30-00111546-b	U datoj rečenici, 'koliko' se koristi da izrazi u kojoj meri ili stepenu je rat užasan, što odgovara definiciji značenja.	
+53-6	129-131	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+53-7	132-135	rat	N	NOUN	_	_	rat	_	_	_	ENG30-00973077-n	3	ENG30-00973077-n;ENG30-01236296-n;ENG30-13981403-n	U kontekstu rečenice, "rat" se odnosi na oružani sukob koji je užasan, što odgovara definiciji oružanog sukoba protiv neprijatelja.	
+53-8	136-142	užasan	A	ADJ	_	_	užasan	_	_	_	ENG30-01513050-a	3	ENG30-00193799-a;ENG30-01513050-a;ENG30-01575299-a	U kontekstu rečenice, 'užasan' se koristi da opiše rat kao nešto izuzetno loše i neprijatno, što odgovara značenju 'intenzivno ili preterano loš ili neprijatan po kvalitetu ili stepenu'.	
+53-9	142-143	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Poljoprivreda je prilično ograničena, budući da je samo 2 % zemljišta obradivo i hrana se većinom uvozi.
+54-1	143-156	Poljoprivreda	N	NOUN	_	_	poljoprivreda	_	_	_	ENG30-00916464-n	3	ENG30-00916464-n;ENG30-01104406-n;ENG30-08075287-n	U datom kontekstu, 'poljoprivreda' se odnosi na praksu obrade zemlje i gajenja stoke, što je u skladu sa značenjem 'ENG30-00916464-n'. Rečenica govori o ograničenosti te prakse zbog male količine obradivog zemljišta.	
+54-2	157-159	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+54-3	160-168	prilično	ADV	ADV	_	_	prilično	_	_	_	ENG30-00018781-b	4	ENG30-00006610-b;ENG30-00018289-b;ENG30-00018781-b;ENG30-00176518-b	U datom kontekstu, 'prilično' se koristi da označi da je poljoprivreda ograničena do određene mere, što odgovara značenju 'do određene mere'.	
+54-4	169-179	ograničena	A	ADJ	_	_	ograničen	_	_	_	ENG30-01007258-a	11	ENG30-00440579-a;ENG30-00529191-a;ENG30-00637267-a;ENG30-01007258-a;ENG30-01103844-a;ENG30-01415021-a;ENG30-01540871-a;ENG30-01913642-a;ENG30-01986349-a;ENG30-02002227-a;ENG30-02002470-a	U kontekstu rečenice, 'ograničena' se odnosi na poljoprivredu koja nije neograničena, odnosno ima određena ograničenja zbog male količine obradivog zemljišta.	
+54-5	179-180	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+54-6	181-187	budući	V	VERB	_	_	biti	1[759]	budući da[759]	ConjID[759]	LLM-0023[2510]	1[2510]	LLM-0023[2510]	U datoj rečenici, 'budući da' uvodi objašnjenje ili razlog zašto je poljoprivreda ograničena, što odgovara značenju 's obzirom na to da'.[2510]	
+54-7	188-190	da	CONJ	SCONJ	_	_	da	1[759]	budući da[759]	ConjID[759]	LLM-0023[2510]	1[2510]	LLM-0023[2510]	U datoj rečenici, 'budući da' uvodi objašnjenje ili razlog zašto je poljoprivreda ograničena, što odgovara značenju 's obzirom na to da'.[2510]	
+54-8	191-193	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+54-9	194-198	samo	ADV	ADV	_	_	samo	_	_	_	ENG30-00004722-b	6	ENG30-00004722-b;ENG30-00008600-b;ENG30-00011011-b;ENG30-00028797-b;ENG30-00158309-b;ENG30-00505114-b	U datom kontekstu, 'samo' znači 'i ništa više', odnosno, isključivo 2% zemljišta je obradivo, a ne više od toga.	
+54-10	199-200	2	NUM	NUM	_	_	2	_	_	_	_	_	_	_	
+54-11	201-202	%	PUNCT	SYM	_	_	%	_	_	_	_	_	_	_	
+54-12	203-212	zemljišta	N	NOUN	_	_	zemljište	_	_	_	ENG30-13250048-n	2	ENG30-08493064-n;ENG30-13250048-n	U kontekstu rečenice, 'zemljište' se odnosi na zemlju koja se može obrađivati, što je u skladu sa značenjem 'Zemlja na kojoj se nalazi nekretnina'.	
+54-13	213-221	obradivo	A	ADJ	_	_	obradiv	_	_	_	ENG30-01865807-a	1	ENG30-01865807-a	Značenje 'sposobno za produktivno obrađivanje' se direktno odnosi na poljoprivredno zemljište koje se može koristiti za uzgoj useva, što se savršeno uklapa u kontekst rečenice.	
+54-14	222-223	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+54-15	224-229	hrana	N	NOUN	_	_	hrana	_	_	_	ENG30-07570720-n	1	ENG30-07570720-n	U navedenom kontekstu, 'hrana' se odnosi na supstance koje se konzumiraju za ishranu, što odgovara definiciji 'izvor supstanci koje hrane telo'.	
+54-16	230-232	se	PAR	PART	_	_	se	_	_	_	_	_	_	_	
+54-17	233-240	većinom	ADV	ADV	_	_	većinom	_	_	_	ENG30-00073897-b	3	ENG30-00006105-b;ENG30-00041954-b;ENG30-00073897-b	Značenje 'najvećim delom' se najbolje uklapa u kontekst rečenice, jer se odnosi na to da se najveći deo hrane uvozi.	
+54-18	241-246	uvozi	V	VERB	_	_	uvoziti	_	_	_	ENG30-02232722-v	1	ENG30-02232722-v	U kontekstu rečenice, 'uvoziti' znači dovoditi robu, u ovom slučaju hranu, iz inostranstva, što se podudara sa značenjem 'dovesti iz inostranstva'.	
+54-19	246-247	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Prvi drveni slavoluk podignut je u žurbi, nakon sticanja nezavisnosti Rumunije (1878), kako bi pobedničke trupe mogle da prođu ispod njega.
+55-1	247-251	Prvi	A	ADJ	_	_	prvi	_	_	_	ENG30-01012855-a	6	ENG30-00228294-a;ENG30-01009206-a;ENG30-01009343-a;ENG30-01010862-a;ENG30-01012855-a;ENG30-01467919-a	U kontekstu rečenice, 'prvi' se odnosi na slavoluk koji je vremenski prethodio svim ostalim slavolucima, što odgovara značenju 'koji prethodi svim ostalima u vremenu'.	
+55-2	252-258	drveni	A	ADJ	_	_	drven	_	_	_	ENG30-02576489-a	1	ENG30-02576489-a	Slavoluk je napravljen od drveta, što odgovara definiciji 'napravljen od drveta'.	
+55-3	259-267	slavoluk	N	NOUN	_	_	slavoluk	_	_	_	ENG30-04486054-n	1	ENG30-04486054-n	Definicija 'monumentalni luk; obično se gradi u znak sećanja na neku značajnu pobedu' se savršeno uklapa u kontekst rečenice, gde se pominje slavoluk podignut nakon sticanja nezavisnosti Rumunije kako bi trupe prošle ispod njega.	
+55-4	268-276	podignut	V	VERB	_	_	podignuti	_	_	_	ENG30-01546768-v	7	ENG30-00022686-v;ENG30-00497061-v;ENG30-00641929-v;ENG30-01455184-v;ENG30-01546768-v;ENG30-01974062-v;ENG30-02311387-v	U kontekstu rečenice, 'podignut' se odnosi na postavljanje slavoluka u uspravan položaj, odnosno konstrukciju ili izgradnju slavoluka.	
+55-5	277-279	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+55-6	280-281	u	PREP	ADP	_	_	u	1[760]	u žurbi[760]	AdvID[760]	CVMWE-0466[2511]	1[2511]	CVMWE-0466[2511]	Izraz 'u žurbi' u datom kontekstu znači da je slavoluk podignut brzo i bez mnogo pripreme, što odgovara značenju 'na brzinu'.[2511]	
+55-7	282-287	žurbi	N	NOUN	_	_	žurba	1[760]	u žurbi[760]	AdvID[760]	CVMWE-0466[2511]	1[2511]	CVMWE-0466[2511]	Izraz 'u žurbi' u datom kontekstu znači da je slavoluk podignut brzo i bez mnogo pripreme, što odgovara značenju 'na brzinu'.[2511]	
+55-8	287-288	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+55-9	289-294	nakon	PREP	ADP	_	_	nakon	_	_	_	_	_	_	_	
+55-10	295-303	sticanja	N	NOUN	_	_	sticanje	_	_	_	ENG30-00077419-n	1	ENG30-00077419-n	U kontekstu rečenice, "sticanje nezavisnosti" se odnosi na čin dobijanja ili postajanja vlasnikom nezavisnosti, što se uklapa u definiciju sticanja kao čina sticanja svojine ili nečeg drugog.	
+55-11	304-316	nezavisnosti	N	NOUN	_	_	nezavisnost	_	_	_	ENG30-14001213-n	3	ENG30-13994148-n;ENG30-14001031-n;ENG30-14001213-n	U kontekstu rečenice, 'nezavisnost' se odnosi na političku nezavisnost Rumunije, odnosno na sticanje slobode od kontrole ili uticaja drugih država.	
+55-12	317-325	Rumunije	N	PROPN	http://www.wikidata.org/entity/Q218	LOC	Rumunija	_	_	_	_	_	_	_	
+55-13	326-327	(	PUNCT	PUNCT	_	_	(	_	_	_	_	_	_	_	
+55-14	327-331	1878	A	ADJ	_	_	1878	_	_	_	NEW_SENSE	0	_	_	
+55-15	331-332	)	PUNCT	PUNCT	_	_	)	_	_	_	_	_	_	_	
+55-16	332-333	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+55-17	334-338	kako	CONJ	SCONJ	_	_	kako	_	_	_	_	_	_	_	
+55-18	339-341	bi	V	AUX	_	_	biti	_	_	_	_	_	_	_	
+55-19	342-352	pobedničke	A	ADJ	_	_	pobednički	_	_	_	ENG30-02337480-a	2	ENG30-00228025-a;ENG30-02337480-a	U kontekstu rečenice, 'pobedničke trupe' se odnosi na trupe koje su pobedile u ratu i sada se vraćaju, što odgovara značenju 'pobediti'.	
+55-20	353-358	trupe	N	NOUN	_	_	trupa	_	_	_	NEW_SENSE	1	ENG30-08187033-n	Ponuđeno značenje se odnosi na organizaciju izvođača, dok se u datom kontekstu reč 'trupe' odnosi na vojne jedinice ili vojnike.	
+55-21	359-364	mogle	V	VERB	_	_	moći	_	_	_	NEW_SENSE	1	ENG30-02523221-v	Ponuđeno značenje ne odgovara kontekstu. U rečenici, 'mogle' se koristi u smislu 'imati mogućnost' ili 'biti u stanju da'.	
+55-22	365-367	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	
+55-23	368-373	prođu	V	VERB	_	_	proći	_	_	_	ENG30-01227675-v	8	ENG30-00341560-v;ENG30-00421691-v;ENG30-01227675-v;ENG30-01870043-v;ENG30-01915365-v;ENG30-02051694-v;ENG30-02524171-v;ENG30-02658283-v	U ovom kontekstu, 'proći' znači ući kroz slavoluk, što odgovara značenju 'ući u nešto ili kroz nešto'.	
+55-24	374-379	ispod	PREP	ADP	_	_	ispod	_	_	_	_	_	_	_	
+55-25	380-385	njega	PRO	PRON	_	_	on	_	_	_	_	_	_	_	
+55-26	385-386	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Detalji ovog procesa zavise od količine i vrste materije u univerzumu.
+56-1	386-393	Detalji	N	NOUN	_	_	detalj	_	_	_	ENG30-06751142-n	4	ENG30-05817845-n;ENG30-06606808-n;ENG30-06751142-n;ENG30-13794885-n	U datom kontekstu, 'detalji' se odnose na male, specifične aspekte procesa koji se mogu razmatrati odvojeno od celine procesa. Značenje 3 (mali deo koji može da se posmatra odvojeno od celine) najbolje odgovara ovom opisu.	
+56-2	394-398	ovog	PRO	DET	_	_	ovaj	_	_	_	_	_	_	_	
+56-3	399-406	procesa	N	NOUN	_	_	proces	_	_	_	ENG30-00029677-n	4	ENG30-00029677-n;ENG30-01023820-n;ENG30-01182654-n;ENG30-01195867-n	U datom kontekstu, 'proces' se odnosi na fenomen koji se odvija postepeno i menja se u zavisnosti od količine i vrste materije u univerzumu, što odgovara definiciji postepenih promena kroz niz stanja.	
+56-4	407-413	zavise	V	VERB	_	_	zavisiti	_	_	_	ENG30-02663848-v	3	ENG30-00712708-v;ENG30-02663848-v;ENG30-02664234-v	U datoj rečenici, 'zavisiti' znači da detalji procesa su uslovljeni količinom i vrstom materije u univerzumu, što odgovara značenju 'Biti uslovljen nečim'.	
+56-5	414-416	od	PREP	ADP	_	_	od	_	_	_	_	_	_	_	
+56-6	417-425	količine	N	NOUN	_	_	količina	_	_	_	ENG30-05107765-n	3	ENG30-05099389-n;ENG30-05107765-n;ENG30-13779244-n	U kontekstu rečenice, 'količina' se odnosi na to koliko materije ima u univerzumu, što odgovara značenju 'koliko je nečega na raspolaganju'.	
+56-7	426-427	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+56-8	428-433	vrste	N	NOUN	_	_	vrsta	_	_	_	ENG30-05839024-n	3	ENG30-05839024-n;ENG30-07997703-n;ENG30-08110373-n	U datom kontekstu, 'vrsta' se odnosi na kategoriju materije u univerzumu, koja se izdvaja po nekim zajedničkim karakteristikama ili kvalitetima (npr. tamna materija, obična materija, itd.).	
+56-9	434-442	materije	N	NOUN	_	_	materija	_	_	_	ENG30-00019613-n	3	ENG30-00019613-n;ENG30-00020827-n;ENG30-14580897-n	Značenje 'ono što ima masu i zauzima prostor' najpreciznije opisuje upotrebu reči 'materija' u kontekstu rečenice, jer se odnosi na osnovnu supstancu univerzuma.	
+56-10	443-444	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	
+56-11	445-455	univerzumu	N	NOUN	_	_	univerzum	_	_	_	DRJ0-184679/0	1	DRJ0-184679/0	U navedenom kontekstu, 'univerzum' se odnosi na celokupni prostor, materiju i energiju, što odgovara definiciji 'sveta, vasione, svemira'.	
+56-12	455-456	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	

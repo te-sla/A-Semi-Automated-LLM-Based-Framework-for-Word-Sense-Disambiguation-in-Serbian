@@ -1,0 +1,11 @@
+Kontekst rečenice (ciljna reč je označena kao bold):
+"U petoj sezoni program je održan u skladu sa novim konceptom: jedan mladi fudbaler iz svake zemlje \textbf{izabran} je kao njen predstavnik."
+
+Ciljna reč: "izabrati"
+
+Lista mogućih značenja:
+1. ID: ENG30-00676450-v — Odabrati pažljivo iz grupe.
+2. ID: ENG30-00676864-v — Napraviti izbor
+3. ID: ENG30-00679937-v — smatrati prikladnim ili ispravnim da se deluje na određeni način; odlučiti da se deluje na određeni način
+4. ID: ENG30-00790308-v — koristiti točkić za izbor broja telefona
+5. ID: ENG30-01078050-v — birati nasumično

@@ -1,0 +1,125 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue|coarseValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_SP=webanno.custom.MWE|MWEid|MWElemma|MWEtype
+#T_SP=webanno.custom.sense|SenseID|Number_of_candidate_senses|List_of_candidate_senses|Ainotes
+
+
+#Text=AH-1 je bio okosnica flote jurišnih helikoptera američke vojske, ali ga je u vojnoj službi zamenio AH-64 Apač.
+3-1	0-4	AH-1	ABB	X	http://www.wikidata.org/entity/Q927610	PRODUCT	AH-1	_	_	_	_	_	_	_	
+3-2	5-7	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+3-3	8-11	bio	V	AUX	_	_	biti	_	_	_	_	_	_	_	
+3-4	12-20	okosnica	N	NOUN	_	_	okosnica	_	_	_	http://llod.jerteh.rs/WSD/seENG3004226537n	1	ENG30-04226537-n	U ovom kontekstu, 'okosnica' se koristi metaforički za nešto što je glavna podrška ili najvažniji deo nečega, što odgovara značenju unutrašnje noseće strukture koja daje oblik ili podršku.	
+3-5	21-26	flote	N	NOUN	_	_	flota	_	_	_	http://llod.jerteh.rs/WSD/seENG3008293336n	1	ENG30-08293336-n	U ovom kontekstu, 'flota' se odnosi na grupu vojnih helikoptera, a ne na parne brodove, pa nijedno ponuđeno značenje nije primenjivo.	
+3-6	27-35	jurišnih	A	ADJ	_	_	jurišni	1[1667]	jurišni helikopter[1667]	NID[1667]	http://llod.jerteh.rs/WSD/seCVMWE0168[2002]	1[2002]	CVMWE-0168[2002]	U kontekstu se govori o helikopterima koji su naoružani i koriste se za napad na kopnene ciljeve, što precizno odgovara definiciji jurišnog helikoptera iz ponuđenog značenja.[2002]	
+3-7	36-47	helikoptera	N	NOUN	_	_	helikopter	1[1667]	jurišni helikopter[1667]	NID[1667]	http://llod.jerteh.rs/WSD/seCVMWE0168[2002]	1[2002]	CVMWE-0168[2002]	U kontekstu se govori o helikopterima koji su naoružani i koriste se za napad na kopnene ciljeve, što precizno odgovara definiciji jurišnog helikoptera iz ponuđenog značenja.[2002]	
+3-8	48-56	američke	A	ADJ	*	DEMO	američki	_	_	_	http://llod.jerteh.rs/WSD/seENG3002927512a	1	ENG30-02927512-a	U ovom kontekstu, 'američke' se odnosi na vojsku Sjedinjenih Američkih Država, što precizno odgovara značenju 'o Sjedinjenim Američkim Državama ili koji se odnosi na SAD'.	
+3-9	57-63	vojske	N	NOUN	_	_	vojska	_	_	_	http://llod.jerteh.rs/WSD/seENG3008191230n	3	ENG30-01206986-n;ENG30-08191230-n;ENG30-08199025-n	U ovom kontekstu, 'vojska' se odnosi na organizaciju vojnih kopnenih snaga, jer se govori o floti jurišnih helikoptera američke vojske, što implicira kopnenu vojsku (Army), a ne sve vojne snage države.	
+3-10	63-64	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+3-11	65-68	ali	CONJ	CCONJ	_	_	ali	_	_	_	_	_	_	_	
+3-12	69-71	ga	PRO	PRON	_	_	on	_	_	_	_	_	_	_	
+3-13	72-74	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+3-14	75-76	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	
+3-15	77-83	vojnoj	A	ADJ	_	_	vojni	_	_	_	http://llod.jerteh.rs/WSD/seENG3001545149a	2	ENG30-01545149-a;ENG30-02764251-a	U ovom kontekstu, 'vojni' opisuje službu koja je karakteristična za vojsku, odnosno službu u okviru oružanih snaga, što odgovara prvom značenju.	
+3-16	84-90	službi	N	NOUN	_	_	služba	_	_	_	http://llod.jerteh.rs/WSD/seENG3000586262n	6	ENG30-00584891-n;ENG30-00586262-n;ENG30-01032040-n;ENG30-01033458-n;ENG30-01206986-n;ENG30-01209576-n	U ovom kontekstu, 'služba' se odnosi na funkciju ili posao helikoptera unutar vojne organizacije, tj. njegovu upotrebu i operativnu ulogu u vojsci.	
+3-17	91-98	zamenio	V	VERB	_	_	zameniti	_	_	_	http://llod.jerteh.rs/WSD/seENG3000162688v	4	ENG30-00162688-v;ENG30-02257767-v;ENG30-02394662-v;ENG30-02405390-v	U ovom kontekstu, 'zameniti' znači da je AH-64 Apač preuzeo funkciju koju je prethodno imao AH-1, odnosno zamenio ga je kao glavni jurišni helikopter u vojnoj službi.	
+3-18	99-104	AH-64	ABB	X	http://www.wikidata.org/entity/Q171468[724]	PRODUCT[724]	AH-64	_	_	_	_	_	_	_	
+3-19	105-109	Apač	N	PROPN	http://www.wikidata.org/entity/Q171468[724]	PRODUCT[724]	Apač	_	_	_	_	_	_	_	
+3-20	109-110	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Čovek se može slobodno kretati u prostoru, ali ne i u vremenu.
+5-1	110-115	Čovek	N	NOUN	_	_	čovek	_	_	_	http://llod.jerteh.rs/WSD/seENG3010289039n	6	ENG30-02472293-n;ENG30-10287213-n;ENG30-10288516-n;ENG30-10288763-n;ENG30-10289039-n;ENG30-10289176-n	U ovom kontekstu, 'čovek' se koristi u generičkom smislu da označi bilo koje ljudsko biće, bez obzira na pol, u filozofskom razmatranju o kretanju kroz prostor i vreme.	
+5-2	116-118	se	PAR	PART	_	_	se	1	*	IRV	http://llod.jerteh.rs/WSD/seCVMWE0183[2003]	5[2003]	CVMWE-0183;CVMWE-0184;ENG30-00014549-v;ENG30-00124442-v;ENG30-01835496-v[2003]	U ovom kontekstu, 'kretati se' znači biti u pokretu, odnosno ići ili hodati u prostoru, što najpreciznije odgovara značenju 'ići, hodati, biti u pokretu uopšte'.[2003]	
+5-3	119-123	može	V	VERB	_	_	moći	_	_	_	http://llod.jerteh.rs/WSD/seENG3002523221v	1	ENG30-02523221-v	U ovom kontekstu, 'moći' znači imati sposobnost ili mogućnost da se nešto uradi, što nije pokriveno ponuđenim značenjem 'istrajati ili uspevati'.	
+5-4	124-132	slobodno	ADV	ADV	_	_	slobodno	_	_	_	http://llod.jerteh.rs/WSD/seENG3000210651b	1	ENG30-00210651-b	U ovom kontekstu, 'slobodno' znači da se čovek može kretati na slobodan način, bez ograničenja, što odgovara ponuđenom značenju.	
+5-5	133-140	kretati	V	VERB	_	_	kretati	1	kretati se	IRV	http://llod.jerteh.rs/WSD/seCVMWE0183[2003]	5[2003]	CVMWE-0183;CVMWE-0184;ENG30-00014549-v;ENG30-00124442-v;ENG30-01835496-v[2003]	U ovom kontekstu, 'kretati se' znači biti u pokretu, odnosno ići ili hodati u prostoru, što najpreciznije odgovara značenju 'ići, hodati, biti u pokretu uopšte'.[2003]	
+5-6	141-142	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	
+5-7	143-151	prostoru	N	NOUN	_	_	prostor	_	_	_	http://llod.jerteh.rs/WSD/seENG3000028651n	7	ENG30-00028651-n;ENG30-02884607-n;ENG30-06389553-n;ENG30-08001685-n;ENG30-08630039-n;ENG30-08652970-n;ENG30-09277538-n	U ovom kontekstu, 'prostor' se odnosi na neograničeno trodimenzionalno prostranstvo u kome je sve smešteno, što je u suprotnosti sa pojmom vremena.	
+5-8	151-152	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+5-9	153-156	ali	CONJ	CCONJ	_	_	ali	_	_	_	_	_	_	_	
+5-10	157-159	ne	PAR	PART	_	_	ne	_	_	_	_	_	_	_	
+5-11	160-161	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+5-12	162-163	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	
+5-13	164-171	vremenu	N	NOUN	_	_	vreme	_	_	_	http://llod.jerteh.rs/WSD/seENG3000028270n	12	ENG30-00028270-n;ENG30-00807078-n;ENG30-06329506-n;ENG30-11524662-n;ENG30-15122231-n;ENG30-15129927-n;ENG30-15135822-n;ENG30-15228378-n;ENG30-15228910-n;ENG30-15244650-n;ENG30-15249236-n;ENG30-15270431-n	U ovom kontekstu, 'vreme' se odnosi na kontinuum iskustva u kome se događaji odvijaju, što je suprotstavljeno prostoru kroz koji se čovek može kretati, pa je ovo značenje najpreciznije.	
+5-14	171-172	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Takve oluje mogu da traju samo nekoliko sati ili da se otegnu vekovima.
+8-1	172-177	Takve	PRO	DET	_	_	takav	_	_	_	_	_	_	_	
+8-2	178-183	oluje	N	NOUN	_	_	oluja	_	_	_	http://llod.jerteh.rs/WSD/seENG3011462526n	1	ENG30-11462526-n	U ovom kontekstu, 'oluje' se koristi metaforički za događaje ili procese koji mogu trajati veoma kratko ili veoma dugo, a ne za konkretan meteorološki fenomen iz ponuđenog značenja.	
+8-3	184-188	mogu	V	VERB	_	_	moći	_	_	_	http://llod.jerteh.rs/WSD/seENG3002523221v	1	ENG30-02523221-v	U ovom kontekstu, 'mogu' izražava mogućnost ili sposobnost da se nešto desi, a ne istrajavanje ili uspevanje. Ponuđeno značenje ne odgovara upotrebi u rečenici.	
+8-4	189-191	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	
+8-5	192-197	traju	V	VERB	_	_	trajati	_	_	_	http://llod.jerteh.rs/WSD/seENG3002618149v	2	ENG30-02618149-v;ENG30-02704928-v	U ovom kontekstu, 'trajati' označava da oluje mogu da nastave da postoje određeno vreme, bez nužnog naglašavanja dužine trajanja, što odgovara značenju 'nastavljati da traje'.	
+8-6	198-202	samo	ADV	ADV	_	_	samo	_	_	_	http://llod.jerteh.rs/WSD/seENG3000004722b	6	ENG30-00004722-b;ENG30-00008600-b;ENG30-00011011-b;ENG30-00028797-b;ENG30-00158309-b;ENG30-00505114-b	U ovom kontekstu, 'samo' znači 'i ništa više', odnosno oluje mogu trajati samo nekoliko sati, a ne duže, što najpreciznije odgovara ovom značenju.	
+8-7	203-211	nekoliko	ADV	ADV	_	_	nekoliko	_	_	_	http://llod.jerteh.rs/WSD/seDRJ0206395\_1	2	DRJ0-206395/1;DRJ0-206395/2	U ovom kontekstu, 'nekoliko' označava neodređeno mali broj sati, ali svakako više od četiri, što odgovara prvom značenju.	
+8-8	212-216	sati	N	NOUN	_	_	sat	_	_	_	http://llod.jerteh.rs/WSD/seENG3015227846n	3	ENG30-03046257-n;ENG30-15227846-n;ENG30-15228378-n	U ovom kontekstu, 'sati' označava vremenski period koji iznosi 1/24 dana, odnosno trajanje oluje se meri u jedinicama vremena, a ne pomoću uređaja ili tačnog vremena po časovniku.	
+8-9	217-220	ili	CONJ	CCONJ	_	_	ili	_	_	_	_	_	_	_	
+8-10	221-223	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	
+8-11	224-226	se	PAR	PART	_	_	se	1	*	IRV	http://llod.jerteh.rs/WSD/seCVMWE0275[2005]	1[2005]	CVMWE-0275[2005]	U ovom kontekstu, 'otegnuti se' znači da oluje mogu da potraju veoma dugo, čak vekovima, što odgovara značenju 'odužiti se u trajanju, vremenu, potrajati'.[2005]	
+8-12	227-233	otegnu	V	VERB	_	_	otegnuti	1	otegnuti se	IRV	http://llod.jerteh.rs/WSD/seCVMWE0275[2005]	1[2005]	CVMWE-0275[2005]	U ovom kontekstu, 'otegnuti se' znači da oluje mogu da potraju veoma dugo, čak vekovima, što odgovara značenju 'odužiti se u trajanju, vremenu, potrajati'.[2005]	
+8-13	234-242	vekovima	N	NOUN	_	_	vek	_	_	_	http://llod.jerteh.rs/WSD/seENG3015205532n	3	ENG30-15140744-n;ENG30-15140892-n;ENG30-15205532-n	U ovom kontekstu, reč 'vekovima' se koristi da označi veoma dug vremenski period, konkretno više stotina godina, što odgovara značenju 'sto godina'.	
+8-14	242-243	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Enskombov kvartet se sastoji od četiri skupa podataka, čije su jednostavne deskriptivne statističke karakteristike gotovo identične, ali izgledaju potpuno različito kada se prikažu grafički.
+13-1	243-252	Enskombov	A	ADJ	_	_	Enskombov	_	_	_	http://llod.jerteh.rs/WSD/seCVDf333\_0	1	CVDf-333/0	U ovom kontekstu, 'Enskombov' je prisvojni pridev koji označava da kvartet pripada ili je vezan za osobu po imenu Enskomb, što je u skladu sa ponuđenim značenjem.	
+13-2	253-260	kvartet	N	NOUN	_	_	kvartet	_	_	_	http://llod.jerteh.rs/WSD/seENG3007988089n	1	ENG30-07988089-n	U ovom kontekstu, 'kvartet' se odnosi na skup od četiri skupa podataka koji se zajedno posmatraju kao celina, što odgovara ponuđenom značenju.	
+13-3	261-263	se	PAR	PART	_	_	se	1	*	IRV	http://llod.jerteh.rs/WSD/seCVMWE0394[2008]	2[2008]	CVMWE-0394;ENG30-02632940-v[2008]	U ovom kontekstu, 'sastojati se' znači da je Enskombov kvartet napravljen od četiri skupa podataka, što odgovara značenju 'biti sastavljen iz (od) nečega'.[2008]	
+13-4	264-271	sastoji	V	VERB	_	_	sastojati	1	sastojati se	IRV	http://llod.jerteh.rs/WSD/seCVMWE0394[2008]	2[2008]	CVMWE-0394;ENG30-02632940-v[2008]	U ovom kontekstu, 'sastojati se' znači da je Enskombov kvartet napravljen od četiri skupa podataka, što odgovara značenju 'biti sastavljen iz (od) nečega'.[2008]	
+13-5	272-274	od	PREP	ADP	_	_	od	_	_	_	_	_	_	_	
+13-6	275-281	četiri	NUM	NUM	_	_	četiri	_	_	_	_	_	_	_	
+13-7	282-287	skupa	N	NOUN	_	_	skup	2[1668]	skup podataka[1668]	NID[1668]	http://llod.jerteh.rs/WSD/seLLM0244[2009]	1[2009]	LLM-0244[2009]	U ovom kontekstu, 'skup podataka' označava kolekciju organizovanih informacija koje se analiziraju i porede, što se precizno poklapa sa datim značenjem.[2009]	
+13-8	288-296	podataka	N	NOUN	_	_	podatak	2[1668]	skup podataka[1668]	NID[1668]	http://llod.jerteh.rs/WSD/seLLM0244[2009]	1[2009]	LLM-0244[2009]	U ovom kontekstu, 'skup podataka' označava kolekciju organizovanih informacija koje se analiziraju i porede, što se precizno poklapa sa datim značenjem.[2009]	
+13-9	296-297	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+13-10	298-302	čije	PRO	DET	_	_	čiji	_	_	_	_	_	_	_	
+13-11	303-305	su	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+13-12	306-317	jednostavne	A	ADJ	_	_	jednostavan	_	_	_	http://llod.jerteh.rs/WSD/seENG3002174896a	1	ENG30-02174896-a	U ovom kontekstu, 'jednostavne' deskriptivne statističke karakteristike označava da su te karakteristike nekomplikovane i lako razumljive, što odgovara značenju 'nije složen, komplikovan ili zamršen'.	
+13-13	318-330	deskriptivne	A	ADJ	_	_	deskriptivan	_	_	_	http://llod.jerteh.rs/WSD/seENG3000732318a	2	ENG30-00732318-a;ENG30-02377186-a	Nijedno ponuđeno značenje ne odgovara jer se u ovom kontekstu 'deskriptivne' odnosi na statističke karakteristike koje opisuju podatke, a ne na jezik ili lingvističke fenomene.	
+13-14	331-342	statističke	A	ADJ	_	_	statistički	_	_	_	http://llod.jerteh.rs/WSD/seDRJ0178132\_0	1	DRJ0-178132/0	U ovom kontekstu, 'statističke' karakteristike se odnose na osobine koje su povezane sa statistikom, kao što su srednja vrednost, varijansa itd., što odgovara ponuđenom značenju.	
+13-15	343-357	karakteristike	N	NOUN	_	_	karakteristika	_	_	_	http://llod.jerteh.rs/WSD/seENG3005849284n	2	ENG30-04731497-n;ENG30-05849284-n	U ovom kontekstu, 'karakteristike' se odnose na svojstva (poput proseka, varijanse itd.) koja definišu skupove podataka, što odgovara značenju 'karakteristično svojstvo koje definiše očiglednu individualnu prirodu nečega'.	
+13-16	358-364	gotovo	ADV	ADV	_	_	gotovo	_	_	_	http://llod.jerteh.rs/WSD/seENG3000018781b	2	ENG30-00018781-b;ENG30-00160659-b	U ovom kontekstu, 'gotovo' znači da su karakteristike do određene mere identične, ali ne potpuno, što odgovara značenju 'do određene mere'.	
+13-17	365-374	identične	A	ADJ	_	_	identičan	_	_	_	http://llod.jerteh.rs/WSD/seENG3002064127a	2	ENG30-01411065-a;ENG30-02064127-a	U ovom kontekstu, 'identične' karakteristike znače da su potpuno iste i ne mogu se razlikovati, što odgovara značenju 'potpuno isti; ne može se percipirati kao različit'.	
+13-18	374-375	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+13-19	376-379	ali	CONJ	CCONJ	_	_	ali	_	_	_	_	_	_	_	
+13-20	380-389	izgledaju	V	VERB	_	_	izgledati	_	_	_	http://llod.jerteh.rs/WSD/seENG3002133435v	4	ENG30-02133435-v;ENG30-02134672-v;ENG30-02658447-v;ENG30-2133435-v	U ovom kontekstu, 'izgledati' znači da skupovi podataka daju određeni vizuelni utisak kada se prikažu grafički, što odgovara značenju 'dati određeni utisak ili imati određeni spoljašnji izgled'.	
+13-21	390-397	potpuno	ADV	ADV	_	_	potpuno	_	_	_	http://llod.jerteh.rs/WSD/seENG3000006777b	5	ENG30-00006777-b;ENG30-00008600-b;ENG30-00057257-b;ENG30-00057626-b;ENG30-00178909-b	U ovom kontekstu, 'potpuno' znači da su skupovi podataka u potpunosti, odnosno u punoj meri, različiti kada se prikažu grafički, što odgovara značenju 'u punoj meri ili u punoj ili celoj meri'.	
+13-22	398-407	različito	ADV	ADV	_	_	različito	_	_	_	http://llod.jerteh.rs/WSD/seDRJ0221189\_0	1	DRJ0-221189/0	U ovom kontekstu, 'različito' znači da skupovi podataka izgledaju na drukčiji način kada se prikažu grafički, što odgovara značenju 'na različite načine, drukčije'.	
+13-23	408-412	kada	CONJ	SCONJ	_	_	kada	_	_	_	_	_	_	_	
+13-24	413-415	se	PAR	PART	_	_	se	_	_	_	_	_	_	_	
+13-25	416-423	prikažu	V	VERB	_	_	prikazati	_	_	_	http://llod.jerteh.rs/WSD/seENG3001686956v	6	ENG30-00923307-v;ENG30-00965035-v;ENG30-01686956-v;ENG30-01716882-v;ENG30-01732172-v;ENG30-02148788-v	U ovom kontekstu, 'prikazati' se odnosi na predstavljanje podataka u grafičkom obliku, odnosno kao na slici, što najpreciznije odgovara ovom značenju.	
+13-26	424-432	grafički	ADV	ADV	_	_	grafički	_	_	_	http://llod.jerteh.rs/WSD/seENG3000124038b	1	ENG30-00124038-b	U ovom kontekstu, 'grafički' znači da se podaci prikazuju u obliku grafikona ili dijagrama, što odgovara značenju 'predstavljeno grafički'.	
+13-27	432-433	.	PUNCT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Pošto je problem odolevao napadima vodećih matematičara tog vremena, dvadesetosmogodišnji Ojler je rešivši problem odmah postao slavan.
+15-1	433-438	Pošto	CONJ	SCONJ	_	_	pošto	_	_	_	_	_	_	_	
+15-2	439-441	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+15-3	442-449	problem	N	NOUN	_	_	problem	_	_	_	http://llod.jerteh.rs/WSD/seENG3006784003n	4	ENG30-05687338-n;ENG30-05814650-n;ENG30-06784003-n;ENG30-14410605-n	U ovom kontekstu, 'problem' se odnosi na matematički zadatak ili pitanje koje je postavljeno radi razmatranja ili rešenja, što najpreciznije odgovara ovom značenju.	
+15-4	450-458	odolevao	V	VERB	_	_	odolevati	_	_	_	http://llod.jerteh.rs/WSD/seENG3002707800v	1	ENG30-02707800-v	U ovom kontekstu, 'odolevati' znači da je problem uspešno odolevao, odnosno opirao se pokušajima rešenja od strane matematičara, što odgovara ponuđenom značenju 'opirati se'.	
+15-5	459-467	napadima	N	NOUN	_	_	napad	_	_	_	http://llod.jerteh.rs/WSD/seENG3000941140n	11	ENG30-00770543-n;ENG30-00773814-n;ENG30-00941140-n;ENG30-00964569-n;ENG30-00972621-n;ENG30-00974444-n;ENG30-01220619-n;ENG30-01221611-n;ENG30-07456906-n;ENG30-14081375-n;ENG30-14406303-n	U ovom kontekstu, 'napadi' se odnose na pokušaje rešavanja matematičkog problema, tj. na ideje ili akcije usmerene ka rešavanju problema, što odgovara ovom značenju.	
+15-6	468-475	vodećih	A	ADJ	_	_	vodeći	_	_	_	http://llod.jerteh.rs/WSD/seENG3002339341a	3	ENG30-01010862-a;ENG30-01012855-a;ENG30-02339341-a	U ovom kontekstu, 'vodećih' se odnosi na matematičare koji su najvažniji ili najistaknutiji po značaju i dostignućima, što odgovara značenju 'najveći po važnosti ili stepenu ili značaju ili dostignuću'.	
+15-7	476-488	matematičara	N	NOUN	http://www.wikidata.org/entity/Q170790	ROLE	matematičar	_	_	_	http://llod.jerteh.rs/WSD/seENG3010301261n	1	ENG30-10301261-n	U ovom kontekstu, 'matematičar' se odnosi na naučnike koji se bave matematikom, što je u skladu sa ponuđenim značenjem.	
+15-8	489-492	tog	PRO	DET	_	_	taj	_	_	_	_	_	_	_	
+15-9	493-500	vremena	N	NOUN	_	_	vreme	_	_	_	http://llod.jerteh.rs/WSD/seENG3015122231n	12	ENG30-00028270-n;ENG30-00807078-n;ENG30-06329506-n;ENG30-11524662-n;ENG30-15122231-n;ENG30-15129927-n;ENG30-15135822-n;ENG30-15228378-n;ENG30-15228910-n;ENG30-15244650-n;ENG30-15249236-n;ENG30-15270431-n	Ovde se 'vreme' odnosi na nedefinisani period u prošlosti, obeležen specifičnim atributima i aktivnostima, tj. na epohu u kojoj su živeli vodeći matematičari.	
+15-10	500-501	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+15-11	502-522	dvadesetosmogodišnji	A	ADJ	_	_	dvadesetosmogodišnji	_	_	_	http://llod.jerteh.rs/WSD/seCVDf303\_0	1	CVDf-303/0	Nijedno ponuđeno značenje ne odgovara jer se u kontekstu reč 'dvadesetosmogodišnji' odnosi na osobu koja ima 28 godina, a ne na nešto što traje ili se dešava u periodu od dvadeset godina.	
+15-12	523-528	Ojler	N	PROPN	http://www.wikidata.org/entity/Q7604	PERS	Ojler	_	_	_	_	_	_	_	
+15-13	529-531	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+15-14	532-539	rešivši	V	VERB	_	_	rešiti	1	rešiti problem	LVC.full	http://llod.jerteh.rs/WSD/seCVMWE0387[2010]	1[2010]	CVMWE-0387[2010]	U ovom kontekstu, 'rešiti problem' znači da je Ojler pronašao tačno rešenje matematičkog problema, što odgovara ponuđenom značenju.[2010]	
+15-15	540-547	problem	N	NOUN	_	_	problem	1	*	LVC.full	http://llod.jerteh.rs/WSD/seCVMWE0387[2010]	1[2010]	CVMWE-0387[2010]	U ovom kontekstu, 'rešiti problem' znači da je Ojler pronašao tačno rešenje matematičkog problema, što odgovara ponuđenom značenju.[2010]	
+15-16	548-553	odmah	ADV	ADV	_	_	odmah	_	_	_	http://llod.jerteh.rs/WSD/seENG3000048739b	4	ENG30-00048739-b;ENG30-00105467-b;ENG30-00105603-b;ENG30-00181342-b	U ovom kontekstu, 'odmah' znači da je Ojler postao slavan bez odlaganja ili oklevanja, neposredno nakon što je rešio problem, što najpreciznije odgovara značenju ENG30-00048739-b.	
+15-17	554-560	postao	V	VERB	_	_	postati	_	_	_	http://llod.jerteh.rs/WSD/seENG3000149583v	5	ENG30-00094460-v;ENG30-00149583-v;ENG30-02381571-v;ENG30-02623529-v;ENG30-02626604-v	U ovom kontekstu, 'postao' označava da je Ojler ušao u stanje slave, odnosno stekao je slavu, što odgovara značenju 'ući ili poprimiti određeno stanje'.	
+15-18	561-567	slavan	A	ADJ	_	_	slavan	_	_	_	http://llod.jerteh.rs/WSD/seENG3001375831a	2	ENG30-01121402-a;ENG30-01375831-a	U ovom kontekstu, 'slavan' znači da je Ojler postao opšte poznat i uvažen zbog svog uspeha, što odgovara značenju 'opšte prihvaćen i uvažen'.	
+15-19	567-568	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Drugi amandman ustava Sjedinjenih Država daje nam pravo da nosimo oružje.
+21-1	568-573	Drugi	A	ADJ	_	_	drugi	_	_	_	http://llod.jerteh.rs/WSD/seENG3002202146a	4	ENG30-00048858-a;ENG30-02070030-a;ENG30-02070188-a;ENG30-02202146-a	U ovom kontekstu, 'drugi' označava amandman koji dolazi odmah posle prvog u nizu amandmana ustava, što odgovara značenju redosleda.	
+21-2	574-582	amandman	N	NOUN	_	_	amandman	_	_	_	http://llod.jerteh.rs/WSD/seENG3001250101n	1	ENG30-01250101-n	U ovom kontekstu, 'amandman' se odnosi na izmenjeni ili dodat član ustava, a ne na čin popravljanja ili ispravljanja, tako da ponuđeno značenje nije odgovarajuće.	
+21-3	583-589	ustava	N	NOUN	_	_	ustav	_	_	_	http://llod.jerteh.rs/WSD/seENG3006533648n	1	ENG30-06533648-n	U ovom kontekstu, 'ustav' se odnosi na osnovni zakon koji određuje ustrojstvo vlade Sjedinjenih Država, što je u skladu sa datim značenjem.	
+21-4	590-601	Sjedinjenih	A	ADJ	http://www.wikidata.org/entity/Q30[728]	LOC[728]	sjedinjen	_	_	_	http://llod.jerteh.rs/WSD/seENG3002112108a	1	ENG30-02112108-a	U ovom kontekstu, 'Sjedinjene' u 'Sjedinjene Države' označava države koje su ujedinjene zajedničkom aktivnošću ili savezom, što odgovara ponuđenom značenju.	
+21-5	602-608	Država	N	NOUN	http://www.wikidata.org/entity/Q30[728]	LOC[728]	država	_	_	_	http://llod.jerteh.rs/WSD/seENG3008168978n	3	ENG30-08168978-n;ENG30-08178547-n;ENG30-08544813-n	U ovom kontekstu, 'Država' se odnosi na političku organizaciju (Sjedinjene Države) kao entitet pod jednom vladom, što je najpreciznije opisano ovim značenjem.	
+21-6	609-613	daje	V	VERB	_	_	davati	1	dati pravo	LVC.full	http://llod.jerteh.rs/WSD/seCVMWE0041[2014]	1[2014]	CVMWE-0041[2014]	U ovom kontekstu, 'dati pravo' znači odobriti građanima da nose oružje, što se poklapa sa značenjem 'odobriti nekome da nešto radi, deluje na neki način'.[2014]	
+21-7	614-617	nam	PRO	PRON	_	_	mi	_	_	_	_	_	_	_	
+21-8	618-623	pravo	N	NOUN	_	_	pravo	1	*	LVC.full	http://llod.jerteh.rs/WSD/seCVMWE0041[2014]	1[2014]	CVMWE-0041[2014]	U ovom kontekstu, 'dati pravo' znači odobriti građanima da nose oružje, što se poklapa sa značenjem 'odobriti nekome da nešto radi, deluje na neki način'.[2014]	
+21-9	624-626	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	
+21-10	627-633	nosimo	V	VERB	_	_	nositi	_	_	_	http://llod.jerteh.rs/WSD/seENG3002717102v	9	ENG30-00059019-v;ENG30-01224415-v;ENG30-01432601-v;ENG30-01450792-v;ENG30-01601234-v;ENG30-02079933-v;ENG30-02302220-v;ENG30-02636516-v;ENG30-02717102-v	U ovom kontekstu, 'nositi oružje' znači imati oružje stalno uza sebe, što se odnosi na pravo da ga posedujemo i držimo kod sebe.	
+21-11	634-640	oružje	N	NOUN	_	_	oružje	_	_	_	http://llod.jerteh.rs/WSD/seENG3004565375n	5	ENG30-02738031-n;ENG30-02746365-n;ENG30-04565375-n;ENG30-04566257-n;ENG30-07246932-n	U kontekstu Drugog amandmana, 'oružje' se odnosi na oruđe koje pojedinci mogu nositi radi samoodbrane, borbe ili lova, što najpreciznije odgovara ovom značenju.	
+21-12	640-641	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	

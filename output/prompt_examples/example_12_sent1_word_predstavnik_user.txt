@@ -1,0 +1,9 @@
+Kontekst rečenice (ciljna reč je označena kao bold):
+"U petoj sezoni program je održan u skladu sa novim konceptom: jedan mladi fudbaler iz svake zemlje izabran je kao njen \textbf{predstavnik}."
+
+Ciljna reč: "predstavnik"
+
+Lista mogućih značenja:
+1. ID: ENG30-05820620-n — Jedna stavka informacije koja predstavlja tip.
+2. ID: ENG30-10005721-n — lice imenovano da zastupa ili deluje u ime drugih
+3. ID: ENG30-10522035-n — Osoba koja predstavlja druge ljude.

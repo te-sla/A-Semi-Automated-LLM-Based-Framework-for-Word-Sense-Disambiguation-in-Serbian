@@ -1,0 +1,11 @@
+Kontekst rečenice (ciljna reč je označena kao bold):
+"Krup pogađa oko 15 \% dece i obično se javlja između 6 meseci i 5–6 \textbf{godina}."
+
+Ciljna reč: "godina"
+
+Lista mogućih značenja:
+1. ID: ENG30-08238660-n — Zajednica studenata ili đaka koji zajedno diplomiraju.
+2. ID: ENG30-15201505-n — Vremenski period koji je potreban planeti (npr, Zemlji ili Marsu) da napravi potpunu revoluciju oko Sunca.
+3. ID: ENG30-15202634-n — Godina računata od 1. januara do 31. decembra po Gregorijanskom kalendaru.
+4. ID: ENG30-15203791-n — Vremenski period od 365 (ili 366) dana.
+5. ID: ENG30-15204297-n — Vremenski period koji zauzima stalni deo kalendarske godine i koristi se za neku određenu aktivnost.

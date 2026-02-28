@@ -1,0 +1,935 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue|coarseValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_SP=webanno.custom.MWE|MWEid|MWElemma|MWEtype
+#T_SP=webanno.custom.WSD|KBid
+
+
+#Text=Nekoliko godina kasnije (1906) objavio je svoj Słownik chemiczny, prvi poljski hemijski rečnik.
+51-1	0-8	Nekoliko	ADV	ADV	_	_	nekoliko	_	_	_	http://example.org/lexicon/seDRJ0206395\_2	
+51-2	9-15	godina	N	NOUN	_	_	godina	_	_	_	http://example.org/lexicon/seENG3015203791n	
+51-3	16-23	kasnije	ADV	ADV	_	_	kasnije	_	_	_	http://example.org/lexicon/seENG3000061203b	
+51-4	24-25	(	PUNCT	PUNCT	_	_	(	_	_	_	_	
+51-5	25-29	1906	A	ADJ	_	_	1906	_	_	_	http://example.org/lexicon/seNEW_SENSE	
+51-6	29-30	)	PUNCT	PUNCT	_	_	)	_	_	_	_	
+51-7	31-38	objavio	V	VERB	_	_	objaviti	_	_	_	http://example.org/lexicon/seENG3000967625v	
+51-8	39-41	je	V	AUX	_	_	jesam	_	_	_	_	
+51-9	42-46	svoj	PRO	DET	_	_	svoj	_	_	_	_	
+51-10	47-54	Słownik	F	X	*[35]	WORK[35]	Słownik	_	_	_	_	
+51-11	55-64	chemiczny	F	X	*[35]	WORK[35]	chemiczny	_	_	_	_	
+51-12	64-65	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+51-13	66-70	prvi	A	ADJ	_	_	prvi	_	_	_	http://example.org/lexicon/seENG3001012855a	
+51-14	71-78	poljski	A	ADJ	http://www.wikidata.org/entity/Q809	DEMO	poljski	_	_	_	http://example.org/lexicon/seENG3002961258a	
+51-15	79-87	hemijski	A	ADJ	_	_	hemijski	_	_	_	http://example.org/lexicon/seENG3002692624a	
+51-16	88-94	rečnik	N	NOUN	_	_	rečnik	_	_	_	http://example.org/lexicon/seENG3006418901n	
+51-17	94-95	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Uglavnom predlažemo prekid njihove dalje proizvodnje i početak uklanjanja svih zaliha na Zemlji.
+52-1	95-103	Uglavnom	ADV	ADV	_	_	uglavnom	_	_	_	http://example.org/lexicon/seENG3000073897b	
+52-2	104-114	predlažemo	V	VERB	_	_	predlagati	_	_	_	http://example.org/lexicon/seENG3000879356v	
+52-3	115-121	prekid	N	NOUN	_	_	prekid	_	_	_	http://example.org/lexicon/seENG3000383952n	
+52-4	122-129	njihove	PRO	DET	_	_	njihov	_	_	_	_	
+52-5	130-135	dalje	A	ADJ	_	_	dalji	_	_	_	http://example.org/lexicon/seENG3000443988a	
+52-6	136-147	proizvodnje	N	NOUN	_	_	proizvodnja	_	_	_	http://example.org/lexicon/seENG3000912960n	
+52-7	148-149	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+52-8	150-157	početak	N	NOUN	_	_	početak	_	_	_	http://example.org/lexicon/seENG3000235435n	
+52-9	158-168	uklanjanja	N	NOUN	_	_	uklanjanje	_	_	_	http://example.org/lexicon/seENG3000391599n	
+52-10	169-173	svih	PRO	DET	_	_	sav	_	_	_	_	
+52-11	174-180	zaliha	N	NOUN	_	_	zaliha	_	_	_	http://example.org/lexicon/seENG3013777344n	
+52-12	181-183	na	PREP	ADP	_	_	na	_	_	_	_	
+52-13	184-190	Zemlji	N	PROPN	http://www.wikidata.org/entity/Q2	LOC	Zemlja	_	_	_	_	
+52-14	190-191	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Sovjetski narod dobro zna koliko je rat užasan.
+53-1	191-200	Sovjetski	A	ADJ	_	_	sovjetski	_	_	_	http://example.org/lexicon/seENG3002959406a	
+53-2	201-206	narod	N	NOUN	_	_	narod	_	_	_	http://example.org/lexicon/seENG3008166552n	
+53-3	207-212	dobro	ADV	ADV	_	_	dobro	_	_	_	http://example.org/lexicon/seENG3000015007b	
+53-4	213-216	zna	V	VERB	_	_	znati	_	_	_	http://example.org/lexicon/seENG3000594621v	
+53-5	217-223	koliko	ADV	ADV	_	_	koliko	_	_	_	http://example.org/lexicon/seENG3000111546b	
+53-6	224-226	je	V	AUX	_	_	jesam	_	_	_	_	
+53-7	227-230	rat	N	NOUN	_	_	rat	_	_	_	http://example.org/lexicon/seENG3000973077n	
+53-8	231-237	užasan	A	ADJ	_	_	užasan	_	_	_	http://example.org/lexicon/seENG3001513050a	
+53-9	237-238	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Poljoprivreda je prilično ograničena, budući da je samo 2 % zemljišta obradivo i hrana se većinom uvozi.
+54-1	238-251	Poljoprivreda	N	NOUN	_	_	poljoprivreda	_	_	_	http://example.org/lexicon/seENG3000916464n	
+54-2	252-254	je	V	AUX	_	_	jesam	_	_	_	_	
+54-3	255-263	prilično	ADV	ADV	_	_	prilično	_	_	_	http://example.org/lexicon/seENG3000018781b	
+54-4	264-274	ograničena	A	ADJ	_	_	ograničen	_	_	_	http://example.org/lexicon/seENG3001007258a	
+54-5	274-275	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+54-6	276-282	budući	V	VERB	_	_	biti	1[759]	budući da[759]	ConjID[759]	http://example.org/lexicon/seLLM0023[2500]	
+54-7	283-285	da	CONJ	SCONJ	_	_	da	1[759]	budući da[759]	ConjID[759]	http://example.org/lexicon/seLLM0023[2500]	
+54-8	286-288	je	V	AUX	_	_	jesam	_	_	_	_	
+54-9	289-293	samo	ADV	ADV	_	_	samo	_	_	_	http://example.org/lexicon/seENG3000004722b	
+54-10	294-295	2	NUM	NUM	_	_	2	_	_	_	_	
+54-11	296-297	%	PUNCT	SYM	_	_	%	_	_	_	_	
+54-12	298-307	zemljišta	N	NOUN	_	_	zemljište	_	_	_	http://example.org/lexicon/seENG3013250048n	
+54-13	308-316	obradivo	A	ADJ	_	_	obradiv	_	_	_	http://example.org/lexicon/seENG3001865807a	
+54-14	317-318	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+54-15	319-324	hrana	N	NOUN	_	_	hrana	_	_	_	http://example.org/lexicon/seENG3007570720n	
+54-16	325-327	se	PAR	PART	_	_	se	_	_	_	_	
+54-17	328-335	većinom	ADV	ADV	_	_	većinom	_	_	_	http://example.org/lexicon/seENG3000073897b	
+54-18	336-341	uvozi	V	VERB	_	_	uvoziti	_	_	_	http://example.org/lexicon/seENG3002232722v	
+54-19	341-342	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Prvi drveni slavoluk podignut je u žurbi, nakon sticanja nezavisnosti Rumunije (1878), kako bi pobedničke trupe mogle da prođu ispod njega.
+55-1	342-346	Prvi	A	ADJ	_	_	prvi	_	_	_	http://example.org/lexicon/seENG3001012855a	
+55-2	347-353	drveni	A	ADJ	_	_	drven	_	_	_	http://example.org/lexicon/seENG3002576489a	
+55-3	354-362	slavoluk	N	NOUN	_	_	slavoluk	_	_	_	http://example.org/lexicon/seENG3004486054n	
+55-4	363-371	podignut	V	VERB	_	_	podignuti	_	_	_	http://example.org/lexicon/seENG3001546768v	
+55-5	372-374	je	V	AUX	_	_	jesam	_	_	_	_	
+55-6	375-376	u	PREP	ADP	_	_	u	1[760]	u žurbi[760]	AdvID[760]	http://example.org/lexicon/seCVMWE0466[2501]	
+55-7	377-382	žurbi	N	NOUN	_	_	žurba	1[760]	u žurbi[760]	AdvID[760]	http://example.org/lexicon/seCVMWE0466[2501]	
+55-8	382-383	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+55-9	384-389	nakon	PREP	ADP	_	_	nakon	_	_	_	_	
+55-10	390-398	sticanja	N	NOUN	_	_	sticanje	_	_	_	http://example.org/lexicon/seENG3000077419n	
+55-11	399-411	nezavisnosti	N	NOUN	_	_	nezavisnost	_	_	_	http://example.org/lexicon/seENG3014001213n	
+55-12	412-420	Rumunije	N	PROPN	http://www.wikidata.org/entity/Q218	LOC	Rumunija	_	_	_	_	
+55-13	421-422	(	PUNCT	PUNCT	_	_	(	_	_	_	_	
+55-14	422-426	1878	A	ADJ	_	_	1878	_	_	_	http://example.org/lexicon/seNEW_SENSE	
+55-15	426-427	)	PUNCT	PUNCT	_	_	)	_	_	_	_	
+55-16	427-428	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+55-17	429-433	kako	CONJ	SCONJ	_	_	kako	_	_	_	_	
+55-18	434-436	bi	V	AUX	_	_	biti	_	_	_	_	
+55-19	437-447	pobedničke	A	ADJ	_	_	pobednički	_	_	_	http://example.org/lexicon/seENG3002337480a	
+55-20	448-453	trupe	N	NOUN	_	_	trupa	_	_	_	http://example.org/lexicon/seNEW_SENSE	
+55-21	454-459	mogle	V	VERB	_	_	moći	_	_	_	http://example.org/lexicon/seNEW_SENSE	
+55-22	460-462	da	CONJ	SCONJ	_	_	da	_	_	_	_	
+55-23	463-468	prođu	V	VERB	_	_	proći	_	_	_	http://example.org/lexicon/seENG3001227675v	
+55-24	469-474	ispod	PREP	ADP	_	_	ispod	_	_	_	_	
+55-25	475-480	njega	PRO	PRON	_	_	on	_	_	_	_	
+55-26	480-481	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Detalji ovog procesa zavise od količine i vrste materije u univerzumu.
+56-1	481-488	Detalji	N	NOUN	_	_	detalj	_	_	_	http://example.org/lexicon/seENG3006751142n	
+56-2	489-493	ovog	PRO	DET	_	_	ovaj	_	_	_	_	
+56-3	494-501	procesa	N	NOUN	_	_	proces	_	_	_	http://example.org/lexicon/seENG3000029677n	
+56-4	502-508	zavise	V	VERB	_	_	zavisiti	_	_	_	http://example.org/lexicon/seENG3002663848v	
+56-5	509-511	od	PREP	ADP	_	_	od	_	_	_	_	
+56-6	512-520	količine	N	NOUN	_	_	količina	_	_	_	http://example.org/lexicon/seENG3005107765n	
+56-7	521-522	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+56-8	523-528	vrste	N	NOUN	_	_	vrsta	_	_	_	http://example.org/lexicon/seENG3005839024n	
+56-9	529-537	materije	N	NOUN	_	_	materija	_	_	_	http://example.org/lexicon/seENG3000019613n	
+56-10	538-539	u	PREP	ADP	_	_	u	_	_	_	_	
+56-11	540-550	univerzumu	N	NOUN	_	_	univerzum	_	_	_	http://example.org/lexicon/seDRJ0184679\_0	
+56-12	550-551	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Odgovoriću vam ozbiljno i iskreno.
+57-1	551-561	Odgovoriću	V	VERB	_	_	odgovoriti	_	_	_	http://example.org/lexicon/seENG3000815686v	
+57-2	562-565	vam	PRO	PRON	_	_	vi	_	_	_	_	
+57-3	566-574	ozbiljno	ADV	ADV	_	_	ozbiljno	_	_	_	http://example.org/lexicon/seENG3000015953b	
+57-4	575-576	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+57-5	577-584	iskreno	ADV	ADV	_	_	iskreno	_	_	_	http://example.org/lexicon/seENG3000314384b	
+57-6	584-585	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Ova knjiga je u našoj zemlji dobro poznata i omiljena je svim dečacima i devojčicama.
+58-1	585-588	Ova	PRO	DET	_	_	ovaj	_	_	_	_	
+58-2	589-595	knjiga	N	NOUN	_	_	knjiga	_	_	_	http://example.org/lexicon/seENG3006410904n	
+58-3	596-598	je	V	AUX	_	_	jesam	_	_	_	_	
+58-4	599-600	u	PREP	ADP	_	_	u	_	_	_	_	
+58-5	601-606	našoj	PRO	DET	_	_	naš	_	_	_	_	
+58-6	607-613	zemlji	N	NOUN	_	_	zemlja	_	_	_	http://example.org/lexicon/seENG3008493064n	
+58-7	614-619	dobro	ADV	ADV	_	_	dobro	_	_	_	http://example.org/lexicon/seENG3000014285b	
+58-8	620-627	poznata	A	ADJ	_	_	poznat	_	_	_	http://example.org/lexicon/seENG3001375831a	
+58-9	628-629	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+58-10	630-638	omiljena	A	ADJ	_	_	omiljen	_	_	_	http://example.org/lexicon/seENG3001462882a	
+58-11	639-641	je	V	AUX	_	_	jesam	_	_	_	_	
+58-12	642-646	svim	PRO	DET	_	_	sav	_	_	_	_	
+58-13	647-655	dečacima	N	NOUN	_	_	dečak	_	_	_	http://example.org/lexicon/seENG3010285313n	
+58-14	656-657	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+58-15	658-669	devojčicama	N	NOUN	_	_	devojčica	_	_	_	http://example.org/lexicon/seENG3010084295n	
+58-16	669-670	.	PUNCT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Ako niste, molim vas recite mi kako ćete pomoći da ne dođe do rata.
+59-1	670-673	Ako	CONJ	SCONJ	_	_	ako	_	_	_	_	
+59-2	674-679	niste	V	AUX	_	_	jesam	_	_	_	_	
+59-3	679-680	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+59-4	681-686	molim	V	VERB	_	_	moliti	_	_	_	http://example.org/lexicon/seENG3000755447v	
+59-5	687-690	vas	PRO	PRON	_	_	vi	_	_	_	_	
+59-6	691-697	recite	V	VERB	_	_	reći	_	_	_	http://example.org/lexicon/seENG3001009240v	
+59-7	698-700	mi	PRO	PRON	_	_	ja	_	_	_	_	
+59-8	701-705	kako	CONJ	SCONJ	_	_	kako	_	_	_	_	
+59-9	706-710	ćete	V	AUX	_	_	hteti	_	_	_	_	
+59-10	711-717	pomoći	V	VERB	_	_	pomoći	_	_	_	http://example.org/lexicon/seENG3002547586v	
+59-11	718-720	da	CONJ	SCONJ	_	_	da	_	_	_	_	
+59-12	721-723	ne	PAR	PART	_	_	ne	_	_	_	_	
+59-13	724-728	dođe	V	VERB	_	_	doći	1	doći do rata	VID	http://example.org/lexicon/seCVMWE0064[2502]	
+59-14	729-731	do	PREP	ADP	_	_	do	1	*	VID	http://example.org/lexicon/seCVMWE0064[2502]	
+59-15	732-736	rata	N	NOUN	_	_	rat	1	*	VID	http://example.org/lexicon/seCVMWE0064[2502]	
+59-16	736-737	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Bio je to njihov najveći brod u to vreme.
+60-1	737-740	Bio	V	AUX	_	_	biti	_	_	_	_	
+60-2	741-743	je	V	AUX	_	_	jesam	_	_	_	_	
+60-3	744-746	to	PRO	DET	_	_	taj	_	_	_	_	
+60-4	747-753	njihov	PRO	DET	_	_	njihov	_	_	_	_	
+60-5	754-761	najveći	A	ADJ	_	_	velik	_	_	_	http://example.org/lexicon/seENG3001375909a	
+60-6	762-766	brod	N	NOUN	_	_	brod	_	_	_	http://example.org/lexicon/seENG3004194289n	
+60-7	767-768	u	PREP	ADP	_	_	u	_	_	_	_	
+60-8	769-771	to	PRO	DET	_	_	taj	_	_	_	_	
+60-9	772-777	vreme	N	NOUN	_	_	vreme	_	_	_	http://example.org/lexicon/seENG3015244650n	
+60-10	777-778	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Olimpijske igre 1916. dodeljene su Berlinu, ali su otkazane zbog Prvog svetskog rata.
+61-1	778-788	Olimpijske	A	ADJ	http://www.wikidata.org/entity/Q5389[36]	EVENT[36]	olimpijski	_	_	_	http://example.org/lexicon/seDRJ0209216\_0	
+61-2	789-793	igre	N	NOUN	http://www.wikidata.org/entity/Q5389[36]	EVENT[36]	igra	_	_	_	http://example.org/lexicon/seENG3000455599n	
+61-3	794-799	1916.	A	ADJ	_	_	1916.	_	_	_	http://example.org/lexicon/seNEW_SENSE	
+61-4	800-809	dodeljene	V	VERB	_	_	dodeliti	_	_	_	http://example.org/lexicon/seENG3002261888v	
+61-5	810-812	su	V	AUX	_	_	jesam	_	_	_	_	
+61-6	813-820	Berlinu	N	PROPN	http://www.wikidata.org/entity/Q64	LOC	Berlin	_	_	_	_	
+61-7	820-821	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+61-8	822-825	ali	CONJ	CCONJ	_	_	ali	_	_	_	_	
+61-9	826-828	su	V	AUX	_	_	jesam	_	_	_	_	
+61-10	829-837	otkazane	V	VERB	_	_	otkazati	_	_	_	http://example.org/lexicon/seENG3002477755v	
+61-11	838-842	zbog	PREP	ADP	_	_	zbog	_	_	_	_	
+61-12	843-848	Prvog	A	ADJ	http://www.wikidata.org/entity/Q361[37]	EVENT[37]	prvi	_	_	_	http://example.org/lexicon/seENG3001012855a	
+61-13	849-857	svetskog	A	ADJ	http://www.wikidata.org/entity/Q361[37]	EVENT[37]	svetski	1[761]	svetski rat[761]	NID[761]	http://example.org/lexicon/seENG3000996817n[2503]	
+61-14	858-862	rata	N	NOUN	http://www.wikidata.org/entity/Q361[37]	EVENT[37]	rat	1[761]	svetski rat[761]	NID[761]	http://example.org/lexicon/seENG3000996817n[2503]	
+61-15	862-863	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Članovi se sastaju u svojim nacionalnim delegacijama pre plenarnih sednica i drugih događaja kako bi razgovarali o zajedničkim stavovima.
+62-1	863-870	Članovi	N	NOUN	_	_	član	_	_	_	http://example.org/lexicon/seENG3010307234n	
+62-2	871-873	se	PAR	PART	_	_	se	1	*	IRV	http://example.org/lexicon/seCVMWE0393[2504]	
+62-3	874-881	sastaju	V	VERB	_	_	sastajati	1	sastajati se	IRV	http://example.org/lexicon/seCVMWE0393[2504]	
+62-4	882-883	u	PREP	ADP	_	_	u	_	_	_	_	
+62-5	884-890	svojim	PRO	DET	_	_	svoj	_	_	_	_	
+62-6	891-902	nacionalnim	A	ADJ	_	_	nacionalan	_	_	_	http://example.org/lexicon/seENG3002988060a	
+62-7	903-915	delegacijama	N	NOUN	_	_	delegacija	_	_	_	http://example.org/lexicon/seENG3008402442n	
+62-8	916-919	pre	PREP	ADP	_	_	pre	_	_	_	_	
+62-9	920-929	plenarnih	A	ADJ	_	_	plenaran	2[762]	plenarna sednica[762]	NID[762]	http://example.org/lexicon/seCVMWE0290[2505]	
+62-10	930-937	sednica	N	NOUN	_	_	sednica	2[762]	plenarna sednica[762]	NID[762]	http://example.org/lexicon/seCVMWE0290[2505]	
+62-11	938-939	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+62-12	940-946	drugih	A	ADJ	_	_	drugi	_	_	_	http://example.org/lexicon/seENG3002070188a	
+62-13	947-955	događaja	N	NOUN	_	_	događaj	_	_	_	http://example.org/lexicon/seENG3007447261n	
+62-14	956-960	kako	CONJ	SCONJ	_	_	kako	_	_	_	_	
+62-15	961-963	bi	V	AUX	_	_	biti	_	_	_	_	
+62-16	964-975	razgovarali	V	VERB	_	_	razgovarati	_	_	_	http://example.org/lexicon/seENG3001070102v	
+62-17	976-977	o	PREP	ADP	_	_	o	_	_	_	_	
+62-18	978-989	zajedničkim	A	ADJ	_	_	zajednički	_	_	_	http://example.org/lexicon/seENG3000493012a	
+62-19	990-999	stavovima	N	NOUN	_	_	stav	_	_	_	http://example.org/lexicon/seENG3006782019n	
+62-20	999-1000	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Korisnici mogu da predlože podatke za koje smatraju da nedostaju na portalu i da daju povratne informacije o kvalitetu podataka koji se mogu dobiti.
+63-1	1000-1009	Korisnici	N	NOUN	_	_	korisnik	_	_	_	http://example.org/lexicon/seENG3010741590n	
+63-2	1010-1014	mogu	V	VERB	_	_	moći	_	_	_	http://example.org/lexicon/seNEW_SENSE	
+63-3	1015-1017	da	CONJ	SCONJ	_	_	da	_	_	_	_	
+63-4	1018-1026	predlože	V	VERB	_	_	predložiti	_	_	_	http://example.org/lexicon/seENG3000875394v	
+63-5	1027-1034	podatke	N	NOUN	_	_	podatak	_	_	_	http://example.org/lexicon/seENG3005816622n	
+63-6	1035-1037	za	PREP	ADP	_	_	za	_	_	_	_	
+63-7	1038-1042	koje	PRO	DET	_	_	koji	_	_	_	_	
+63-8	1043-1051	smatraju	V	VERB	_	_	smatrati	_	_	_	http://example.org/lexicon/seENG3000689950v	
+63-9	1052-1054	da	CONJ	SCONJ	_	_	da	_	_	_	_	
+63-10	1055-1064	nedostaju	V	VERB	_	_	nedostajati	_	_	_	http://example.org/lexicon/seENG3002632353v	
+63-11	1065-1067	na	PREP	ADP	_	_	na	_	_	_	_	
+63-12	1068-1075	portalu	N	NOUN	_	_	portal	_	_	_	http://example.org/lexicon/seENG3006359657n	
+63-13	1076-1077	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+63-14	1078-1080	da	CONJ	SCONJ	_	_	da	_	_	_	_	
+63-15	1081-1085	daju	V	VERB	_	_	dati	_	_	_	http://example.org/lexicon/seENG3002235842v	
+63-16	1086-1094	povratne	A	ADJ	_	_	povratan	_	_	_	http://example.org/lexicon/seENG3000202508a	
+63-17	1095-1106	informacije	N	NOUN	_	_	informacija	_	_	_	http://example.org/lexicon/seENG3006634376n	
+63-18	1107-1108	o	PREP	ADP	_	_	o	_	_	_	_	
+63-19	1109-1118	kvalitetu	N	NOUN	_	_	kvalitet	_	_	_	http://example.org/lexicon/seENG3004728068n	
+63-20	1119-1127	podataka	N	NOUN	_	_	podatak	_	_	_	http://example.org/lexicon/seENG3005816622n	
+63-21	1128-1132	koji	PRO	DET	_	_	koji	_	_	_	_	
+63-22	1133-1135	se	PAR	PART	_	_	se	_	_	_	_	
+63-23	1136-1140	mogu	V	VERB	_	_	moći	_	_	_	http://example.org/lexicon/seNEW_SENSE	
+63-24	1141-1147	dobiti	V	VERB	_	_	dobiti	_	_	_	http://example.org/lexicon/seENG3002238085v	
+63-25	1147-1148	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=On je odgovoran za sprovođenje odluka predsednika i Biroa i nesmetano funkcionisanje administracije Evropskog odbora regija (CoR).
+64-1	1148-1150	On	PRO	PRON	_	_	on	_	_	_	_	
+64-2	1151-1153	je	V	AUX	_	_	jesam	_	_	_	_	
+64-3	1154-1163	odgovoran	A	ADJ	_	_	odgovoran	_	_	_	http://example.org/lexicon/seENG3000809201a	
+64-4	1164-1166	za	PREP	ADP	_	_	za	_	_	_	_	
+64-5	1167-1178	sprovođenje	N	NOUN	_	_	sprovođenje	1[763]	sprovođenje odluke[763]	NID[763]	http://example.org/lexicon/seLLM0246[2506]	
+64-6	1179-1185	odluka	N	NOUN	_	_	odluka	1[763]	sprovođenje odluke[763]	NID[763]	http://example.org/lexicon/seLLM0246[2506]	
+64-7	1186-1197	predsednika	N	NOUN	*	ROLE	predsednik	_	_	_	http://example.org/lexicon/seID: ENG3010468962n	
+64-8	1198-1199	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+64-9	1200-1205	Biroa	N	NOUN	_	_	biro	_	_	_	http://example.org/lexicon/seENG3008337324n	
+64-10	1206-1207	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+64-11	1208-1217	nesmetano	A	ADJ	_	_	nesmetan	_	_	_	http://example.org/lexicon/seENG3002001984a	
+64-12	1218-1232	funkcionisanje	N	NOUN	_	_	funkcionisanje	_	_	_	http://example.org/lexicon/seENG3014009481n	
+64-13	1233-1247	administracije	N	NOUN	_	_	administracija	_	_	_	http://example.org/lexicon/seENG3008164585n	
+64-14	1248-1257	Evropskog	A	ADJ	http://www.wikidata.org/entity/Q205203[38]	ORG[38]	evropski	_	_	_	_	
+64-15	1258-1264	odbora	N	NOUN	http://www.wikidata.org/entity/Q205203[38]	ORG[38]	odbor	_	_	_	_	
+64-16	1265-1271	regija	N	NOUN	http://www.wikidata.org/entity/Q205203[38]	ORG[38]	regija	_	_	_	_	
+64-17	1272-1273	(	PUNCT	PUNCT	_	_	(	_	_	_	_	
+64-18	1273-1276	CoR	ABB	X	http://www.wikidata.org/entity/Q205203	ORG	CoR	_	_	_	_	
+64-19	1276-1277	)	PUNCT	PUNCT	_	_	)	_	_	_	_	
+64-20	1277-1278	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Tokom ovog perioda investirala je oko 75 milijardi evra–blizu 10 % budžeta EU–u projekte za unapređenje zapošljavanja.
+65-1	1278-1283	Tokom	PREP	ADP	_	_	tokom	_	_	_	_	
+65-2	1284-1288	ovog	PRO	DET	_	_	ovaj	_	_	_	_	
+65-3	1289-1296	perioda	N	NOUN	_	_	perioda	_	_	_	http://example.org/lexicon/seNEW_SENSE	
+65-4	1297-1308	investirala	V	VERB	_	_	investirati	_	_	_	http://example.org/lexicon/seENG3002271137v	
+65-5	1309-1311	je	V	AUX	_	_	jesam	_	_	_	_	
+65-6	1312-1315	oko	ADV	ADV	_	_	oko	_	_	_	http://example.org/lexicon/seENG3000007015b	
+65-7	1316-1318	75	NUM	NUM	_	_	75	_	_	_	_	
+65-8	1319-1328	milijardi	N	NOUN	_	_	milijarda	_	_	_	http://example.org/lexicon/seENG3013751829n	
+65-9	1329-1333	evra	N	NOUN	_	_	evro	_	_	_	http://example.org/lexicon/seENG3013661820n	
+65-10	1333-1334	–	PUNCT	PUNCT	_	_	–	_	_	_	_	
+65-11	1334-1339	blizu	ADV	ADV	_	_	blizu	_	_	_	http://example.org/lexicon/seENG3000007015b	
+65-12	1340-1342	10	NUM	NUM	_	_	10	_	_	_	_	
+65-13	1343-1344	%	PUNCT	SYM	_	_	%	_	_	_	_	
+65-14	1345-1352	budžeta	N	NOUN	_	_	budžet	_	_	_	http://example.org/lexicon/seENG3013421462n	
+65-15	1353-1355	EU	ABB	X	http://www.wikidata.org/entity/Q458	ORG	EU	_	_	_	_	
+65-16	1355-1356	–	PUNCT	PUNCT	_	_	–	_	_	_	_	
+65-17	1356-1357	u	PREP	ADP	_	_	u	_	_	_	_	
+65-18	1358-1366	projekte	N	NOUN	_	_	projekt	_	_	_	http://example.org/lexicon/seDRJ0218747\_1	
+65-19	1367-1369	za	PREP	ADP	_	_	za	_	_	_	_	
+65-20	1370-1381	unapređenje	N	NOUN	_	_	unapređenje	_	_	_	http://example.org/lexicon/seENG3007357388n	
+65-21	1382-1395	zapošljavanja	N	NOUN	_	_	zapošljavanje	_	_	_	http://example.org/lexicon/seENG3001217859n	
+65-22	1395-1396	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Početni cilj je bio definisanje standarda XML za razmenu informacija o robnim markama.
+66-1	1396-1403	Početni	A	ADJ	_	_	početan	_	_	_	http://example.org/lexicon/seRSSJ39245\_0	
+66-2	1404-1408	cilj	N	NOUN	_	_	cilj	_	_	_	http://example.org/lexicon/seENG3005980875n	
+66-3	1409-1411	je	V	AUX	_	_	jesam	_	_	_	_	
+66-4	1412-1415	bio	V	AUX	_	_	biti	_	_	_	_	
+66-5	1416-1427	definisanje	N	NOUN	_	_	definisanje	_	_	_	http://example.org/lexicon/seENG3013555446n	
+66-6	1428-1437	standarda	N	NOUN	_	_	standard	_	_	_	http://example.org/lexicon/seENG3007260623n	
+66-7	1438-1441	XML	ABB	X	_	_	XML	_	_	_	_	
+66-8	1442-1444	za	PREP	ADP	_	_	za	_	_	_	_	
+66-9	1445-1452	razmenu	N	NOUN	_	_	razmena	1[764]	razmena informacija[764]	NID[764]	http://example.org/lexicon/seLLM0224[2507]	
+66-10	1453-1464	informacija	N	NOUN	_	_	informacija	1[764]	razmena informacija[764]	NID[764]	http://example.org/lexicon/seLLM0224[2507]	
+66-11	1465-1466	o	PREP	ADP	_	_	o	_	_	_	_	
+66-12	1467-1473	robnim	A	ADJ	_	_	robni	2[765]	robna marka[765]	NID[765]	http://example.org/lexicon/seLLM0231[2508]	
+66-13	1474-1481	markama	N	NOUN	_	_	marka	2[765]	robna marka[765]	NID[765]	http://example.org/lexicon/seLLM0231[2508]	
+66-14	1481-1482	.	PUNCT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Kao šef administracije Evropskog odbora regija (CoR), generalni sekretar ne sme imati političku funkciju.
+67-1	1482-1485	Kao	CONJ	CCONJ	_	_	kao	_	_	_	_	
+67-2	1486-1489	šef	N	NOUN	*[39]	ROLE[39]	šef	_	_	_	http://example.org/lexicon/seENG3010104209n	
+67-3	1490-1504	administracije	N	NOUN	*[39]	ROLE[39]	administracija	_	_	_	http://example.org/lexicon/seENG3008164585n	
+67-4	1505-1514	Evropskog	A	ADJ	http://www.wikidata.org/entity/Q205203[40]	ORG[40]	evropski	_	_	_	_	
+67-5	1515-1521	odbora	N	NOUN	http://www.wikidata.org/entity/Q205203[40]	ORG[40]	odbor	_	_	_	_	
+67-6	1522-1528	regija	N	NOUN	http://www.wikidata.org/entity/Q205203[40]	ORG[40]	regija	_	_	_	_	
+67-7	1529-1530	(	PUNCT	PUNCT	_	_	(	_	_	_	_	
+67-8	1530-1533	CoR	ABB	X	http://www.wikidata.org/entity/Q205203	ORG	CoR	_	_	_	_	
+67-9	1533-1534	)	PUNCT	PUNCT	_	_	)	_	_	_	_	
+67-10	1534-1535	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+67-11	1536-1545	generalni	A	ADJ	*[41]	ROLE[41]	generalan	_	_	_	http://example.org/lexicon/seENG3000487198a	
+67-12	1546-1554	sekretar	N	NOUN	*[41]	ROLE[41]	sekretar	_	_	_	http://example.org/lexicon/seENG3010570019n	
+67-13	1555-1557	ne	PAR	PART	_	_	ne	_	_	_	_	
+67-14	1558-1561	sme	V	VERB	_	_	smeti	_	_	_	http://example.org/lexicon/seDRJ0176894\_2а.	
+67-15	1562-1567	imati	V	VERB	_	_	imati	_	_	_	http://example.org/lexicon/seENG3002203362v	
+67-16	1568-1577	političku	A	ADJ	_	_	politički	_	_	_	http://example.org/lexicon/seENG3001814385a	
+67-17	1578-1586	funkciju	N	NOUN	_	_	funkcija	_	_	_	http://example.org/lexicon/seENG3000720565n	
+67-18	1586-1587	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Evropski odbor regija (CoR) takođe može da sačini mišljenje na sopstvenu inicijativu, što mu omogućava da stavlja pitanja na dnevni red EU.
+68-1	1587-1595	Evropski	A	ADJ	http://www.wikidata.org/entity/Q205203[42]	ORG[42]	evropski	_	_	_	_	
+68-2	1596-1601	odbor	N	NOUN	http://www.wikidata.org/entity/Q205203[42]	ORG[42]	odbor	_	_	_	_	
+68-3	1602-1608	regija	N	NOUN	http://www.wikidata.org/entity/Q205203[42]	ORG[42]	regija	_	_	_	_	
+68-4	1609-1610	(	PUNCT	PUNCT	_	_	(	_	_	_	_	
+68-5	1610-1613	CoR	ABB	X	http://www.wikidata.org/entity/Q205203	ORG	CoR	_	_	_	_	
+68-6	1613-1614	)	PUNCT	PUNCT	_	_	)	_	_	_	_	
+68-7	1615-1621	takođe	PAR	PART	_	_	takođe	_	_	_	_	
+68-8	1622-1626	može	V	VERB	_	_	moći	_	_	_	http://example.org/lexicon/seNEW_SENSE	
+68-9	1627-1629	da	CONJ	SCONJ	_	_	da	_	_	_	_	
+68-10	1630-1636	sačini	V	VERB	_	_	sačiniti	_	_	_	http://example.org/lexicon/seNEW_SENSE	
+68-11	1637-1646	mišljenje	N	NOUN	_	_	mišljenje	_	_	_	http://example.org/lexicon/seENG3006782019n	
+68-12	1647-1649	na	PREP	ADP	_	_	na	_	_	_	_	
+68-13	1650-1659	sopstvenu	A	ADJ	_	_	sopstven	_	_	_	http://example.org/lexicon/seENG3001768724a	
+68-14	1660-1671	inicijativu	N	NOUN	_	_	inicijativa	_	_	_	http://example.org/lexicon/seENG3000239230n	
+68-15	1671-1672	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+68-16	1673-1676	što	CONJ	SCONJ	_	_	što	_	_	_	_	
+68-17	1677-1679	mu	PRO	PRON	_	_	on	_	_	_	_	
+68-18	1680-1689	omogućava	V	VERB	_	_	omogućavati	_	_	_	http://example.org/lexicon/seDRJ0209302\_0	
+68-19	1690-1692	da	CONJ	SCONJ	_	_	da	_	_	_	_	
+68-20	1693-1700	stavlja	V	VERB	_	_	stavljati	_	_	_	http://example.org/lexicon/seNEW_SENSE	
+68-21	1701-1708	pitanja	N	NOUN	_	_	pitanje	_	_	_	http://example.org/lexicon/seENG3006783768n	
+68-22	1709-1711	na	PREP	ADP	_	_	na	_	_	_	_	
+68-23	1712-1718	dnevni	A	ADJ	_	_	dnevni	1[766]	dnevni red[766]	NID[766]	http://example.org/lexicon/seLLM0033[2509]	
+68-24	1719-1722	red	N	NOUN	_	_	red	1[766]	dnevni red[766]	NID[766]	http://example.org/lexicon/seLLM0033[2509]	
+68-25	1723-1725	EU	ABB	X	http://www.wikidata.org/entity/Q458	ORG	EU	_	_	_	_	
+68-26	1725-1726	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Neki od metapodataka (npr. imena dobavljača podataka i geografska pokrivenost) jesu na 24 jezika.
+69-1	1726-1730	Neki	PRO	DET	_	_	neki	_	_	_	_	
+69-2	1731-1733	od	PREP	ADP	_	_	od	_	_	_	_	
+69-3	1734-1746	metapodataka	N	NOUN	_	_	metapodatak	_	_	_	http://example.org/lexicon/seENG3008462721n	
+69-4	1747-1748	(	PUNCT	PUNCT	_	_	(	_	_	_	_	
+69-5	1748-1752	npr.	ABB	X	_	_	npr.	_	_	_	_	
+69-6	1753-1758	imena	N	NOUN	_	_	ime	_	_	_	http://example.org/lexicon/seENG3006333653n	
+69-7	1759-1769	dobavljača	N	NOUN	_	_	dobavljač	_	_	_	http://example.org/lexicon/seENG3010677271n	
+69-8	1770-1778	podataka	N	NOUN	_	_	podatak	_	_	_	http://example.org/lexicon/seENG3005816622n	
+69-9	1779-1780	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+69-10	1781-1791	geografska	A	ADJ	_	_	geografski	_	_	_	http://example.org/lexicon/seENG3001470496a	
+69-11	1792-1803	pokrivenost	N	NOUN	_	_	pokrivenost	_	_	_	http://example.org/lexicon/seENG3005123760n	
+69-12	1803-1804	)	PUNCT	PUNCT	_	_	)	_	_	_	_	
+69-13	1805-1809	jesu	V	VERB	_	_	jesam	_	_	_	http://example.org/lexicon/seDRJ0193392\_0	
+69-14	1810-1812	na	PREP	ADP	_	_	na	_	_	_	_	
+69-15	1813-1815	24	NUM	NUM	_	_	24	_	_	_	_	
+69-16	1816-1822	jezika	N	NOUN	_	_	jezik	_	_	_	http://example.org/lexicon/seENG3006282651n	
+69-17	1822-1823	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Nivo finansiranja ESF-a se razlikuje od regiona do regiona u zavisnosti od njihovog relativnog bogatstva.
+70-1	1823-1827	Nivo	N	NOUN	_	_	nivo	_	_	_	http://example.org/lexicon/seENG3014428160n	
+70-2	1828-1840	finansiranja	N	NOUN	_	_	finansiranje	_	_	_	http://example.org/lexicon/seENG3013365698n	
+70-3	1841-1846	ESF-a	ABB	X	http://www.wikidata.org/entity/Q764847	ORG	ESF	_	_	_	_	
+70-4	1847-1849	se	PAR	PART	_	_	se	1	*	IRV	http://example.org/lexicon/seCVMWE0379[2510]	
+70-5	1850-1859	razlikuje	V	VERB	_	_	razlikovati	1	razlikovati se	IRV	http://example.org/lexicon/seCVMWE0379[2510]	
+70-6	1860-1862	od	PREP	ADP	_	_	od	_	_	_	_	
+70-7	1863-1870	regiona	N	NOUN	_	_	region	_	_	_	http://example.org/lexicon/seRSSJ45108\_0	
+70-8	1871-1873	do	PREP	ADP	_	_	do	_	_	_	_	
+70-9	1874-1881	regiona	N	NOUN	_	_	region	_	_	_	http://example.org/lexicon/seRSSJ45108\_0	
+70-10	1882-1883	u	PREP	ADP	_	_	u	2[767]	u zavisnosti od[767]	AdpID[767]	http://example.org/lexicon/seLLM0299[2511]	
+70-11	1884-1894	zavisnosti	N	NOUN	_	_	zavisnost	2[767]	u zavisnosti od[767]	AdpID[767]	http://example.org/lexicon/seLLM0299[2511]	
+70-12	1895-1897	od	PREP	ADP	_	_	od	2[767]	u zavisnosti od[767]	AdpID[767]	http://example.org/lexicon/seLLM0299[2511]	
+70-13	1898-1906	njihovog	PRO	DET	_	_	njihov	_	_	_	_	
+70-14	1907-1917	relativnog	A	ADJ	_	_	relativan	_	_	_	http://example.org/lexicon/seENG3000006032a	
+70-15	1918-1927	bogatstva	N	NOUN	_	_	bogatstvo	_	_	_	http://example.org/lexicon/seENG3014491271n	
+70-16	1927-1928	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Evropska socijalna agenda takođe igra ulogu u oblikovanju prioriteta potrošnje ESF-a.
+71-1	1928-1936	Evropska	A	ADJ	*[43]	WORK[43]	evropski	_	_	_	http://example.org/lexicon/seENG3002968325a	
+71-2	1937-1946	socijalna	A	ADJ	*[43]	WORK[43]	socijalan	_	_	_	http://example.org/lexicon/seENG3002798370a	
+71-3	1947-1953	agenda	N	NOUN	*[43]	WORK[43]	agenda	_	_	_	http://example.org/lexicon/seENG3006485261n	
+71-4	1954-1960	takođe	PAR	PART	_	_	takođe	_	_	_	_	
+71-5	1961-1965	igra	V	VERB	_	_	igrati	1	igrati ulogu	VID	http://example.org/lexicon/seCVMWE0001[2512]	
+71-6	1966-1971	ulogu	N	NOUN	_	_	uloga	1	*	VID	http://example.org/lexicon/seCVMWE0001[2512]	
+71-7	1972-1973	u	PREP	ADP	_	_	u	_	_	_	_	
+71-8	1974-1985	oblikovanju	N	NOUN	_	_	oblikovanje	_	_	_	http://example.org/lexicon/seENG3013555446n	
+71-9	1986-1996	prioriteta	N	NOUN	_	_	prioritet	_	_	_	http://example.org/lexicon/seENG3013949802n	
+71-10	1997-2006	potrošnje	N	NOUN	_	_	potrošnja	_	_	_	http://example.org/lexicon/seENG3001122601n	
+71-11	2007-2012	ESF-a	ABB	X	http://www.wikidata.org/entity/Q764847	ORG	ESF	_	_	_	_	
+71-12	2012-2013	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Portal otvorenih podataka EU je mesto za pristup javnim podacima koje objavljuju institucije, agencije i druga tela EU.
+72-1	2013-2019	Portal	N	NOUN	http://www.wikidata.org/entity/Q5412398[44]	PRODUCT[44]	portal	_	_	_	http://example.org/lexicon/seENG3006359657n	
+72-2	2020-2029	otvorenih	A	ADJ	http://www.wikidata.org/entity/Q5412398[44]	PRODUCT[44]	otvoren	_	_	_	http://example.org/lexicon/seENG3001652902a	
+72-3	2030-2038	podataka	N	NOUN	http://www.wikidata.org/entity/Q5412398[44]	PRODUCT[44]	podatak	_	_	_	http://example.org/lexicon/seENG3005816622n	
+72-4	2039-2041	EU	ABB	X	http://www.wikidata.org/entity/Q5412398[44]	PRODUCT[44]	EU	_	_	_	_	
+72-5	2042-2044	je	V	AUX	_	_	jesam	_	_	_	_	
+72-6	2045-2050	mesto	N	NOUN	_	_	mesto	_	_	_	http://example.org/lexicon/seENG3008513718n	
+72-7	2051-2053	za	PREP	ADP	_	_	za	_	_	_	_	
+72-8	2054-2061	pristup	N	NOUN	_	_	pristup	_	_	_	http://example.org/lexicon/seENG3005175467n	
+72-9	2062-2068	javnim	A	ADJ	_	_	javan	1[768]	javni podaci[768]	NID[768]	http://example.org/lexicon/seLLM0084[2513]	
+72-10	2069-2077	podacima	N	NOUN	_	_	podatak	1[768]	javni podaci[768]	NID[768]	http://example.org/lexicon/seLLM0084[2513]	
+72-11	2078-2082	koje	PRO	DET	_	_	koji	_	_	_	_	
+72-12	2083-2093	objavljuju	V	VERB	_	_	objavljivati	_	_	_	http://example.org/lexicon/seENG3001744611v	
+72-13	2094-2105	institucije	N	NOUN	_	_	institucija	_	_	_	http://example.org/lexicon/seENG3008053576n	
+72-14	2105-2106	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+72-15	2107-2115	agencije	N	NOUN	_	_	agencija	_	_	_	http://example.org/lexicon/seENG3008337324n	
+72-16	2116-2117	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+72-17	2118-2123	druga	A	ADJ	_	_	drugi	_	_	_	http://example.org/lexicon/seENG3002070188a	
+72-18	2124-2128	tela	N	NOUN	_	_	telo	_	_	_	http://example.org/lexicon/seENG3007965085n	
+72-19	2129-2131	EU	ABB	X	http://www.wikidata.org/entity/Q458	ORG	EU	_	_	_	_	
+72-20	2131-2132	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Organi za sertifikaciju i reviziju su takođe imenovani da prate i obezbede usklađenost troškova sa uredbom ESF-a.
+73-1	2132-2138	Organi	N	NOUN	_	_	organ	_	_	_	http://example.org/lexicon/seENG3008349350n	
+73-2	2139-2141	za	PREP	ADP	_	_	za	_	_	_	_	
+73-3	2142-2155	sertifikaciju	N	NOUN	_	_	sertifikacija	_	_	_	http://example.org/lexicon/seENG3000154233n	
+73-4	2156-2157	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+73-5	2158-2166	reviziju	N	NOUN	_	_	revizija	_	_	_	http://example.org/lexicon/seENG3006428976n	
+73-6	2167-2169	su	V	AUX	_	_	jesam	_	_	_	_	
+73-7	2170-2176	takođe	PAR	PART	_	_	takođe	_	_	_	_	
+73-8	2177-2186	imenovani	V	VERB	_	_	imenovati	_	_	_	http://example.org/lexicon/seENG3002391803v	
+73-9	2187-2189	da	CONJ	SCONJ	_	_	da	_	_	_	_	
+73-10	2190-2195	prate	V	VERB	_	_	pratiti	_	_	_	http://example.org/lexicon/seENG3002163301v	
+73-11	2196-2197	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+73-12	2198-2206	obezbede	V	VERB	_	_	obezbediti	_	_	_	http://example.org/lexicon/seENG3000890590v	
+73-13	2207-2218	usklađenost	N	NOUN	_	_	usklađenost	_	_	_	http://example.org/lexicon/seENG3004712735n	
+73-14	2219-2227	troškova	N	NOUN	_	_	trošak	_	_	_	http://example.org/lexicon/seENG3001122601n	
+73-15	2228-2230	sa	PREP	ADP	_	_	sa	_	_	_	_	
+73-16	2231-2238	uredbom	N	NOUN	_	_	uredba	_	_	_	http://example.org/lexicon/seENG3006664594n	
+73-17	2239-2244	ESF-a	ABB	X	http://www.wikidata.org/entity/Q764847	ORG	ESF	_	_	_	_	
+73-18	2244-2245	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Pobednici iz prethodnih godina su pozvani da nastupe kao specijalni gosti.
+74-1	2245-2254	Pobednici	N	NOUN	_	_	pobednik	_	_	_	http://example.org/lexicon/seENG3010782940n	
+74-2	2255-2257	iz	PREP	ADP	_	_	iz	_	_	_	_	
+74-3	2258-2268	prethodnih	A	ADJ	_	_	prethodan	_	_	_	http://example.org/lexicon/seENG3000121865a	
+74-4	2269-2275	godina	N	NOUN	_	_	godina	_	_	_	http://example.org/lexicon/seENG3015203791n	
+74-5	2276-2278	su	V	AUX	_	_	jesam	_	_	_	_	
+74-6	2279-2286	pozvani	V	VERB	_	_	pozvati	_	_	_	http://example.org/lexicon/seENG3001041762v	
+74-7	2287-2289	da	CONJ	SCONJ	_	_	da	_	_	_	_	
+74-8	2290-2297	nastupe	V	VERB	_	_	nastupiti	_	_	_	http://example.org/lexicon/seENG3001716112v	
+74-9	2298-2301	kao	ADV	ADV	_	_	kao	_	_	_	http://example.org/lexicon/seDRJ0194033\_1а	
+74-10	2302-2312	specijalni	A	ADJ	_	_	specijalan	_	_	_	http://example.org/lexicon/seENG3000488187a	
+74-11	2313-2318	gosti	N	NOUN	_	_	gost	_	_	_	http://example.org/lexicon/seENG3010150940n	
+74-12	2318-2319	.	PUNCT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Kada se usaglase strategija i raspodela budžeta, primenjuje se zajednički pristup programiranju.
+75-1	2319-2323	Kada	CONJ	SCONJ	_	_	kada	_	_	_	_	
+75-2	2324-2326	se	PAR	PART	_	_	se	1	*	IRV	http://example.org/lexicon/seCVMWE0477[2514]	
+75-3	2327-2335	usaglase	V	VERB	_	_	usaglasiti	1	usaglasiti se	IRV	http://example.org/lexicon/seCVMWE0477[2514]	
+75-4	2336-2346	strategija	N	NOUN	_	_	strategija	_	_	_	http://example.org/lexicon/seENG3005905348n	
+75-5	2347-2348	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+75-6	2349-2358	raspodela	N	NOUN	_	_	raspodela	_	_	_	http://example.org/lexicon/seENG3001083077n	
+75-7	2359-2366	budžeta	N	NOUN	_	_	budžet	_	_	_	http://example.org/lexicon/seENG3013421832n	
+75-8	2366-2367	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+75-9	2368-2378	primenjuje	V	VERB	_	_	primenjivati	_	_	_	http://example.org/lexicon/seENG3002560164v	
+75-10	2379-2381	se	PAR	PART	_	_	se	_	_	_	_	
+75-11	2382-2392	zajednički	A	ADJ	_	_	zajednički	_	_	_	http://example.org/lexicon/seENG3000493012a	
+75-12	2393-2400	pristup	N	NOUN	_	_	pristup	_	_	_	http://example.org/lexicon/seENG3000941140n	
+75-13	2401-2414	programiranju	N	NOUN	_	_	programiranje	_	_	_	http://example.org/lexicon/seENG3001144355n	
+75-14	2414-2415	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Interfejs je na 24 zvanična jezika EU, ali većina metapodataka je trenutno dostupna na ograničenom broju jezika (engleski, francuski i nemački).
+76-1	2415-2424	Interfejs	N	NOUN	_	_	interfejs	_	_	_	http://example.org/lexicon/seNEW_SENSE	
+76-2	2425-2427	je	V	AUX	_	_	jesam	_	_	_	_	
+76-3	2428-2430	na	PREP	ADP	_	_	na	_	_	_	_	
+76-4	2431-2433	24	NUM	NUM	_	_	24	_	_	_	_	
+76-5	2434-2442	zvanična	A	ADJ	_	_	zvaničan	1[769]	zvanični jezik[769]	NID[769]	http://example.org/lexicon/seLLM0345[2515]	
+76-6	2443-2449	jezika	N	NOUN	_	_	jezik	1[769]	zvanični jezik[769]	NID[769]	http://example.org/lexicon/seLLM0345[2515]	
+76-7	2450-2452	EU	ABB	X	http://www.wikidata.org/entity/Q458	ORG	EU	_	_	_	_	
+76-8	2452-2453	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+76-9	2454-2457	ali	CONJ	CCONJ	_	_	ali	_	_	_	_	
+76-10	2458-2464	većina	N	NOUN	_	_	većina	_	_	_	http://example.org/lexicon/seENG3013775093n	
+76-11	2465-2477	metapodataka	N	NOUN	_	_	metapodatak	_	_	_	http://example.org/lexicon/seENG3008462721n	
+76-12	2478-2480	je	V	AUX	_	_	jesam	_	_	_	_	
+76-13	2481-2489	trenutno	ADV	ADV	_	_	trenutno	_	_	_	http://example.org/lexicon/seENG3000048268b	
+76-14	2490-2498	dostupna	A	ADJ	_	_	dostupan	_	_	_	http://example.org/lexicon/seENG3000184363a	
+76-15	2499-2501	na	PREP	ADP	_	_	na	_	_	_	_	
+76-16	2502-2513	ograničenom	A	ADJ	_	_	ograničen	_	_	_	http://example.org/lexicon/seENG3000529191a	
+76-17	2514-2519	broju	N	NOUN	_	_	broj	_	_	_	http://example.org/lexicon/seENG3005121418n	
+76-18	2520-2526	jezika	N	NOUN	_	_	jezik	_	_	_	http://example.org/lexicon/seENG3006282651n	
+76-19	2527-2528	(	PUNCT	PUNCT	_	_	(	_	_	_	_	
+76-20	2528-2536	engleski	A	ADJ	http://www.wikidata.org/entity/Q1860	DEMO	engleski	_	_	_	http://example.org/lexicon/seENG3003003344a	
+76-21	2536-2537	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+76-22	2538-2547	francuski	A	ADJ	http://www.wikidata.org/entity/Q150	DEMO	francuski	_	_	_	http://example.org/lexicon/seENG3002958392a	
+76-23	2548-2549	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+76-24	2550-2557	nemački	A	ADJ	http://www.wikidata.org/entity/Q188	DEMO	nemački	_	_	_	http://example.org/lexicon/seENG3002957469a	
+76-25	2557-2558	)	PUNCT	PUNCT	_	_	)	_	_	_	_	
+76-26	2558-2559	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Sa portala korisnici mogu pristupiti podacima objavljenim na internet stranicama različitih institucija, agencija i drugih organa EU.
+77-1	2559-2561	Sa	PREP	ADP	_	_	sa	_	_	_	_	
+77-2	2562-2569	portala	N	NOUN	_	_	portal	_	_	_	http://example.org/lexicon/seENG3006359657n	
+77-3	2570-2579	korisnici	N	NOUN	_	_	korisnik	_	_	_	http://example.org/lexicon/seENG3010741590n	
+77-4	2580-2584	mogu	V	VERB	_	_	moći	_	_	_	http://example.org/lexicon/seNEW_SENSE	
+77-5	2585-2595	pristupiti	V	VERB	_	_	pristupiti	_	_	_	http://example.org/lexicon/seNEW_SENSE	
+77-6	2596-2604	podacima	N	NOUN	_	_	podatak	_	_	_	http://example.org/lexicon/seENG3005816622n	
+77-7	2605-2616	objavljenim	A	ADJ	_	_	objavljen	_	_	_	http://example.org/lexicon/seENG3000469999a	
+77-8	2617-2619	na	PREP	ADP	_	_	na	_	_	_	_	
+77-9	2620-2628	internet	N	NOUN	_	_	internet	1[770]	internet stranica[770]	NID[770]	http://example.org/lexicon/seLLM0075[2516]	
+77-10	2629-2639	stranicama	N	NOUN	_	_	stranica	1[770]	internet stranica[770]	NID[770]	http://example.org/lexicon/seLLM0075[2516]	
+77-11	2640-2650	različitih	A	ADJ	_	_	različit	_	_	_	http://example.org/lexicon/seENG3002064745a	
+77-12	2651-2662	institucija	N	NOUN	_	_	institucija	_	_	_	http://example.org/lexicon/seENG3008053576n	
+77-13	2662-2663	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+77-14	2664-2672	agencija	N	NOUN	_	_	agencija	_	_	_	http://example.org/lexicon/seENG3008337324n	
+77-15	2673-2674	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+77-16	2675-2681	drugih	A	ADJ	_	_	drugi	_	_	_	http://example.org/lexicon/seENG3002070030a	
+77-17	2682-2688	organa	N	NOUN	_	_	organ	_	_	_	http://example.org/lexicon/seENG3008349350n	
+77-18	2689-2691	EU	ABB	X	http://www.wikidata.org/entity/Q458	ORG	EU	_	_	_	_	
+77-19	2691-2692	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Države članice određuju nacionalne organe upravljanja ESF-om, koji su odgovorni za odabir projekata, isplatu sredstava i procenu napretka i rezultata projekata.
+78-1	2692-2698	Države	N	NOUN	_	_	država	1[771]	država članica[771]	NID[771]	http://example.org/lexicon/seLLM0040[2517]	
+78-2	2699-2706	članice	N	NOUN	_	_	članica	1[771]	država članica[771]	NID[771]	http://example.org/lexicon/seLLM0040[2517]	
+78-3	2707-2715	određuju	V	VERB	_	_	određivati	_	_	_	http://example.org/lexicon/seNEW_SENSE	
+78-4	2716-2726	nacionalne	A	ADJ	_	_	nacionalan	_	_	_	http://example.org/lexicon/seENG3002988060a	
+78-5	2727-2733	organe	N	NOUN	_	_	organ	2[772]	organ upravljanja[772]	NID[772]	http://example.org/lexicon/seLLM0163[2518]	
+78-6	2734-2745	upravljanja	N	NOUN	_	_	upravljanje	2[772]	organ upravljanja[772]	NID[772]	http://example.org/lexicon/seLLM0163[2518]	
+78-7	2746-2752	ESF-om	ABB	X	http://www.wikidata.org/entity/Q764847	ORG	ESF	_	_	_	_	
+78-8	2752-2753	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+78-9	2754-2758	koji	PRO	DET	_	_	koji	_	_	_	_	
+78-10	2759-2761	su	V	AUX	_	_	jesam	_	_	_	_	
+78-11	2762-2771	odgovorni	A	ADJ	_	_	odgovoran	_	_	_	http://example.org/lexicon/seENG3001996377a	
+78-12	2772-2774	za	PREP	ADP	_	_	za	_	_	_	_	
+78-13	2775-2781	odabir	N	NOUN	_	_	odabir	_	_	_	http://example.org/lexicon/seENG3000161243n	
+78-14	2782-2791	projekata	N	NOUN	_	_	projekt	_	_	_	http://example.org/lexicon/seDRJ0218747\_1	
+78-15	2791-2792	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+78-16	2793-2800	isplatu	N	NOUN	_	_	isplata	_	_	_	http://example.org/lexicon/seENG3001122149n	
+78-17	2801-2810	sredstava	N	NOUN	_	_	sredstvo	_	_	_	http://example.org/lexicon/seENG3000172710n	
+78-18	2811-2812	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+78-19	2813-2820	procenu	N	NOUN	_	_	procena	_	_	_	http://example.org/lexicon/seENG3005803379n	
+78-20	2821-2829	napretka	N	NOUN	_	_	napredak	_	_	_	http://example.org/lexicon/seENG3000249501n	
+78-21	2830-2831	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+78-22	2832-2841	rezultata	N	NOUN	_	_	rezultat	_	_	_	http://example.org/lexicon/seENG3007292694n	
+78-23	2842-2851	projekata	N	NOUN	_	_	projekt	_	_	_	http://example.org/lexicon/seDRJ0218747\_1	
+78-24	2851-2852	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Ovi zajednički prioriteti su zatim uzeti u obzir u smernicama za zapošljavanje i uključeni u nacionalne programe reformi koje su pripremile pojedine države članice.
+79-1	2852-2855	Ovi	PRO	DET	_	_	ovaj	_	_	_	_	
+79-2	2856-2866	zajednički	A	ADJ	_	_	zajednički	_	_	_	http://example.org/lexicon/seENG3002152216a	
+79-3	2867-2877	prioriteti	N	NOUN	_	_	prioritet	_	_	_	http://example.org/lexicon/seENG3013949802n	
+79-4	2878-2880	su	V	AUX	_	_	jesam	_	_	_	_	
+79-5	2881-2886	zatim	ADV	ADV	_	_	zatim	_	_	_	http://example.org/lexicon/seENG3000061203b	
+79-6	2887-2892	uzeti	V	VERB	_	_	uzeti	1	uzeti u obzir	VID	http://example.org/lexicon/seCVMWE0482[2519]	
+79-7	2893-2894	u	PREP	ADP	_	_	u	1	*	VID	http://example.org/lexicon/seCVMWE0482[2519]	
+79-8	2895-2900	obzir	N	NOUN	_	_	obzir	1	*	VID	http://example.org/lexicon/seCVMWE0482[2519]	
+79-9	2901-2902	u	PREP	ADP	_	_	u	_	_	_	_	
+79-10	2903-2913	smernicama	N	NOUN	_	_	smernica	_	_	_	http://example.org/lexicon/seDRJ0176877\_0	
+79-11	2914-2916	za	PREP	ADP	_	_	za	_	_	_	_	
+79-12	2917-2930	zapošljavanje	N	NOUN	_	_	zapošljavanje	_	_	_	http://example.org/lexicon/seENG3001217859n	
+79-13	2931-2932	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+79-14	2933-2942	uključeni	V	VERB	_	_	uključiti	_	_	_	http://example.org/lexicon/seENG3000183879v	
+79-15	2943-2944	u	PREP	ADP	_	_	u	_	_	_	_	
+79-16	2945-2955	nacionalne	A	ADJ	_	_	nacionalan	_	_	_	http://example.org/lexicon/seENG3001105840a	
+79-17	2956-2964	programe	N	NOUN	_	_	program	_	_	_	http://example.org/lexicon/seENG3006676416n	
+79-18	2965-2972	reformi	N	NOUN	_	_	reforma	_	_	_	http://example.org/lexicon/seENG3000260622n	
+79-19	2973-2977	koje	PRO	DET	_	_	koji	_	_	_	_	
+79-20	2978-2980	su	V	AUX	_	_	jesam	_	_	_	_	
+79-21	2981-2991	pripremile	V	VERB	_	_	pripremiti	_	_	_	http://example.org/lexicon/seENG3001754271v	
+79-22	2992-3000	pojedine	A	ADJ	_	_	pojedini	_	_	_	http://example.org/lexicon/seENG3000524496a	
+79-23	3001-3007	države	N	NOUN	_	_	država	2[773]	država članica[773]	NID[773]	http://example.org/lexicon/seLLM0040[2520]	
+79-24	3008-3015	članice	N	NOUN	_	_	članica	2[773]	država članica[773]	NID[773]	http://example.org/lexicon/seLLM0040[2520]	
+79-25	3015-3016	.	PUNCT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Do 1903. ukrajinsko imigrantsko stanovništvo u zapadnoj Kanadi postalo je dovoljno veliko da privuče pažnju verskih vođa, političara i prosvetnih radnika.
+80-1	3016-3018	Do	PREP	ADP	_	_	do	_	_	_	_	
+80-2	3019-3024	1903.	A	ADJ	_	_	1903.	_	_	_	http://example.org/lexicon/seNEW_SENSE	
+80-3	3025-3035	ukrajinsko	A	ADJ	*	DEMO	ukrajinski	_	_	_	http://example.org/lexicon/seENG3002921406a	
+80-4	3036-3047	imigrantsko	A	ADJ	_	_	imigrantski	_	_	_	http://example.org/lexicon/seRSSJ16703\_0	
+80-5	3048-3060	stanovništvo	N	NOUN	_	_	stanovništvo	_	_	_	http://example.org/lexicon/seENG3008179879n	
+80-6	3061-3062	u	PREP	ADP	_	_	u	_	_	_	_	
+80-7	3063-3071	zapadnoj	A	ADJ	_	_	zapadni	_	_	_	http://example.org/lexicon/seENG3000824631a	
+80-8	3072-3078	Kanadi	N	PROPN	http://www.wikidata.org/entity/Q16	LOC	Kanada	_	_	_	_	
+80-9	3079-3086	postalo	V	VERB	_	_	postati	_	_	_	http://example.org/lexicon/seENG3000149583v	
+80-10	3087-3089	je	V	AUX	_	_	jesam	_	_	_	_	
+80-11	3090-3098	dovoljno	ADV	ADV	_	_	dovoljno	_	_	_	http://example.org/lexicon/seENG3000145713b	
+80-12	3099-3105	veliko	A	ADJ	_	_	velik	_	_	_	http://example.org/lexicon/seENG3001375909a	
+80-13	3106-3108	da	CONJ	SCONJ	_	_	da	_	_	_	_	
+80-14	3109-3116	privuče	V	VERB	_	_	privući	_	_	_	http://example.org/lexicon/seENG3002103162v	
+80-15	3117-3123	pažnju	N	NOUN	_	_	pažnja	_	_	_	http://example.org/lexicon/seENG3005853636n	
+80-16	3124-3131	verskih	A	ADJ	_	_	verski	1[774]	verski vođa[774]	NID[774]	http://example.org/lexicon/seLLM0320[2521]	
+80-17	3132-3136	vođa	N	NOUN	*	ROLE	vođa	1[774]	verski vođa[774]	NID[774]	http://example.org/lexicon/seLLM0320[2521]	
+80-18	3136-3137	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+80-19	3138-3148	političara	N	NOUN	http://www.wikidata.org/entity/Q82955	ROLE	političar	_	_	_	http://example.org/lexicon/seENG3010450303n	
+80-20	3149-3150	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+80-21	3151-3161	prosvetnih	A	ADJ	_	_	prosvetni	2[775]	prosvetni radnik[775]	NID[775]	http://example.org/lexicon/seLLM0208[2522]	
+80-22	3162-3169	radnika	N	NOUN	http://www.wikidata.org/entity/Q327055	ROLE	radnik	2[775]	prosvetni radnik[775]	NID[775]	http://example.org/lexicon/seLLM0208[2522]	
+80-23	3169-3170	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Nadležni organi su krajnji korisnici IMI-ja.
+81-1	3170-3178	Nadležni	A	ADJ	_	_	nadležan	_	_	_	http://example.org/lexicon/seNEW_SENSE	
+81-2	3179-3185	organi	N	NOUN	_	_	organ	_	_	_	http://example.org/lexicon/seENG3008349350n	
+81-3	3186-3188	su	V	AUX	_	_	jesam	_	_	_	_	
+81-4	3189-3196	krajnji	A	ADJ	_	_	krajnji	1[776]	krajnji korisnik[776]	NID[776]	http://example.org/lexicon/seLLM0099[2523]	
+81-5	3197-3206	korisnici	N	NOUN	_	_	korisnik	1[776]	krajnji korisnik[776]	NID[776]	http://example.org/lexicon/seLLM0099[2523]	
+81-6	3207-3213	IMI-ja	ABB	X	http://www.wikidata.org/entity/Q863973	PRODUCT	IMI	_	_	_	_	
+81-7	3213-3214	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Prvobitno je osmišljen za prevođenje između blisko povezanih jezika, mada je nedavno proširen za obradu udaljenijih jezičkih parova.
+82-1	3214-3223	Prvobitno	ADV	ADV	_	_	prvobitno	_	_	_	http://example.org/lexicon/seRSSJ39548\_0	
+82-2	3224-3226	je	V	AUX	_	_	jesam	_	_	_	_	
+82-3	3227-3236	osmišljen	V	VERB	_	_	osmisliti	_	_	_	http://example.org/lexicon/seENG3001633343v	
+82-4	3237-3239	za	PREP	ADP	_	_	za	_	_	_	_	
+82-5	3240-3250	prevođenje	N	NOUN	_	_	prevođenje	_	_	_	http://example.org/lexicon/seNEW_SENSE	
+82-6	3251-3257	između	PREP	ADP	_	_	između	_	_	_	_	
+82-7	3258-3264	blisko	ADV	ADV	_	_	blisko	_	_	_	http://example.org/lexicon/seENG3000409709b	
+82-8	3265-3274	povezanih	A	ADJ	_	_	povezan	_	_	_	http://example.org/lexicon/seENG3000566099a	
+82-9	3275-3281	jezika	N	NOUN	_	_	jezik	_	_	_	http://example.org/lexicon/seENG3006282651n	
+82-10	3281-3282	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+82-11	3283-3287	mada	CONJ	SCONJ	_	_	mada	_	_	_	_	
+82-12	3288-3290	je	V	AUX	_	_	jesam	_	_	_	_	
+82-13	3291-3298	nedavno	ADV	ADV	_	_	nedavno	_	_	_	http://example.org/lexicon/seENG3000107416b	
+82-14	3299-3307	proširen	V	VERB	_	_	proširiti	_	_	_	http://example.org/lexicon/seENG3000540235v	
+82-15	3308-3310	za	PREP	ADP	_	_	za	_	_	_	_	
+82-16	3311-3317	obradu	N	NOUN	_	_	obrada	_	_	_	http://example.org/lexicon/seNEW_SENSE	
+82-17	3318-3329	udaljenijih	A	ADJ	_	_	udaljen	_	_	_	http://example.org/lexicon/seENG3000445548a	
+82-18	3330-3338	jezičkih	A	ADJ	_	_	jezički	_	_	_	http://example.org/lexicon/seENG3002842445a	
+82-19	3339-3345	parova	N	NOUN	_	_	par	_	_	_	http://example.org/lexicon/seENG3007985223n	
+82-20	3345-3346	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Steroidi se daju rutinski, a epinefrin se koristi u ozbiljnim slučajevima.
+83-1	3346-3354	Steroidi	N	NOUN	_	_	steroid	_	_	_	http://example.org/lexicon/seENG3015057744n	
+83-2	3355-3357	se	PAR	PART	_	_	se	_	_	_	_	
+83-3	3358-3362	daju	V	VERB	_	_	davati	_	_	_	http://example.org/lexicon/seENG3002309374v	
+83-4	3363-3371	rutinski	ADV	ADV	_	_	rutinski	_	_	_	http://example.org/lexicon/seENG3000210935b	
+83-5	3371-3372	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+83-6	3373-3374	a	CONJ	CCONJ	_	_	a	_	_	_	_	
+83-7	3375-3384	epinefrin	N	NOUN	_	_	epinefrin	_	_	_	http://example.org/lexicon/seENG3005408388n	
+83-8	3385-3387	se	PAR	PART	_	_	se	_	_	_	_	
+83-9	3388-3395	koristi	V	VERB	_	_	koristiti	_	_	_	http://example.org/lexicon/seENG3002541251v	
+83-10	3396-3397	u	PREP	ADP	_	_	u	_	_	_	_	
+83-11	3398-3407	ozbiljnim	A	ADJ	_	_	ozbiljan	_	_	_	http://example.org/lexicon/seENG3001473680a	
+83-12	3408-3419	slučajevima	N	NOUN	_	_	slučaj	_	_	_	http://example.org/lexicon/seENG3013943400n	
+83-13	3419-3420	.	PUNCT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=IMI omogućava javnim upravama na nacionalnom, regionalnom i lokalnom nivou da pronađu svoje kolege u drugim zemljama i da razmenjuju informacije s njima.
+84-1	3420-3423	IMI	ABB	X	http://www.wikidata.org/entity/Q863973	PRODUCT	IMI	_	_	_	_	
+84-2	3424-3433	omogućava	V	VERB	_	_	omogućavati	_	_	_	http://example.org/lexicon/seDRJ0209302\_0	
+84-3	3434-3440	javnim	A	ADJ	_	_	javan	1[777]	javna uprava[777]	NID[777]	http://example.org/lexicon/seLLM0083[2524]	
+84-4	3441-3449	upravama	N	NOUN	_	_	uprava	1[777]	javna uprava[777]	NID[777]	http://example.org/lexicon/seLLM0083[2524]	
+84-5	3450-3452	na	PREP	ADP	_	_	na	_	_	_	_	
+84-6	3453-3464	nacionalnom	A	ADJ	_	_	nacionalan	_	_	_	http://example.org/lexicon/seENG3001105840a	
+84-7	3464-3465	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+84-8	3466-3477	regionalnom	A	ADJ	_	_	regionalan	_	_	_	http://example.org/lexicon/seENG3002408977a	
+84-9	3478-3479	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+84-10	3480-3488	lokalnom	A	ADJ	_	_	lokalan	_	_	_	http://example.org/lexicon/seENG3001106405a	
+84-11	3489-3494	nivou	N	NOUN	_	_	nivo	_	_	_	http://example.org/lexicon/seENG3014428160n	
+84-12	3495-3497	da	CONJ	SCONJ	_	_	da	_	_	_	_	
+84-13	3498-3505	pronađu	V	VERB	_	_	pronaći	_	_	_	http://example.org/lexicon/seENG3002286204v	
+84-14	3506-3511	svoje	PRO	DET	_	_	svoj	_	_	_	_	
+84-15	3512-3518	kolege	N	NOUN	*	ROLE	kolega	_	_	_	http://example.org/lexicon/seRSSJ20752\_0	
+84-16	3519-3520	u	PREP	ADP	_	_	u	_	_	_	_	
+84-17	3521-3527	drugim	A	ADJ	_	_	drugi	_	_	_	http://example.org/lexicon/seENG3002070030a	
+84-18	3528-3536	zemljama	N	NOUN	_	_	zemlja	_	_	_	http://example.org/lexicon/seENG3008493064n	
+84-19	3537-3538	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+84-20	3539-3541	da	CONJ	SCONJ	_	_	da	_	_	_	_	
+84-21	3542-3552	razmenjuju	V	VERB	_	_	razmenjivati	_	_	_	http://example.org/lexicon/seENG3000140751v	
+84-22	3553-3564	informacije	N	NOUN	_	_	informacija	_	_	_	http://example.org/lexicon/seENG3006634376n	
+84-23	3565-3566	s	PREP	ADP	_	_	s	_	_	_	_	
+84-24	3567-3572	njima	PRO	PRON	_	_	oni	_	_	_	_	
+84-25	3572-3573	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Graf koji sadrži Hamiltonov ciklus naziva se Hamiltonov graf.
+85-1	3573-3577	Graf	N	NOUN	_	_	graf	_	_	_	http://example.org/lexicon/seDRJ0233877\_0	
+85-2	3578-3582	koji	PRO	DET	_	_	koji	_	_	_	_	
+85-3	3583-3589	sadrži	V	VERB	_	_	sadržati	_	_	_	http://example.org/lexicon/seENG3002633356v	
+85-4	3590-3600	Hamiltonov	A	ADJ	_	_	Hamiltonov	1[778]	Hamiltonov ciklus[778]	NID[778]	http://example.org/lexicon/seLLM0061[2525]	
+85-5	3601-3607	ciklus	N	NOUN	_	_	ciklus	1[778]	Hamiltonov ciklus[778]	NID[778]	http://example.org/lexicon/seLLM0061[2525]	
+85-6	3608-3614	naziva	V	VERB	_	_	nazivati	3	nazivati se	IRV	http://example.org/lexicon/seCVMWE0232[2526]	
+85-7	3615-3617	se	PAR	PART	_	_	se	3	*	IRV	http://example.org/lexicon/seCVMWE0232[2526]	
+85-8	3618-3628	Hamiltonov	A	ADJ	_	_	Hamiltonov	2[779]	Hamiltonov graf[779]	NID[779]	http://example.org/lexicon/seLLM0062[2527]	
+85-9	3629-3633	graf	N	NOUN	_	_	graf	2[779]	Hamiltonov graf[779]	NID[779]	http://example.org/lexicon/seLLM0062[2527]	
+85-10	3633-3634	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Čir može biti veći iznutra nego na površini kože i može biti okružen otokom.
+86-1	3634-3637	Čir	N	NOUN	_	_	čir	_	_	_	http://example.org/lexicon/seENG3014211609n	
+86-2	3638-3642	može	V	VERB	_	_	moći	_	_	_	http://example.org/lexicon/seNEW_SENSE	
+86-3	3643-3647	biti	V	AUX	_	_	biti	_	_	_	_	
+86-4	3648-3652	veći	A	ADJ	_	_	velik	_	_	_	http://example.org/lexicon/seENG3001375909a	
+86-5	3653-3660	iznutra	ADV	ADV	_	_	iznutra	_	_	_	http://example.org/lexicon/seDRJ0245395\_1	
+86-6	3661-3665	nego	CONJ	CCONJ	_	_	nego	_	_	_	_	
+86-7	3666-3668	na	PREP	ADP	_	_	na	_	_	_	_	
+86-8	3669-3677	površini	N	NOUN	_	_	površina	_	_	_	http://example.org/lexicon/seENG3008660339n	
+86-9	3678-3682	kože	N	NOUN	_	_	koža	_	_	_	http://example.org/lexicon/seENG3001895735n	
+86-10	3683-3684	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+86-11	3685-3689	može	V	VERB	_	_	moći	_	_	_	http://example.org/lexicon/seNEW_SENSE	
+86-12	3690-3694	biti	V	AUX	_	_	biti	_	_	_	_	
+86-13	3695-3702	okružen	V	VERB	_	_	okružiti	_	_	_	http://example.org/lexicon/seENG3002694106v	
+86-14	3703-3709	otokom	N	NOUN	_	_	otok	_	_	_	http://example.org/lexicon/seNEW_SENSE	
+86-15	3709-3710	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Takođe se može primeniti na životinje ili biljke.
+87-1	3710-3716	Takođe	PAR	PART	_	_	takođe	_	_	_	_	
+87-2	3717-3719	se	PAR	PART	_	_	se	_	_	_	_	
+87-3	3720-3724	može	V	VERB	_	_	moći	_	_	_	http://example.org/lexicon/seNEW_SENSE	
+87-4	3725-3734	primeniti	V	VERB	_	_	primeniti	_	_	_	http://example.org/lexicon/seENG3001158872v	
+87-5	3735-3737	na	PREP	ADP	_	_	na	_	_	_	_	
+87-6	3738-3747	životinje	N	NOUN	_	_	životinja	_	_	_	http://example.org/lexicon/seENG3000015388n	
+87-7	3748-3751	ili	CONJ	CCONJ	_	_	ili	_	_	_	_	
+87-8	3752-3758	biljke	N	NOUN	_	_	biljka	_	_	_	http://example.org/lexicon/seENG3000017222n	
+87-9	3758-3759	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Izrađuju se uz pomoć spoljnih stručnjaka.
+88-1	3759-3767	Izrađuju	V	VERB	_	_	izrađivati	_	_	_	http://example.org/lexicon/seENG3001653442v	
+88-2	3768-3770	se	PAR	PART	_	_	se	_	_	_	_	
+88-3	3771-3773	uz	PREP	ADP	_	_	uz	1[780]	uz pomoć[780]	AdpID[780]	http://example.org/lexicon/seLLM0311[2528]	
+88-4	3774-3779	pomoć	N	NOUN	_	_	pomoć	1[780]	uz pomoć[780]	AdpID[780]	http://example.org/lexicon/seLLM0311[2528]	
+88-5	3780-3788	spoljnih	A	ADJ	_	_	spoljni	_	_	_	http://example.org/lexicon/seENG3000951163a	
+88-6	3789-3799	stručnjaka	N	NOUN	_	_	stručnjak	_	_	_	http://example.org/lexicon/seENG3009617867n	
+88-7	3799-3800	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Virusna pneumonija javlja se u oko 200 miliona slučajeva.
+89-1	3800-3807	Virusna	A	ADJ	_	_	virusni	1[781]	virusna pneumonija[781]	NID[781]	http://example.org/lexicon/seLLM0324[2529]	
+89-2	3808-3818	pneumonija	N	NOUN	_	_	pneumonija	1[781]	virusna pneumonija[781]	NID[781]	http://example.org/lexicon/seLLM0324[2529]	
+89-3	3819-3825	javlja	V	VERB	_	_	javljati	2	javljati se	IRV	http://example.org/lexicon/seCVMWE0161[2530]	
+89-4	3826-3828	se	PAR	PART	_	_	se	2	*	IRV	http://example.org/lexicon/seCVMWE0161[2530]	
+89-5	3829-3830	u	PREP	ADP	_	_	u	_	_	_	_	
+89-6	3831-3834	oko	ADV	ADV	_	_	oko	_	_	_	http://example.org/lexicon/seENG3000007015b	
+89-7	3835-3838	200	NUM	NUM	_	_	200	_	_	_	_	
+89-8	3839-3846	miliona	N	NOUN	_	_	milion	_	_	_	http://example.org/lexicon/seENG3013751533n	
+89-9	3847-3856	slučajeva	N	NOUN	_	_	slučaj	_	_	_	http://example.org/lexicon/seENG3007308889n	
+89-10	3856-3857	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Jedna doza je obično sve što je potrebno i generalno se smatra prilično bezbednom.
+90-1	3857-3862	Jedna	NUM	NUM	_	_	jedan	_	_	_	_	
+90-2	3863-3867	doza	N	NOUN	_	_	doza	_	_	_	http://example.org/lexicon/seENG3003225238n	
+90-3	3868-3870	je	V	AUX	_	_	jesam	_	_	_	_	
+90-4	3871-3877	obično	ADV	ADV	_	_	obično	_	_	_	http://example.org/lexicon/seENG3000155621b	
+90-5	3878-3881	sve	PRO	DET	_	_	sav	_	_	_	_	
+90-6	3882-3885	što	CONJ	SCONJ	_	_	što	_	_	_	_	
+90-7	3886-3888	je	V	AUX	_	_	jesam	_	_	_	_	
+90-8	3889-3897	potrebno	A	ADJ	_	_	potreban	_	_	_	http://example.org/lexicon/seENG3002526925a	
+90-9	3898-3899	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+90-10	3900-3909	generalno	ADV	ADV	_	_	generalno	_	_	_	http://example.org/lexicon/seENG3000221583b	
+90-11	3910-3912	se	PAR	PART	_	_	se	_	_	_	_	
+90-12	3913-3919	smatra	V	VERB	_	_	smatrati	_	_	_	http://example.org/lexicon/seENG3000689950v	
+90-13	3920-3928	prilično	ADV	ADV	_	_	prilično	_	_	_	http://example.org/lexicon/seENG3000006610b	
+90-14	3929-3938	bezbednom	A	ADJ	_	_	bezbedan	_	_	_	http://example.org/lexicon/seENG3000072281a	
+90-15	3938-3939	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Proces još nije završen.
+91-1	3939-3945	Proces	N	NOUN	_	_	proces	_	_	_	http://example.org/lexicon/seENG3001023820n	
+91-2	3946-3949	još	ADV	ADV	_	_	još	_	_	_	http://example.org/lexicon/seENG3000027795b	
+91-3	3950-3954	nije	V	AUX	_	_	jesam	_	_	_	_	
+91-4	3955-3962	završen	V	VERB	_	_	završiti	_	_	_	http://example.org/lexicon/seENG3000484166v	
+91-5	3962-3963	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Međunarodni dečji pres centar objedinjuje pobednike nacionalnih takmičenja za najboljeg mladog novinara, mlade blogere, fotografe i pisce.
+92-1	3963-3974	Međunarodni	A	ADJ	*[45]	ORG[45]	međunarodan	_	_	_	_	
+92-2	3975-3980	dečji	A	ADJ	*[45]	ORG[45]	dečji	_	_	_	_	
+92-3	3981-3985	pres	N	NOUN	*[45]	ORG[45]	pres	1[782]	pres-centar[782]	NID[782]	http://example.org/lexicon/seLLM0198[2531]	
+92-4	3986-3992	centar	N	NOUN	*[45]	ORG[45]	centar	1[782]	pres-centar[782]	NID[782]	http://example.org/lexicon/seLLM0198[2531]	
+92-5	3993-4004	objedinjuje	V	VERB	_	_	objediniti	_	_	_	http://example.org/lexicon/seENG3000243124v	
+92-6	4005-4014	pobednike	N	NOUN	_	_	pobednik	_	_	_	http://example.org/lexicon/seENG3010782940n	
+92-7	4015-4026	nacionalnih	A	ADJ	_	_	nacionalan	_	_	_	http://example.org/lexicon/seENG3001105840a	
+92-8	4027-4037	takmičenja	N	NOUN	_	_	takmičenje	_	_	_	http://example.org/lexicon/seENG3007456188n	
+92-9	4038-4040	za	PREP	ADP	_	_	za	_	_	_	_	
+92-10	4041-4050	najboljeg	A	ADJ	_	_	dobar	_	_	_	http://example.org/lexicon/seENG3001123148a	
+92-11	4051-4057	mladog	A	ADJ	_	_	mlad	_	_	_	http://example.org/lexicon/seENG3001674464a	
+92-12	4058-4066	novinara	N	NOUN	http://www.wikidata.org/entity/Q1930187	ROLE	novinar	_	_	_	http://example.org/lexicon/seENG3010224578n	
+92-13	4066-4067	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+92-14	4068-4073	mlade	A	ADJ	_	_	mlad	_	_	_	http://example.org/lexicon/seENG3001674464a	
+92-15	4074-4081	blogere	N	NOUN	http://www.wikidata.org/entity/Q8246794	ROLE	bloger	_	_	_	http://example.org/lexicon/seRSSJ3649\_0	
+92-16	4081-4082	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+92-17	4083-4092	fotografe	N	NOUN	http://www.wikidata.org/entity/Q33231	ROLE	fotograf	_	_	_	http://example.org/lexicon/seENG3010426749n	
+92-18	4093-4094	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+92-19	4095-4100	pisce	N	NOUN	http://www.wikidata.org/entity/Q36180	ROLE	pisac	_	_	_	http://example.org/lexicon/seENG3010064405n	
+92-20	4100-4101	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Nižnji Novgorod je bio domaćin prijateljske utakmice za mlade fudbalere FK Volga, a odrasli igrači kluba su vodili zagrevanje i trening za decu.
+93-1	4101-4107	Nižnji	A	ADJ	http://www.wikidata.org/entity/Q891[46]	LOC[46]	nižnji	_	_	_	_	
+93-2	4108-4116	Novgorod	N	PROPN	http://www.wikidata.org/entity/Q891[46]	LOC[46]	Novgorod	_	_	_	_	
+93-3	4117-4119	je	V	AUX	_	_	jesam	_	_	_	_	
+93-4	4120-4123	bio	V	AUX	_	_	biti	_	_	_	_	
+93-5	4124-4131	domaćin	N	NOUN	*	ROLE	domaćin	_	_	_	http://example.org/lexicon/seENG3008481184n	
+93-6	4132-4144	prijateljske	A	ADJ	_	_	prijateljski	1[783]	prijateljska utakmica[783]	NID[783]	http://example.org/lexicon/seLLM0200[2532]	
+93-7	4145-4153	utakmice	N	NOUN	_	_	utakmica	1[783]	prijateljska utakmica[783]	NID[783]	http://example.org/lexicon/seLLM0200[2532]	
+93-8	4154-4156	za	PREP	ADP	_	_	za	_	_	_	_	
+93-9	4157-4162	mlade	A	ADJ	_	_	mlad	_	_	_	http://example.org/lexicon/seENG3001674464a	
+93-10	4163-4172	fudbalere	N	NOUN	http://www.wikidata.org/entity/Q937857	ROLE	fudbaler	_	_	_	http://example.org/lexicon/seENG3010618342n	
+93-11	4173-4175	FK	ABB	X	http://www.wikidata.org/entity/Q1603994[47]	ORG[47]	FK	_	_	_	_	
+93-12	4176-4181	Volga	N	PROPN	http://www.wikidata.org/entity/Q1603994[47]	ORG[47]	Volga	_	_	_	_	
+93-13	4181-4182	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+93-14	4183-4184	a	CONJ	CCONJ	_	_	a	_	_	_	_	
+93-15	4185-4192	odrasli	A	ADJ	_	_	odrastao	_	_	_	http://example.org/lexicon/seENG3001488616a	
+93-16	4193-4199	igrači	N	NOUN	http://www.wikidata.org/entity/Q937857	ROLE	igrač	_	_	_	http://example.org/lexicon/seENG3010439851n	
+93-17	4200-4205	kluba	N	NOUN	_	_	klub	_	_	_	http://example.org/lexicon/seENG3008227214n	
+93-18	4206-4208	su	V	AUX	_	_	jesam	_	_	_	_	
+93-19	4209-4215	vodili	V	VERB	_	_	voditi	_	_	_	http://example.org/lexicon/seENG3002445509v	
+93-20	4216-4226	zagrevanje	N	NOUN	_	_	zagrevanje	_	_	_	http://example.org/lexicon/seENG3001144716n	
+93-21	4227-4228	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+93-22	4229-4236	trening	N	NOUN	_	_	trening	_	_	_	http://example.org/lexicon/seENG3000893955n	
+93-23	4237-4239	za	PREP	ADP	_	_	za	_	_	_	_	
+93-24	4240-4244	decu	N	NOUN	_	_	deca	_	_	_	http://example.org/lexicon/seDRS0457358\_0.0	
+93-25	4244-4245	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Merkur se sastoji od približno 70 % metalnog i 30 % silikatnog materijala.
+94-1	4245-4251	Merkur	N	PROPN	http://www.wikidata.org/entity/Q308	LOC	Merkur	_	_	_	_	
+94-2	4252-4254	se	PAR	PART	_	_	se	1	*	IRV	http://example.org/lexicon/seCVMWE0394[2533]	
+94-3	4255-4262	sastoji	V	VERB	_	_	sastojati	1	sastojati se	IRV	http://example.org/lexicon/seCVMWE0394[2533]	
+94-4	4263-4265	od	PREP	ADP	_	_	od	_	_	_	_	
+94-5	4266-4275	približno	ADV	ADV	_	_	približno	_	_	_	http://example.org/lexicon/seENG3000007015b	
+94-6	4276-4278	70	NUM	NUM	_	_	70	_	_	_	_	
+94-7	4279-4280	%	PUNCT	SYM	_	_	%	_	_	_	_	
+94-8	4281-4289	metalnog	A	ADJ	_	_	metalan	_	_	_	http://example.org/lexicon/seENG3001527420a	
+94-9	4290-4291	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+94-10	4292-4294	30	NUM	NUM	_	_	30	_	_	_	_	
+94-11	4295-4296	%	PUNCT	SYM	_	_	%	_	_	_	_	
+94-12	4297-4307	silikatnog	A	ADJ	_	_	silikatni	_	_	_	http://example.org/lexicon/seDRJ0175626\_0	
+94-13	4308-4318	materijala	N	NOUN	_	_	materijal	_	_	_	http://example.org/lexicon/seENG3013030104n	
+94-14	4318-4319	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Na kraju Foruma učesnici su tradicionalno prisustvovali finalu UEFA Lige šampiona.
+95-1	4319-4321	Na	PREP	ADP	_	_	na	1[784]	na kraju[784]	AdvID[784]	http://example.org/lexicon/seLLM0130[2534]	
+95-2	4322-4327	kraju	N	NOUN	_	_	kraj	1[784]	na kraju[784]	AdvID[784]	http://example.org/lexicon/seLLM0130[2534]	
+95-3	4328-4334	Foruma	N	NOUN	_	_	forum	_	_	_	http://example.org/lexicon/seENG3002749953n	
+95-4	4335-4343	učesnici	N	NOUN	_	_	učesnik	_	_	_	http://example.org/lexicon/seENG3010401829n	
+95-5	4344-4346	su	V	AUX	_	_	jesam	_	_	_	_	
+95-6	4347-4360	tradicionalno	ADV	ADV	_	_	tradicionalno	_	_	_	http://example.org/lexicon/seDRJ0181170\_0	
+95-7	4361-4374	prisustvovali	V	VERB	_	_	prisustvovati	_	_	_	http://example.org/lexicon/seENG3002612762v	
+95-8	4375-4381	finalu	N	NOUN	_	_	finale	_	_	_	http://example.org/lexicon/seENG3007466832n	
+95-9	4382-4386	UEFA	ABB	X	http://www.wikidata.org/entity/Q18756[48]	EVENT[48]	UEFA	_	_	_	_	
+95-10	4387-4391	Lige	N	NOUN	http://www.wikidata.org/entity/Q18756[48]	EVENT[48]	liga	_	_	_	http://example.org/lexicon/seENG3008305114n	
+95-11	4392-4400	šampiona	N	NOUN	http://www.wikidata.org/entity/Q18756[48]	EVENT[48]	šampion	_	_	_	http://example.org/lexicon/seENG3009906704n	
+95-12	4400-4401	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=U Moskvi je, uz podršku Sportskog saveza slepih, organizovan Turnir jednakih mogućnosti.
+96-1	4401-4402	U	PREP	ADP	_	_	u	_	_	_	_	
+96-2	4403-4409	Moskvi	N	PROPN	http://www.wikidata.org/entity/Q649	LOC	Moskva	_	_	_	_	
+96-3	4410-4412	je	V	AUX	_	_	jesam	_	_	_	_	
+96-4	4412-4413	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+96-5	4414-4416	uz	PREP	ADP	_	_	uz	1[785]	uz podršku[785]	AdpID[785]	http://example.org/lexicon/seLLM0310[2535]	
+96-6	4417-4424	podršku	N	NOUN	_	_	podrška	1[785]	uz podršku[785]	AdpID[785]	http://example.org/lexicon/seLLM0310[2535]	
+96-7	4425-4434	Sportskog	A	ADJ	*[49]	ORG[49]	sportski	_	_	_	_	
+96-8	4435-4441	saveza	N	NOUN	*[49]	ORG[49]	savez	_	_	_	_	
+96-9	4442-4448	slepih	A	ADJ	*[49]	ORG[49]	slep	_	_	_	_	
+96-10	4448-4449	,	PUNCT	PUNCT	*[49]	ORG[49]	,	_	_	_	_	
+96-11	4450-4461	organizovan	V	VERB	_	_	organizovati	_	_	_	http://example.org/lexicon/seENG3000710005v	
+96-12	4462-4468	Turnir	N	NOUN	*[50]	EVENT[50]	turnir	_	_	_	http://example.org/lexicon/seENG3007464725n	
+96-13	4469-4477	jednakih	A	ADJ	*[50]	EVENT[50]	jednak	_	_	_	http://example.org/lexicon/seENG3000744506a	
+96-14	4478-4488	mogućnosti	N	NOUN	*[50]	EVENT[50]	mogućnost	_	_	_	http://example.org/lexicon/seENG3005200169n	
+96-15	4488-4489	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Servantesov uticaj na španski jezik bio je toliko veliki da se jezik često naziva „la lengua de Cervantes“ („Servantesov jezik“).
+97-1	4489-4500	Servantesov	A	ADJ	_	_	Servantesov	_	_	_	http://example.org/lexicon/seNEW_SENSE	
+97-2	4501-4507	uticaj	N	NOUN	_	_	uticaj	_	_	_	http://example.org/lexicon/seENG3011414608n	
+97-3	4508-4510	na	PREP	ADP	_	_	na	_	_	_	_	
+97-4	4511-4518	španski	A	ADJ	http://www.wikidata.org/entity/Q1321	DEMO	španski	_	_	_	http://example.org/lexicon/seENG3002958576a	
+97-5	4519-4524	jezik	N	NOUN	_	_	jezik	_	_	_	http://example.org/lexicon/seENG3006282651n	
+97-6	4525-4528	bio	V	AUX	_	_	biti	_	_	_	_	
+97-7	4529-4531	je	V	AUX	_	_	jesam	_	_	_	_	
+97-8	4532-4538	toliko	ADV	ADV	_	_	toliko	_	_	_	http://example.org/lexicon/seDRJ0180890\_2	
+97-9	4539-4545	veliki	A	ADJ	_	_	velik	_	_	_	http://example.org/lexicon/seENG3001190683a	
+97-10	4546-4548	da	CONJ	SCONJ	_	_	da	_	_	_	_	
+97-11	4549-4551	se	PAR	PART	_	_	se	_	_	_	_	
+97-12	4552-4557	jezik	N	NOUN	_	_	jezik	_	_	_	http://example.org/lexicon/seENG3006282651n	
+97-13	4558-4563	često	ADV	ADV	_	_	često	_	_	_	http://example.org/lexicon/seENG3000059413b	
+97-14	4564-4570	naziva	V	VERB	_	_	nazivati	_	_	_	http://example.org/lexicon/seENG3000971015v	
+97-15	4571-4572	„	PUNCT	PUNCT	_	_	"	_	_	_	_	
+97-16	4572-4574	la	F	X	_	_	la	_	_	_	_	
+97-17	4575-4581	lengua	F	X	_	_	lengua	_	_	_	_	
+97-18	4582-4584	de	F	X	_	_	de	_	_	_	_	
+97-19	4585-4594	Cervantes	F	X	_	_	Cervantes	_	_	_	_	
+97-20	4594-4595	“	PUNCT	PUNCT	_	_	"	_	_	_	_	
+97-21	4596-4597	(	PUNCT	PUNCT	_	_	(	_	_	_	_	
+97-22	4597-4598	„	PUNCT	PUNCT	_	_	"	_	_	_	_	
+97-23	4598-4609	Servantesov	A	ADJ	_	_	Servantesov	_	_	_	http://example.org/lexicon/seNEW_SENSE	
+97-24	4610-4615	jezik	N	NOUN	_	_	jezik	_	_	_	http://example.org/lexicon/seENG3006282651n	
+97-25	4615-4616	“	PUNCT	PUNCT	_	_	"	_	_	_	_	
+97-26	4616-4617	)	PUNCT	PUNCT	_	_	)	_	_	_	_	
+97-27	4617-4618	.	SENT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=To je ono čemu nas je učio veliki osnivač naše države, Vladimir Lenjin.
+98-1	4618-4620	To	PRO	DET	_	_	taj	_	_	_	_	
+98-2	4621-4623	je	V	AUX	_	_	jesam	_	_	_	_	
+98-3	4624-4627	ono	PRO	PRON	_	_	ono	_	_	_	_	
+98-4	4628-4632	čemu	PRO	PRON	_	_	šta	_	_	_	_	
+98-5	4633-4636	nas	PRO	PRON	_	_	mi	_	_	_	_	
+98-6	4637-4639	je	V	AUX	_	_	jesam	_	_	_	_	
+98-7	4640-4644	učio	V	VERB	_	_	učiti	_	_	_	http://example.org/lexicon/seNEW_SENSE	
+98-8	4645-4651	veliki	A	ADJ	_	_	velik	_	_	_	http://example.org/lexicon/seENG3001278080a	
+98-9	4652-4659	osnivač	N	NOUN	http://www.wikidata.org/entity/Q4479442	ROLE	osnivač	_	_	_	http://example.org/lexicon/seENG3010107303n	
+98-10	4660-4664	naše	PRO	DET	_	_	naš	_	_	_	_	
+98-11	4665-4671	države	N	NOUN	_	_	država	_	_	_	http://example.org/lexicon/seENG3008168978n	
+98-12	4671-4672	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+98-13	4673-4681	Vladimir	N	PROPN	http://www.wikidata.org/entity/Q1394[51]	PERS[51]	Vladimir	_	_	_	_	
+98-14	4682-4688	Lenjin	N	PROPN	http://www.wikidata.org/entity/Q1394[51]	PERS[51]	Lenjin	_	_	_	_	
+98-15	4688-4689	.	PUNCT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Deli granicu sa svim južnoameričkim državama, osim s Ekvadorom i Čileom.
+99-1	4689-4693	Deli	V	VERB	_	_	deliti	_	_	_	http://example.org/lexicon/seENG3002621853v	
+99-2	4694-4701	granicu	N	NOUN	_	_	granica	_	_	_	http://example.org/lexicon/seENG3008512259n	
+99-3	4702-4704	sa	PREP	ADP	_	_	sa	_	_	_	_	
+99-4	4705-4709	svim	PRO	DET	_	_	sav	_	_	_	_	
+99-5	4710-4724	južnoameričkim	A	ADJ	*	DEMO	južnoamerički	_	_	_	http://example.org/lexicon/seCVDf122\_0	
+99-6	4725-4733	državama	N	NOUN	_	_	država	_	_	_	http://example.org/lexicon/seENG3008168978n	
+99-7	4733-4734	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+99-8	4735-4739	osim	PREP	ADP	_	_	osim	_	_	_	_	
+99-9	4740-4741	s	PREP	ADP	_	_	s	_	_	_	_	
+99-10	4742-4751	Ekvadorom	N	PROPN	http://www.wikidata.org/entity/Q736	LOC	Ekvador	_	_	_	_	
+99-11	4752-4753	i	CONJ	CCONJ	_	_	i	_	_	_	_	
+99-12	4754-4760	Čileom	N	PROPN	http://www.wikidata.org/entity/Q298	LOC	Čile	_	_	_	_	
+99-13	4760-4761	.	PUNCT	PUNCT	_	_	.	_	_	_	_	
+
+#Text=Da, Samanta, mi u Sovjetskom Savezu pokušavamo da učinimo sve da ne dođe do rata na Zemlji.
+100-1	4761-4763	Da	PAR	PART	_	_	da	_	_	_	_	
+100-2	4763-4764	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+100-3	4765-4772	Samanta	N	PROPN	http://www.wikidata.org/entity/Q228579	PERS	Samanta	_	_	_	_	
+100-4	4772-4773	,	PUNCT	PUNCT	_	_	,	_	_	_	_	
+100-5	4774-4776	mi	PRO	PRON	_	_	mi	_	_	_	_	
+100-6	4777-4778	u	PREP	ADP	_	_	u	_	_	_	_	
+100-7	4779-4789	Sovjetskom	A	ADJ	http://www.wikidata.org/entity/Q15180[52]	LOC[52]	sovjetski	_	_	_	_	
+100-8	4790-4796	Savezu	N	NOUN	http://www.wikidata.org/entity/Q15180[52]	LOC[52]	savez	_	_	_	_	
+100-9	4797-4807	pokušavamo	V	VERB	_	_	pokušavati	_	_	_	http://example.org/lexicon/seDRJ0213608\_0	
+100-10	4808-4810	da	CONJ	SCONJ	_	_	da	_	_	_	_	
+100-11	4811-4818	učinimo	V	VERB	_	_	učiniti	_	_	_	http://example.org/lexicon/seENG3000771490v	
+100-12	4819-4822	sve	PRO	DET	_	_	sav	_	_	_	_	
+100-13	4823-4825	da	CONJ	SCONJ	_	_	da	_	_	_	_	
+100-14	4826-4828	ne	PAR	PART	_	_	ne	_	_	_	_	
+100-15	4829-4833	dođe	V	VERB	_	_	doći	1	doći do rata	VID	http://example.org/lexicon/seCVMWE0064[2536]	
+100-16	4834-4836	do	PREP	ADP	_	_	do	1	*	VID	http://example.org/lexicon/seCVMWE0064[2536]	
+100-17	4837-4841	rata	N	NOUN	_	_	rat	1	*	VID	http://example.org/lexicon/seCVMWE0064[2536]	
+100-18	4842-4844	na	PREP	ADP	_	_	na	_	_	_	_	
+100-19	4845-4851	Zemlji	N	PROPN	http://www.wikidata.org/entity/Q2	LOC	Zemlja	_	_	_	_	
+100-20	4851-4852	.	SENT	PUNCT	_	_	.	_	_	_	_	

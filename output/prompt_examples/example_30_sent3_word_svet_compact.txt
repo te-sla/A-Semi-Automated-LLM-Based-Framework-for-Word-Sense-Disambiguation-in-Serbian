@@ -1,0 +1,22 @@
+\textbf{System:} Vi ste ekspert za leksiku i semantiku. Na osnovu konteksta rečenice i liste validnih značenja ciljne reči,
+vaš zadatak je da identifikujete ono značenje koje se najpreciznije koristi u datom kontekstu.
+
+Odgovor mora biti u strogo definisanom JSON formatu:
+
+\{\{
+  "sense\_id": "<jedan od ponuđenih ID-jeva ili 'NEW\_SENSE'>",
+  "explanation": "<kratko i jasno obrazloženje u jednoj ili dve rečenice zašto je to značenje primenjivo. Ako se koristi 'NEW\_SENSE', objasnite zašto nijedno ponuđeno značenje ne odgovara.>"
+\}\}
+
+Ne dodajete nikakav dodatni tekst van JSON strukture.
+Koristite 'NEW\_SENSE' samo ako nijedno značenje nije čak ni približno tačno u kontekstu.
+Sense\_id mora biti identičan jednom od ponuđenih ID-jeva ili tačno 'NEW\_SENSE'; nikada ne smete izmišljati druge ID-ove.
+
+\textbf{Sentence:} Poznati fudbaleri, među kojima i srpski defanzivac Branislav Ivanović i holandski napadač Dirk Kojt, učestvovali su u raznim događajima širom \textbf{sveta}.
+\textbf{Target:} svet
+\textbf{Senses (5):}
+1. ID: ENG30-05809878-n — Nečije celokupno iskustvo koje određuje kako mu stvari izgledaju.
+2. ID: ENG30-07947255-n — Ljudi uopšte.
+3. ID: ENG30-07965937-n — Ljudi uopšte; posebno istaknuta grupa ljudi sa nekim zajedničkim interesom.
+4. ID: ENG30-09466280-n — Sve što negde postoji.
+5. ID: ENG30-09480809-n — deo Zemlje koji se može posebno razmatrati

@@ -1,0 +1,977 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue|coarseValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_SP=webanno.custom.MWE|MWEid|MWElemma|MWEtype
+#T_SP=webanno.custom.sense|SenseID|Number_of_candidate_senses|List_of_candidate_senses|Ainotes
+
+
+#Text=On obično igra na poziciji levog krila ili levog beka.
+151-1	0-2	On	PRO	PRON	_	_	on	_	_	_	_	_	_	_	
+151-2	3-9	obično	ADV	ADV	_	_	obično	_	_	_	ENG30-00155621-b	3	ENG30-00041954-b;ENG30-00106921-b;ENG30-00155621-b	Značenje 'obično; po pravilu' se savršeno uklapa u kontekst rečenice, ukazujući da on po pravilu igra na tim pozicijama.	
+151-3	10-14	igra	V	VERB	_	_	igrati	_	_	_	ENG30-01072949-v	13	ENG30-01072949-v;ENG30-01079480-v;ENG30-01080064-v;ENG30-01080691-v;ENG30-01138911-v;ENG30-01149470-v;ENG30-01156115-v;ENG30-01708676-v;ENG30-01716882-v;ENG30-01719302-v;ENG30-01722077-v;ENG30-02099075-v;ENG30-02631349-v	U kontekstu rečenice, 'igrati' znači učestvovati u sportu, odnosno zauzimati određenu poziciju u timu.	
+151-4	15-17	na	PREP	ADP	_	_	na	_	_	_	_	_	_	_	
+151-5	18-26	poziciji	N	NOUN	_	_	pozicija	_	_	_	ENG30-08622201-n	8	ENG30-06196284-n;ENG30-06483454-n;ENG30-06783265-n;ENG30-08620061-n;ENG30-08622201-n;ENG30-08622950-n;ENG30-13925752-n;ENG30-13945919-n	U kontekstu sporta, 'pozicija' se odnosi na odgovarajuću ili uobičajenu lokaciju igrača na terenu.	
+151-6	27-32	levog	A	ADJ	_	_	levi	1[807]	levo krilo[807]	NID[807]	LLM-0108[3500]	1[3500]	LLM-0108[3500]	U navedenom kontekstu, 'levo krilo' se odnosi na poziciju igrača u timskom sportu, konkretno na igrača koji igra uz levu stranu terena u napadu.[3500]	
+151-7	33-38	krila	N	NOUN	_	_	krilo	1[807]	levo krilo[807]	NID[807]	LLM-0108[3500]	1[3500]	LLM-0108[3500]	U navedenom kontekstu, 'levo krilo' se odnosi na poziciju igrača u timskom sportu, konkretno na igrača koji igra uz levu stranu terena u napadu.[3500]	
+151-8	39-42	ili	CONJ	CCONJ	_	_	ili	_	_	_	_	_	_	_	
+151-9	43-48	levog	A	ADJ	_	_	levi	2[808]	levi bek[808]	NID[808]	LLM-0107[3501]	1[3501]	LLM-0107[3501]	Levi bek je odbrambeni igrač koji igra na levoj strani terena, što se direktno uklapa u definiciju.[3501]	
+151-10	49-53	beka	N	NOUN	_	_	bek	2[808]	levi bek[808]	NID[808]	LLM-0107[3501]	1[3501]	LLM-0107[3501]	Levi bek je odbrambeni igrač koji igra na levoj strani terena, što se direktno uklapa u definiciju.[3501]	
+151-11	53-54	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Uspostavljena je i posebna Komisija za finansijska i administrativna pitanja (CFAA) kako bi pomogla Birou Evropskog odbora regija (CoR).
+152-1	54-67	Uspostavljena	V	VERB	_	_	uspostaviti	_	_	_	ENG30-02427103-v	5	ENG30-00636888-v;ENG30-01570108-v;ENG30-01647672-v;ENG30-01655505-v;ENG30-02427103-v	U kontekstu rečenice, 'uspostavljena' se odnosi na osnivanje ili formiranje Komisije, što se poklapa sa značenjem 'uspostaviti ili osnovati'.	
+152-2	68-70	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+152-3	71-72	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+152-4	73-80	posebna	A	ADJ	_	_	poseban	_	_	_	ENG30-01104460-a	6	ENG30-00311044-a;ENG30-00488187-a;ENG30-01103021-a;ENG30-01103844-a;ENG30-01104026-a;ENG30-01104460-a	U kontekstu rečenice, 'posebna Komisija' označava da je ta komisija odvojena i različita od drugih komisija, formirana sa specifičnom svrhom.	
+152-5	81-89	Komisija	N	NOUN	*[73]	ORG[73]	komisija	_	_	_	_	_	_	_	
+152-6	90-92	za	PREP	ADP	*[73]	ORG[73]	za	_	_	_	_	_	_	_	
+152-7	93-104	finansijska	A	ADJ	*[73]	ORG[73]	finansijski	_	_	_	_	_	_	_	
+152-8	105-106	i	CONJ	CCONJ	*[73]	ORG[73]	i	_	_	_	_	_	_	_	
+152-9	107-122	administrativna	A	ADJ	*[73]	ORG[73]	administrativan	_	_	_	_	_	_	_	
+152-10	123-130	pitanja	N	NOUN	*[73]	ORG[73]	pitanje	_	_	_	_	_	_	_	
+152-11	131-132	(	PUNCT	PUNCT	_	_	(	_	_	_	_	_	_	_	
+152-12	132-136	CFAA	ABB	X	*	ORG	CFAA	_	_	_	_	_	_	_	
+152-13	136-137	)	PUNCT	PUNCT	_	_	)	_	_	_	_	_	_	_	
+152-14	138-142	kako	CONJ	SCONJ	_	_	kako	_	_	_	_	_	_	_	
+152-15	143-145	bi	V	AUX	_	_	biti	_	_	_	_	_	_	_	
+152-16	146-153	pomogla	V	VERB	_	_	pomoći	_	_	_	ENG30-02547586-v	5	ENG30-00082081-v;ENG30-01757338-v;ENG30-02547586-v;ENG30-02555434-v;ENG30-02735897-v	U kontekstu rečenice, Komisija je uspostavljena da pruži podršku Birou Evropskog odbora regija, što se najbolje uklapa u značenje 'pružiti pomoć, biti na usluzi'.	
+152-17	154-159	Birou	N	NOUN	_	_	biro	_	_	_	ENG30-08337324-n	2	ENG30-03841666-n;ENG30-08337324-n	U ovom kontekstu, 'Biro' se odnosi na administrativnu jedinicu unutar Evropskog odbora regija (CoR), a ne na fizički poslovni prostor.	
+152-18	160-169	Evropskog	A	ADJ	http://www.wikidata.org/entity/Q205203[74]	ORG[74]	evropski	_	_	_	_	_	_	_	
+152-19	170-176	odbora	N	NOUN	http://www.wikidata.org/entity/Q205203[74]	ORG[74]	odbor	_	_	_	_	_	_	_	
+152-20	177-183	regija	N	NOUN	http://www.wikidata.org/entity/Q205203[74]	ORG[74]	regija	_	_	_	_	_	_	_	
+152-21	184-185	(	PUNCT	PUNCT	_	_	(	_	_	_	_	_	_	_	
+152-22	185-188	CoR	ABB	X	http://www.wikidata.org/entity/Q205203	ORG	CoR	_	_	_	_	_	_	_	
+152-23	188-189	)	PUNCT	PUNCT	_	_	)	_	_	_	_	_	_	_	
+152-24	189-190	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Osiguravanjem lakog i slobodnog pristupa podacima, može se poboljšati njihova inovativna upotreba i ekonomski potencijal.
+153-1	190-203	Osiguravanjem	N	NOUN	_	_	osiguravanje	_	_	_	NEW_SENSE	1	ENG30-13344804-n	Ponuđeno značenje se odnosi na finansijsko osiguranje, dok se u datom kontekstu 'osiguravanje' odnosi na garantovanje ili omogućavanje lakog pristupa podacima.	
+153-2	204-209	lakog	A	ADJ	_	_	lak	_	_	_	ENG30-00749230-a	3	ENG30-00749230-a;ENG30-01186408-a;ENG30-01193046-a	U kontekstu rečenice, 'lak' se odnosi na pristup podacima koji ne predstavlja teškoću i ne iziskuje napor, što odgovara značenju 'koji ne predstavlja teškoću, ne iziskuje napor'.	
+153-3	210-211	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+153-4	212-221	slobodnog	A	ADJ	_	_	slobodan	_	_	_	ENG30-01061489-a	2	ENG30-00361837-a;ENG30-01061489-a	U datom kontekstu, 'slobodan' se odnosi na pristup podacima koji nije ograničen ili sputan, što odgovara značenju 'koji nije sputan ograničenjima'.	
+153-5	222-230	pristupa	N	NOUN	_	_	pristup	1[809]	pristup podacima[809]	NID[809]	LLM-0204[3502]	1[3502]	LLM-0204[3502]	U kontekstu rečenice, 'pristup podacima' se odnosi na mogućnost korišćenja informacija, što se poklapa sa definicijom 'Mogućnost čitanja, menjanja ili korišćenja informacija uskladištenih u sistemu'.[3502]	
+153-6	231-239	podacima	N	NOUN	_	_	podatak	1[809]	pristup podacima[809]	NID[809]	LLM-0204[3502]	1[3502]	LLM-0204[3502]	U kontekstu rečenice, 'pristup podacima' se odnosi na mogućnost korišćenja informacija, što se poklapa sa definicijom 'Mogućnost čitanja, menjanja ili korišćenja informacija uskladištenih u sistemu'.[3502]	
+153-7	239-240	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+153-8	241-245	može	V	VERB	_	_	moći	_	_	_	NEW_SENSE	1	ENG30-02523221-v	Ponuđeno značenje ne odgovara kontekstu. U datoj rečenici, 'može' se koristi kao pomoćni glagol koji izražava mogućnost ili potencijal, a ne kao glagol koji označava istrajnost ili uspeh.	
+153-9	246-248	se	PAR	PART	_	_	se	_	_	_	_	_	_	_	
+153-10	249-259	poboljšati	V	VERB	_	_	poboljšati	_	_	_	ENG30-00205885-v	3	ENG30-00205885-v;ENG30-00229605-v;ENG30-00549982-v	U kontekstu rečenice, 'poboljšati' znači učiniti podatke boljim u smislu njihove upotrebe i potencijala, što se podudara sa značenjem 'učiniti boljim'.	
+153-11	260-267	njihova	PRO	DET	_	_	njihov	_	_	_	_	_	_	_	
+153-12	268-278	inovativna	A	ADJ	_	_	inovativan	_	_	_	ENG30-01687586-a	1	ENG30-01687586-a	U kontekstu rečenice, 'inovativna upotreba' se odnosi na upotrebu podataka na način koji nije ranije isproban ili osmišljen, što se podudara sa značenjem 'biti ili proizvoditi nešto što nije učinjeno, iskuseno ili stvoreno ranije'.	
+153-13	279-287	upotreba	N	NOUN	_	_	upotreba	_	_	_	ENG30-00947128-n	3	ENG30-00061598-n;ENG30-00947128-n;ENG30-05149978-n	U datom kontekstu, 'upotreba' se odnosi na čin korišćenja podataka, što je najpreciznije objašnjeno značenjem 'Čin korišćenja'.	
+153-14	288-289	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+153-15	290-299	ekonomski	A	ADJ	_	_	ekonomski	_	_	_	ENG30-02716739-a	4	ENG30-01871565-a;ENG30-02577454-a;ENG30-02716605-a;ENG30-02716739-a	U kontekstu rečenice, 'ekonomski potencijal' se odnosi na potencijal koji se tiče ekonomije, odnosno sistema proizvodnje i upravljanja materijalnim dobrima.	
+153-16	300-310	potencijal	N	NOUN	_	_	potencijal	_	_	_	ENG30-14482620-n	1	ENG30-14482620-n	U kontekstu rečenice, 'potencijal' se odnosi na urođeni kapacitet podataka da doprinesu inovacijama i ekonomskom rastu, što odgovara definiciji 'urođeni kapacitet za nastanak nečega'.	
+153-17	310-311	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Članovi Evropskog odbora regija (CoR) sastaju se na plenarnoj sednici u Briselu šest puta godišnje kako bi vodili raspravu i usvajali stavove, izveštaje i rezolucije.
+154-1	311-318	Članovi	N	NOUN	*	ROLE	član	_	_	_	ENG30-10307234-n	5	ENG30-06324669-n;ENG30-06392935-n;ENG30-08170686-n;ENG30-10307234-n;ENG30-13810615-n	U datom kontekstu, "članovi" se odnosi na osobe koje pripadaju Evropskom odboru regija, što odgovara značenju 'jedna od osoba koje čine socijalnu grupu (posebno osobe koje su pristupile nekoj organizaciji)'.	
+154-2	319-328	Evropskog	A	ADJ	http://www.wikidata.org/entity/Q205203[75]	ORG[75]	evropski	_	_	_	_	_	_	_	
+154-3	329-335	odbora	N	NOUN	http://www.wikidata.org/entity/Q205203[75]	ORG[75]	odbor	_	_	_	_	_	_	_	
+154-4	336-342	regija	N	NOUN	http://www.wikidata.org/entity/Q205203[75]	ORG[75]	regija	_	_	_	_	_	_	_	
+154-5	343-344	(	PUNCT	PUNCT	_	_	(	_	_	_	_	_	_	_	
+154-6	344-347	CoR	ABB	X	http://www.wikidata.org/entity/Q205203	ORG	CoR	_	_	_	_	_	_	_	
+154-7	347-348	)	PUNCT	PUNCT	_	_	)	_	_	_	_	_	_	_	
+154-8	349-356	sastaju	V	VERB	_	_	sastajati	1	sastajati se	IRV	CVMWE-0393[3503]	4[3503]	CVMWE-0393;ENG30-01079480-v;ENG30-02023107-v;ENG30-02486232-v[3503]	U datom kontekstu, 'sastajati se' znači okupljati se na ugovorenom mestu radi održavanja sastanka (plenarne sednice), što odgovara značenju 'skupiti se, sabrati na ugovorenom mestu radi održavanja nekog sastanka'.[3503]	
+154-9	357-359	se	PAR	PART	_	_	se	1	*	IRV	CVMWE-0393[3503]	4[3503]	CVMWE-0393;ENG30-01079480-v;ENG30-02023107-v;ENG30-02486232-v[3503]	U datom kontekstu, 'sastajati se' znači okupljati se na ugovorenom mestu radi održavanja sastanka (plenarne sednice), što odgovara značenju 'skupiti se, sabrati na ugovorenom mestu radi održavanja nekog sastanka'.[3503]	
+154-10	360-362	na	PREP	ADP	_	_	na	_	_	_	_	_	_	_	
+154-11	363-372	plenarnoj	A	ADJ	_	_	plenaran	3[810]	plenarna sednica[810]	NID[810]	CVMWE-0290[3504]	1[3504]	CVMWE-0290[3504]	Plenarna sednica se odnosi na sednicu na kojoj su prisutni svi članovi odbora, što odgovara definiciji.[3504]	
+154-12	373-380	sednici	N	NOUN	_	_	sednica	3[810]	plenarna sednica[810]	NID[810]	CVMWE-0290[3504]	1[3504]	CVMWE-0290[3504]	Plenarna sednica se odnosi na sednicu na kojoj su prisutni svi članovi odbora, što odgovara definiciji.[3504]	
+154-13	381-382	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	
+154-14	383-390	Briselu	N	PROPN	http://www.wikidata.org/entity/Q239	LOC	Brisel	_	_	_	_	_	_	_	
+154-15	391-395	šest	NUM	NUM	_	_	šest	_	_	_	_	_	_	_	
+154-16	396-400	puta	PAR	PART	_	_	puta	_	_	_	_	_	_	_	
+154-17	401-409	godišnje	ADV	ADV	_	_	godišnje	_	_	_	ENG30-00081737-b	2	ENG30-00081737-b;ENG30-00250570-b	U datom kontekstu, 'godišnje' znači da se sastanci održavaju šest puta u toku svake godine, odnosno bez propuštanja godine.	
+154-18	410-414	kako	CONJ	SCONJ	_	_	kako	_	_	_	_	_	_	_	
+154-19	415-417	bi	V	AUX	_	_	biti	_	_	_	_	_	_	_	
+154-20	418-424	vodili	V	VERB	_	_	voditi	2	voditi raspravu	LVC.full	CVMWE-0493[3505]	1[3505]	CVMWE-0493[3505]	U navedenom kontekstu, 'voditi raspravu' znači upravo raspravljati o određenim pitanjima i temama, što je u skladu sa značenjem CVMWE-0493.[3505]	
+154-21	425-433	raspravu	N	NOUN	_	_	rasprava	2	*	LVC.full	CVMWE-0493[3505]	1[3505]	CVMWE-0493[3505]	U navedenom kontekstu, 'voditi raspravu' znači upravo raspravljati o određenim pitanjima i temama, što je u skladu sa značenjem CVMWE-0493.[3505]	
+154-22	434-435	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+154-23	436-444	usvajali	V	VERB	_	_	usvajati	_	_	_	ENG30-00602112-v	2	ENG30-00602112-v;ENG30-02379528-v	U kontekstu rečenice, 'usvajati' se odnosi na prihvatanje i odobravanje stavova, izveštaja i rezolucija, što odgovara značenju 'usvojiti'.	
+154-24	445-452	stavove	N	NOUN	_	_	stav	_	_	_	ENG30-06782019-n	5	ENG30-05079866-n;ENG30-06193203-n;ENG30-06399995-n;ENG30-06782019-n;ENG30-07046339-n	U kontekstu rečenice, 'stavovi' se odnose na izražavanje uverenja ili mišljenja o nečemu, što je u skladu sa značenjem 'poruka koja izražava uverenje o nečemu'.	
+154-25	452-453	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+154-26	454-463	izveštaje	N	NOUN	_	_	izveštaj	_	_	_	ENG30-07218470-n	5	ENG30-06508112-n;ENG30-06681551-n;ENG30-07217924-n;ENG30-07218470-n;ENG30-07220300-n	U kontekstu sednice odbora, 'izveštaji' se odnose na pismene dokumente koji opisuju nalaze ili zaključke o određenim pitanjima o kojima se raspravlja.	
+154-27	464-465	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+154-28	466-476	rezolucije	N	NOUN	_	_	rezolucija	_	_	_	ENG30-06511874-n	4	ENG30-00153809-n;ENG30-05789089-n;ENG30-06511874-n;ENG30-11505952-n	U kontekstu sastanka Evropskog odbora regija, 'rezolucije' se odnose na formalne izraze ili odluke koje se usvajaju glasanjem, što je u skladu sa značenjem ID-a ENG30-06511874-n.	
+154-29	476-477	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Narukvica ima dve niti, plavu i zelenu, i može je nositi svako ko se poistovećuje sa vrednostima ovog programa.
+155-1	477-486	Narukvica	N	NOUN	_	_	narukvica	_	_	_	ENG30-02887970-n	1	ENG30-02887970-n	Rečenica opisuje narukvicu kao predmet koji se nosi, što odgovara definiciji nakita koji se nosi oko zgloba.	
+155-2	487-490	ima	V	VERB	_	_	imati	_	_	_	ENG30-02629535-v	10	ENG30-00065370-v;ENG30-00121046-v;ENG30-01426397-v;ENG30-02047097-v;ENG30-02203362-v;ENG30-02204692-v;ENG30-02205098-v;ENG30-02629535-v;ENG30-02704349-v;ENG30-02740745-v	U ovom kontekstu, 'imati' znači da narukvica uključuje ili sadrži dve niti kao svoje komponente. Dakle, značenje 'Uključiti ili sadržati; imati kao komponentu' je najprikladnije.	
+155-3	491-494	dve	NUM	NUM	_	_	dva	_	_	_	_	_	_	_	
+155-4	495-499	niti	N	NOUN	_	_	nit	_	_	_	ENG30-14867858-n	2	ENG30-04426788-n;ENG30-14867858-n	U kontekstu narukvice, 'nit' se odnosi na tanko vlakno ili konac od kojeg je narukvica napravljena, što odgovara značenju 'vrlo tanko prirodno ili sintetičko vlakno'.	
+155-5	499-500	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+155-6	501-506	plavu	A	ADJ	_	_	plav	_	_	_	ENG30-00370869-a	2	ENG30-00370869-a;ENG30-01606058-a	U ovom kontekstu, 'plav' se odnosi na boju niti narukvice, što odgovara definiciji boje slične vedrom nebu.	
+155-7	507-508	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+155-8	509-515	zelenu	A	ADJ	_	_	zelen	_	_	_	ENG30-00375969-a	1	ENG30-00375969-a	U navedenom kontekstu, 'zelen' se koristi da opiše boju niti narukvice, što odgovara definiciji boje između plave i žute, slične boji sveže trave.	
+155-9	515-516	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+155-10	517-518	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+155-11	519-523	može	V	VERB	_	_	moći	_	_	_	NEW_SENSE	1	ENG30-02523221-v	Ponuđeno značenje ne odgovara kontekstu. U rečenici, 'može' se koristi u smislu 'imati dozvolu' ili 'biti u mogućnosti' da se nešto uradi, što nije isto što i 'istrajati' ili 'uspeti'.	
+155-12	524-526	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+155-13	527-533	nositi	V	VERB	_	_	nositi	_	_	_	ENG30-02717102-v	9	ENG30-00059019-v;ENG30-01224415-v;ENG30-01432601-v;ENG30-01450792-v;ENG30-01601234-v;ENG30-02079933-v;ENG30-02302220-v;ENG30-02636516-v;ENG30-02717102-v	U kontekstu rečenice, 'nositi' znači imati narukvicu uza sebe, odnosno na sebi, kao ukras ili simbol pripadnosti.	
+155-14	534-539	svako	PRO	PRON	_	_	svako	_	_	_	_	_	_	_	
+155-15	540-542	ko	PRO	PRON	_	_	ko	_	_	_	_	_	_	_	
+155-16	543-545	se	PRO	PRON	_	_	sebe	1	*	IRV	CVMWE-0297[3506]	1[3506]	CVMWE-0297[3506]	U datom kontekstu, 'poistovećuje se' znači da osoba pronalazi sličnosti između sebe i vrednosti programa, odnosno razume i prihvata te vrednosti kao svoje.[3506]	
+155-17	546-558	poistovećuje	V	VERB	_	_	poistovećivati	1	poistovećivati se	IRV	CVMWE-0297[3506]	1[3506]	CVMWE-0297[3506]	U datom kontekstu, 'poistovećuje se' znači da osoba pronalazi sličnosti između sebe i vrednosti programa, odnosno razume i prihvata te vrednosti kao svoje.[3506]	
+155-18	559-561	sa	PREP	ADP	_	_	sa	_	_	_	_	_	_	_	
+155-19	562-573	vrednostima	N	NOUN	_	_	vrednost	_	_	_	ENG30-05138208-n	5	ENG30-05138208-n;ENG30-05138488-n;ENG30-05145118-n;ENG30-05856388-n;ENG30-13764342-n	U datom kontekstu, 'vrednostima' se odnosi na kvalitete ili principe koji se smatraju poželjnim i važnim, sa kojima se neko poistovećuje. To se najbolje uklapa u definiciju 'Kvalitet koji čini daa je nešto poželjno, vredno ili korisno'.	
+155-20	574-578	ovog	PRO	DET	_	_	ovaj	_	_	_	_	_	_	_	
+155-21	579-587	programa	N	NOUN	_	_	program	_	_	_	ENG30-06676416-n	4	ENG30-03962685-n;ENG30-06568978-n;ENG30-06619428-n;ENG30-06676416-n	U datom kontekstu, reč "program" se odnosi na integrisani skup aktivnosti ili inicijativa sa određenim ciljevima i vrednostima, što odgovara značenju integrisanog programa akademskih studija ili sličnog organizovanog poduhvata.	
+155-22	587-588	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Rezolucije omogućavaju Odboru da iznese svoj stav o važnim i aktuelnim pitanjima.
+156-1	588-598	Rezolucije	N	NOUN	_	_	rezolucija	_	_	_	ENG30-06511874-n	4	ENG30-00153809-n;ENG30-05789089-n;ENG30-06511874-n;ENG30-11505952-n	U datom kontekstu, 'rezolucije' se odnose na formalne izjave ili stavove koje Odbor donosi o važnim pitanjima, što odgovara značenju formalnog izraza usvojenog glasanjem.	
+156-2	599-610	omogućavaju	V	VERB	_	_	omogućavati	_	_	_	DRJ0-209302/0	1	DRJ0-209302/0	U navedenom kontekstu, 'omogućavati' znači dozvoljavati ili činiti nešto mogućim, što je u skladu sa definicijom 'nesvr. prema omogućiti'.	
+156-3	611-617	Odboru	N	NOUN	_	_	odbor	_	_	_	ENG30-08322981-n	1	ENG30-08322981-n	Odbor u rečenici se odnosi na telo koje ima ovlašćenje da iznosi stavove o određenim pitanjima, što odgovara definiciji komiteta koji nadgleda i donosi odluke.	
+156-4	618-620	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	
+156-5	621-627	iznese	V	VERB	_	_	izneti	1	izneti stav	LVC.full	CVMWE-0154[3507]	1[3507]	CVMWE-0154[3507]	U datom kontekstu, 'izneti stav' znači javno saopštiti svoje mišljenje o važnim pitanjima, što se poklapa sa značenjem CVMWE-0154.[3507]	
+156-6	628-632	svoj	PRO	DET	_	_	svoj	_	_	_	_	_	_	_	
+156-7	633-637	stav	N	NOUN	_	_	stav	1	*	LVC.full	CVMWE-0154[3507]	1[3507]	CVMWE-0154[3507]	U datom kontekstu, 'izneti stav' znači javno saopštiti svoje mišljenje o važnim pitanjima, što se poklapa sa značenjem CVMWE-0154.[3507]	
+156-8	638-639	o	PREP	ADP	_	_	o	_	_	_	_	_	_	_	
+156-9	640-646	važnim	A	ADJ	_	_	važan	_	_	_	ENG30-01275562-a	4	ENG30-00655779-a;ENG30-01275562-a;ENG30-01467919-a;ENG30-01830403-a	Značenje 'od velikog značaja ili važnosti' se najbolje uklapa u kontekst rečenice, jer se odnosi na pitanja koja su bitna i relevantna za Odbor.	
+156-10	647-648	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+156-11	649-658	aktuelnim	A	ADJ	_	_	aktuelan	_	_	_	NEW_SENSE	1	ENG30-01425895-a	Ponuđeno značenje se odnosi na površinu tela i nema veze sa značenjem reči 'aktuelan' u datom kontekstu, gde se misli na nešto što je trenutno važno ili relevantno.	
+156-12	659-668	pitanjima	N	NOUN	_	_	pitanje	_	_	_	ENG30-06783768-n	4	ENG30-05814650-n;ENG30-06783768-n;ENG30-07193596-n;ENG30-07196682-n	U datom kontekstu, 'pitanja' se odnose na teme ili predmete razmatranja o kojima Odbor iznosi svoj stav, što odgovara značenju 'predmet razmatranja o kome je reč'.	
+156-13	668-669	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Ceremoniju je snimio holandski javni radiodifuzni kanal NOS / NTR i emitovao je putem NED3.
+157-1	669-679	Ceremoniju	N	NOUN	_	_	ceremonija	_	_	_	ENG30-07450842-n	3	ENG30-01027379-n;ENG30-07450842-n;ENG30-07452251-n	Ceremonija u kontekstu snimanja i emitovanja odnosi se na formalan događaj koji se izvodi u posebnoj prilici, što je u skladu sa značenjem 2.	
+157-2	680-682	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+157-3	683-689	snimio	V	VERB	_	_	snimiti	_	_	_	ENG30-00998399-v	4	ENG30-00998399-v;ENG30-01002740-v;ENG30-01003249-v;ENG30-02156225-v	U kontekstu rečenice, 'snimiti' znači napraviti elektronski zapis ceremonije, što odgovara značenju 'napraviti elektronski zapis'.	
+157-4	690-699	holandski	A	ADJ	*	DEMO	holandski	_	_	_	ENG30-02960686-a	1	ENG30-02960686-a	U navedenom kontekstu, 'holandski' se odnosi na javni radiodifuzni kanal koji potiče iz Holandije, što odgovara značenju 'koji se tiče Holandije'.	
+157-5	700-705	javni	A	ADJ	_	_	javan	_	_	_	ENG30-00493297-a	4	ENG30-00493297-a;ENG30-01861205-a;ENG30-01862296-a;ENG30-02090567-a	U kontekstu 'javni radiodifuzni kanal', reč 'javni' se odnosi na to da je kanal namenjen i utiče na celokupnu zajednicu, a ne na privatnu grupu ili pojedinca.	
+157-6	706-718	radiodifuzni	A	ADJ	_	_	radiodifuzni	1[811]	radiodifuzni kanal[811]	NID[811]	LLM-0221[3508]	1[3508]	LLM-0221[3508]	U kontekstu rečenice, 'radiodifuzni kanal' se odnosi na sredstvo putem kojeg se emituje program (u ovom slučaju, ceremonija), što odgovara definiciji frekventnog opsega ili sredstva za emitovanje radio ili televizijskog signala.[3508]	
+157-7	719-724	kanal	N	NOUN	_	_	kanal	1[811]	radiodifuzni kanal[811]	NID[811]	LLM-0221[3508]	1[3508]	LLM-0221[3508]	U kontekstu rečenice, 'radiodifuzni kanal' se odnosi na sredstvo putem kojeg se emituje program (u ovom slučaju, ceremonija), što odgovara definiciji frekventnog opsega ili sredstva za emitovanje radio ili televizijskog signala.[3508]	
+157-8	725-728	NOS	ABB	X	*[76]	ORG[76]	NOS	_	_	_	_	_	_	_	
+157-9	729-730	/	PUNCT	PUNCT	*[76]	ORG[76]	/	_	_	_	_	_	_	_	
+157-10	731-734	NTR	ABB	X	*[76]	ORG[76]	NTR	_	_	_	_	_	_	_	
+157-11	735-736	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+157-12	737-745	emitovao	V	VERB	_	_	emitovati	_	_	_	ENG30-00973056-v	3	ENG30-00973056-v;ENG30-00983824-v;ENG30-02767308-v	U kontekstu rečenice, 'emitovati' se odnosi na prenos ceremonije putem televizijskog kanala, što odgovara značenju prenošenja preko radio ili televizijskih talasa.	
+157-13	746-748	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+157-14	749-754	putem	PREP	ADP	_	_	putem	_	_	_	_	_	_	_	
+157-15	755-759	NED3	ABB	X	_	_	NED3	_	_	_	_	_	_	_	
+157-16	759-760	.	PUNCT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Veliki broj zvezda je starosti između milijardu i 10 milijardi godina.
+158-1	760-766	Veliki	A	ADJ	_	_	velik	_	_	_	ENG30-01375909-a	8	ENG30-00579622-a;ENG30-01114658-a;ENG30-01190683-a;ENG30-01278080-a;ENG30-01375909-a;ENG30-01467919-a;ENG30-01488616-a;ENG30-01510444-a	U kontekstu rečenice, 'veliki broj' se odnosi na količinu zvezda, što odgovara značenju 'iznad proseka po veličini ili broju ili količini ili snazi ili iznosu'.	
+158-2	767-771	broj	N	NOUN	_	_	broj	_	_	_	ENG30-05121418-n	6	ENG30-05121418-n;ENG30-06326526-n;ENG30-06391766-n;ENG30-06596978-n;ENG30-06807198-n;ENG30-13591761-n	U datom kontekstu, reč 'broj' se odnosi na nedefinisanu količinu zvezda, što odgovara značenju 'svojstvo koje poseduje zbir, ukupnost ili nedefinisana količina jedinica ili pojedinaca'.	
+158-3	772-778	zvezda	N	NOUN	_	_	zvezda	_	_	_	ENG30-09444100-n	4	ENG30-05730930-n;ENG30-06828389-n;ENG30-09444100-n;ENG30-09762509-n	U navedenom kontekstu, 'zvezda' se odnosi na nebesko telo, što odgovara značenju 'Nebesko telo od vrućih gasova koje emituje energiju iz termonuklearnih reakciju u svom središtu (astronomija)'.	
+158-4	779-781	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+158-5	782-790	starosti	N	NOUN	_	_	starost	_	_	_	ENG30-04924103-n	2	ENG30-04924103-n;ENG30-15153787-n	U kontekstu rečenice, "starost" se odnosi na to koliko dugo zvezde postoje, što odgovara definiciji "Kako dugo nešto postoji."	
+158-6	791-797	između	PREP	ADP	_	_	između	_	_	_	_	_	_	_	
+158-7	798-807	milijardu	N	NOUN	_	_	milijarda	_	_	_	ENG30-13751829-n	2	ENG30-13751829-n;ENG30-13752172-n	U kontekstu rečenice, 'milijarda' se koristi kao broj koji označava jedinicu praćenu sa 9 nula, što odgovara prvom značenju.	
+158-8	808-809	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+158-9	810-812	10	NUM	NUM	_	_	10	_	_	_	_	_	_	_	
+158-10	813-822	milijardi	N	NOUN	_	_	milijarda	_	_	_	ENG30-13751829-n	2	ENG30-13751829-n;ENG30-13752172-n	U kontekstu rečenice, 'milijarda' se koristi kao broj koji predstavlja jedinicu praćenu sa 9 nula, što je standardno značenje ovog broja.	
+158-11	823-829	godina	N	NOUN	_	_	godina	_	_	_	ENG30-15203791-n	5	ENG30-08238660-n;ENG30-15201505-n;ENG30-15202634-n;ENG30-15203791-n;ENG30-15204297-n	U kontekstu rečenice, 'godina' se odnosi na vremenski period od 365 (ili 366) dana, što odgovara značenju vremenskog perioda koji se koristi za merenje starosti zvezda.	
+158-12	829-830	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Priče o uspehu Evropskog socijalnog fonda (ESF): preko 70 priča o uspehu koje pokazuju kako su projekti ESF pomogli da se poboljša radni život ljudi širom Evrope.
+159-1	830-835	Priče	N	NOUN	_	_	priča	_	_	_	ENG30-07221094-n	2	ENG30-06369829-n;ENG30-07221094-n	U datom kontekstu, reč 'priče' se odnosi na izveštaje ili narative o događajima i dešavanjima, konkretno o uspesima projekata Evropskog socijalnog fonda. Dakle, značenje 'priča o događajima ili dešavanjima' je najprikladnije.	
+159-2	836-837	o	PREP	ADP	_	_	o	_	_	_	_	_	_	_	
+159-3	838-844	uspehu	N	NOUN	_	_	uspeh	_	_	_	ENG30-00063652-n	3	ENG30-00063652-n;ENG30-07319103-n;ENG30-14474894-n	U datom kontekstu, 'uspeh' se odnosi na postignuća Evropskog socijalnog fonda, odnosno na projekte koji su bili uspešni u poboljšanju radnog života ljudi.	
+159-4	845-854	Evropskog	A	ADJ	http://www.wikidata.org/entity/Q846996[77]	ORG[77]	evropski	_	_	_	_	_	_	_	
+159-5	855-865	socijalnog	A	ADJ	http://www.wikidata.org/entity/Q846996[77]	ORG[77]	socijalan	_	_	_	_	_	_	_	
+159-6	866-871	fonda	N	NOUN	http://www.wikidata.org/entity/Q846996[77]	ORG[77]	fond	_	_	_	_	_	_	_	
+159-7	872-873	(	PUNCT	PUNCT	_	_	(	_	_	_	_	_	_	_	
+159-8	873-876	ESF	ABB	X	http://www.wikidata.org/entity/Q846996	ORG	ESF	_	_	_	_	_	_	_	
+159-9	876-877	)	PUNCT	PUNCT	_	_	)	_	_	_	_	_	_	_	
+159-10	877-878	:	PUNCT	PUNCT	_	_	:	_	_	_	_	_	_	_	
+159-11	879-884	preko	PREP	ADP	_	_	preko	_	_	_	_	_	_	_	
+159-12	885-887	70	NUM	NUM	_	_	70	_	_	_	_	_	_	_	
+159-13	888-893	priča	N	NOUN	_	_	priča	_	_	_	ENG30-07221094-n	2	ENG30-06369829-n;ENG30-07221094-n	U datom kontekstu, reč 'priča' se odnosi na izveštaje ili opise događaja i dešavanja u vezi sa uspehom Evropskog socijalnog fonda, a ne na književno delo.	
+159-14	894-895	o	PREP	ADP	_	_	o	_	_	_	_	_	_	_	
+159-15	896-902	uspehu	N	NOUN	_	_	uspeh	_	_	_	ENG30-00063652-n	3	ENG30-00063652-n;ENG30-07319103-n;ENG30-14474894-n	U kontekstu rečenice, 'uspeh' se odnosi na postignuća projekata ESF, odnosno na uspešne ishode tih projekata koji su poboljšali radni život ljudi.	
+159-16	903-907	koje	PRO	DET	_	_	koji	_	_	_	_	_	_	_	
+159-17	908-916	pokazuju	V	VERB	_	_	pokazivati	_	_	_	ENG30-00772640-v	8	ENG30-00772640-v;ENG30-00923307-v;ENG30-00923793-v;ENG30-00928232-v;ENG30-01339505-v;ENG30-01589056-v;ENG30-02137132-v;ENG30-02143283-v	U kontekstu rečenice, 'pokazuju' znači da priče o uspehu pružaju dokaze o tome kako su projekti ESF poboljšali radni život ljudi. Dakle, značenje 'pružiti dokaze o' je najprikladnije.	
+159-18	917-921	kako	ADV	ADV	_	_	kako	_	_	_	ENG30-00111712-b	2	ENG30-00111546-b;ENG30-00111712-b	U datom kontekstu, 'kako' se koristi da objasni na koji način su projekti ESF pomogli u poboljšanju radnog života ljudi, što odgovara značenju 'na koji način ili način ili kojim sredstvima'.	
+159-19	922-924	su	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+159-20	925-933	projekti	N	NOUN	_	_	projekt	_	_	_	DRJ0-218747/1	3	DRJ0-218747/1;DRJ0-218747/2;DRJ0-218747/3	U kontekstu rečenice, 'projekti ESF' se odnose na razrađene programe i akcije koje su pomogle da se poboljša radni život ljudi, što odgovara značenju 'razrađen program, plan za ostvarenje kakvog istraživanja, poduhvata, akcije, zamisli; samo to istraživanje, akcija, zamisao'.	
+159-21	934-937	ESF	ABB	X	http://www.wikidata.org/entity/Q846996	ORG	ESF	_	_	_	_	_	_	_	
+159-22	938-945	pomogli	V	VERB	_	_	pomoći	_	_	_	ENG30-02735897-v	5	ENG30-00082081-v;ENG30-01757338-v;ENG30-02547586-v;ENG30-02555434-v;ENG30-02735897-v	U kontekstu rečenice, 'pomogli' znači da su projekti ESF bili od koristi u poboljšanju radnog života ljudi.	
+159-23	946-948	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	
+159-24	949-951	se	PAR	PART	_	_	se	_	_	_	_	_	_	_	
+159-25	952-960	poboljša	V	VERB	_	_	poboljšati	_	_	_	ENG30-00205885-v	3	ENG30-00205885-v;ENG30-00229605-v;ENG30-00549982-v	U kontekstu rečenice, 'poboljšati' znači učiniti radni život ljudi boljim, što se direktno poklapa sa značenjem 'učiniti boljim'.	
+159-26	961-966	radni	A	ADJ	_	_	radni	_	_	_	ENG30-00833334-a	2	ENG30-00833334-a;ENG30-00864461-a	U kontekstu 'radni život', reč 'radni' se odnosi na aspekte života koji su povezani sa radom i zaposlenjem, odnosno na uslove i kvalitet života koji su omogućeni ili poboljšani kroz rad.	
+159-27	967-972	život	N	NOUN	_	_	život	_	_	_	ENG30-05810561-n	11	ENG30-00006269-n;ENG30-05810561-n;ENG30-09178727-n;ENG30-10260706-n;ENG30-11473291-n;ENG30-13954253-n;ENG30-13961399-n;ENG30-13963192-n;ENG30-15140405-n;ENG30-15140744-n;ENG30-15140892-n	U kontekstu rečenice, 'život' se odnosi na iskustvo življenja i aktivnosti ljudi, posebno u vezi sa poboljšanjem radnih uslova.	
+159-28	973-978	ljudi	N	NOUN	_	_	ljudi	_	_	_	ENG30-07942152-n	3	ENG30-07942152-n;ENG30-08208016-n;ENG30-10289176-n	U kontekstu rečenice, 'ljudi' se odnosi na grupu ljudskih bića kojima su projekti ESF pomogli da poboljšaju radni život, što odgovara definiciji 'Bilo koja grupa ljudskih bića, muškaraca, žena ili dece, zajedno (množina)'.	
+159-29	979-984	širom	PREP	ADP	_	_	širom	_	_	_	_	_	_	_	
+159-30	985-991	Evrope	N	PROPN	http://www.wikidata.org/entity/Q46	LOC	Evropa	_	_	_	_	_	_	_	
+159-31	991-992	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Tako je projekat ujedinio mlade igrače četiri kontinenta — Afrike, Evroazije, Severne Amerike i Južne Amerike.
+160-1	992-996	Tako	ADV	ADV	_	_	tako	_	_	_	ENG30-00121002-b	7	ENG30-00037641-b;ENG30-00043003-b;ENG30-00117620-b;ENG30-00121002-b;ENG30-00121135-b;ENG30-00146594-b;ENG30-00146926-b	U datoj rečenici, 'tako' se koristi da pokaže da je projekat ujedinio mlade igrače kao rezultat ili na taj način, što odgovara značenju 'na taj način ili zbog toga'.	
+160-2	997-999	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+160-3	1000-1008	projekat	N	NOUN	_	_	projekt	_	_	_	DRJ0-218747/1	3	DRJ0-218747/1;DRJ0-218747/2;DRJ0-218747/3	U datom kontekstu, reč 'projekat' se odnosi na plan ili poduhvat koji ima za cilj ujedinjenje mladih igrača sa različitih kontinenata, što odgovara značenju 'razrađen program, plan za ostvarenje kakvog istraživanja, poduhvata, akcije, zamisli; samo to istraživanje, akcija, zamisao'.	
+160-4	1009-1017	ujedinio	V	VERB	_	_	ujediniti	_	_	_	ENG30-00243124-v	4	ENG30-00243124-v;ENG30-02469835-v;ENG30-02622234-v;ENG30-02631163-v	U ovom kontekstu, 'ujediniti' znači pridružiti ili kombinovati mlade igrače sa različitih kontinenata u okviru projekta.	
+160-5	1018-1023	mlade	A	ADJ	_	_	mlad	_	_	_	ENG30-01674464-a	2	ENG30-00818008-a;ENG30-01674464-a	U datom kontekstu, reč 'mlade' se odnosi na ljude, konkretno igrače, koji su u ranom stadijumu života, što odgovara značenju 'koristi se za ljude i živa bića, koji su u ranom stadijumu života ili razvoja i rasta'.	
+160-6	1024-1030	igrače	N	NOUN	*	ROLE	igrač	_	_	_	ENG30-10439851-n	1	ENG30-10439851-n	U datom kontekstu, 'igrač' se odnosi na osobu koja učestvuje u nekoj igri ili sportu, što se uklapa u definiciju 'osoba koja učestvuje ili je vešta u nekoj igri'.	
+160-7	1031-1037	četiri	NUM	NUM	_	_	četiri	_	_	_	_	_	_	_	
+160-8	1038-1048	kontinenta	N	NOUN	_	_	kontinent	_	_	_	ENG30-09254614-n	1	ENG30-09254614-n	Rečenica opisuje projekat koji ujedinjuje mlade igrače sa različitih kontinenata, što se direktno odnosi na kontinente kao velike kopnene mase na Zemlji.	
+160-9	1049-1050	—	PUNCT	PUNCT	_	_	—	_	_	_	_	_	_	_	
+160-10	1051-1057	Afrike	N	PROPN	http://www.wikidata.org/entity/Q15	LOC	Afrika	_	_	_	_	_	_	_	
+160-11	1057-1058	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+160-12	1059-1068	Evroazije	N	PROPN	http://www.wikidata.org/entity/Q5401	LOC	Evroazija	_	_	_	_	_	_	_	
+160-13	1068-1069	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+160-14	1070-1077	Severne	A	ADJ	http://www.wikidata.org/entity/Q49[78]	LOC[78]	severni	_	_	_	_	_	_	_	
+160-15	1078-1085	Amerike	N	PROPN	http://www.wikidata.org/entity/Q49[78]	LOC[78]	Amerika	_	_	_	_	_	_	_	
+160-16	1086-1087	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+160-17	1088-1093	Južne	A	ADJ	http://www.wikidata.org/entity/Q18[79]	LOC[79]	južni	_	_	_	_	_	_	_	
+160-18	1094-1101	Amerike	N	PROPN	http://www.wikidata.org/entity/Q18[79]	LOC[79]	Amerika	_	_	_	_	_	_	_	
+160-19	1101-1102	.	PUNCT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Dok se definisanje strategije vrši na nivou EU, implementacija finansiranja Evropskog socijalnog fonda (ESF) je odgovornost država članica EU i regiona.
+161-1	1102-1105	Dok	CONJ	SCONJ	_	_	Dok	_	_	_	_	_	_	_	
+161-2	1106-1108	se	PAR	PART	_	_	se	_	_	_	_	_	_	_	
+161-3	1109-1120	definisanje	N	NOUN	_	_	definisanje	_	_	_	ENG30-13555446-n	1	ENG30-13555446-n	U datom kontekstu, "definisanje strategije" se odnosi na proces utvrđivanja i oblikovanja strategije, što odgovara značenju 'svaki proces koji služi za definisanje oblika nečega'.	
+161-4	1121-1131	strategije	N	NOUN	_	_	strategija	_	_	_	ENG30-05905348-n	2	ENG30-05905348-n;ENG30-06249177-n	U datom kontekstu, 'strategija' se odnosi na plan akcije koji se definiše na nivou EU, što odgovara značenju 'razvijen i sistematski plan akcije'.	
+161-5	1132-1136	vrši	V	VERB	_	_	vršiti	_	_	_	ENG30-02374764-v	2	ENG30-02374764-v;ENG30-02568672-v	U datom kontekstu, 'vršiti' znači obavljati funkciju definisanja strategije na nivou EU.	
+161-6	1137-1139	na	PREP	ADP	_	_	na	1[812]	na nivou[812]	AdpID[812]	LLM-0132[3509]	1[3509]	LLM-0132[3509]	U datom kontekstu, 'na nivou EU' znači 'u skladu sa standardima ili stepenom koji postavlja EU', što odgovara značenju 'u skladu sa'.[3509]	
+161-7	1140-1145	nivou	N	NOUN	_	_	nivo	1[812]	na nivou[812]	AdpID[812]	LLM-0132[3509]	1[3509]	LLM-0132[3509]	U datom kontekstu, 'na nivou EU' znači 'u skladu sa standardima ili stepenom koji postavlja EU', što odgovara značenju 'u skladu sa'.[3509]	
+161-8	1146-1148	EU	ABB	X	http://www.wikidata.org/entity/Q458	ORG	EU	_	_	_	_	_	_	_	
+161-9	1148-1149	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+161-10	1150-1164	implementacija	N	NOUN	_	_	implementacija	_	_	_	ENG30-01127379-n	1	ENG30-01127379-n	Implementacija u kontekstu rečenice se odnosi na izvršenje finansiranja Evropskog socijalnog fonda, što odgovara značenju 'čin postizanja nekog cilja ili izvršenja nekog naređenja'.	
+161-11	1165-1177	finansiranja	N	NOUN	_	_	finansiranje	_	_	_	ENG30-13365698-n	2	ENG30-01099109-n;ENG30-13365698-n	U kontekstu rečenice, 'finansiranje' se odnosi na finansijska sredstva koja se obezbeđuju za implementaciju Evropskog socijalnog fonda (ESF), što odgovara značenju 'finansijska sredstva obezbeđena za omogućavanje nekog projekta'.	
+161-12	1178-1187	Evropskog	A	ADJ	http://www.wikidata.org/entity/Q846996[80]	ORG[80]	evropski	_	_	_	_	_	_	_	
+161-13	1188-1198	socijalnog	A	ADJ	http://www.wikidata.org/entity/Q846996[80]	ORG[80]	socijalan	_	_	_	_	_	_	_	
+161-14	1199-1204	fonda	N	NOUN	http://www.wikidata.org/entity/Q846996[80]	ORG[80]	fond	_	_	_	_	_	_	_	
+161-15	1205-1206	(	PUNCT	PUNCT	_	_	(	_	_	_	_	_	_	_	
+161-16	1206-1209	ESF	ABB	X	http://www.wikidata.org/entity/Q846996	ORG	ESF	_	_	_	_	_	_	_	
+161-17	1209-1210	)	PUNCT	PUNCT	_	_	)	_	_	_	_	_	_	_	
+161-18	1211-1213	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+161-19	1214-1225	odgovornost	N	NOUN	_	_	odgovornost	_	_	_	ENG30-01124246-n	2	ENG30-01124246-n;ENG30-04669247-n	U kontekstu rečenice, 'odgovornost' se odnosi na obavezu država članica EU i regiona da sprovedu finansiranje Evropskog socijalnog fonda (ESF), što predstavlja mehanizam društvene kontrole za sprovođenje društvenih standarda.	
+161-20	1226-1232	država	N	NOUN	_	_	država	2[813]	država članica[813]	NID[813]	LLM-0040[3510]	1[3510]	LLM-0040[3510]	U kontekstu rečenice, 'država članica' se odnosi na zemlju koja je deo Evropske unije, što se uklapa u definiciju zemlje koja je deo neke međunarodne organizacije ili zajednice.[3510]	
+161-21	1233-1240	članica	N	NOUN	_	_	članica	2[813]	država članica[813]	NID[813]	LLM-0040[3510]	1[3510]	LLM-0040[3510]	U kontekstu rečenice, 'država članica' se odnosi na zemlju koja je deo Evropske unije, što se uklapa u definiciju zemlje koja je deo neke međunarodne organizacije ili zajednice.[3510]	
+161-22	1241-1243	EU	ABB	X	http://www.wikidata.org/entity/Q458	ORG	EU	_	_	_	_	_	_	_	
+161-23	1244-1245	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+161-24	1246-1253	regiona	N	NOUN	_	_	region	_	_	_	RSSJ-45108/0	1	RSSJ-45108/0	U navedenom kontekstu, 'region' se odnosi na prostor unutar država članica EU koji ima određene zajedničke karakteristike relevantne za implementaciju finansiranja Evropskog socijalnog fonda.	
+161-25	1253-1254	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Češka Republika je 12. marta 1999. postala članica NATO, zajedno s Poljskom i Mađarskom.
+162-1	1254-1259	Češka	A	ADJ	http://www.wikidata.org/entity/Q213[81]	LOC[81]	češki	_	_	_	_	_	_	_	
+162-2	1260-1269	Republika	N	NOUN	http://www.wikidata.org/entity/Q213[81]	LOC[81]	republika	_	_	_	_	_	_	_	
+162-3	1270-1272	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+162-4	1273-1276	12.	A	ADJ	_	_	12.	_	_	_	NEW_SENSE	0	_	_	
+162-5	1277-1282	marta	N	NOUN	_	_	mart	_	_	_	ENG30-15210870-n	1	ENG30-15210870-n	U navedenom kontekstu, 'mart' se odnosi na mesec u godini, konkretno na treći mesec, što odgovara definiciji značenja 'Mesec koji dolazi posle februara a pre aprila u kalendaru'.	
+162-6	1283-1288	1999.	A	ADJ	_	_	1999.	_	_	_	NEW_SENSE	0	_	_	
+162-7	1289-1296	postala	V	VERB	_	_	postati	_	_	_	ENG30-00149583-v	5	ENG30-00094460-v;ENG30-00149583-v;ENG30-02381571-v;ENG30-02623529-v;ENG30-02626604-v	U kontekstu rečenice, 'postati' znači ući u određeno stanje, odnosno stanje članstva u NATO-u. Ovo značenje se najbolje uklapa u dati kontekst.	
+162-8	1297-1304	članica	N	NOUN	_	_	članica	_	_	_	DRJ0-190732/0б	2	DRJ0-190732/0а.;DRJ0-190732/0б.	U navedenom kontekstu, 'članica' se odnosi na državu (Češku Republiku) koja je postala deo NATO organizacije. Dakle, značenje 'zemlja, država pripadnica neke organizacije' je najprikladnije.	
+162-9	1305-1309	NATO	ABB	X	http://www.wikidata.org/entity/Q7184	ORG	NATO	_	_	_	_	_	_	_	
+162-10	1309-1310	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+162-11	1311-1318	zajedno	ADV	ADV	_	_	zajedno	_	_	_	ENG30-00117082-b	4	ENG30-00116588-b;ENG30-00116994-b;ENG30-00117082-b;ENG30-00197710-b	U datom kontekstu, 'zajedno' znači da su Češka Republika, Poljska i Mađarska ušle u NATO u isto vreme, u spoju, kombinovano.	
+162-12	1319-1320	s	PREP	ADP	_	_	s	_	_	_	_	_	_	_	
+162-13	1321-1329	Poljskom	N	PROPN	http://www.wikidata.org/entity/Q36	LOC	Poljska	_	_	_	_	_	_	_	
+162-14	1330-1331	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+162-15	1332-1341	Mađarskom	N	PROPN	http://www.wikidata.org/entity/Q28	LOC	Mađarska	_	_	_	_	_	_	_	
+162-16	1341-1342	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Neki zakoni zahtevaju i komunikaciju između država članica i Evropske komisije (na primer, za obaveštavanje o nacionalnim merama za implementaciju prava Evropske unije).
+163-1	1342-1346	Neki	PRO	DET	_	_	neki	_	_	_	_	_	_	_	
+163-2	1347-1353	zakoni	N	NOUN	_	_	zakon	_	_	_	ENG30-06564387-n	2	ENG30-06532330-n;ENG30-06564387-n	U kontekstu rečenice, 'zakoni' se odnose na akte koje donosi zakonodavno telo, što odgovara značenju pod ID-jem ENG30-06564387-n.	
+163-3	1354-1363	zahtevaju	V	VERB	_	_	zahtevati	_	_	_	ENG30-02627934-v	6	ENG30-00754942-v;ENG30-00784727-v;ENG30-02267989-v;ENG30-02275365-v;ENG30-02627934-v;ENG30-02635547-v	U datom kontekstu, zakoni 'zahtevaju' komunikaciju, što znači da je to potrebno, ispravno ili propisano zakonom. Ovo se najbolje uklapa u značenje 'Zahtevati jer je korisno, pravedno ili ispravno'.	
+163-4	1364-1365	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+163-5	1366-1378	komunikaciju	N	NOUN	_	_	komunikacija	_	_	_	ENG30-07279285-n	2	ENG30-00033020-n;ENG30-07279285-n	U datom kontekstu, 'komunikacija' se odnosi na interakciju i razmenu informacija između država članica i Evropske komisije, što odgovara značenju 'komunikativna interakcija'.	
+163-6	1379-1385	između	PREP	ADP	_	_	između	_	_	_	_	_	_	_	
+163-7	1386-1392	država	N	NOUN	_	_	država	1[814]	država članica[814]	NID[814]	LLM-0040[3511]	1[3511]	LLM-0040[3511]	U navedenom kontekstu, 'država članica' se odnosi na zemlju koja je deo Evropske unije, što je međunarodna zajednica. Dakle, značenje 'zemlja koja je deo neke međunarodne organizacije ili zajednice' je najprikladnije.[3511]	
+163-8	1393-1400	članica	N	NOUN	_	_	članica	1[814]	država članica[814]	NID[814]	LLM-0040[3511]	1[3511]	LLM-0040[3511]	U navedenom kontekstu, 'država članica' se odnosi na zemlju koja je deo Evropske unije, što je međunarodna zajednica. Dakle, značenje 'zemlja koja je deo neke međunarodne organizacije ili zajednice' je najprikladnije.[3511]	
+163-9	1401-1402	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+163-10	1403-1411	Evropske	A	ADJ	http://www.wikidata.org/entity/Q8880[82]	ORG[82]	evropski	_	_	_	_	_	_	_	
+163-11	1412-1420	komisije	N	NOUN	http://www.wikidata.org/entity/Q8880[82]	ORG[82]	komisija	_	_	_	_	_	_	_	
+163-12	1421-1422	(	PUNCT	PUNCT	_	_	(	_	_	_	_	_	_	_	
+163-13	1422-1424	na	PREP	ADP	_	_	na	3[815]	na primer[815]	PartID[815]	LLM-0135[3512]	1[3512]	LLM-0135[3512]	U navedenoj rečenici, 'na primer' se koristi da uvede konkretan primer komunikacije između država članica i Evropske komisije, što odgovara definiciji značenja 'uvodi primer ili ilustraciju'.[3512]	
+163-14	1425-1431	primer	N	NOUN	_	_	primer	3[815]	na primer[815]	PartID[815]	LLM-0135[3512]	1[3512]	LLM-0135[3512]	U navedenoj rečenici, 'na primer' se koristi da uvede konkretan primer komunikacije između država članica i Evropske komisije, što odgovara definiciji značenja 'uvodi primer ili ilustraciju'.[3512]	
+163-15	1431-1432	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+163-16	1433-1435	za	PREP	ADP	_	_	za	_	_	_	_	_	_	_	
+163-17	1436-1449	obaveštavanje	N	NOUN	_	_	obaveštavanje	_	_	_	CVDf-222/0	1	CVDf-222/0	U navedenom kontekstu, 'obaveštavanje' se odnosi na akciju prenošenja informacija između država članica i Evropske komisije, što odgovara definiciji glagolske imenice od obaveštavati i akciji kojom se neko obaveštava.	
+163-18	1450-1451	o	PREP	ADP	_	_	o	_	_	_	_	_	_	_	
+163-19	1452-1463	nacionalnim	A	ADJ	_	_	nacionalan	_	_	_	ENG30-01105840-a	7	ENG30-00526984-a;ENG30-01038332-a;ENG30-01105840-a;ENG30-01567862-a;ENG30-01861776-a;ENG30-02988060-a;ENG30-02988402-a	U kontekstu rečenice, 'nacionalne mere' se odnose na mere koje se primenjuju na celu naciju ili zemlju, što odgovara značenju 'odnosi se na ili se primenjuje na ili pripada celoj naciji ili zemlji'.	
+163-20	1464-1470	merama	N	NOUN	_	_	mera	_	_	_	ENG30-00174412-n	7	ENG30-00033615-n;ENG30-00174412-n;ENG30-05117660-n;ENG30-05901508-n;ENG30-06501622-n;ENG30-13815342-n;ENG30-13941125-n	U kontekstu rečenice, 'mere' se odnose na korake ili poteze koje države preduzimaju u cilju implementacije prava Evropske unije, što odgovara značenju 'bilo koji potez povučen kao korak bliže cilju'.	
+163-21	1471-1473	za	PREP	ADP	_	_	za	_	_	_	_	_	_	_	
+163-22	1474-1488	implementaciju	N	NOUN	_	_	implementacija	_	_	_	ENG30-01127379-n	1	ENG30-01127379-n	U navedenom kontekstu, "implementacija" se odnosi na izvršavanje ili sprovođenje prava Evropske unije, što se uklapa u definiciju "čin postizanja nekog cilja ili izvršenja nekog naređenja".	
+163-23	1489-1494	prava	N	NOUN	_	_	pravo	_	_	_	ENG30-08441203-n	4	ENG30-04850341-n;ENG30-05142180-n;ENG30-05174653-n;ENG30-08441203-n	U kontekstu rečenice, 'prava Evropske unije' se odnose na skup pravila i zakona koje je uspostavila Evropska unija, što odgovara značenju 'skup pravila koja nameće autoritet'.	
+163-24	1495-1503	Evropske	A	ADJ	http://www.wikidata.org/entity/Q458[83]	ORG[83]	evropski	_	_	_	_	_	_	_	
+163-25	1504-1509	unije	N	NOUN	http://www.wikidata.org/entity/Q458[83]	ORG[83]	unija	_	_	_	_	_	_	_	
+163-26	1509-1510	)	PUNCT	PUNCT	_	_	)	_	_	_	_	_	_	_	
+163-27	1510-1511	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Strategija definiše ciljeve finansiranja ESF-a, koje delimično ili u potpunosti deli sa drugim strukturnim finansiranjem.
+164-1	1511-1521	Strategija	N	NOUN	_	_	strategija	_	_	_	ENG30-05905348-n	2	ENG30-05905348-n;ENG30-06249177-n	U datom kontekstu, 'strategija' se odnosi na plan finansiranja, što odgovara značenju razvijenog i sistematskog plana akcije.	
+164-2	1522-1530	definiše	V	VERB	_	_	definisati	_	_	_	ENG30-02611630-v	2	ENG30-00957378-v;ENG30-02611630-v	U datom kontekstu, 'definisati' znači odrediti ciljeve finansiranja, što odgovara značenju 'odrediti bitnu osobinu'.	
+164-3	1531-1538	ciljeve	N	NOUN	_	_	cilj	_	_	_	ENG30-05980875-n	5	ENG30-05143077-n;ENG30-05980875-n;ENG30-05981230-n;ENG30-07262108-n;ENG30-08567877-n	U kontekstu rečenice, 'ciljevi' se odnose na željena stanja ili ishode finansiranja ESF-a, što odgovara definiciji stanja stvari koje plan treba da postigne.	
+164-4	1539-1551	finansiranja	N	NOUN	_	_	finansiranje	_	_	_	ENG30-01099109-n	2	ENG30-01099109-n;ENG30-13365698-n	U kontekstu rečenice, 'finansiranje' se odnosi na sam čin obezbeđivanja sredstava, a ne na konkretna sredstva. Strategija definiše ciljeve samog procesa finansiranja.	
+164-5	1552-1557	ESF-a	ABB	X	http://www.wikidata.org/entity/Q764847	ORG	ESF	_	_	_	_	_	_	_	
+164-6	1557-1558	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+164-7	1559-1563	koje	PRO	DET	_	_	koji	_	_	_	_	_	_	_	
+164-8	1564-1573	delimično	ADV	ADV	_	_	delimično	_	_	_	ENG30-00007703-b	1	ENG30-00007703-b	Reč 'delimično' u datoj rečenici znači da se ciljevi finansiranja ESF-a samo u određenoj meri, a ne u potpunosti, dele sa drugim strukturnim finansiranjem, što odgovara značenju 'u određenoj meri; do nekog stepena; ne u potpunosti'.	
+164-9	1574-1577	ili	CONJ	CCONJ	_	_	ili	_	_	_	_	_	_	_	
+164-10	1578-1579	u	PREP	ADP	_	_	u	1[816]	u potpunosti[816]	AdvID[816]	NEW_SENSE[3513]	1[3513]	LLM-0284[3513]	Ponuđeno značenje ne odgovara kontekstu. 'U potpunosti' u datoj rečenici znači 'sasvim', 'u celosti', što nije povezano sa značenjem 'u znak podrške'.[3513]	
+164-11	1580-1590	potpunosti	N	NOUN	_	_	potpunost	1[816]	u potpunosti[816]	AdvID[816]	NEW_SENSE[3513]	1[3513]	LLM-0284[3513]	Ponuđeno značenje ne odgovara kontekstu. 'U potpunosti' u datoj rečenici znači 'sasvim', 'u celosti', što nije povezano sa značenjem 'u znak podrške'.[3513]	
+164-12	1591-1595	deli	V	VERB	_	_	deliti	_	_	_	ENG30-02718309-v	7	ENG30-01563724-v;ENG30-02255268-v;ENG30-02294436-v;ENG30-02295550-v;ENG30-02621853-v;ENG30-02718309-v;ENG30-02754598-v	U kontekstu rečenice, 'deliti' znači da strategija ima zajedničke ciljeve finansiranja sa drugim strukturnim finansiranjem, što odgovara značenju 'imati zajedničko'.	
+164-13	1596-1598	sa	PREP	ADP	_	_	sa	_	_	_	_	_	_	_	
+164-14	1599-1605	drugim	A	ADJ	_	_	drugi	_	_	_	ENG30-02070188-a	4	ENG30-00048858-a;ENG30-02070030-a;ENG30-02070188-a;ENG30-02202146-a	U kontekstu rečenice, 'drugim strukturnim finansiranjem' se odnosi na neko finansiranje koje nije ESF, odnosno neko drugo, različito finansiranje.	
+164-15	1606-1617	strukturnim	A	ADJ	_	_	strukturni	_	_	_	ENG30-02897335-a	2	ENG30-02861147-a;ENG30-02897335-a	U kontekstu finansiranja, 'strukturni' se odnosi na političku ili ekonomsku strukturu, odnosno na način na koji je društvo organizovano i kako se resursi raspoređuju.	
+164-16	1618-1631	finansiranjem	N	NOUN	_	_	finansiranje	_	_	_	ENG30-13365698-n	2	ENG30-01099109-n;ENG30-13365698-n	U kontekstu rečenice, 'finansiranjem' se odnosi na finansijska sredstva koja se koriste za strukturne projekte, što odgovara značenju 'finansijska sredstva obezbeđena za omogućavanje nekog projekta'.	
+164-17	1631-1632	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Unutar Evropske unije lokalne i regionalne vlasti lobirale su za povećanje učešća u poslovima EU.
+165-1	1632-1638	Unutar	PREP	ADP	_	_	unutar	_	_	_	_	_	_	_	
+165-2	1639-1647	Evropske	A	ADJ	http://www.wikidata.org/entity/Q458[84]	ORG[84]	evropski	_	_	_	_	_	_	_	
+165-3	1648-1653	unije	N	NOUN	http://www.wikidata.org/entity/Q458[84]	ORG[84]	unija	_	_	_	_	_	_	_	
+165-4	1654-1661	lokalne	A	ADJ	_	_	lokalan	_	_	_	ENG30-01106405-a	1	ENG30-01106405-a	Značenje 'koji se odnosi ili primenjuje na administraciju grada, opštine ili okruga a ne na neku širu zonu' se savršeno uklapa u kontekst rečenice, jer se govori o vlastima koje deluju na nivou grada, opštine ili okruga unutar Evropske unije.	
+165-5	1662-1663	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+165-6	1664-1674	regionalne	A	ADJ	_	_	regionalan	_	_	_	ENG30-02408977-a	1	ENG30-02408977-a	Reč 'regionalne' u kontekstu 'regionalne vlasti' odnosi se na vlasti koje su vezane za određenu oblast unutar Evropske unije, što odgovara definiciji značenja.	
+165-7	1675-1681	vlasti	N	NOUN	_	_	vlast	_	_	_	ENG30-08050678-n	5	ENG30-01128390-n;ENG30-01128655-n;ENG30-08050678-n;ENG30-09824609-n;ENG30-13953608-n	U kontekstu rečenice, 'vlasti' se odnosi na organizacije koje upravljaju lokalnim i regionalnim jedinicama unutar Evropske unije, što odgovara značenju 'Organizacija koja je upravljačko telo političke jedinice'.	
+165-8	1682-1690	lobirale	V	VERB	_	_	lobirati	_	_	_	ENG30-02458943-v	1	ENG30-02458943-v	U navedenom kontekstu, 'lobirale' znači zalagati se za određeni cilj, u ovom slučaju povećanje učešća u poslovima EU, što odgovara značenju 'kao za političke ili ekonomske usluge'.	
+165-9	1691-1693	su	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+165-10	1694-1696	za	PREP	ADP	_	_	za	_	_	_	_	_	_	_	
+165-11	1697-1706	povećanje	N	NOUN	_	_	povećanje	_	_	_	ENG30-07356676-n	4	ENG30-00364260-n;ENG30-07356676-n;ENG30-13497135-n;ENG30-13754293-n	U kontekstu rečenice, 'povećanje' se odnosi na promenu koja dovodi do veće participacije lokalnih i regionalnih vlasti u poslovima EU, što odgovara značenju 'promena koja dovodi do povećanja'.	
+165-12	1707-1713	učešća	N	NOUN	_	_	učešće	_	_	_	ENG30-01239064-n	1	ENG30-01239064-n	U kontekstu rečenice, 'učešće' se odnosi na deljenje aktivnosti i poslova unutar Evropske unije, što odgovara značenju 'Deljenje aktivnosti sa grupom'.	
+165-13	1714-1715	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	
+165-14	1716-1725	poslovima	N	NOUN	_	_	posao	_	_	_	ENG30-00575741-n	10	ENG30-00040804-n;ENG30-00575741-n;ENG30-00582388-n;ENG30-00584367-n;ENG30-00795720-n;ENG30-01096245-n;ENG30-01106808-n;ENG30-04602044-n;ENG30-05671325-n;ENG30-06572482-n	U kontekstu rečenice, 'poslovi EU' se odnose na aktivnosti koje se sprovode unutar EU, što odgovara značenju 'Aktivnost koja je usmerena ka tome da se nešto uradi'.	
+165-15	1726-1728	EU	ABB	X	http://www.wikidata.org/entity/Q458	ORG	EU	_	_	_	_	_	_	_	
+165-16	1728-1729	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Cilj konvergencije: stimulisati rast i zapošljavanje u najnerazvijenijim regionima.
+166-1	1729-1733	Cilj	N	NOUN	_	_	cilj	_	_	_	ENG30-05980875-n	5	ENG30-05143077-n;ENG30-05980875-n;ENG30-05981230-n;ENG30-07262108-n;ENG30-08567877-n	U datom kontekstu, 'cilj' se odnosi na željeno stanje stvari (stimulisanje rasta i zapošljavanja) koje se planira postići konvergencijom. To je ono što se želi ostvariti i što bi trebalo da bude rezultat aktivnosti.	
+166-2	1734-1747	konvergencije	N	NOUN	_	_	konvergencija	_	_	_	ENG30-00146572-n	3	ENG30-00146572-n;ENG30-05863106-n;ENG30-07414740-n	U kontekstu rečenice, 'konvergencija' se odnosi na proces približavanja ili usklađivanja različitih regiona u smislu ekonomskog rasta i zapošljavanja. To odgovara značenju 'čin približavanja (približavanja)'.	
+166-3	1747-1748	:	PUNCT	PUNCT	_	_	:	_	_	_	_	_	_	_	
+166-4	1749-1760	stimulisati	V	VERB	_	_	stimulisati	_	_	_	ENG30-00794079-v	6	ENG30-00022686-v;ENG30-00503164-v;ENG30-00794079-v;ENG30-01644522-v;ENG30-02116118-v;ENG30-02554647-v	U kontekstu rečenice, 'stimulisati' znači pružiti podstrek rastu i zapošljavanju, što se poklapa sa značenjem 'pružiti potreban podstrek za šta'.	
+166-5	1761-1765	rast	N	NOUN	_	_	rast	_	_	_	ENG30-07324917-n	4	ENG30-07324673-n;ENG30-07324917-n;ENG30-13489037-n;ENG30-13497135-n	U kontekstu ekonomije i regiona, "rast" se odnosi na povećanje ekonomske snage i aktivnosti, što odgovara značenju 'rast snage, broja ili važnosti'.	
+166-6	1766-1767	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+166-7	1768-1781	zapošljavanje	N	NOUN	_	_	zapošljavanje	_	_	_	ENG30-01217859-n	3	ENG30-00039990-n;ENG30-01217859-n;ENG30-01263711-n	U kontekstu rečenice, 'zapošljavanje' se odnosi na čin davanja posla ljudima u nerazvijenim regionima kako bi se stimulisao rast.	
+166-8	1782-1783	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	
+166-9	1784-1801	najnerazvijenijim	A	ADJ	_	_	nerazvijen	_	_	_	ENG30-01491691-a	2	ENG30-00977807-a;ENG30-01491691-a	U kontekstu regiona, 'najnerazvijenijim' se odnosi na regione koji nisu u potpunosti razvijeni u ekonomskom i socijalnom smislu.	
+166-10	1802-1811	regionima	N	NOUN	_	_	region	_	_	_	RSSJ-45108/0	1	RSSJ-45108/0	U navedenom kontekstu, 'region' se odnosi na prostor sa određenim karakteristikama (u ovom slučaju, nerazvijenost), što odgovara definiciji prostora sa zajedničkim karakteristikama.	
+166-11	1811-1812	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=U teškim slučajevima povezanim sa gripom A ili B mogu se primeniti antivirusni inhibitori neuraminidaze.
+167-1	1812-1813	U	PREP	ADP	_	_	u	_	_	_	_	_	_	_	
+167-2	1814-1820	teškim	A	ADJ	_	_	težak	_	_	_	ENG30-01190683-a	11	ENG30-00651039-a;ENG30-00744916-a;ENG30-00747910-a;ENG30-00836544-a;ENG30-00987769-a;ENG30-01184932-a;ENG30-01190683-a;ENG30-01191618-a;ENG30-01510444-a;ENG30-02287733-a;ENG30-02317012-a	U kontekstu gripa, "teški slučajevi" se odnose na slučajeve velikog stepena ili intenziteta bolesti, što odgovara značenju 'Velik po stepenu ili intenzitetu ili broju ili količini'.	
+167-3	1821-1832	slučajevima	N	NOUN	_	_	slučaj	_	_	_	ENG30-13943400-n	7	ENG30-06649426-n;ENG30-06784966-n;ENG30-07300960-n;ENG30-07308889-n;ENG30-09898892-n;ENG30-13766436-n;ENG30-13943400-n	U datom kontekstu, 'slučajevi' se odnose na specifične situacije ili okolnosti bolesti (gripa A ili B) koje su teške i zahtevaju određeni tretman. Značenje 'poseban splet okolnosti' najbolje odgovara ovom opisu.	
+167-4	1833-1842	povezanim	A	ADJ	_	_	povezan	_	_	_	ENG30-00566099-a	5	ENG30-00566099-a;ENG30-00731955-a;ENG30-01064806-a;ENG30-01481812-a;ENG30-02476485-a	U kontekstu rečenice, 'povezan' znači 'spojen' ili 'vezan' za gripu A ili B, ukazujući na teške slučajeve koji su u vezi sa tim gripama.	
+167-5	1843-1845	sa	PREP	ADP	_	_	sa	_	_	_	_	_	_	_	
+167-6	1846-1852	gripom	N	NOUN	_	_	grip	1[817]	grip A[817]	NID[817]	LLM-0059[3514]	1[3514]	LLM-0059[3514]	U navedenom kontekstu, 'grip A' se odnosi na specifičan tip virusne infekcije respiratornog trakta, što odgovara definiciji pod ID-jem LLM-0059.[3514]	
+167-7	1853-1854	A	ABB	X	_	_	A	1[817]	grip A[817]	NID[817]	LLM-0059[3514]	1[3514]	LLM-0059[3514]	U navedenom kontekstu, 'grip A' se odnosi na specifičan tip virusne infekcije respiratornog trakta, što odgovara definiciji pod ID-jem LLM-0059.[3514]	
+167-8	1855-1858	ili	CONJ	CCONJ	_	_	ili	_	_	_	_	_	_	_	
+167-9	1859-1860	B	ABB	X	_	_	B	_	_	_	_	_	_	_	
+167-10	1861-1865	mogu	V	VERB	_	_	moći	_	_	_	NEW_SENSE	1	ENG30-02523221-v	Ponuđeno značenje ne odgovara kontekstu. U rečenici, 'mogu' se koristi kao pomoćni glagol koji izražava mogućnost ili verovatnoću da će se nešto desiti.	
+167-11	1866-1868	se	PAR	PART	_	_	se	_	_	_	_	_	_	_	
+167-12	1869-1878	primeniti	V	VERB	_	_	primeniti	_	_	_	ENG30-01158872-v	6	ENG30-01158872-v;ENG30-02309165-v;ENG30-02309374-v;ENG30-02560164-v;ENG30-02561332-v;ENG30-02676789-v	U ovom kontekstu, 'primeniti' znači upotrebiti antivirusne inhibitore neuraminidaze kao sredstvo za lečenje ili kontrolu gripa A ili B, što odgovara značenju 'staviti nešto u službu; upotrebiti nešto za neku određenu primenu'.	
+167-13	1879-1890	antivirusni	A	ADJ	_	_	antivirusni	_	_	_	RSSJ-1115/0	1	RSSJ-1115/0	Rečenica govori o lekovima koji se koriste u teškim slučajevima gripa A ili B, a antivirusni inhibitori neuraminidaze su lekovi koji deluju protiv virusa.	
+167-14	1891-1901	inhibitori	N	NOUN	_	_	inhibitor	_	_	_	ENG30-14724436-n	1	ENG30-14724436-n	Inhibitor u kontekstu lečenja gripa se odnosi na supstancu koja zaustavlja ili usporava aktivnost virusa, što se poklapa sa definicijom.	
+167-15	1902-1915	neuraminidaze	N	NOUN	_	_	neuraminidaze	_	_	_	CVDf-220/0	1	CVDf-220/0	Neuraminidaza je enzim koji se nalazi u patogenim mikroorganizmima, što se uklapa u kontekst primene antivirusnih inhibitora u slučajevima gripa A ili B.	
+167-16	1915-1916	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Cilj portala je i da institucije i druga tela EU učini transparentnijim i odgovornijim.
+168-1	1916-1920	Cilj	N	NOUN	_	_	cilj	_	_	_	ENG30-05980875-n	5	ENG30-05143077-n;ENG30-05980875-n;ENG30-05981230-n;ENG30-07262108-n;ENG30-08567877-n	U navedenom kontekstu, 'cilj' se odnosi na željeno stanje ili ishod koji se nastoji postići, a to je da se institucije EU učine transparentnijim i odgovornijim. Ovo značenje se najbolje uklapa u definiciju 'stanja stvari koje neki plan treba da postigne'.	
+168-2	1921-1928	portala	N	NOUN	_	_	portal	_	_	_	ENG30-06359657-n	1	ENG30-06359657-n	U navedenom kontekstu, 'portal' se odnosi na veb-sajt koji služi kao ulazna tačka ili platforma za pristup informacijama i uslugama, što odgovara definiciji sajta koji služi kao ulaz na druge sajtove ili izvore informacija.	
+168-3	1929-1931	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+168-4	1932-1933	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+168-5	1934-1936	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	
+168-6	1937-1948	institucije	N	NOUN	_	_	institucija	_	_	_	ENG30-08053576-n	2	ENG30-05669350-n;ENG30-08053576-n	U kontekstu rečenice, 'institucije' se odnose na organizacije unutar EU, što odgovara značenju 'organizacija osnovana za specijalne potrebe'.	
+168-7	1949-1950	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+168-8	1951-1956	druga	A	ADJ	_	_	drugi	_	_	_	ENG30-02070188-a	4	ENG30-00048858-a;ENG30-02070030-a;ENG30-02070188-a;ENG30-02202146-a	U kontekstu rečenice, 'druga tela EU' označava tela koja nisu institucije, odnosno neka druga tela, a ne ona koja su prva pomenuta.	
+168-9	1957-1961	tela	N	NOUN	_	_	telo	_	_	_	ENG30-07965085-n	8	ENG30-02861886-n;ENG30-05216365-n;ENG30-05217859-n;ENG30-05549830-n;ENG30-06394701-n;ENG30-07965085-n;ENG30-08436288-n;ENG30-09224911-n	U datom kontekstu, 'tela EU' se odnosi na grupe ljudi organizovane u institucije, što odgovara značenju 'grupa ljudi koji su povezani nekom zajedničkom vezom ili zanimanjem i posmatraju se kao celina'.	
+168-10	1962-1964	EU	ABB	X	http://www.wikidata.org/entity/Q458	ORG	EU	_	_	_	_	_	_	_	
+168-11	1965-1970	učini	V	VERB	_	_	učiniti	_	_	_	ENG30-01645601-v	6	ENG30-00771490-v;ENG30-00885925-v;ENG30-01619014-v;ENG30-01645601-v;ENG30-02396716-v;ENG30-02735897-v	U ovom kontekstu, 'učiniti' znači izazvati da institucije i tela EU postanu transparentniji i odgovorniji, bez nužne implikacije namere, što se poklapa sa značenjem 'Učiniti da se nešto desi, ne mora biti s namerom'.	
+168-12	1971-1987	transparentnijim	A	ADJ	_	_	transparentan	_	_	_	ENG30-01619689-a	2	ENG30-00431774-a;ENG30-01619689-a	U kontekstu rečenice, 'transparentnijim' se odnosi na to da institucije i tela EU budu lakše razumljive i vidljive u svom radu, odnosno da se njihove aktivnosti i odluke mogu lako pratiti i razumeti.	
+168-13	1988-1989	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+168-14	1990-2002	odgovornijim	A	ADJ	_	_	odgovoran	_	_	_	ENG30-01996377-a	3	ENG30-00324878-a;ENG30-00809201-a;ENG30-01996377-a	U kontekstu rečenice, 'odgovornijim' se odnosi na to da institucije i tela EU treba da budu svesni svojih postupaka i da snose posledice za njih, što odgovara značenju 'koji odgovara za svoje postupke'.	
+168-15	2002-2003	.	PUNCT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Zajednički istraživački centar Evropske komisije odgovoran je za pružanje tehničke i naučne podrške inicijativi.
+169-1	2003-2013	Zajednički	A	ADJ	_	_	zajednički	_	_	_	ENG30-00493012-a	4	ENG30-00492677-a;ENG30-00493012-a;ENG30-02152216-a;ENG30-02635499-a	U datom kontekstu, 'zajednički' se odnosi na istraživački centar koji pripada Evropskoj komisiji kao grupi, a ne pojedincima. Dakle, značenje 'za grupu, a ne za pojedince' je najprikladnije.	
+169-2	2014-2026	istraživački	A	ADJ	_	_	istraživački	2[818]	istraživački centar[818]	NID[818]	LLM-0079[3515]	1[3515]	LLM-0079[3515]	Istraživački centar u datom kontekstu se odnosi na instituciju koja se bavi naučnim istraživanjima, što se poklapa sa definicijom pod ID-jem LLM-0079.[3515]	
+169-3	2027-2033	centar	N	NOUN	_	_	centar	2[818]	istraživački centar[818]	NID[818]	LLM-0079[3515]	1[3515]	LLM-0079[3515]	Istraživački centar u datom kontekstu se odnosi na instituciju koja se bavi naučnim istraživanjima, što se poklapa sa definicijom pod ID-jem LLM-0079.[3515]	
+169-4	2034-2042	Evropske	A	ADJ	http://www.wikidata.org/entity/Q8880[85]	ORG[85]	evropski	_	_	_	_	_	_	_	
+169-5	2043-2051	komisije	N	NOUN	http://www.wikidata.org/entity/Q8880[85]	ORG[85]	komisija	_	_	_	_	_	_	_	
+169-6	2052-2061	odgovoran	A	ADJ	_	_	odgovoran	_	_	_	ENG30-00809201-a	3	ENG30-00324878-a;ENG30-00809201-a;ENG30-01996377-a	U ovom kontekstu, 'odgovoran' znači da je centar zadužen za pružanje podrške, odnosno da je u kontroli nad tim zadatkom.	
+169-7	2062-2064	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+169-8	2065-2067	za	PREP	ADP	_	_	za	_	_	_	_	_	_	_	
+169-9	2068-2076	pružanje	N	NOUN	_	_	pružanje	1	pružanje podrške	NV.LVC.full	CVMWE-0361[3516]	1[3516]	CVMWE-0361[3516]	U kontekstu rečenice, 'pružanje podrške' se odnosi na akciju davanja tehničke i naučne pomoći inicijativi, što se uklapa u definiciju pomaganja ili omogućavanja pomoći.[3516]	
+169-10	2077-2085	tehničke	A	ADJ	_	_	tehnički	_	_	_	ENG30-01108716-a	1	ENG30-01108716-a	U kontekstu rečenice, 'tehnička' se odnosi na podršku koja je povezana sa veštinama i znanjem iz oblasti tehnike, što odgovara definiciji značenja.	
+169-11	2086-2087	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+169-12	2088-2094	naučne	A	ADJ	_	_	naučni	_	_	_	DRJ0-205726/1а.	6	DRJ0-205726/1а.;DRJ0-205726/1б.;DRJ0-205726/1в.;DRJ0-205726/1г.;DRJ0-205726/2а.;DRJ0-205726/2б.	U kontekstu rečenice, 'naučne podrške' se odnosi na podršku koja je povezana sa naukom, odnosno zasniva se na nauci. To je u skladu sa značenjem 'koji se odnosi na nauku, koji se zasniva na nauci'.	
+169-13	2095-2102	podrške	N	NOUN	_	_	podrška	1	*	NV.LVC.full	CVMWE-0361[3516]	1[3516]	CVMWE-0361[3516]	U kontekstu rečenice, 'pružanje podrške' se odnosi na akciju davanja tehničke i naučne pomoći inicijativi, što se uklapa u definiciju pomaganja ili omogućavanja pomoći.[3516]	
+169-14	2103-2114	inicijativi	N	NOUN	_	_	inicijativa	_	_	_	ENG30-00239230-n	3	ENG30-00239230-n;ENG30-00796886-n;ENG30-07456906-n	U kontekstu rečenice, 'inicijativa' se odnosi na prvi korak ili akciju u nizu, što odgovara značenju 'prva u nizu akcija'.	
+169-15	2114-2115	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Strategija takođe postavlja široke ose prioriteta–akcije potrebne za postizanje ciljeva i podobne za finansiranje.
+170-1	2115-2125	Strategija	N	NOUN	_	_	strategija	_	_	_	ENG30-05905348-n	2	ENG30-05905348-n;ENG30-06249177-n	U datom kontekstu, strategija se odnosi na plan akcije za postizanje ciljeva, što odgovara značenju 'razvijen i sistematski plan akcije'.	
+170-2	2126-2132	takođe	PAR	PART	_	_	takođe	_	_	_	_	_	_	_	
+170-3	2133-2142	postavlja	V	VERB	_	_	postavljati	_	_	_	NEW_SENSE	2	ENG30-01271936-v;ENG30-02427726-v	Nijedno od ponuđenih značenja ne odgovara kontekstu. U rečenici, 'postavlja' se koristi u smislu 'određuje' ili 'definiše' široke prioritete, što nije obuhvaćeno ponuđenim značenjima.	
+170-4	2143-2149	široke	A	ADJ	_	_	širok	_	_	_	ENG30-00526062-a	6	ENG30-00526062-a;ENG30-01101391-a;ENG30-01101891-a;ENG30-01384212-a;ENG30-02560548-a;ENG30-02563068-a	U kontekstu rečenice, 'široke ose prioriteta' znači da su prioriteti postavljeni u velikom obimu ili sadržaju, pokrivajući različite aspekte strategije.	
+170-5	2150-2153	ose	N	NOUN	_	_	osa	_	_	_	ENG30-06008609-n	2	ENG30-02212062-n;ENG30-06008609-n	U datom kontekstu, 'osa' se koristi kao metafora za pravac ili liniju prioriteta, što odgovara značenju prave linije koja prolazi kroz nešto i definiše smer.	
+170-6	2154-2164	prioriteta	N	NOUN	_	_	prioritet	_	_	_	ENG30-13949802-n	1	ENG30-13949802-n	U navedenom kontekstu, 'prioritet' se odnosi na akcije koje su utvrđene kao važne za postizanje ciljeva i stoga zaslužuju finansiranje, što se podudara sa značenjem 'utvrđen status po važnosti ili urgentnosti'.	
+170-7	2164-2165	–	PUNCT	PUNCT	_	_	–	_	_	_	_	_	_	_	
+170-8	2165-2171	akcije	N	NOUN	_	_	akcija	_	_	_	ENG30-00941140-n	9	ENG30-00037396-n;ENG30-00801125-n;ENG30-00941140-n;ENG30-01182312-n;ENG30-02677718-n;ENG30-07456906-n;ENG30-13333833-n;ENG30-13342135-n;ENG30-13417071-n	U kontekstu strategije, 'akcije' se odnose na konkretne korake ili mere koje je potrebno preduzeti da bi se postigli određeni ciljevi. Ovo značenje se poklapa sa definicijom 'ideje ili akcije namenjene rešavanju problema ili situacije'.	
+170-9	2172-2180	potrebne	A	ADJ	_	_	potreban	_	_	_	ENG30-02526925-a	2	ENG30-01462625-a;ENG30-02526925-a	U datom kontekstu, 'potrebne' se odnosi na akcije koje se žele ili traže kako bi se postigli ciljevi, što odgovara značenju 'koji se želi, traži'.	
+170-10	2181-2183	za	PREP	ADP	_	_	za	_	_	_	_	_	_	_	
+170-11	2184-2194	postizanje	N	NOUN	_	_	postizanje	1	postizanje cilja	NV.LVC.full	CVMWE-0323[3517]	1[3517]	CVMWE-0323[3517]	Značenje CVMWE-0323 se direktno odnosi na uspešno dovršavanje postavljenih ciljeva, što je u skladu sa kontekstom rečenice koja govori o akcijama potrebnim za postizanje ciljeva.[3517]	
+170-12	2195-2202	ciljeva	N	NOUN	_	_	cilj	1	*	NV.LVC.full	CVMWE-0323[3517]	1[3517]	CVMWE-0323[3517]	Značenje CVMWE-0323 se direktno odnosi na uspešno dovršavanje postavljenih ciljeva, što je u skladu sa kontekstom rečenice koja govori o akcijama potrebnim za postizanje ciljeva.[3517]	
+170-13	2203-2204	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+170-14	2205-2212	podobne	A	ADJ	_	_	podoban	_	_	_	DRJ0-212979/2а.	4	DRJ0-212979/1;DRJ0-212979/2а.;DRJ0-212979/2б.;DRJ0-212979/3	U kontekstu rečenice, 'podoban' se koristi da označi da su akcije 'zgodne' ili 'pogodne' za finansiranje, odnosno da ispunjavaju uslove ili kriterijume za dobijanje finansijskih sredstava.	
+170-15	2213-2215	za	PREP	ADP	_	_	za	_	_	_	_	_	_	_	
+170-16	2216-2228	finansiranje	N	NOUN	_	_	finansiranje	_	_	_	ENG30-01099109-n	2	ENG30-01099109-n;ENG30-13365698-n	U kontekstu rečenice, 'finansiranje' se odnosi na sam čin obezbeđivanja sredstava, odnosno proces finansiranja, a ne na konkretna finansijska sredstva.	
+170-17	2228-2229	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=U martu 1994. Odbor regija (CoR) održava svoju prvu plenarnu sednicu u Briselu.
+171-1	2229-2230	U	PREP	ADP	_	_	u	_	_	_	_	_	_	_	
+171-2	2231-2236	martu	N	NOUN	_	_	mart	_	_	_	ENG30-15210870-n	1	ENG30-15210870-n	U navedenoj rečenici, 'mart' se odnosi na mesec u godini, što se poklapa sa definicijom značenja 'Mesec koji dolazi posle februara a pre aprila u kalendaru'.	
+171-3	2237-2242	1994.	A	ADJ	_	_	1994.	_	_	_	NEW_SENSE	0	_	_	
+171-4	2243-2248	Odbor	N	NOUN	http://www.wikidata.org/entity/Q205203[86]	ORG[86]	odbor	_	_	_	_	_	_	_	
+171-5	2249-2255	regija	N	NOUN	http://www.wikidata.org/entity/Q205203[86]	ORG[86]	regija	_	_	_	_	_	_	_	
+171-6	2256-2257	(	PUNCT	PUNCT	_	_	(	_	_	_	_	_	_	_	
+171-7	2257-2260	CoR	ABB	X	http://www.wikidata.org/entity/Q205203	ORG	CoR	_	_	_	_	_	_	_	
+171-8	2260-2261	)	PUNCT	PUNCT	_	_	)	_	_	_	_	_	_	_	
+171-9	2262-2269	održava	V	VERB	_	_	održavati	_	_	_	NEW_SENSE	8	ENG30-00118764-v;ENG30-00456937-v;ENG30-00896497-v;ENG30-01065877-v;ENG30-01428011-v;ENG30-02202928-v;ENG30-02283716-v;ENG30-02681795-v	Nijedno od ponuđenih značenja ne odgovara kontekstu. U ovom slučaju, 'održavati' znači 'organizovati i sprovesti' sednicu.	
+171-10	2270-2275	svoju	PRO	DET	_	_	svoj	_	_	_	_	_	_	_	
+171-11	2276-2280	prvu	A	ADJ	_	_	prvi	_	_	_	ENG30-01012855-a	6	ENG30-00228294-a;ENG30-01009206-a;ENG30-01009343-a;ENG30-01010862-a;ENG30-01012855-a;ENG30-01467919-a	U kontekstu rečenice, 'prva plenarna sednica' označava sednicu koja se održava po prvi put, odnosno prethodi svim ostalim sednicama u vremenu.	
+171-12	2281-2289	plenarnu	A	ADJ	_	_	plenaran	1[819]	plenarna sednica[819]	NID[819]	CVMWE-0290[3518]	1[3518]	CVMWE-0290[3518]	Definicija "sednica konferencije ili savetodavne skupštine na kojoj su prisutne sve stranke ili članovi" se direktno odnosi na značenje "plenarne sednice" u kontekstu rečenice.[3518]	
+171-13	2290-2297	sednicu	N	NOUN	_	_	sednica	1[819]	plenarna sednica[819]	NID[819]	CVMWE-0290[3518]	1[3518]	CVMWE-0290[3518]	Definicija "sednica konferencije ili savetodavne skupštine na kojoj su prisutne sve stranke ili članovi" se direktno odnosi na značenje "plenarne sednice" u kontekstu rečenice.[3518]	
+171-14	2298-2299	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	
+171-15	2300-2307	Briselu	N	PROPN	http://www.wikidata.org/entity/Q239	LOC	Brisel	_	_	_	_	_	_	_	
+171-16	2307-2308	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Softver SnatchBot je besplatan alat za kreiranje čet botova, dizajniran za društvene mreže, zasnovan na radu u oblaku.
+172-1	2308-2315	Softver	N	NOUN	_	_	softver	_	_	_	ENG30-06566077-n	1	ENG30-06566077-n	Definicija softvera kao programa ili skupa programa koji omogućavaju rad računarskog sistema savršeno odgovara kontekstu rečenice, gde se SnatchBot opisuje kao softver za kreiranje čet botova.	
+172-2	2316-2325	SnatchBot	F	X	http://www.wikidata.org/entity/Q47458384	PRODUCT	SnatchBot	_	_	_	_	_	_	_	
+172-3	2326-2328	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+172-4	2329-2338	besplatan	A	ADJ	_	_	besplatan	_	_	_	ENG30-01710260-a	1	ENG30-01710260-a	U navedenom kontekstu, 'besplatan' znači da se softver SnatchBot može koristiti bez ikakve novčane naknade, što odgovara značenju 'ne košta ništa'.	
+172-5	2339-2343	alat	N	NOUN	_	_	alat	_	_	_	ENG30-00173761-n	3	ENG30-00173761-n;ENG30-02729965-n;ENG30-04451818-n	U datom kontekstu, "alat" se odnosi na softver SnatchBot kao sredstvo za kreiranje čet botova, što odgovara značenju 'sredstvo kojim se neki čin ostvaruje'.	
+172-6	2344-2346	za	PREP	ADP	_	_	za	_	_	_	_	_	_	_	
+172-7	2347-2356	kreiranje	N	NOUN	_	_	kreiranje	_	_	_	ENG30-00908492-n	2	ENG30-00240184-n;ENG30-00908492-n	U kontekstu rečenice, 'kreiranje' se odnosi na čin stvaranja čet botova, što je ljudska aktivnost stvaranja nečega.	
+172-8	2357-2360	čet	N	NOUN	_	_	čet	2[820]	čet bot[820]	NID[820]	LLM-0024[3519]	1[3519]	LLM-0024[3519]	U navedenom kontekstu, 'čet bot' se odnosi na kompjuterski program koji simulira razgovor, što je u skladu sa definicijom značenja LLM-0024.[3519]	
+172-9	2361-2367	botova	N	NOUN	_	_	bot	2[820]	čet bot[820]	NID[820]	LLM-0024[3519]	1[3519]	LLM-0024[3519]	U navedenom kontekstu, 'čet bot' se odnosi na kompjuterski program koji simulira razgovor, što je u skladu sa definicijom značenja LLM-0024.[3519]	
+172-10	2367-2368	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+172-11	2369-2379	dizajniran	A	ADJ	_	_	dizajniran	_	_	_	ENG30-01737025-a	1	ENG30-01737025-a	U kontekstu rečenice, 'dizajniran' se odnosi na to da je softver SnatchBot planiran i stvoren sa specifičnom svrhom i načinom rada, što odgovara značenju 'koji je planiran ili stvoren na umetnički ili vešt način'.	
+172-12	2380-2382	za	PREP	ADP	_	_	za	_	_	_	_	_	_	_	
+172-13	2383-2392	društvene	A	ADJ	_	_	društven	1[821]	društvena mreža[821]	NID[821]	LLM-0039[3520]	1[3520]	LLM-0039[3520]	Definicija 'digitalna platforma za povezivanje, komunikaciju i interakciju između korisnika' se savršeno uklapa u kontekst rečenice, jer se softver SnatchBot koristi za kreiranje čet botova za takve platforme.[3520]	
+172-14	2393-2398	mreže	N	NOUN	_	_	mreža	1[821]	društvena mreža[821]	NID[821]	LLM-0039[3520]	1[3520]	LLM-0039[3520]	Definicija 'digitalna platforma za povezivanje, komunikaciju i interakciju između korisnika' se savršeno uklapa u kontekst rečenice, jer se softver SnatchBot koristi za kreiranje čet botova za takve platforme.[3520]	
+172-15	2398-2399	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+172-16	2400-2408	zasnovan	A	ADJ	_	_	zasnovan	_	_	_	ENG30-02976224-a	2	ENG30-01737025-a;ENG30-02976224-a	U ovom kontekstu, 'zasnovan na radu u oblaku' znači da je softver izveden ili se oslanja na rad u oblaku, što odgovara značenju 'koji je izveden iz (obično praćeno `on` ili `na`)'.	
+172-17	2409-2411	na	PREP	ADP	_	_	na	_	_	_	_	_	_	_	
+172-18	2412-2416	radu	N	NOUN	_	_	rad	_	_	_	ENG30-00575741-n	5	ENG30-00575741-n;ENG30-03838535-n;ENG30-04599396-n;ENG30-05755883-n;ENG30-06269956-n	U kontekstu rečenice, "rad" se odnosi na aktivnost ili proces koji se odvija u oblaku, a ne na konkretan proizvod ili umetničko delo. Značenje 'Aktivnost koja je usmerena ka tome da se nešto uradi' najbolje odgovara ovom kontekstu.	
+172-19	2417-2418	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	
+172-20	2419-2425	oblaku	N	NOUN	_	_	oblak	_	_	_	NEW_SENSE	2	ENG30-09247410-n;ENG30-11439690-n	Nijedno od ponuđenih značenja ne odgovara kontekstu. U ovom slučaju, "oblak" se odnosi na "cloud computing", odnosno na mrežu udaljenih servera koji se koriste za skladištenje, upravljanje i obradu podataka, a ne na meteorološki fenomen ili skup čestica u vazduhu.	
+172-21	2425-2426	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=O strategiji i budžetu ESF-a pregovaraju zemlje članice EU, Evropski parlament i Komisija EU.
+173-1	2426-2427	O	PREP	ADP	_	_	o	_	_	_	_	_	_	_	
+173-2	2428-2438	strategiji	N	NOUN	_	_	strategija	_	_	_	ENG30-05905348-n	2	ENG30-05905348-n;ENG30-06249177-n	U kontekstu rečenice, "strategija" se odnosi na plan akcije ili politiku ESF-a o kojoj se pregovara, što odgovara značenju 'razvijen i sistematski plan akcije'.	
+173-3	2439-2440	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+173-4	2441-2448	budžetu	N	NOUN	_	_	budžet	_	_	_	ENG30-13421462-n	2	ENG30-13421462-n;ENG30-13421832-n	U kontekstu rečenice, 'budžet' se odnosi na pregled predviđenih troškova i predloge kako ih ostvariti, jer se o njemu pregovara u okviru ESF-a.	
+173-5	2449-2454	ESF-a	ABB	X	http://www.wikidata.org/entity/Q764847	ORG	ESF	_	_	_	_	_	_	_	
+173-6	2455-2466	pregovaraju	V	VERB	_	_	pregovarati	_	_	_	ENG30-00761713-v	1	ENG30-00761713-v	U navedenom kontekstu, 'pregovarati' se odnosi na raspravu o uslovima strategije i budžeta ESF-a između zemalja članica EU, Evropskog parlamenta i Komisije EU, što odgovara značenju 'raspravljati o uslovima kakvog dogovora'.	
+173-7	2467-2473	zemlje	N	NOUN	_	_	zemlja	1[822]	zemlja članica[822]	NID[822]	LLM-0341[3521]	1[3521]	LLM-0341[3521]	U navedenom kontekstu, 'zemlje članice EU' se odnosi na suverene države koje su članice Evropske unije, što se direktno poklapa sa definicijom.[3521]	
+173-8	2474-2481	članice	N	NOUN	_	_	članica	1[822]	zemlja članica[822]	NID[822]	LLM-0341[3521]	1[3521]	LLM-0341[3521]	U navedenom kontekstu, 'zemlje članice EU' se odnosi na suverene države koje su članice Evropske unije, što se direktno poklapa sa definicijom.[3521]	
+173-9	2482-2484	EU	ABB	X	http://www.wikidata.org/entity/Q458	ORG	EU	_	_	_	_	_	_	_	
+173-10	2484-2485	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+173-11	2486-2494	Evropski	A	ADJ	*[87]	ORG[87]	evropski	_	_	_	_	_	_	_	
+173-12	2495-2504	parlament	N	NOUN	*[87]	ORG[87]	parlament	_	_	_	_	_	_	_	
+173-13	2505-2506	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+173-14	2507-2515	Komisija	N	NOUN	*[88]	ORG[88]	komisija	_	_	_	_	_	_	_	
+173-15	2516-2518	EU	ABB	X	*[88]	ORG[88]	EU	_	_	_	_	_	_	_	
+173-16	2518-2519	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Vudard je poznat po svojim replikama blago psihoaktivne lampe „Dreamachine“, koje su izložene u muzejima umetnosti širom sveta.
+174-1	2519-2525	Vudard	N	PROPN	http://www.wikidata.org/entity/Q1177254	PERS	Vudard	_	_	_	_	_	_	_	
+174-2	2526-2528	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+174-3	2529-2535	poznat	A	ADJ	_	_	poznat	_	_	_	ENG30-01375831-a	3	ENG30-00970249-a;ENG30-01375174-a;ENG30-01375831-a	U datom kontekstu, 'poznat' znači da je Vudard opšte prihvaćen i uvažen zbog svojih replika, što odgovara značenju 'opšte prihvaćen i uvažen'.	
+174-4	2536-2538	po	PREP	ADP	_	_	po	_	_	_	_	_	_	_	
+174-5	2539-2545	svojim	PRO	DET	_	_	svoj	_	_	_	_	_	_	_	
+174-6	2546-2555	replikama	N	NOUN	_	_	replika	_	_	_	ENG30-04076533-n	1	ENG30-04076533-n	U navedenom kontekstu, 'replika' se odnosi na kopije Vudardovih lampi "Dreamachine", što odgovara definiciji kopije koja nije original.	
+174-7	2556-2561	blago	ADV	ADV	_	_	blago	_	_	_	ENG30-00033562-b	1	ENG30-00033562-b	U datom kontekstu, reč 'blago' se koristi da opiše umeren stepen psihoaktivnosti lampe, što odgovara značenju 'umereno'.	
+174-8	2562-2574	psihoaktivne	A	ADJ	_	_	psihoaktivan	_	_	_	ENG30-01776974-a	1	ENG30-01776974-a	Reč 'psihoaktivan' se koristi da opiše lampu koja utiče na um, što se slaže sa definicijom 'utiče na um ili raspoloženje ili druge mentalne procese'.	
+174-9	2575-2580	lampe	N	NOUN	_	_	lampa	_	_	_	ENG30-03665366-n	3	ENG30-03636248-n;ENG30-03636649-n;ENG30-03665366-n	U kontekstu rečenice, 'lampa' se odnosi na uređaj koji služi kao izvor osvetljenja, ali ne nužno u tradicionalnom smislu. 'Dreamachine' je specifičan uređaj koji proizvodi svetlosne efekte, pa je ovo značenje najprikladnije.	
+174-10	2581-2582	„	PUNCT	PUNCT	_	_	"	_	_	_	_	_	_	_	
+174-11	2582-2593	Dreamachine	F	X	_	_	Dreamachine	_	_	_	_	_	_	_	
+174-12	2593-2594	“	PUNCT	PUNCT	_	_	"	_	_	_	_	_	_	_	
+174-13	2594-2595	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+174-14	2596-2600	koje	PRO	DET	_	_	koji	_	_	_	_	_	_	_	
+174-15	2601-2603	su	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+174-16	2604-2612	izložene	V	VERB	_	_	izložiti	_	_	_	ENG30-02140033-v	9	ENG30-00772640-v;ENG30-00772967-v;ENG30-00933821-v;ENG30-01036319-v;ENG30-01339505-v;ENG30-02112029-v;ENG30-02137710-v;ENG30-02140033-v;ENG30-02631856-v	U kontekstu rečenice, 'izložene' znači da su replike lampe 'Dreamachine' pokazane ili učinjene vidljivim u muzejima umetnosti.	
+174-17	2613-2614	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	
+174-18	2615-2623	muzejima	N	NOUN	_	_	muzej	_	_	_	ENG30-03800563-n	1	ENG30-03800563-n	Rečenica opisuje da su replike izložene u muzejima umetnosti, što se uklapa u definiciju muzeja kao mesta za prikazivanje predmeta umetničke vrednosti.	
+174-19	2624-2633	umetnosti	N	NOUN	_	_	umetnost	_	_	_	ENG30-00933420-n	1	ENG30-00933420-n	U ovom kontekstu, 'umetnost' se odnosi na stvaranje dela koja se smatraju lepim i značajnim, što je razlog zašto su izložena u muzejima.	
+174-20	2634-2639	širom	PREP	ADP	_	_	širom	1[823]	širom sveta[823]	AdvID[823]	CVMWE-0400[3522]	1[3522]	CVMWE-0400[3522]	Fraza 'širom sveta' u potpunosti odgovara značenju 'celim prostranstvom sveta', opisujući globalnu rasprostranjenost izloženih replika.[3522]	
+174-21	2640-2645	sveta	N	NOUN	_	_	svet	1[823]	širom sveta[823]	AdvID[823]	CVMWE-0400[3522]	1[3522]	CVMWE-0400[3522]	Fraza 'širom sveta' u potpunosti odgovara značenju 'celim prostranstvom sveta', opisujući globalnu rasprostranjenost izloženih replika.[3522]	
+174-22	2645-2646	.	PUNCT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Izabran je u Državnu dumu kao član Komunističke partije.
+175-1	2646-2653	Izabran	V	VERB	_	_	izabrati	_	_	_	ENG30-00676864-v	5	ENG30-00676450-v;ENG30-00676864-v;ENG30-00679937-v;ENG30-00790308-v;ENG30-01078050-v	U datom kontekstu, 'izabran' znači da je neko napravio izbor da on bude član Državne dume, što odgovara značenju 'Napraviti izbor'.	
+175-2	2654-2656	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+175-3	2657-2658	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	
+175-4	2659-2666	Državnu	A	ADJ	*[89]	ORG[89]	državni	_	_	_	_	_	_	_	
+175-5	2667-2671	dumu	N	NOUN	*[89]	ORG[89]	duma	_	_	_	_	_	_	_	
+175-6	2672-2675	kao	ADV	ADV	_	_	kao	_	_	_	DRJ0-194033/1а	5	DRJ0-194033/1а.;DRJ0-194033/1б.;DRJ0-194033/2а.;DRJ0-194033/2б.;DRJ0-194033/2в.	U datoj rečenici, 'kao' se koristi ispred imenice 'član Komunističke partije' da bi se bliže odredilo u kom svojstvu je izabran u Državnu dumu, što odgovara značenju 1а.	
+175-7	2676-2680	član	N	NOUN	_	_	član	_	_	_	ENG30-10307234-n	5	ENG30-06324669-n;ENG30-06392935-n;ENG30-08170686-n;ENG30-10307234-n;ENG30-13810615-n	U datom kontekstu, 'član' se odnosi na osobu koja pripada Komunističkoj partiji, što odgovara značenju 'jedna od osoba koje čine socijalnu grupu (posebno osobe koje su pristupile nekoj organizaciji)'.	
+175-8	2681-2693	Komunističke	A	ADJ	http://www.wikidata.org/entity/Q233591[90]	ORG[90]	komunistički	_	_	_	_	_	_	_	
+175-9	2694-2701	partije	N	NOUN	http://www.wikidata.org/entity/Q233591[90]	ORG[90]	partija	_	_	_	_	_	_	_	
+175-10	2701-2702	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=ESF-om se upravlja kroz sedmogodišnje programske cikluse.
+176-1	2702-2708	ESF-om	ABB	X	http://www.wikidata.org/entity/Q764847	ORG	ESF	_	_	_	_	_	_	_	
+176-2	2709-2711	se	PAR	PART	_	_	se	_	_	_	_	_	_	_	
+176-3	2712-2720	upravlja	V	VERB	_	_	upravljati	_	_	_	ENG30-02443849-v	11	ENG30-00710005-v;ENG30-00749205-v;ENG30-01732921-v;ENG30-01931768-v;ENG30-02387034-v;ENG30-02436963-v;ENG30-02439501-v;ENG30-02441022-v;ENG30-02443049-v;ENG30-02443849-v;ENG30-02587375-v	U kontekstu rečenice, 'upravljati' se odnosi na kontrolisanje i vođenje ESF-a kroz programske cikluse, što odgovara značenju 'upravljati ili kontrolisati (projekte, kompanije itd)'.	
+176-4	2721-2725	kroz	PREP	ADP	_	_	kroz	_	_	_	_	_	_	_	
+176-5	2726-2739	sedmogodišnje	A	ADJ	_	_	sedmogodišnji	_	_	_	DRJ0-175146/0б	2	DRJ0-175146/0а.;DRJ0-175146/0б.	U kontekstu rečenice, 'sedmogodišnje' se odnosi na programske cikluse koji traju sedam godina, a ne na nešto što ima sedam godina.	
+176-6	2740-2750	programske	A	ADJ	_	_	programski	_	_	_	DRJ0-218536/0	1	DRJ0-218536/0	U kontekstu rečenice, 'programski' se odnosi na cikluse koji su deo ili se odvijaju po nekom programu, što odgovara definiciji 'koji se odnosi na program; koji je po programu'.	
+176-7	2751-2758	cikluse	N	NOUN	_	_	ciklus	_	_	_	ENG30-07342495-n	4	ENG30-07341038-n;ENG30-07342495-n;ENG30-08377332-n;ENG30-15287830-n	U kontekstu rečenice, 'ciklusi' se odnose na periodično ponavljane nizove događaja u upravljanju ESF-om, što odgovara značenju 'periodično ponovljeni niz događaja'.	
+176-8	2758-2759	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Postoji jedan nacionalni IMI koordinator (NIMIC) po državi članici, koji se uglavnom nalazi u državnom ministarstvu.
+177-1	2759-2766	Postoji	V	VERB	_	_	postojati	_	_	_	ENG30-02603699-v	1	ENG30-02603699-v	U datoj rečenici, 'postoji' se koristi da označi da nacionalni IMI koordinator ima egzistenciju u svakoj državi članici, što odgovara definiciji 'imati egzistenciju'.	
+177-2	2767-2772	jedan	NUM	NUM	_	_	jedan	_	_	_	_	_	_	_	
+177-3	2773-2783	nacionalni	A	ADJ	_	_	nacionalan	_	_	_	ENG30-01105840-a	7	ENG30-00526984-a;ENG30-01038332-a;ENG30-01105840-a;ENG30-01567862-a;ENG30-01861776-a;ENG30-02988060-a;ENG30-02988402-a	U kontekstu rečenice, 'nacionalni IMI koordinator' se odnosi na koordinatora koji deluje na nivou cele države članice, što odgovara značenju 'odnosi se na ili se primenjuje na ili pripada celoj naciji ili zemlji'.	
+177-4	2784-2787	IMI	ABB	X	http://www.wikidata.org/entity/Q863973	PRODUCT	IMI	_	_	_	_	_	_	_	
+177-5	2788-2799	koordinator	N	NOUN	_	_	koordinator	_	_	_	ENG30-09963914-n	1	ENG30-09963914-n	U rečenici, koordinator je osoba zadužena za određeni posao (u ovom slučaju, IMI) na nacionalnom nivou, što odgovara definiciji 'neko čiji je zadatak da vidi da posao ide skladno'.	
+177-6	2800-2801	(	PUNCT	PUNCT	_	_	(	_	_	_	_	_	_	_	
+177-7	2801-2806	NIMIC	ABB	X	_	_	NIMIC	_	_	_	_	_	_	_	
+177-8	2806-2807	)	PUNCT	PUNCT	_	_	)	_	_	_	_	_	_	_	
+177-9	2808-2810	po	PREP	ADP	_	_	po	_	_	_	_	_	_	_	
+177-10	2811-2817	državi	N	NOUN	_	_	država	1[824]	država članica[824]	NID[824]	LLM-0040[3523]	1[3523]	LLM-0040[3523]	U datom kontekstu, 'država članica' se odnosi na zemlju koja je deo neke međunarodne organizacije, u ovom slučaju verovatno Evropske unije, što se uklapa u definiciju.[3523]	
+177-11	2818-2825	članici	N	NOUN	_	_	članica	1[824]	država članica[824]	NID[824]	LLM-0040[3523]	1[3523]	LLM-0040[3523]	U datom kontekstu, 'država članica' se odnosi na zemlju koja je deo neke međunarodne organizacije, u ovom slučaju verovatno Evropske unije, što se uklapa u definiciju.[3523]	
+177-12	2825-2826	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+177-13	2827-2831	koji	PRO	DET	_	_	koji	_	_	_	_	_	_	_	
+177-14	2832-2834	se	PAR	PART	_	_	se	2	*	IRV	CVMWE-0224[3524]	4[3524]	CVMWE-0224;ENG30-02653381-v;ENG30-02691214-v;ENG30-02731390-v[3524]	U datoj rečenici, 'nalaziti se' znači postojati na određenom mestu, odnosno u državnom ministarstvu.[3524]	
+177-15	2835-2843	uglavnom	ADV	ADV	_	_	uglavnom	_	_	_	ENG30-00073897-b	4	ENG30-00006105-b;ENG30-00041954-b;ENG30-00073897-b;ENG30-00155621-b	Značenje 'najvećim delom' najbolje odgovara kontekstu rečenice, jer se NIMIC uglavnom, ali ne nužno uvek, nalazi u državnom ministarstvu.	
+177-16	2844-2850	nalazi	V	VERB	_	_	nalaziti	2	nalaziti se	IRV	CVMWE-0224[3524]	4[3524]	CVMWE-0224;ENG30-02653381-v;ENG30-02691214-v;ENG30-02731390-v[3524]	U datoj rečenici, 'nalaziti se' znači postojati na određenom mestu, odnosno u državnom ministarstvu.[3524]	
+177-17	2851-2852	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	
+177-18	2853-2861	državnom	A	ADJ	_	_	državni	_	_	_	ENG30-01814711-a	3	ENG30-00526984-a;ENG30-01814711-a;ENG30-02988060-a	U kontekstu rečenice, 'državni' se odnosi na ministarstvo koje je deo vlade ili države, što odgovara značenju 'koji se odnosi na poslove ili strukturu vlade, politike ili države'.	
+177-19	2862-2874	ministarstvu	N	NOUN	_	_	ministarstvo	_	_	_	ENG30-00314271-n	1	ENG30-00314271-n	U kontekstu rečenice, 'ministarstvo' se odnosi na zgradu u kojoj se obavljaju poslovi državnog ministarstva, što odgovara ponuđenom značenju.	
+177-20	2874-2875	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Evropska komisija ima za cilj da nagradama podstakne prekograničnu cirkulaciju popularnog muzičkog repertoara i da istakne veliku muzičku raznolikost Evrope.
+178-1	2875-2883	Evropska	A	ADJ	*[91]	ORG[91]	evropski	_	_	_	_	_	_	_	
+178-2	2884-2892	komisija	N	NOUN	*[91]	ORG[91]	komisija	_	_	_	_	_	_	_	
+178-3	2893-2896	ima	V	VERB	_	_	imati	2	imati za cilj	LVC.full	CVMWE-0132[3525]	1[3525]	CVMWE-0132[3525]	U datoj rečenici, Evropska komisija ima određeni motiv delovanja, a to je podsticanje prekogranične cirkulacije muzičkog repertoara i isticanje muzičke raznolikosti Evrope. To se poklapa sa definicijom značenja 'ako neko ima nešto za cilj, onda je to motiv njegovog redlovanja'.[3525]	
+178-4	2897-2899	za	PREP	ADP	_	_	za	2	*	LVC.full	CVMWE-0132[3525]	1[3525]	CVMWE-0132[3525]	U datoj rečenici, Evropska komisija ima određeni motiv delovanja, a to je podsticanje prekogranične cirkulacije muzičkog repertoara i isticanje muzičke raznolikosti Evrope. To se poklapa sa definicijom značenja 'ako neko ima nešto za cilj, onda je to motiv njegovog redlovanja'.[3525]	
+178-5	2900-2904	cilj	N	NOUN	_	_	cilj	2	*	LVC.full	CVMWE-0132[3525]	1[3525]	CVMWE-0132[3525]	U datoj rečenici, Evropska komisija ima određeni motiv delovanja, a to je podsticanje prekogranične cirkulacije muzičkog repertoara i isticanje muzičke raznolikosti Evrope. To se poklapa sa definicijom značenja 'ako neko ima nešto za cilj, onda je to motiv njegovog redlovanja'.[3525]	
+178-6	2905-2907	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	
+178-7	2908-2917	nagradama	N	NOUN	_	_	nagrada	_	_	_	ENG30-07295629-n	5	ENG30-01219551-n;ENG30-06696483-n;ENG30-07166281-n;ENG30-07295629-n;ENG30-13268146-n	U kontekstu rečenice, 'nagradama' se podstiče prekogranična cirkulacija muzičkog repertoara, što implicira da se radi o nekoj vrsti nadoknade ili priznanja za zaslužna dela u muzičkoj industriji.	
+178-8	2918-2927	podstakne	V	VERB	_	_	podstaknuti	_	_	_	ENG30-00770437-v	5	ENG30-00022686-v;ENG30-00770437-v;ENG30-00794079-v;ENG30-02116118-v;ENG30-02505358-v	U kontekstu rečenice, Evropska komisija želi da 'podstakne' cirkulaciju muzičkog repertoara, što znači da želi da izazove ili omogući da se ta cirkulacija dogodi. Značenje 'izazvati da se nešto uradi' najbolje odgovara ovom kontekstu.	
+178-9	2928-2941	prekograničnu	A	ADJ	_	_	prekogranični	_	_	_	RSSJ-40170/0	1	RSSJ-40170/0	U kontekstu 'prekogranične cirkulacije', reč se odnosi na kretanje ili distribuciju nečega preko državnih granica, što odgovara značenju 'koji se odnosi na prelazak preko granice'.	
+178-10	2942-2953	cirkulaciju	N	NOUN	_	_	cirkulacija	_	_	_	ENG30-00368302-n	2	ENG30-00368302-n;ENG30-11439031-n	U kontekstu muzičkog repertoara, 'cirkulacija' se odnosi na širenje i prenošenje muzike preko granica, što odgovara značenju 'širenje ili prenošenje nečega (kao vesti ili novac) široj grupi ili oblasti'.	
+178-11	2954-2964	popularnog	A	ADJ	_	_	popularan	_	_	_	ENG30-00414518-a	2	ENG30-00414518-a;ENG30-01815838-a	U kontekstu muzičkog repertoara, 'popularan' se odnosi na muziku koja je poznata i opšteprihvaćena, što odgovara značenju 'o muzici ili vizuelnoj umetnosti, poznat i opšteprihvaćen (posebno među mlađima)'.	
+178-12	2965-2973	muzičkog	A	ADJ	_	_	muzički	_	_	_	ENG30-02867783-a	2	ENG30-01504625-a;ENG30-02867783-a	U datom kontekstu, 'muzički' se odnosi na nešto što je karakteristično za muziku, konkretno na muzički repertoar i muzičku raznolikost.	
+178-13	2974-2984	repertoara	N	NOUN	_	_	repertoar	_	_	_	ENG30-08336627-n	2	ENG30-08336627-n;ENG30-08336844-n	U datom kontekstu, 'repertoar' se odnosi na kolekciju muzičkih dela, što odgovara značenju 'kolekcija dela koja neki umetnik ili kompanija mogu da izvedu'.	
+178-14	2985-2986	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+178-15	2987-2989	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	
+178-16	2990-2997	istakne	V	VERB	_	_	istaknuti	_	_	_	ENG30-01013367-v	4	ENG30-00041206-v;ENG30-01013367-v;ENG30-01014609-v;ENG30-01589363-v	U datom kontekstu, 'istaknuti' znači izdvojiti i naglasiti muzičku raznolikost Evrope kao važnu i vrednu pažnje.	
+178-17	2998-3004	veliku	A	ADJ	_	_	velik	_	_	_	ENG30-01190683-a	8	ENG30-00579622-a;ENG30-01114658-a;ENG30-01190683-a;ENG30-01278080-a;ENG30-01375909-a;ENG30-01467919-a;ENG30-01488616-a;ENG30-01510444-a	U kontekstu muzičke raznolikosti, 'velika' se odnosi na visok stepen ili intenzitet raznolikosti, što odgovara značenju 'Velik po stepenu ili intenzitetu ili broju ili količini'.	
+178-18	3005-3012	muzičku	A	ADJ	_	_	muzički	_	_	_	ENG30-02867783-a	2	ENG30-01504625-a;ENG30-02867783-a	U datom kontekstu, 'muzička' se odnosi na nešto što je karakteristično za muziku, konkretno na raznolikost muzike u Evropi. Značenje 2, 'Karakterističan za muziku', stoga je najprikladnije.	
+178-19	3013-3024	raznolikost	N	NOUN	_	_	raznolikost	_	_	_	RSSJ-44196/0	1	RSSJ-44196/0	U navedenom kontekstu, 'raznolikost' se odnosi na postojanje mnoštva različitih muzičkih žanrova i stilova unutar Evrope, što odgovara definiciji postojanja mnoštva različitih oblika ili vrsta.	
+178-20	3025-3031	Evrope	N	PROPN	http://www.wikidata.org/entity/Q46	LOC	Evropa	_	_	_	_	_	_	_	
+178-21	3031-3032	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Ekonomski faktori uključuju privredni rast, kamatne stope, devizni kurs, stopu inflacije.
+179-1	3032-3041	Ekonomski	A	ADJ	_	_	ekonomski	_	_	_	ENG30-02716739-a	4	ENG30-01871565-a;ENG30-02577454-a;ENG30-02716605-a;ENG30-02716739-a	Rečenica govori o faktorima koji utiču na privredu, što se direktno odnosi na ekonomiju kao sistem proizvodnje i upravljanja materijalnim dobrima.	
+179-2	3042-3049	faktori	N	NOUN	_	_	faktor	_	_	_	ENG30-07327805-n	3	ENG30-05436752-n;ENG30-07327805-n;ENG30-10461424-n	U navedenom kontekstu, 'faktori' se odnose na elemente koji uzročno doprinose ekonomskim uslovima, što odgovara značenju 'Bilo šta što uzročno doprinosi rezultatu'.	
+179-3	3050-3059	uključuju	V	VERB	_	_	uključivati	_	_	_	NEW_SENSE	1	ENG30-02677567-v	Nijedno od ponuđenih značenja ne odgovara kontekstu. U ovom slučaju, 'uključivati' znači 'sadržavati' ili 'obuhvaćati', što nije isto što i angažovanje nekoga kao učesnika.	
+179-4	3060-3069	privredni	A	ADJ	_	_	privredni	1[825]	privredni rast[825]	NID[825]	LLM-0206[3526]	1[3526]	LLM-0206[3526]	Privredni rast u datom kontekstu se odnosi na povećanje ekonomske aktivnosti, što je u skladu sa definicijom povećanja proizvodnje dobara i usluga.[3526]	
+179-5	3070-3074	rast	N	NOUN	_	_	rast	1[825]	privredni rast[825]	NID[825]	LLM-0206[3526]	1[3526]	LLM-0206[3526]	Privredni rast u datom kontekstu se odnosi na povećanje ekonomske aktivnosti, što je u skladu sa definicijom povećanja proizvodnje dobara i usluga.[3526]	
+179-6	3074-3075	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+179-7	3076-3083	kamatne	A	ADJ	_	_	kamatni	2[826]	kamatna stopa[826]	NID[826]	LLM-0087[3527]	1[3527]	LLM-0087[3527]	Kamatna stopa u ekonomskom kontekstu se odnosi na cenu korišćenja pozajmljenog novca, što je definicija značenja LLM-0087.[3527]	
+179-8	3084-3089	stope	N	NOUN	_	_	stopa	2[826]	kamatna stopa[826]	NID[826]	LLM-0087[3527]	1[3527]	LLM-0087[3527]	Kamatna stopa u ekonomskom kontekstu se odnosi na cenu korišćenja pozajmljenog novca, što je definicija značenja LLM-0087.[3527]	
+179-9	3089-3090	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+179-10	3091-3098	devizni	A	ADJ	_	_	devizni	3[827]	devizni kurs[827]	NID[827]	LLM-0029[3528]	1[3528]	LLM-0029[3528]	Definicija 'cena jedne valute izražena u drugoj valuti' se direktno odnosi na značenje deviznog kursa u ekonomskom kontekstu.[3528]	
+179-11	3099-3103	kurs	N	NOUN	_	_	kurs	3[827]	devizni kurs[827]	NID[827]	LLM-0029[3528]	1[3528]	LLM-0029[3528]	Definicija 'cena jedne valute izražena u drugoj valuti' se direktno odnosi na značenje deviznog kursa u ekonomskom kontekstu.[3528]	
+179-12	3103-3104	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+179-13	3105-3110	stopu	N	NOUN	_	_	stopa	4[828]	stopa inflacije[828]	NID[828]	LLM-0249[3529]	1[3529]	LLM-0249[3529]	Definicija 'stope inflacije' kao procentualne promene opšteg nivoa cena direktno odgovara upotrebi termina u kontekstu ekonomskih faktora.[3529]	
+179-14	3111-3120	inflacije	N	NOUN	_	_	inflacija	4[828]	stopa inflacije[828]	NID[828]	LLM-0249[3529]	1[3529]	LLM-0249[3529]	Definicija 'stope inflacije' kao procentualne promene opšteg nivoa cena direktno odgovara upotrebi termina u kontekstu ekonomskih faktora.[3529]	
+179-15	3120-3121	.	PUNCT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Kada je nadležnom organu potrebna informacija od nekog od partnera u inostranstvu, on može da pošalje zahtev za informaciju.
+180-1	3121-3125	Kada	CONJ	SCONJ	_	_	kada	_	_	_	_	_	_	_	
+180-2	3126-3128	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+180-3	3129-3138	nadležnom	A	ADJ	_	_	nadležan	_	_	_	ENG30-00809201-a	1	ENG30-00809201-a	U ovom kontekstu, 'nadležan organ' se odnosi na organ koji ima kontrolu ili ovlašćenje da postupa u određenoj situaciji, što odgovara značenju 'u kontroli'.	
+180-4	3139-3145	organu	N	NOUN	_	_	organ	_	_	_	ENG30-08349350-n	2	ENG30-05297523-n;ENG30-08349350-n	U kontekstu rečenice, 'organ' se odnosi na vladin biro ili instituciju koja je zadužena za određene funkcije, što odgovara značenju 'Vladin biro posvećen obavljanju neke specifične funkcije'.	
+180-5	3146-3154	potrebna	A	ADJ	_	_	potreban	_	_	_	ENG30-02526925-a	2	ENG30-01462625-a;ENG30-02526925-a	U datom kontekstu, 'potrebna' se koristi u značenju da je informacija željena ili tražena od strane nadležnog organa, što odgovara značenju 'koji se želi, traži'.	
+180-6	3155-3166	informacija	N	NOUN	_	_	informacija	_	_	_	ENG30-06634376-n	3	ENG30-05091527-n;ENG30-05816287-n;ENG30-06634376-n	U kontekstu rečenice, 'informacija' se odnosi na poruku koja se šalje nadležnom organu kako bi se smanjila njegova nesigurnost ili nedostatak znanja o nečemu.	
+180-7	3167-3169	od	PREP	ADP	_	_	od	_	_	_	_	_	_	_	
+180-8	3170-3175	nekog	PRO	DET	_	_	neki	_	_	_	_	_	_	_	
+180-9	3176-3178	od	PREP	ADP	_	_	od	_	_	_	_	_	_	_	
+180-10	3179-3187	partnera	N	NOUN	http://www.wikidata.org/entity/Q107143364	ROLE	partner	_	_	_	NEW_SENSE	2	ENG30-10024362-n;ENG30-10640620-n	Nijedno od ponuđenih značenja ne odgovara kontekstu. U ovom slučaju, 'partner' se odnosi na organizaciju ili instituciju sa kojom se sarađuje, a ne na osobu u ljubavnoj ili bračnoj vezi.	
+180-11	3188-3189	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	
+180-12	3190-3202	inostranstvu	N	NOUN	_	_	inostranstvo	_	_	_	DRJ0-246005/0	1	DRJ0-246005/0	U navedenom kontekstu, 'inostranstvo' se odnosi na strane zemlje, što se poklapa sa definicijom 'strane, tuđe zemlje, inozemstvo'.	
+180-13	3202-3203	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+180-14	3204-3206	on	PRO	PRON	_	_	on	_	_	_	_	_	_	_	
+180-15	3207-3211	može	V	VERB	_	_	moći	_	_	_	NEW_SENSE	1	ENG30-02523221-v	Ponuđeno značenje 'Istrajati ili uspevati' ne odgovara kontekstu rečenice. U ovom kontekstu, 'može' označava mogućnost ili dozvolu da se nešto uradi, a ne istrajnost ili uspeh.	
+180-16	3212-3214	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	
+180-17	3215-3222	pošalje	V	VERB	_	_	poslati	_	_	_	ENG30-01951480-v	5	ENG30-01062555-v;ENG30-01088923-v;ENG30-01951480-v;ENG30-01955127-v;ENG30-02348568-v	Značenje 'uzrokovati da nešto negde ode' najbolje odgovara kontekstu rečenice, jer se zahtev za informacijom šalje nadležnom organu u inostranstvu.	
+180-18	3223-3229	zahtev	N	NOUN	_	_	zahtev	_	_	_	ENG30-06513366-n	5	ENG30-05892651-n;ENG30-06513366-n;ENG30-07185325-n;ENG30-07185870-n;ENG30-09367203-n	U datom kontekstu, 'zahtev' se odnosi na zvaničnu poruku koja se šalje partneru u inostranstvu radi dobijanja informacije, što odgovara značenju 'zvanična poruka u kojoj se traži nešto što se dostavlja organu'.	
+180-19	3230-3232	za	PREP	ADP	_	_	za	_	_	_	_	_	_	_	
+180-20	3233-3244	informaciju	N	NOUN	_	_	informacija	_	_	_	ENG30-06634376-n	3	ENG30-05091527-n;ENG30-05816287-n;ENG30-06634376-n	U kontekstu rečenice, 'zahtev za informaciju' se odnosi na traženje poruke koja će smanjiti nesigurnost nadležnog organa u vezi sa nečim što se tiče partnera u inostranstvu.	
+180-21	3244-3245	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Portal je ključni instrument strategije otvorenih podataka EU.
+181-1	3245-3251	Portal	N	NOUN	_	_	portal	_	_	_	ENG30-06359657-n	1	ENG30-06359657-n	U navedenom kontekstu, 'portal' se odnosi na veb sajt koji služi kao ulazna tačka ili centralno mesto za pristup informacijama i resursima vezanim za otvorene podatke EU, što odgovara definiciji sajta koji služi kao ulaz na druge sajtove ili izvore informacija.	
+181-2	3252-3254	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+181-3	3255-3262	ključni	A	ADJ	_	_	ključni	_	_	_	ENG30-01277097-a	2	ENG30-01277097-a;ENG30-02164050-a	U kontekstu rečenice, 'ključni' se koristi da označi da je portal suštinska komponenta strategije otvorenih podataka EU, što odgovara značenju 'koji predstavlja suštinsku komponentu'.	
+181-4	3263-3273	instrument	N	NOUN	_	_	instrument	_	_	_	ENG30-00173761-n	2	ENG30-00173761-n;ENG30-03574816-n	U kontekstu rečenice, 'instrument' se koristi kao sredstvo za ostvarivanje strategije otvorenih podataka EU, što odgovara značenju 'sredstvo kojim se neki čin ostvaruje'.	
+181-5	3274-3284	strategije	N	NOUN	_	_	strategija	_	_	_	ENG30-05905348-n	2	ENG30-05905348-n;ENG30-06249177-n	U kontekstu rečenice, 'strategija' se odnosi na razvijen i sistematski plan akcije u vezi sa otvorenim podacima EU, a ne na vojnu strategiju.	
+181-6	3285-3294	otvorenih	A	ADJ	_	_	otvoren	1[829]	otvoreni podaci[829]	NID[829]	LLM-0166[3530]	1[3530]	LLM-0166[3530]	U kontekstu rečenice, 'otvoreni podaci' se odnose na informacije koje su dostupne i mogu se koristiti, što odgovara definiciji značenja LLM-0166.[3530]	
+181-7	3295-3303	podataka	N	NOUN	_	_	podatak	1[829]	otvoreni podaci[829]	NID[829]	LLM-0166[3530]	1[3530]	LLM-0166[3530]	U kontekstu rečenice, 'otvoreni podaci' se odnose na informacije koje su dostupne i mogu se koristiti, što odgovara definiciji značenja LLM-0166.[3530]	
+181-8	3304-3306	EU	ABB	X	http://www.wikidata.org/entity/Q458	ORG	EU	_	_	_	_	_	_	_	
+181-9	3306-3307	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Sa površinom od 84 km² to je najveće prirodno jezero na Islandu.
+182-1	3307-3309	Sa	PREP	ADP	_	_	sa	_	_	_	_	_	_	_	
+182-2	3310-3319	površinom	N	NOUN	_	_	površina	_	_	_	ENG30-05128519-n	4	ENG30-04362025-n;ENG30-05128519-n;ENG30-05853449-n;ENG30-08660339-n	U datom kontekstu, 'površina' se odnosi na dvodimenzionalnu veličinu jezera, odnosno njegovu površinu unutar međa, što odgovara značenju 'dvodimenzionalna površina unutar međa'.	
+182-3	3320-3322	od	PREP	ADP	_	_	od	_	_	_	_	_	_	_	
+182-4	3323-3325	84	NUM	NUM	_	_	84	_	_	_	_	_	_	_	
+182-5	3326-3329	km²	ABB	X	_	_	km²	_	_	_	_	_	_	_	
+182-6	3330-3332	to	PRO	DET	_	_	taj	_	_	_	_	_	_	_	
+182-7	3333-3335	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+182-8	3336-3343	najveće	A	ADJ	_	_	velik	_	_	_	ENG30-01375909-a	8	ENG30-00579622-a;ENG30-01114658-a;ENG30-01190683-a;ENG30-01278080-a;ENG30-01375909-a;ENG30-01467919-a;ENG30-01488616-a;ENG30-01510444-a	U kontekstu rečenice, 'najveće' se odnosi na površinu jezera, što znači da je iznad proseka po veličini. Značenje 'iznad proseka po veličini ili broju ili količini ili snazi ili iznosu' najbolje odgovara ovom opisu.	
+182-9	3344-3352	prirodno	A	ADJ	_	_	prirodan	_	_	_	ENG30-01570892-a	1	ENG30-01570892-a	U navedenom kontekstu, 'prirodno jezero' označava jezero koje je nastalo prirodnim putem, a ne veštački, što se direktno poklapa sa definicijom značenja ENG30-01570892-a.	
+182-10	3353-3359	jezero	N	NOUN	_	_	jezero	_	_	_	ENG30-09328904-n	1	ENG30-09328904-n	Definicija 'Vodena površina okružena zemljom' se savršeno uklapa u kontekst rečenice koja opisuje jezero kao najveće prirodno jezero na Islandu.	
+182-11	3360-3362	na	PREP	ADP	_	_	na	_	_	_	_	_	_	_	
+182-12	3363-3370	Islandu	N	PROPN	http://www.wikidata.org/entity/Q189	LOC	Island	_	_	_	_	_	_	_	
+182-13	3370-3371	.	PUNCT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=S tog položaja predložio je bratske odnose s Nueva Germanijom u Paragvaju.
+183-1	3371-3372	S	PREP	ADP	_	_	S	_	_	_	_	_	_	_	
+183-2	3373-3376	tog	PRO	DET	_	_	taj	_	_	_	_	_	_	_	
+183-3	3377-3385	položaja	N	NOUN	_	_	položaj	_	_	_	ENG30-13945102-n	9	ENG30-03763403-n;ENG30-05079866-n;ENG30-08622586-n;ENG30-08624196-n;ENG30-08624385-n;ENG30-13925752-n;ENG30-13945102-n;ENG30-13945919-n;ENG30-13947645-n	U kontekstu rečenice, 'položaj' se odnosi na nečiju funkciju ili ulogu koja mu omogućava da predlaže određene akcije, što odgovara značenju 'onaj ko ima položaj (ko je na dužnosti) ima vlast'.	
+183-4	3386-3395	predložio	V	VERB	_	_	predložiti	_	_	_	ENG30-00875394-v	7	ENG30-00708980-v;ENG30-00875394-v;ENG30-00875806-v;ENG30-00878636-v;ENG30-00879356-v;ENG30-00930806-v;ENG30-02401523-v	U kontekstu rečenice, 'predložio' znači da je izneo plan ili ideju o uspostavljanju bratskih odnosa, što odgovara značenju 'Učiniti predlog; objaviti plan za nešto'.	
+183-5	3396-3398	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+183-6	3399-3406	bratske	A	ADJ	_	_	bratski	_	_	_	ENG30-00291471-a	2	ENG30-00291471-a;ENG30-02731699-a	U kontekstu rečenice, 'bratske odnose' se odnosi na odnose koji su prijateljski i bliski, kao što bi bili odnosi između braće. Značenje 'koji je kao brat ili ima osobine koje odgovaraju bratskim osobinama' najbolje odgovara ovom opisu.	
+183-7	3407-3413	odnose	N	NOUN	_	_	odnos	_	_	_	ENG30-00040962-n	4	ENG30-00031921-n;ENG30-00040962-n;ENG30-13815449-n;ENG30-13928668-n	U kontekstu rečenice, 'odnosi' se odnosi na međusobne veze između Nueva Germanije i predlagača, što odgovara značenju 'međusobni odnosi ili veze među osobama ili grupama'.	
+183-8	3414-3415	s	PREP	ADP	_	_	s	_	_	_	_	_	_	_	
+183-9	3416-3421	Nueva	A	ADJ	http://www.wikidata.org/entity/Q928198[92]	LOC[92]	nuev	_	_	_	_	_	_	_	
+183-10	3422-3432	Germanijom	N	PROPN	http://www.wikidata.org/entity/Q928198[92]	LOC[92]	Germanijom	_	_	_	_	_	_	_	
+183-11	3433-3434	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	
+183-12	3435-3444	Paragvaju	N	PROPN	http://www.wikidata.org/entity/Q733	LOC	Paragvaj	_	_	_	_	_	_	_	
+183-13	3444-3445	.	PUNCT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=IMI ima za cilj da „postane fleksibilan alat u službi administrativne saradnje, doprinoseći poboljšanom upravljanju unutrašnjim tržištem“.
+184-1	3445-3448	IMI	ABB	X	http://www.wikidata.org/entity/Q863973	PRODUCT	IMI	_	_	_	_	_	_	_	
+184-2	3449-3452	ima	V	VERB	_	_	imati	1	imati za cilj	LVC.full	CVMWE-0132[3531]	1[3531]	CVMWE-0132[3531]	U navedenom kontekstu, 'imati za cilj' se koristi da označi motiv ili svrhu delovanja IMI-ja, što se poklapa sa definicijom značenja CVMWE-0132.[3531]	
+184-3	3453-3455	za	PREP	ADP	_	_	za	1	*	LVC.full	CVMWE-0132[3531]	1[3531]	CVMWE-0132[3531]	U navedenom kontekstu, 'imati za cilj' se koristi da označi motiv ili svrhu delovanja IMI-ja, što se poklapa sa definicijom značenja CVMWE-0132.[3531]	
+184-4	3456-3460	cilj	N	NOUN	_	_	cilj	1	*	LVC.full	CVMWE-0132[3531]	1[3531]	CVMWE-0132[3531]	U navedenom kontekstu, 'imati za cilj' se koristi da označi motiv ili svrhu delovanja IMI-ja, što se poklapa sa definicijom značenja CVMWE-0132.[3531]	
+184-5	3461-3463	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	
+184-6	3464-3465	„	PUNCT	PUNCT	_	_	"	_	_	_	_	_	_	_	
+184-7	3465-3472	postane	V	VERB	_	_	postati	_	_	_	ENG30-00149583-v	5	ENG30-00094460-v;ENG30-00149583-v;ENG30-02381571-v;ENG30-02623529-v;ENG30-02626604-v	U ovom kontekstu, 'postati' znači ući u određeno stanje, odnosno stanje fleksibilnog alata. IMI teži da poprimi to stanje.	
+184-8	3473-3484	fleksibilan	A	ADJ	_	_	fleksibilan	_	_	_	ENG30-01028163-a	2	ENG30-01022064-a;ENG30-01028163-a	U datom kontekstu, 'fleksibilan' se odnosi na sposobnost IMI-ja da se lako prilagodi različitim potrebama i situacijama u administrativnoj saradnji, što odgovara značenju 'sposoban da se lako prilagodi različitim uslovima'.	
+184-9	3485-3489	alat	N	NOUN	_	_	alat	_	_	_	ENG30-00173761-n	3	ENG30-00173761-n;ENG30-02729965-n;ENG30-04451818-n	U datom kontekstu, "alat" se koristi kao sredstvo za postizanje cilja, odnosno administrativne saradnje i poboljšanog upravljanja unutrašnjim tržištem. To odgovara značenju "sredstvo kojim se neki čin ostvaruje".	
+184-10	3490-3491	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	
+184-11	3492-3498	službi	N	NOUN	_	_	služba	_	_	_	ENG30-01209576-n	6	ENG30-00584891-n;ENG30-00586262-n;ENG30-01032040-n;ENG30-01033458-n;ENG30-01206986-n;ENG30-01209576-n	U datom kontekstu, 'služba' se odnosi na ulogu IMI-ja kao alata koji pruža pomoć ili podršku administrativnoj saradnji, što odgovara značenju 'čin pomoći ili podrške'.	
+184-12	3499-3514	administrativne	A	ADJ	_	_	administrativan	_	_	_	ENG30-02904075-a	1	ENG30-02904075-a	Reč 'administrativne' u kontekstu 'administrativne saradnje' se odnosi na saradnju koja je povezana sa administracijom i upravljanjem, što odgovara značenju 'odnosi se na ili je odgovoran za administraciju'.	
+184-13	3515-3523	saradnje	N	NOUN	_	_	saradnja	_	_	_	ENG30-01202904-n	3	ENG30-00411384-n;ENG30-00807273-n;ENG30-01202904-n	U kontekstu administrativne saradnje, reč se odnosi na zajedničku akciju ili rad između različitih administrativnih tela radi postizanja zajedničkog cilja, što odgovara značenju 'Zajednička operacija ili radnja'.	
+184-14	3523-3524	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+184-15	3525-3536	doprinoseći	V	VERB	_	_	doprinositi	_	_	_	ENG30-02555908-v	3	ENG30-01027174-v;ENG30-02555908-v;ENG30-02745172-v	U kontekstu rečenice, 'doprinositi' znači biti pogodan za poboljšano upravljanje unutrašnjim tržištem, odnosno imati pozitivan uticaj na to.	
+184-16	3537-3548	poboljšanom	A	ADJ	_	_	poboljšan	_	_	_	ENG30-00231103-a	2	ENG30-00231103-a;ENG30-02487108-a	U kontekstu rečenice, 'poboljšan' se odnosi na unapređenje kvaliteta upravljanja unutrašnjim tržištem, što odgovara značenju 'postati kvalitetniji ili poboljšati kvalitet nečega'.	
+184-17	3549-3560	upravljanju	N	NOUN	_	_	upravljanje	_	_	_	ENG30-01124794-n	4	ENG30-00803617-n;ENG30-00830448-n;ENG30-01124794-n;ENG30-01133281-n	U kontekstu rečenice, 'upravljanje' se odnosi na sprovođenje vlasti i administrativne saradnje radi poboljšanja funkcionisanja unutrašnjeg tržišta.	
+184-18	3561-3572	unutrašnjim	A	ADJ	_	_	unutrašnji	2[830]	unutrašnje tržište[830]	NID[830]	CVMWE-0473[3532]	1[3532]	CVMWE-0473[3532]	U navedenom kontekstu, 'unutrašnje tržište' se odnosi na ekonomski prostor gde se roba, kapital, usluge i radna snaga slobodno kreću, što je u skladu sa definicijom trgovinskog bloka sa uklonjenim trgovinskim barijerama i zajedničkim politikama.[3532]	
+184-19	3573-3581	tržištem	N	NOUN	_	_	tržište	2[830]	unutrašnje tržište[830]	NID[830]	CVMWE-0473[3532]	1[3532]	CVMWE-0473[3532]	U navedenom kontekstu, 'unutrašnje tržište' se odnosi na ekonomski prostor gde se roba, kapital, usluge i radna snaga slobodno kreću, što je u skladu sa definicijom trgovinskog bloka sa uklonjenim trgovinskim barijerama i zajedničkim politikama.[3532]	
+184-20	3581-3582	“	PUNCT	PUNCT	_	_	"	_	_	_	_	_	_	_	
+184-21	3582-3583	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Bakterije se mogu širiti i putem krvi.
+185-1	3583-3592	Bakterije	N	NOUN	_	_	bakterija	_	_	_	ENG30-01348530-n	1	ENG30-01348530-n	Definicija "Jednoćelijski ili nećelijski loptasti, spiralni ili štapičast organizam koji nema hlorofila i reprodukuje se spajanjem" se direktno odnosi na bakterije kao mikroorganizme koji se mogu širiti putem krvi.	
+185-2	3593-3595	se	PAR	PART	_	_	se	1	*	IRV	CVMWE-0399[3533]	2[3533]	CVMWE-0399;ENG30-00969873-v[3533]	U kontekstu rečenice, 'širiti se' znači postajati rasprostranjeniji, odnosno prenositi se kroz krv i zauzimati veći prostor u organizmu.[3533]	
+185-3	3596-3600	mogu	V	VERB	_	_	moći	_	_	_	NEW_SENSE	1	ENG30-02523221-v	Ponuđeno značenje ne odgovara kontekstu. U rečenici, 'mogu' se koristi kao pomoćni glagol koji izražava mogućnost ili verovatnoću, a ne kao glagol koji označava istrajavanje ili uspeh.	
+185-4	3601-3607	širiti	V	VERB	_	_	širiti	1	širiti se	IRV	CVMWE-0399[3533]	2[3533]	CVMWE-0399;ENG30-00969873-v[3533]	U kontekstu rečenice, 'širiti se' znači postajati rasprostranjeniji, odnosno prenositi se kroz krv i zauzimati veći prostor u organizmu.[3533]	
+185-5	3608-3609	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+185-6	3610-3615	putem	PREP	ADP	_	_	putem	_	_	_	_	_	_	_	
+185-7	3616-3620	krvi	N	NOUN	_	_	krv	_	_	_	ENG30-05399847-n	1	ENG30-05399847-n	Značenje 'Tekućina (kod kičmenjaka je crvena) koju pumpa srce' se savršeno uklapa u kontekst rečenice, jer se bakterije mogu širiti putem te tekućine u organizmu.	
+185-8	3620-3621	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Svako društvo u kom nije obezbeđena garancija prava, niti utvrđena podela vlasti, nema Ustav.
+186-1	3621-3626	Svako	PRO	DET	_	_	svaki	_	_	_	_	_	_	_	
+186-2	3627-3634	društvo	N	NOUN	_	_	društvo	_	_	_	ENG30-07966140-n	4	ENG30-07966140-n;ENG30-08184861-n;ENG30-08227214-n;ENG30-13782769-n	U navedenom kontekstu, 'društvo' se odnosi na veću društvenu grupu sa specifičnom kulturnom i ekonomskom organizacijom, što odgovara značenju pod ID-jem ENG30-07966140-n. Ostala značenja ne odgovaraju kontekstu rečenice.	
+186-3	3635-3636	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	
+186-4	3637-3640	kom	PRO	DET	_	_	koji	_	_	_	_	_	_	_	
+186-5	3641-3645	nije	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+186-6	3646-3656	obezbeđena	V	VERB	_	_	obezbediti	_	_	_	ENG30-02453321-v	10	ENG30-00406963-v;ENG30-00890590-v;ENG30-00891216-v;ENG30-01182709-v;ENG30-02219442-v;ENG30-02240151-v;ENG30-02349706-v;ENG30-02376289-v;ENG30-02453321-v;ENG30-02479323-v	U kontekstu rečenice, 'obezbeđena garancija prava' znači delovati tako da se ne dogodi situacija u kojoj prava nisu garantovana, odnosno, sprečiti da se to dogodi.	
+186-7	3657-3666	garancija	N	NOUN	_	_	garancija	_	_	_	ENG30-06686174-n	3	ENG30-06685456-n;ENG30-06686174-n;ENG30-13353004-n	U kontekstu rečenice, 'garancija prava' se odnosi na zalog ili osiguranje da će se prava poštovati i biti zaštićena, što odgovara značenju 'zalog da će se nešto dogoditi ili da je nešto istina'.	
+186-8	3667-3672	prava	N	NOUN	_	_	pravo	_	_	_	ENG30-08441203-n	4	ENG30-04850341-n;ENG30-05142180-n;ENG30-05174653-n;ENG30-08441203-n	U kontekstu rečenice, 'prava' se odnose na skup pravila i garancija koje štite pojedince i određuju podelu vlasti, što odgovara značenju 'skup pravila koja nameće autoritet'.	
+186-9	3672-3673	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+186-10	3674-3678	niti	CONJ	CCONJ	_	_	niti	_	_	_	_	_	_	_	
+186-11	3679-3687	utvrđena	V	VERB	_	_	utvrditi	_	_	_	ENG30-00918872-v	7	ENG30-00598954-v;ENG30-00700708-v;ENG30-00721437-v;ENG30-00918872-v;ENG30-00920336-v;ENG30-02448185-v;ENG30-02533282-v	U kontekstu podele vlasti, 'utvrditi' znači ustanoviti ili definisati je nakon razmatranja i promišljanja, što odgovara značenju 'posle računanja, istraživanja, eksperimentisanja ustanoviti nešto'.	
+186-12	3688-3694	podela	N	NOUN	_	_	podela	_	_	_	ENG30-05781800-n	1	ENG30-05781800-n	U kontekstu podele vlasti, reč 'podela' se odnosi na razdvajanje vlasti u različite, međusobno isključive kategorije (npr. zakonodavna, izvršna, sudska).	
+186-13	3695-3701	vlasti	N	NOUN	_	_	vlast	_	_	_	ENG30-08050678-n	5	ENG30-01128390-n;ENG30-01128655-n;ENG30-08050678-n;ENG30-09824609-n;ENG30-13953608-n	U kontekstu podele vlasti u društvu, najprikladnije značenje je organizacija koja je upravljačko telo političke jedinice, jer se Ustav odnosi na uređenje države i njenih institucija.	
+186-14	3701-3702	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+186-15	3703-3707	nema	V	VERB	_	_	nemati	_	_	_	ENG30-02633714-v	1	ENG30-02633714-v	U datom kontekstu, 'nemati' znači 'ne uključivati' ili 'ne posedovati' Ustav, što se poklapa sa ponuđenim značenjem.	
+186-16	3708-3713	Ustav	N	NOUN	_	_	ustav	_	_	_	ENG30-06533648-n	1	ENG30-06533648-n	Ustav se u ovom kontekstu odnosi na temeljni zakon koji definiše organizaciju i funkcionisanje vlasti u društvu.	
+186-17	3713-3714	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Kod veoma starih i veoma mladih, simptomi mogu biti nejasni ili nespecifični.
+187-1	3714-3717	Kod	PREP	ADP	_	_	kod	_	_	_	_	_	_	_	
+187-2	3718-3723	veoma	ADV	ADV	_	_	veoma	_	_	_	ENG30-00018289-b	4	ENG30-00018289-b;ENG30-00032803-b;ENG30-00059086-b;ENG30-00089408-b	Reč 'veoma' se u datoj rečenici koristi kao pojačivač značenja reči 'starih' i 'mladih', naglašavajući njihovu starost ili mladost.	
+187-3	3724-3730	starih	A	ADJ	_	_	star	_	_	_	ENG30-01643620-a	6	ENG30-00127137-a;ENG30-00820219-a;ENG30-01588419-a;ENG30-01638438-a;ENG30-01643620-a;ENG30-01728614-a	U kontekstu rečenice, 'stari' se odnosi na ljude koji su živeli dugo i nisu mladi, što se poklapa sa značenjem ID: ENG30-01643620-a.	
+187-4	3731-3732	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+187-5	3733-3738	veoma	ADV	ADV	_	_	veoma	_	_	_	ENG30-00018289-b	4	ENG30-00018289-b;ENG30-00032803-b;ENG30-00059086-b;ENG30-00089408-b	Reč 'veoma' se u datoj rečenici koristi kao pojačivač značenja reči 'starih' i 'mladih', naglašavajući njihov visok stepen starosti odnosno mladosti.	
+187-6	3739-3745	mladih	A	ADJ	_	_	mlad	_	_	_	ENG30-01674464-a	2	ENG30-00818008-a;ENG30-01674464-a	U datom kontekstu, reč 'mladih' se odnosi na ljude koji su u ranom stadijumu života, što odgovara značenju 'koristi se za ljude i živa bića, koji su u ranom stadijumu života ili razvoja i rasta'.	
+187-7	3745-3746	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+187-8	3747-3755	simptomi	N	NOUN	_	_	simptom	_	_	_	ENG30-14299637-n	2	ENG30-14299637-n;ENG30-14301785-n	S obzirom da se simptomi opisuju kao nešto što pacijent doživljava, a povezano je sa bolešću, ovo značenje je najprikladnije.	
+187-9	3756-3760	mogu	V	VERB	_	_	moći	_	_	_	NEW_SENSE	1	ENG30-02523221-v	Ponuđeno značenje ne odgovara kontekstu. U rečenici, 'mogu' se koristi u značenju 'imati mogućnost, verovatnoća da se nešto desi', što nije obuhvaćeno ponuđenim značenjem.	
+187-10	3761-3765	biti	V	AUX	_	_	biti	_	_	_	_	_	_	_	
+187-11	3766-3773	nejasni	A	ADJ	_	_	nejasan	_	_	_	ENG30-00782216-a	4	ENG30-00702245-a;ENG30-00781974-a;ENG30-00782216-a;ENG30-01980557-a	U kontekstu simptoma, 'nejasan' znači da simptomi nisu jasni ili lako prepoznatljivi, što odgovara značenju 'bez jasnoće ili razlikovanja'.	
+187-12	3774-3777	ili	CONJ	CCONJ	_	_	ili	_	_	_	_	_	_	_	
+187-13	3778-3790	nespecifični	A	ADJ	_	_	nespecifičan	_	_	_	ENG30-01105620-a	2	ENG30-01101891-a;ENG30-01105620-a	U medicinskom kontekstu, 'nespecifični simptomi' se odnose na simptome koji nisu karakteristični za određenu bolest ili stanje, što odgovara značenju 'koga ne izaziva specifičan agent'.	
+187-14	3790-3791	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Karlo Veliki je umro 28. januara 814. u Ahenu, nakon čega je sahranjen u svojoj dvorskoj kapeli u istom mestu.
+188-1	3791-3796	Karlo	N	PROPN	http://www.wikidata.org/entity/Q3044[93]	PERS[93]	Karlo	_	_	_	_	_	_	_	
+188-2	3797-3803	Veliki	A	ADJ	http://www.wikidata.org/entity/Q3044[93]	PERS[93]	velik	_	_	_	_	_	_	_	
+188-3	3804-3806	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+188-4	3807-3811	umro	V	VERB	_	_	umreti	_	_	_	ENG30-00358431-v	3	ENG30-00358431-v;ENG30-00427683-v;ENG30-02109818-v	U kontekstu rečenice, 'umreti' znači napustiti fizički život, što je definicija značenja sa ID-jem ENG30-00358431-v.	
+188-5	3812-3815	28.	A	ADJ	_	_	28.	_	_	_	NEW_SENSE	0	_	_	
+188-6	3816-3823	januara	N	NOUN	_	_	januar	_	_	_	ENG30-15210045-n	1	ENG30-15210045-n	U navedenoj rečenici, 'januar' se koristi za označavanje prvog meseca u godini, što odgovara definiciji značenja sa ID-jem ENG30-15210045-n.	
+188-7	3824-3828	814.	A	ADJ	_	_	814.	_	_	_	NEW_SENSE	0	_	_	
+188-8	3829-3830	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	
+188-9	3831-3836	Ahenu	N	PROPN	http://www.wikidata.org/entity/Q1017	LOC	Ahen	_	_	_	_	_	_	_	
+188-10	3836-3837	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+188-11	3838-3843	nakon	PREP	ADP	_	_	nakon	_	_	_	_	_	_	_	
+188-12	3844-3848	čega	PRO	PRON	_	_	šta	_	_	_	_	_	_	_	
+188-13	3849-3851	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+188-14	3852-3861	sahranjen	V	VERB	_	_	sahraniti	_	_	_	ENG30-02456493-v	1	ENG30-02456493-v	U kontekstu rečenice, 'sahranjen' znači smestiti telo Karla Velikog u grob ili grobnicu, što se podudara sa definicijom značenja.	
+188-15	3862-3863	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	
+188-16	3864-3870	svojoj	PRO	DET	_	_	svoj	_	_	_	_	_	_	_	
+188-17	3871-3879	dvorskoj	A	ADJ	_	_	dvorski	_	_	_	ENG30-00751838-a	1	ENG30-00751838-a	U kontekstu rečenice, 'dvorska kapela' se odnosi na kapelu koja pripada ili je povezana sa kraljevskim dvorom Karla Velikog, što odgovara značenju 'koji priliči kraljevskom dvoru'.	
+188-18	3880-3886	kapeli	N	NOUN	_	_	kapela	_	_	_	ENG30-03007130-n	1	ENG30-03007130-n	Kapela u dvorskom kompleksu Karla Velikog je mesto bogosluženja sa oltarom, što odgovara definiciji.	
+188-19	3887-3888	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	
+188-20	3889-3894	istom	A	ADJ	_	_	isti	_	_	_	ENG30-02068476-a	4	ENG30-01410606-a;ENG30-01411065-a;ENG30-02062670-a;ENG30-02068476-a	U kontekstu rečenice, 'isti' se koristi da označi da je Karlo Veliki sahranjen u Ahenu, dakle u mestu gde je i umro. To znači da se radi o istom mestu, identičnom.	
+188-21	3895-3900	mestu	N	NOUN	_	_	mesto	_	_	_	ENG30-10	14	ENG30-00027167-n;ENG30-00586262-n;ENG30-00721431-n;ENG30-04286128-n;ENG30-05611822-n;ENG30-06401107-n;ENG30-06483454-n;ENG30-08513718-n;ENG30-08621598-n;ENG30-08664443-n;ENG30-13777764-n;ENG30-13926786-n;ENG30-13947645-n;ENG30-14429985-n	U kontekstu rečenice, 'mesto' se odnosi na Ahen kao tačku smeštenu u odnosu na površinske karakteristike neke oblasti, odnosno grad u kojem je Karlo Veliki sahranjen.	
+188-22	3900-3901	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Primer takve arhive je imenik registara koji vode nadležni organi širom Evropskog ekonomskog prostora (Evropske ekonomske zone).
+189-1	3901-3907	Primer	N	NOUN	_	_	primer	_	_	_	ENG30-05820620-n	4	ENG30-00729919-n;ENG30-05820620-n;ENG30-05937112-n;ENG30-10461747-n	U navedenom kontekstu, reč 'primer' se koristi da označi jednu stavku informacije (imenik registara) koja predstavlja tip arhive.	
+189-2	3908-3913	takve	PRO	DET	_	_	takav	_	_	_	_	_	_	_	
+189-3	3914-3920	arhive	N	NOUN	_	_	arhiva	_	_	_	ENG30-02735086-n	2	ENG30-02735086-n;ENG30-06507041-n	U navedenom kontekstu, 'arhiva' se odnosi na spremište podataka (imenik registara), što odgovara značenju 'Spremište koje sadrži istorijske spise i dokumente'.	
+189-4	3921-3923	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+189-5	3924-3930	imenik	N	NOUN	_	_	imenik	_	_	_	ENG30-06495000-n	1	ENG30-06495000-n	U navedenom kontekstu, 'imenik' se odnosi na listu registara, što odgovara definiciji liste imena ili stavki.	
+189-6	3931-3940	registara	N	NOUN	_	_	registar	_	_	_	ENG30-06507041-n	5	ENG30-04071876-n;ENG30-04987356-n;ENG30-06479374-n;ENG30-06507041-n;ENG30-13412321-n	U datom kontekstu, 'registar' se odnosi na službeni pisani zapis imena, događaja ili transakcija koje vode nadležni organi, što odgovara značenju službenog pisanog zapisa.	
+189-7	3941-3945	koji	PRO	DET	_	_	koji	_	_	_	_	_	_	_	
+189-8	3946-3950	vode	V	VERB	_	_	voditi	_	_	_	ENG30-02440244-v	14	ENG30-01371756-v;ENG30-01718185-v;ENG30-01732921-v;ENG30-01999218-v;ENG30-02079933-v;ENG30-02202928-v;ENG30-02440244-v;ENG30-02443849-v;ENG30-02445509-v;ENG30-02635659-v;ENG30-02635956-v;ENG30-02686471-v;ENG30-02686625-v;ENG30-02744651-v	U kontekstu rečenice, 'voditi' se odnosi na nadležne organe koji su zaduženi za imenike registara, što odgovara značenju 'biti zadužen za nešto'.	
+189-9	3951-3959	nadležni	A	ADJ	_	_	nadležan	_	_	_	ENG30-00809201-a	1	ENG30-00809201-a	U datom kontekstu, 'nadležni organi' se odnosi na organe koji su u kontroli i imaju ovlašćenje da vode registre, što odgovara značenju 'u kontroli'.	
+189-10	3960-3966	organi	N	NOUN	_	_	organ	_	_	_	ENG30-08349350-n	2	ENG30-05297523-n;ENG30-08349350-n	U kontekstu rečenice, 'organi' se odnose na vladine biroe ili institucije koje su nadležne za vođenje registara, što odgovara značenju vladinog biroa posvećenog obavljanju specifične funkcije.	
+189-11	3967-3972	širom	PREP	ADP	_	_	širom	_	_	_	_	_	_	_	
+189-12	3973-3982	Evropskog	A	ADJ	http://www.wikidata.org/entity/Q8932[94]	LOC[94]	evropski	_	_	_	_	_	_	_	
+189-13	3983-3993	ekonomskog	A	ADJ	http://www.wikidata.org/entity/Q8932[94]	LOC[94]	ekonomski	_	_	_	_	_	_	_	
+189-14	3994-4002	prostora	N	NOUN	http://www.wikidata.org/entity/Q8932[94]	LOC[94]	prostor	_	_	_	_	_	_	_	
+189-15	4003-4004	(	PUNCT	PUNCT	_	_	(	_	_	_	_	_	_	_	
+189-16	4004-4012	Evropske	A	ADJ	http://www.wikidata.org/entity/Q8932[95]	LOC[95]	evropski	_	_	_	_	_	_	_	
+189-17	4013-4022	ekonomske	A	ADJ	http://www.wikidata.org/entity/Q8932[95]	LOC[95]	ekonomski	_	_	_	_	_	_	_	
+189-18	4023-4027	zone	N	NOUN	http://www.wikidata.org/entity/Q8932[95]	LOC[95]	zona	_	_	_	_	_	_	_	
+189-19	4027-4028	)	PUNCT	PUNCT	_	_	)	_	_	_	_	_	_	_	
+189-20	4028-4029	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Rurik je ostao na vlasti do svoje smrti 879.
+190-1	4029-4034	Rurik	N	PROPN	http://www.wikidata.org/entity/Q7990	PERS	Rurik	_	_	_	_	_	_	_	
+190-2	4035-4037	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+190-3	4038-4043	ostao	V	VERB	_	_	ostati	_	_	_	ENG30-02727462-v	4	ENG30-00117985-v;ENG30-02009200-v;ENG30-02727462-v;ENG30-02731024-v	U datom kontekstu, 'ostati na vlasti' znači nastaviti postojati na poziciji vlasti, što se poklapa sa značenjem 'nastaviti postojati na nekom mestu, položaju ili situaciji'.	
+190-4	4044-4046	na	PREP	ADP	_	_	na	_	_	_	_	_	_	_	
+190-5	4047-4053	vlasti	N	NOUN	_	_	vlast	_	_	_	ENG30-13953608-n	5	ENG30-01128390-n;ENG30-01128655-n;ENG30-08050678-n;ENG30-09824609-n;ENG30-13953608-n	U kontekstu rečenice, 'vlast' se odnosi na položaj najvišeg autoriteta koji je Rurik imao do svoje smrti.	
+190-6	4054-4056	do	PREP	ADP	_	_	do	_	_	_	_	_	_	_	
+190-7	4057-4062	svoje	PRO	DET	_	_	svoj	_	_	_	_	_	_	_	
+190-8	4063-4068	smrti	N	NOUN	_	_	smrt	_	_	_	ENG30-11444117-n	4	ENG30-00219575-n;ENG30-11444117-n;ENG30-13962498-n;ENG30-15143477-n	U kontekstu rečenice, 'smrt' se odnosi na prestanak života Rurika, što odgovara definiciji trajnog kraja svih životnih funkcija.	
+190-9	4069-4073	879.	A	ADJ	_	_	879.	_	_	_	NEW_SENSE	0	_	_	
+
+#Text=Ovaj mehanizam razmene koristi liste unapred prevedenih pitanja i odgovora dostupnih na svim jezicima EU.
+191-1	4073-4077	Ovaj	PRO	DET	_	_	ovaj	_	_	_	_	_	_	_	
+191-2	4078-4087	mehanizam	N	NOUN	_	_	mehanizam	_	_	_	ENG30-00098385-n	4	ENG30-00098385-n;ENG30-02677718-n;ENG30-03738472-n;ENG30-09349797-n	U ovom kontekstu, "mehanizam" se odnosi na tehnički aspekt razmene, odnosno na način na koji razmena funkcioniše.	
+191-3	4088-4095	razmene	N	NOUN	_	_	razmena	_	_	_	ENG30-01166258-n	6	ENG30-00040152-n;ENG30-00167063-n;ENG30-01093085-n;ENG30-01109467-n;ENG30-01166258-n;ENG30-01166517-n	U kontekstu rečenice, 'razmena' se odnosi na čin zamene, u ovom slučaju, pitanja i odgovora između različitih jezika. Ovo značenje je najpreciznije predstavljeno definicijom 'Čin razmenjivanja jedne stvari za drugu.'	
+191-4	4096-4103	koristi	V	VERB	_	_	koristiti	_	_	_	ENG30-02436963-v	6	ENG30-01165043-v;ENG30-01224415-v;ENG30-02436963-v;ENG30-02541251-v;ENG30-02561332-v;ENG30-02707429-v	U datom kontekstu, 'koristiti' znači da mehanizam razmene uzrokuje da liste unapred prevedenih pitanja i odgovora funkcionišu kao deo procesa razmene.	
+191-5	4104-4109	liste	N	NOUN	_	_	lista	_	_	_	ENG30-06481320-n	1	ENG30-06481320-n	U kontekstu rečenice, 'liste' se odnose na uređeni niz prevedenih pitanja i odgovora, što odgovara definiciji baze podataka koja se sastoji od uređenog niza stavki.	
+191-6	4110-4117	unapred	ADV	ADV	_	_	unapred	_	_	_	ENG30-00067045-b	2	ENG30-00067045-b;ENG30-00074641-b	U datom kontekstu, 'unapred prevedenih pitanja i odgovora' znači da su pitanja i odgovori prevedeni pre nego što se mehanizam razmene koristi, odnosno pre vremena.	
+191-7	4118-4128	prevedenih	A	ADJ	_	_	preveden	_	_	_	RSSJ-39658/0	1	RSSJ-39658/0	Značenje 'koji je prenet sa jednog jezika na drugi; translatiran' se direktno odnosi na reč 'preveden' u kontekstu razmene pitanja i odgovora na različitim jezicima.	
+191-8	4129-4136	pitanja	N	NOUN	_	_	pitanje	_	_	_	ENG30-07196682-n	4	ENG30-05814650-n;ENG30-06783768-n;ENG30-07193596-n;ENG30-07196682-n	U kontekstu razmene, 'pitanja' se odnose na rečenice koje se postavljaju kako bi se dobio odgovor, što se uklapa u definiciju 'rečenica koja traži odgovor'.	
+191-9	4137-4138	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+191-10	4139-4147	odgovora	N	NOUN	_	_	odgovor	_	_	_	ENG30-06746005-n	5	ENG30-05794057-n;ENG30-06746005-n;ENG30-07199565-n;ENG30-07200527-n;ENG30-11416988-n	U kontekstu razmene pitanja i odgovora, 'odgovor' se odnosi na izjavu koja se daje kao odgovor na pitanje, što se poklapa sa značenjem 'izjava (bilo izgovorena, bilo pisana) koja se daje kao odgovor na pitanje ili zahtev ili članak ili pismo'.	
+191-11	4148-4157	dostupnih	A	ADJ	_	_	dostupan	_	_	_	ENG30-00184363-a	4	ENG30-00019131-a;ENG30-00134251-a;ENG30-00184363-a;ENG30-00533221-a	U datom kontekstu, 'dostupan' znači da se nešto može dobiti ili pronaći, u ovom slučaju, liste prevedenih pitanja i odgovora.	
+191-12	4158-4160	na	PREP	ADP	_	_	na	_	_	_	_	_	_	_	
+191-13	4161-4165	svim	PRO	DET	_	_	sav	_	_	_	_	_	_	_	
+191-14	4166-4174	jezicima	N	NOUN	_	_	jezik	_	_	_	ENG30-06282651-n	5	ENG30-04378123-n;ENG30-05301072-n;ENG30-06282651-n;ENG30-06304059-n;ENG30-07652995-n	U datom kontekstu, 'jezici EU' se odnosi na sisteme komunikacije koji koriste reči i gramatiku, što odgovara značenju 'sistematsko sredstvo komunikacije koje koristi zvuke ili konvencionalne simbole'.	
+191-15	4175-4177	EU	ABB	X	http://www.wikidata.org/entity/Q458	ORG	EU	_	_	_	_	_	_	_	
+191-16	4177-4178	.	PUNCT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Kada se koristi kao takva, to znači da nijedna strana ne dobija niti gubi teritoriju ili ekonomska i politička prava.
+192-1	4178-4182	Kada	CONJ	SCONJ	_	_	kada	_	_	_	_	_	_	_	
+192-2	4183-4185	se	PAR	PART	_	_	se	_	_	_	_	_	_	_	
+192-3	4186-4193	koristi	V	VERB	_	_	koristiti	_	_	_	ENG30-02707429-v	6	ENG30-01165043-v;ENG30-01224415-v;ENG30-02436963-v;ENG30-02541251-v;ENG30-02561332-v;ENG30-02707429-v	U datom kontekstu, 'koristiti' se odnosi na primenljivost nečega u određenoj situaciji ili svrhu, što odgovara značenju 'biti primenljiv na'.	
+192-4	4194-4197	kao	CONJ	CCONJ	_	_	kao	_	_	_	_	_	_	_	
+192-5	4198-4203	takva	PRO	DET	_	_	takav	_	_	_	_	_	_	_	
+192-6	4203-4204	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+192-7	4205-4207	to	PRO	DET	_	_	taj	_	_	_	_	_	_	_	
+192-8	4208-4213	znači	V	VERB	_	_	značiti	_	_	_	ENG30-00932324-v	5	ENG30-00121387-v;ENG30-00901194-v;ENG30-00932324-v;ENG30-02699497-v;ENG30-02742482-v	U datom kontekstu, 'znači' se koristi da prenese ili izrazi značenje onoga što sledi, odnosno da objasni implikacije određene situacije.	
+192-9	4214-4216	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	
+192-10	4217-4224	nijedna	A	ADJ	_	_	nijedan	_	_	_	ENG30-02269039-a	1	ENG30-02269039-a	U datom kontekstu, reč 'nijedna' se koristi da označi da ne postoji strana koja dobija ili gubi nešto, što odgovara značenju 'koji je ne bilo koji'.	
+192-11	4225-4231	strana	N	NOUN	_	_	strana	_	_	_	ENG30-08408709-n	12	ENG30-02464223-n;ENG30-04213626-n;ENG30-05551318-n;ENG30-05850624-n;ENG30-05852553-n;ENG30-05852973-n;ENG30-06256229-n;ENG30-06783265-n;ENG30-08408709-n;ENG30-08510666-n;ENG30-08649345-n;ENG30-10402824-n	U kontekstu rečenice, 'strana' se odnosi na jednu od dve ili više takmičarskih grupa koje učestvuju u nekom procesu ili sporazumu, gde nijedna ne dobija prednost u teritoriji, ekonomskim ili političkim pravima.	
+192-12	4232-4234	ne	PAR	PART	_	_	ne	_	_	_	_	_	_	_	
+192-13	4235-4241	dobija	V	VERB	_	_	dobijati	_	_	_	ENG30-02292125-v	6	ENG30-00524682-v;ENG30-02108654-v;ENG30-02109645-v;ENG30-02292125-v;ENG30-02293148-v;ENG30-02355596-v	U kontekstu rečenice, 'dobijati' se koristi u smislu sticanja ili primanja nečega, što se poklapa sa značenjem 'dobiti'.	
+192-14	4242-4246	niti	CONJ	CCONJ	_	_	niti	_	_	_	_	_	_	_	
+192-15	4247-4251	gubi	V	VERB	_	_	gubiti	_	_	_	ENG30-02288155-v	3	ENG30-01099592-v;ENG30-02288155-v;ENG30-02385153-v	U kontekstu rečenice, 'gubiti' se odnosi na to da neka strana ne dobija ili ne zadobija teritoriju, ekonomska ili politička prava, što se poklapa sa značenjem 'ne dobiti, odnosno ne zadobiti'.	
+192-16	4252-4262	teritoriju	N	NOUN	_	_	teritorija	_	_	_	ENG30-08493064-n	1	ENG30-08493064-n	U navedenom kontekstu, 'teritorija' se odnosi na geografsko područje koje je pod kontrolom, što odgovara definiciji geografskog područja pod jurisdikcijom suverene države.	
+192-17	4263-4266	ili	CONJ	CCONJ	_	_	ili	_	_	_	_	_	_	_	
+192-18	4267-4276	ekonomska	A	ADJ	_	_	ekonomski	_	_	_	ENG30-02716739-a	4	ENG30-01871565-a;ENG30-02577454-a;ENG30-02716605-a;ENG30-02716739-a	Značenje 'koji se odnosi na ekonomiju, sistem proizvodnje i upravljanja materijalni dobara' najbolje odgovara kontekstu rečenice, jer se govori o pravima koja su povezana sa ekonomskim aktivnostima.	
+192-19	4277-4278	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+192-20	4279-4288	politička	A	ADJ	_	_	politički	1[831]	politička prava[831]	NID[831]	LLM-0182[3534]	1[3534]	LLM-0182[3534]	U kontekstu rečenice, 'politička prava' se odnose na prava koja su povezana sa političkim životom, što je u skladu sa definicijom LLM-0182.[3534]	
+192-21	4289-4294	prava	N	NOUN	_	_	pravo	1[831]	politička prava[831]	NID[831]	LLM-0182[3534]	1[3534]	LLM-0182[3534]	U kontekstu rečenice, 'politička prava' se odnose na prava koja su povezana sa političkim životom, što je u skladu sa definicijom LLM-0182.[3534]	
+192-22	4294-4295	.	PUNCT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Iako je Zemljina velika gustina u značajnoj meri rezultat gravitacione kompresije, posebno u jezgru, Merkur je mnogo manji i njegovi unutrašnji delovi nisu toliko komprimovani.
+193-1	4295-4299	Iako	CONJ	SCONJ	_	_	iako	_	_	_	_	_	_	_	
+193-2	4300-4302	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+193-3	4303-4311	Zemljina	A	ADJ	_	_	Zemljin	_	_	_	DRJ0-244004/0	1	DRJ0-244004/0	Reč 'Zemljina' u datom kontekstu se odnosi na planetu Zemlju i njenu gustinu, što odgovara značenju 'koji pripada Zemlji (planeti), koji se odnosi na Zemlju'.	
+193-4	4312-4318	velika	A	ADJ	_	_	velik	_	_	_	ENG30-01375909-a	8	ENG30-00579622-a;ENG30-01114658-a;ENG30-01190683-a;ENG30-01278080-a;ENG30-01375909-a;ENG30-01467919-a;ENG30-01488616-a;ENG30-01510444-a	U kontekstu gustine, 'velika' se odnosi na to da je gustina iznad proseka, što odgovara značenju 'iznad proseka po veličini ili broju ili količini ili snazi ili iznosu'.	
+193-5	4319-4326	gustina	N	NOUN	_	_	gustina	_	_	_	ENG30-04941453-n	2	ENG30-04941453-n;ENG30-05088804-n	U datom kontekstu, 'gustina' se odnosi na količinu mase po jedinici zapremine, što je u skladu sa značenjem 'količina po jedinici mere'.	
+193-6	4327-4328	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	
+193-7	4329-4338	značajnoj	A	ADJ	_	_	značajan	_	_	_	ENG30-02163307-a	4	ENG30-00624416-a;ENG30-01375831-a;ENG30-02161432-a;ENG30-02163307-a	U datom kontekstu, 'značajan' se koristi da opiše meru u kojoj je gustina Zemlje rezultat gravitacione kompresije. To odgovara značenju 'prilično veliki ili važan po svom efektu', jer se naglašava da je uticaj gravitacione kompresije na gustinu Zemlje primetan i bitan.	
+193-8	4339-4343	meri	N	NOUN	_	_	mera	_	_	_	ENG30-13941125-n	7	ENG30-00033615-n;ENG30-00174412-n;ENG30-05117660-n;ENG30-05901508-n;ENG30-06501622-n;ENG30-13815342-n;ENG30-13941125-n	U datom kontekstu, 'mera' se odnosi na stepen ili nivo do kojeg je Zemljina gustina rezultat gravitacione kompresije. Dakle, značenje 'tačka ili stepen do koga se nešto širi' je najprikladnije.	
+193-9	4344-4352	rezultat	N	NOUN	_	_	rezultat	_	_	_	ENG30-07292694-n	3	ENG30-00186634-n;ENG30-07292694-n;ENG30-13594585-n	U datom kontekstu, 'rezultat' se koristi da označi nešto što proizlazi ili nastaje kao posledica gravitacione kompresije. To odgovara značenju 'Nešto što rezultira iz nečega'.	
+193-10	4353-4365	gravitacione	A	ADJ	_	_	gravitacioni	_	_	_	DRJ0-233724/0	1	DRJ0-233724/0	Reč 'gravitacione' se u datom kontekstu odnosi na kompresiju uzrokovanu gravitacijom, što direktno odgovara značenju 'koji se odnosi na gravitaciju'.	
+193-11	4366-4376	kompresije	N	NOUN	_	_	kompresija	_	_	_	ENG30-07313241-n	2	ENG30-00356790-n;ENG30-07313241-n	U kontekstu rečenice, 'kompresija' se odnosi na proces smanjivanja zapremine ili pritiskanja materije zajedno usled gravitacije, što odgovara značenju 'proces ili rezultat postajanja manjim ili pritisnutim zajedno'.	
+193-12	4376-4377	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+193-13	4378-4385	posebno	ADV	ADV	_	_	posebno	_	_	_	ENG30-00084223-b	4	ENG30-00041758-b;ENG30-00084223-b;ENG30-00207668-b;ENG30-00248765-b	U datom kontekstu, 'posebno' se koristi da naglasi da je gravitaciona kompresija u jezgru Zemlje znatno veća nego u drugim delovima, što odgovara značenju 'u znatno većoj meri ili stepenu nego što je uobičajeno'.	
+193-14	4386-4387	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	
+193-15	4388-4394	jezgru	N	NOUN	_	_	jezgro	_	_	_	ENG30-09256815-n	4	ENG30-05921123-n;ENG30-08524262-n;ENG30-09256815-n;ENG30-09256895-n	U kontekstu rečenice, 'jezgro' se odnosi na centralni deo planete Zemlje, što je u skladu sa definicijom značenja sa ID-jem ENG30-09256815-n.	
+193-16	4394-4395	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+193-17	4396-4402	Merkur	N	PROPN	http://www.wikidata.org/entity/Q308	LOC	Merkur	_	_	_	_	_	_	_	
+193-18	4403-4405	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+193-19	4406-4411	mnogo	ADV	ADV	_	_	mnogo	_	_	_	ENG30-00059086-b	4	ENG30-00032803-b;ENG30-00059086-b;ENG30-00059413-b;ENG30-00145713-b	U datom kontekstu, 'mnogo' se koristi da pojača tvrdnju da je Merkur značajno manji, što odgovara značenju 'u velikoj meri ili stepenu'.	
+193-20	4412-4417	manji	A	ADJ	_	_	mali	_	_	_	ENG30-01345600-a	5	ENG30-01345600-a;ENG30-01391351-a;ENG30-01415219-a;ENG30-01445493-a;ENG30-01649031-a	U kontekstu rečenice, 'manji' se koristi da opiše fizičku veličinu Merkura u poređenju sa Zemljom, što odgovara značenju 'koji ima ili se razlikuje po maloj veličini'.	
+193-21	4418-4419	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+193-22	4420-4427	njegovi	PRO	DET	_	_	njegov	_	_	_	_	_	_	_	
+193-23	4428-4438	unutrašnji	A	ADJ	_	_	unutrašnji	_	_	_	ENG30-00948670-a	7	ENG30-00873113-a;ENG30-00948670-a;ENG30-00948985-a;ENG30-00951831-a;ENG30-00952867-a;ENG30-01038102-a;ENG30-01038332-a	U kontekstu rečenice, 'unutrašnji delovi' se odnose na delove koji se nalaze unutar Merkura, što odgovara značenju 'Koji se dešava ili se nalazi unutar nekih igranica ili nekih površi.'	
+193-24	4439-4445	delovi	N	NOUN	_	_	deo	_	_	_	ENG30-05867413-n	7	ENG30-01085098-n;ENG30-03892891-n;ENG30-05867413-n;ENG30-05868954-n;ENG30-08548733-n;ENG30-09385911-n;ENG30-13289159-n	U kontekstu rečenice, 'delovi' se odnosi na unutrašnje komponente Merkura (jezgro, omotač, kora) koje zajedno čine planetu, što odgovara značenju 'jedan od delova u koje je nešto podeljeno i koji zajedno čine celinu'.	
+193-25	4446-4450	nisu	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+193-26	4451-4457	toliko	ADV	ADV	_	_	toliko	_	_	_	DRJ0-180890/1	5	DRJ0-180890/1;DRJ0-180890/2;DRJ0-180890/3а.;DRJ0-180890/3б.;DRJ0-180890/4	U datom kontekstu, 'toliko' se koristi da označi stepen kompresije Merkurovih unutrašnjih delova u poređenju sa Zemljom. Značenje 'u toj meri' je najprikladnije jer se odnosi na stepen ili količinu kompresije.	
+193-27	4458-4470	komprimovani	V	VERB	_	_	komprimovati	_	_	_	DRJ0-195972/0	1	DRJ0-195972/0	U datom kontekstu, 'komprimovani' se odnosi na smanjenje zapremine unutrašnjih delova Merkura usled pritiska, što odgovara značenju sažimanja ili stiskanja.	
+193-28	4470-4471	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Ovu bolest je 1909. godine prvi opisao brazilski lekar Karlos Čagas, po kome je i dobila ime.
+194-1	4471-4474	Ovu	PRO	DET	_	_	ovaj	_	_	_	_	_	_	_	
+194-2	4475-4481	bolest	N	NOUN	_	_	bolest	_	_	_	ENG30-14061805-n	2	ENG30-14061805-n;ENG30-14070360-n	Značenje "Oštećenje normalne fiziološke funkcije koje pogađa deo ili ceo organizam" se najpreciznije uklapa u kontekst rečenice, jer se bolest opisuje kao nešto što je prvi opisao lekar, što implicira da se radi o medicinskom stanju koje utiče na organizam.	
+194-3	4482-4484	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+194-4	4485-4490	1909.	A	ADJ	_	_	1909.	_	_	_	NEW_SENSE	0	_	_	
+194-5	4491-4497	godine	N	NOUN	_	_	godina	_	_	_	ENG30-15202634-n	5	ENG30-08238660-n;ENG30-15201505-n;ENG30-15202634-n;ENG30-15203791-n;ENG30-15204297-n	U datom kontekstu, 'godina' se odnosi na konkretnu godinu u kojoj je bolest opisana, što odgovara značenju godine računatoj od 1. januara do 31. decembra po Gregorijanskom kalendaru.	
+194-6	4498-4502	prvi	A	ADJ	_	_	prvi	_	_	_	ENG30-01012855-a	6	ENG30-00228294-a;ENG30-01009206-a;ENG30-01009343-a;ENG30-01010862-a;ENG30-01012855-a;ENG30-01467919-a	U datom kontekstu, reč 'prvi' se koristi da označi da je Karlos Čagas bio taj koji je prvi opisao bolest, što znači da je prethodio svima ostalima u vremenu u tom otkriću.	
+194-7	4503-4509	opisao	V	VERB	_	_	opisati	_	_	_	ENG30-00965035-v	4	ENG30-00652346-v;ENG30-00965035-v;ENG30-00987071-v;ENG30-01582645-v	U datom kontekstu, 'opisati' znači dati rečima izveštaj ili predstavu o bolesti, što je u skladu sa značenjem ID-a ENG30-00965035-v.	
+194-8	4510-4519	brazilski	A	ADJ	*	DEMO	brazilski	_	_	_	ENG30-02966829-a	1	ENG30-02966829-a	Reč 'brazilski' u rečenici se odnosi na lekara koji potiče iz Brazila, što odgovara značenju 'koji se tiče Brazila'.	
+194-9	4520-4525	lekar	N	NOUN	http://www.wikidata.org/entity/Q39631	ROLE	lekar	_	_	_	ENG30-10020890-n	1	ENG30-10020890-n	Značenje 'medicinski radnik sa dozvolom' se direktno odnosi na reč 'lekar' u kontekstu rečenice, jer se govori o Karlosu Čagasu koji je opisao bolest, što je u skladu sa aktivnostima lekara.	
+194-10	4526-4532	Karlos	N	PROPN	http://www.wikidata.org/entity/Q438907[96]	PERS[96]	Karlos	_	_	_	_	_	_	_	
+194-11	4533-4538	Čagas	N	PROPN	http://www.wikidata.org/entity/Q438907[96]	PERS[96]	Čagas	_	_	_	_	_	_	_	
+194-12	4538-4539	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+194-13	4540-4542	po	PREP	ADP	_	_	po	_	_	_	_	_	_	_	
+194-14	4543-4547	kome	PRO	DET	_	_	koji	_	_	_	_	_	_	_	
+194-15	4548-4550	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+194-16	4551-4552	i	PAR	PART	_	_	i	_	_	_	_	_	_	_	
+194-17	4553-4559	dobila	V	VERB	_	_	dobiti	1	dobiti ime	LVC.full	CVMWE-0057[3535]	1[3535]	CVMWE-0057[3535]	U datom kontekstu, bolest je nazvana po lekaru Karlosu Čagasu, što odgovara značenju 'biti nazvan (po nekome ili nečemu)'.[3535]	
+194-18	4560-4563	ime	N	NOUN	_	_	ime	1	*	LVC.full	CVMWE-0057[3535]	1[3535]	CVMWE-0057[3535]	U datom kontekstu, bolest je nazvana po lekaru Karlosu Čagasu, što odgovara značenju 'biti nazvan (po nekome ili nečemu)'.[3535]	
+194-19	4563-4564	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Deca sa zasićenošću kiseonikom ispod 92 % treba da dobiju kiseonik, a ona sa teškim oblikom krupa mogu biti hospitalizovana radi posmatranja.
+195-1	4564-4568	Deca	N	NOUN	_	_	deca	_	_	_	DRS0-457358/0.0	2	DRS0-457358/0.0;DRS0-457359/0.0	U datom kontekstu, reč 'deca' se odnosi na ljude u ranom uzrastu života, što je u skladu sa definicijom značenja DRS0-457358/0.0.	
+195-2	4569-4571	sa	PREP	ADP	_	_	sa	_	_	_	_	_	_	_	
+195-3	4572-4583	zasićenošću	N	NOUN	_	_	zasićenost	_	_	_	ENG30-13925188-n	2	ENG30-13496517-n;ENG30-13925188-n	U kontekstu rečenice, "zasićenost kiseonikom" se odnosi na stanje u kojem je krv zasićena kiseonikom do određene mere. Vrednost ispod 92% ukazuje na to da krv nije dovoljno zasićena, što odgovara značenju stanja u kome neka veličina (u ovom slučaju, nivo kiseonika u krvi) ne reaguje adekvatno.	
+195-4	4584-4594	kiseonikom	N	NOUN	_	_	kiseonik	_	_	_	ENG30-14648100-n	1	ENG30-14648100-n	U navedenom kontekstu, 'kiseonik' se odnosi na hemijski element koji je neophodan za disanje i čiji nedostatak (nizak nivo zasićenosti) zahteva medicinsku intervenciju.	
+195-5	4595-4600	ispod	PREP	ADP	_	_	ispod	_	_	_	_	_	_	_	
+195-6	4601-4603	92	NUM	NUM	_	_	92	_	_	_	_	_	_	_	
+195-7	4604-4605	%	PUNCT	SYM	_	_	%	_	_	_	_	_	_	_	
+195-8	4606-4611	treba	V	VERB	_	_	trebati	_	_	_	NEW_SENSE	1	ENG30-02632567-v	Ponuđeno značenje 'biti bez, oskudevati' ne odgovara kontekstu rečenice. U rečenici 'treba' znači da je nešto neophodno ili preporučljivo, a ne da nešto nedostaje.	
+195-9	4612-4614	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	
+195-10	4615-4621	dobiju	V	VERB	_	_	dobiti	_	_	_	ENG30-02210119-v	19	ENG30-00056930-v;ENG30-00065639-v;ENG30-00087736-v;ENG30-00094460-v;ENG30-00522751-v;ENG30-00524682-v;ENG30-01108148-v;ENG30-02108654-v;ENG30-02109645-v;ENG30-02210119-v;ENG30-02238085-v;ENG30-02247390-v;ENG30-02288295-v;ENG30-02292125-v;ENG30-02293148-v;ENG30-02315525-v;ENG30-02355596-v;ENG30-02359340-v;ENG30-02611373-v	U kontekstu rečenice, 'dobiti kiseonik' znači uzeti ili primiti kiseonik kao tretman, što se uklapa u značenje 'uzeti nešto; doći u posed nečega'.	
+195-11	4622-4630	kiseonik	N	NOUN	_	_	kiseonik	_	_	_	ENG30-14648100-n	1	ENG30-14648100-n	U kontekstu rečenice, 'kiseonik' se odnosi na hemijski element koji se koristi u medicinske svrhe za povećanje zasićenosti kiseonikom kod dece.	
+195-12	4630-4631	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+195-13	4632-4633	a	CONJ	CCONJ	_	_	a	_	_	_	_	_	_	_	
+195-14	4634-4637	ona	PRO	PRON	_	_	ona	_	_	_	_	_	_	_	
+195-15	4638-4640	sa	PREP	ADP	_	_	sa	_	_	_	_	_	_	_	
+195-16	4641-4647	teškim	A	ADJ	_	_	težak	_	_	_	ENG30-01190683-a	11	ENG30-00651039-a;ENG30-00744916-a;ENG30-00747910-a;ENG30-00836544-a;ENG30-00987769-a;ENG30-01184932-a;ENG30-01190683-a;ENG30-01191618-a;ENG30-01510444-a;ENG30-02287733-a;ENG30-02317012-a	U kontekstu rečenice, 'težak oblik krupa' se odnosi na krupu velikog stepena ili intenziteta, odnosno na ozbiljan oblik bolesti.	
+195-17	4648-4655	oblikom	N	NOUN	_	_	oblik	_	_	_	ENG30-04930478-n	9	ENG30-00027807-n;ENG30-04677514-n;ENG30-04930478-n;ENG30-05217168-n;ENG30-05839024-n;ENG30-05930736-n;ENG30-06290637-n;ENG30-08111157-n;ENG30-14480065-n	U kontekstu rečenice, 'oblik' se odnosi na način na koji se krup manifestuje, odnosno na težinu ili stadijum bolesti. Značenje 'određeni način na koji se nešto manifestuje' najbolje odgovara ovom kontekstu.	
+195-18	4656-4661	krupa	N	NOUN	_	_	krup	_	_	_	ENG30-14174011-n	2	ENG30-14174011-n;ENG30-14349311-n	S obzirom na to da se u rečenici spominju deca i potreba za kiseonikom, značenje bolesti odojčadi i male dece sa simptomima kao što su jak kašalj i otežano disanje je najprikladnije.	
+195-19	4662-4666	mogu	V	VERB	_	_	moći	_	_	_	NEW_SENSE	1	ENG30-02523221-v	Ponuđeno značenje ne odgovara kontekstu. U datoj rečenici, 'mogu' se koristi u značenju 'imati mogućnost' ili 'biti u stanju da se nešto desi', što nije obuhvaćeno ponuđenim značenjem.	
+195-20	4667-4671	biti	V	AUX	_	_	biti	_	_	_	_	_	_	_	
+195-21	4672-4687	hospitalizovana	V	VERB	_	_	hospitalizovati	_	_	_	ENG30-02348927-v	1	ENG30-02348927-v	U datom kontekstu, 'hospitalizovana' znači primljena u bolnicu radi posmatranja, što se direktno poklapa sa značenjem 'primiti u bolnicu'.	
+195-22	4688-4692	radi	PREP	ADP	_	_	radi	_	_	_	_	_	_	_	
+195-23	4693-4704	posmatranja	N	NOUN	_	_	posmatranje	_	_	_	ENG30-00879759-n	4	ENG30-00879759-n;ENG30-00880269-n;ENG30-01002956-n;ENG30-05949603-n	U kontekstu hospitalizacije dece sa teškim oblikom krupa, 'posmatranje' se odnosi na analiziranje stanja pacijenta kako bi se pratio razvoj bolesti i preduzele odgovarajuće medicinske mere.	
+195-24	4704-4705	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Praktičan primer zahteva za informacijama bio bi kada bi nastavnik nemačkog želeo da nastavi svoje aktivnosti u Portugalu.
+196-1	4705-4714	Praktičan	A	ADJ	_	_	praktičan	_	_	_	ENG30-01834304-a	3	ENG30-00863555-a;ENG30-01834304-a;ENG30-02123812-a	U datom kontekstu, 'praktičan primer' se odnosi na primer koji je relevantan za stvarnu upotrebu ili praksu, odnosno na primer koji se može primeniti u stvarnoj situaciji.	
+196-2	4715-4721	primer	N	NOUN	_	_	primer	_	_	_	ENG30-05820620-n	4	ENG30-00729919-n;ENG30-05820620-n;ENG30-05937112-n;ENG30-10461747-n	U datom kontekstu, "primer" se odnosi na konkretan slučaj ili instancu zahteva za informacijama, što odgovara značenju 'jedna stavka informacije koja predstavlja tip'.	
+196-3	4722-4729	zahteva	N	NOUN	_	_	zahtev	1[832]	zahtev za informacijama[832]	NID[832]	LLM-0330[3536]	1[3536]	LLM-0330[3536]	U navedenom kontekstu, 'zahtev za informacijama' se odnosi na upit upućen radi dobijanja podataka, što odgovara definiciji pisanog ili usmenog upita u svrhu dobijanja podataka.[3536]	
+196-4	4730-4732	za	PREP	ADP	_	_	za	1[832]	zahtev za informacijama[832]	NID[832]	LLM-0330[3536]	1[3536]	LLM-0330[3536]	U navedenom kontekstu, 'zahtev za informacijama' se odnosi na upit upućen radi dobijanja podataka, što odgovara definiciji pisanog ili usmenog upita u svrhu dobijanja podataka.[3536]	
+196-5	4733-4746	informacijama	N	NOUN	_	_	informacija	1[832]	zahtev za informacijama[832]	NID[832]	LLM-0330[3536]	1[3536]	LLM-0330[3536]	U navedenom kontekstu, 'zahtev za informacijama' se odnosi na upit upućen radi dobijanja podataka, što odgovara definiciji pisanog ili usmenog upita u svrhu dobijanja podataka.[3536]	
+196-6	4747-4750	bio	V	AUX	_	_	biti	_	_	_	_	_	_	_	
+196-7	4751-4753	bi	V	AUX	_	_	biti	_	_	_	_	_	_	_	
+196-8	4754-4758	kada	CONJ	SCONJ	_	_	kada	_	_	_	_	_	_	_	
+196-9	4759-4761	bi	V	AUX	_	_	biti	_	_	_	_	_	_	_	
+196-10	4762-4771	nastavnik	N	NOUN	http://www.wikidata.org/entity/Q37226	ROLE	nastavnik	2[833]	nastavnik nemačkog[833]	NID[833]	LLM-0142[3537]	1[3537]	LLM-0142[3537]	Nastavnik nemačkog u rečenici se odnosi na osobu koja predaje nemački jezik, što se direktno poklapa sa definicijom značenja LLM-0142.[3537]	
+196-11	4772-4780	nemačkog	A	ADJ	*	DEMO	nemački	2[833]	nastavnik nemačkog[833]	NID[833]	LLM-0142[3537]	1[3537]	LLM-0142[3537]	Nastavnik nemačkog u rečenici se odnosi na osobu koja predaje nemački jezik, što se direktno poklapa sa definicijom značenja LLM-0142.[3537]	
+196-12	4781-4786	želeo	V	VERB	_	_	želeti	_	_	_	ENG30-01825237-v	8	ENG30-00709205-v;ENG30-00902932-v;ENG30-00903098-v;ENG30-01824736-v;ENG30-01825237-v;ENG30-01825962-v;ENG30-01826723-v;ENG30-02632567-v	U datom kontekstu, nastavnik nemačkog oseća želju da nastavi svoje aktivnosti u Portugalu, što odgovara značenju 'Osećati želju za nečim; hteti jako'.	
+196-13	4787-4789	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	
+196-14	4790-4797	nastavi	V	VERB	_	_	nastaviti	_	_	_	ENG30-02684924-v	8	ENG30-00118523-v;ENG30-00350104-v;ENG30-01992503-v;ENG30-01995549-v;ENG30-02618001-v;ENG30-02679899-v;ENG30-02684924-v;ENG30-02747709-v	U datom kontekstu, nastavnik želi da nastavi sa svojim aktivnostima, što znači da želi da nastavi određenu aktivnost koju je već radio.	
+196-15	4798-4803	svoje	PRO	DET	_	_	svoj	_	_	_	_	_	_	_	
+196-16	4804-4814	aktivnosti	N	NOUN	_	_	aktivnost	_	_	_	ENG30-00407535-n	2	ENG30-00407535-n;ENG30-14006945-n	U kontekstu rečenice, 'aktivnosti' se odnosi na konkretne radnje ili poslove koje nastavnik obavlja, što odgovara značenju 'bilo koji poseban čin'.	
+196-17	4815-4816	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	
+196-18	4817-4826	Portugalu	N	PROPN	http://www.wikidata.org/entity/Q45	LOC	Portugal	_	_	_	_	_	_	_	
+196-19	4826-4827	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Koreni su duboki i čvrsti.
+197-1	4827-4833	Koreni	N	NOUN	_	_	koren	_	_	_	ENG30-13125117-n	6	ENG30-05308310-n;ENG30-06300193-n;ENG30-06300445-n;ENG30-08005954-n;ENG30-13125117-n;ENG30-13731669-n	U kontekstu rečenice, 'koreni' se odnose na deo biljke koji je duboko u zemlji i čvrsto drži biljku, što odgovara botaničkom značenju korena.	
+197-2	4834-4836	su	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+197-3	4837-4843	duboki	A	ADJ	_	_	dubok	_	_	_	ENG30-00690058-a	3	ENG30-00690058-a;ENG30-01215421-a;ENG30-02162934-a	U kontekstu rečenice, 'duboki' se odnosi na prostiranje korena u zemlju, što odgovara značenju koje opisuje prostorno širenje ili prodiranje nadole.	
+197-4	4844-4845	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	
+197-5	4846-4852	čvrsti	A	ADJ	_	_	čvrst	_	_	_	ENG30-00835158-a	5	ENG30-00707366-a;ENG30-00835158-a;ENG30-00959244-a;ENG30-02038994-a;ENG30-02260035-a	U kontekstu rečenice, 'čvrsti' se odnosi na to da su koreni jaki i sigurni, što im omogućava da drže biljku stabilnom.	
+197-6	4852-4853	.	PUNCT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Dok epinefrin obično dovodi do smanjenja težine krupa u roku od 10–30 minuta, njegovo dejstvo traje samo oko 2 sata.
+198-1	4853-4856	Dok	CONJ	SCONJ	_	_	Dok	_	_	_	_	_	_	_	
+198-2	4857-4866	epinefrin	N	NOUN	_	_	epinefrin	_	_	_	ENG30-05408388-n	1	ENG30-05408388-n	U navedenom kontekstu, epinefrin se spominje kao supstanca koja ima fiziološki učinak (smanjenje težine krupa), što odgovara definiciji kateholamina koji stimuliše nervnu aktivnost.	
+198-3	4867-4873	obično	ADV	ADV	_	_	obično	_	_	_	ENG30-00155621-b	3	ENG30-00041954-b;ENG30-00106921-b;ENG30-00155621-b	Značenje 'obično; po pravilu' se najbolje uklapa u kontekst rečenice, jer se govori o tome šta se dešava u većini slučajeva kada se koristi epinefrin.	
+198-4	4874-4880	dovodi	V	VERB	_	_	dovoditi	_	_	_	ENG30-02686625-v	2	ENG30-01434140-v;ENG30-02686625-v	U ovom kontekstu, 'dovodi' znači da epinefrin uzrokuje smanjenje težine krupa, što odgovara značenju 'učiniti da se šta dogodi ili da šta uzrokuje'.	
+198-5	4881-4883	do	PREP	ADP	_	_	do	_	_	_	_	_	_	_	
+198-6	4884-4893	smanjenja	N	NOUN	_	_	smanjenje	_	_	_	ENG30-13457378-n	4	ENG30-07313004-n;ENG30-07355887-n;ENG30-13457378-n;ENG30-13547677-n	U kontekstu rečenice, "smanjenje" se odnosi na promenu nadole u težini krupa, što odgovara značenju promene ka nečemu manjem ili nižem.	
+198-7	4894-4900	težine	N	NOUN	_	_	težina	_	_	_	ENG30-04571088-n	3	ENG30-04571088-n;ENG30-05026843-n;ENG30-13715755-n	U kontekstu rečenice, 'težina' se odnosi na ozbiljnost ili intenzitet krupa, što odgovara značenju 'teške tvorevine' ili ozbiljnog stanja.	
+198-8	4901-4906	krupa	N	NOUN	_	_	krup	_	_	_	ENG30-14174011-n	2	ENG30-14174011-n;ENG30-14349311-n	S obzirom na to da se u rečenici govori o smanjenju težine 'krupa' i vremenskom trajanju dejstva leka, najverovatnije se misli na bolest koja pogađa decu, a ne samo na upalu.	
+198-9	4907-4908	u	PREP	ADP	_	_	u	1[834]	u roku od[834]	AdpID[834]	LLM-0287[3538]	1[3538]	LLM-0287[3538]	Značenje 'unutar vremenskog perioda određenog rokom' se savršeno uklapa u kontekst rečenice, jer se govori o smanjenju težine krupa unutar vremenskog perioda od 10-30 minuta.[3538]	
+198-10	4909-4913	roku	N	NOUN	_	_	rok	1[834]	u roku od[834]	AdpID[834]	LLM-0287[3538]	1[3538]	LLM-0287[3538]	Značenje 'unutar vremenskog perioda određenog rokom' se savršeno uklapa u kontekst rečenice, jer se govori o smanjenju težine krupa unutar vremenskog perioda od 10-30 minuta.[3538]	
+198-11	4914-4916	od	PREP	ADP	_	_	od	1[834]	u roku od[834]	AdpID[834]	LLM-0287[3538]	1[3538]	LLM-0287[3538]	Značenje 'unutar vremenskog perioda određenog rokom' se savršeno uklapa u kontekst rečenice, jer se govori o smanjenju težine krupa unutar vremenskog perioda od 10-30 minuta.[3538]	
+198-12	4917-4919	10	NUM	NUM	_	_	10	_	_	_	_	_	_	_	
+198-13	4919-4920	–	PUNCT	PUNCT	_	_	–	_	_	_	_	_	_	_	
+198-14	4920-4922	30	NUM	NUM	_	_	30	_	_	_	_	_	_	_	
+198-15	4923-4929	minuta	N	NOUN	_	_	minut	_	_	_	ENG30-15234764-n	1	ENG30-15234764-n	U navedenom kontekstu, 'minuta' se koristi kao jedinica vremena za merenje trajanja efekta epinefrina, što odgovara definiciji jedinice vremena od 60 sekundi.	
+198-16	4929-4930	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+198-17	4931-4938	njegovo	PRO	DET	_	_	njegov	_	_	_	_	_	_	_	
+198-18	4939-4946	dejstvo	N	NOUN	_	_	dejstvo	_	_	_	ENG30-11414411-n	2	ENG30-07338552-n;ENG30-11414411-n	U kontekstu rečenice, 'dejstvo' se odnosi na efekat ili posledicu koju epinefrin ima na smanjenje težine krupa, što odgovara značenju 'snažna posledica; snažan efekat'.	
+198-19	4947-4952	traje	V	VERB	_	_	trajati	_	_	_	ENG30-02704928-v	2	ENG30-02618149-v;ENG30-02704928-v	U datom kontekstu, 'traje' se odnosi na vremenski period tokom kojeg dejstvo epinefrina ostaje aktivno, što odgovara značenju 'vremenski dugo trajati'.	
+198-20	4953-4957	samo	ADV	ADV	_	_	samo	_	_	_	ENG30-00004722-b	6	ENG30-00004722-b;ENG30-00008600-b;ENG30-00011011-b;ENG30-00028797-b;ENG30-00158309-b;ENG30-00505114-b	U datom kontekstu, 'samo' znači 'i ništa više', odnosno dejstvo epinefrina traje isključivo oko 2 sata, ne više od toga.	
+198-21	4958-4961	oko	ADV	ADV	_	_	oko	_	_	_	ENG30-00007015-b	1	ENG30-00007015-b	U navedenom kontekstu, reč 'oko' se koristi da označi vremenski period koji nije precizno definisan, ali je blizu tačnog trajanja od 2 sata.	
+198-22	4962-4963	2	NUM	NUM	_	_	2	_	_	_	_	_	_	_	
+198-23	4964-4968	sata	N	NOUN	_	_	sat	_	_	_	ENG30-15227846-n	3	ENG30-03046257-n;ENG30-15227846-n;ENG30-15228378-n	U datom kontekstu, 'sat' se odnosi na vremenski period, konkretno na 1/24 dana, što odgovara značenju 'period vremena koji iznosi 1/24 dana'.	
+198-24	4968-4969	.	PUNCT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Kada imuni sistem odreaguje na infekciju, može doći do još većeg oštećenja pluća.
+199-1	4969-4973	Kada	CONJ	SCONJ	_	_	kada	_	_	_	_	_	_	_	
+199-2	4974-4979	imuni	A	ADJ	_	_	imun	1[835]	imuni sistem[835]	NID[835]	LLM-0069[3539]	1[3539]	LLM-0069[3539]	Definicija "imunog sistema" kao sistema organa i ćelija koji štiti od bolesti se direktno uklapa u kontekst rečenice, gde se govori o reakciji imunog sistema na infekciju.[3539]	
+199-3	4980-4986	sistem	N	NOUN	_	_	sistem	1[835]	imuni sistem[835]	NID[835]	LLM-0069[3539]	1[3539]	LLM-0069[3539]	Definicija "imunog sistema" kao sistema organa i ćelija koji štiti od bolesti se direktno uklapa u kontekst rečenice, gde se govori o reakciji imunog sistema na infekciju.[3539]	
+199-4	4987-4996	odreaguje	V	VERB	_	_	odreagovati	_	_	_	DRJ0-208734/0	1	DRJ0-208734/0	U datom kontekstu, 'odreaguje' znači da imuni sistem odgovara na infekciju, što je u skladu sa značenjem 'odgovoriti reagujući na nešto'.	
+199-5	4997-4999	na	PREP	ADP	_	_	na	_	_	_	_	_	_	_	
+199-6	5000-5009	infekciju	N	NOUN	_	_	infekcija	_	_	_	ENG30-13498404-n	2	ENG30-07360647-n;ENG30-13498404-n	Značenje 'invazija tela patogenim mikroorganizmima i njihovo umnožavanje koje može dovesti do oštećenja tkiva i bolesti' se savršeno uklapa u kontekst rečenice, jer se govori o reakciji imunog sistema na prisustvo patogena u telu, što može dovesti do oštećenja pluća.	
+199-7	5009-5010	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+199-8	5011-5015	može	V	VERB	_	_	moći	_	_	_	NEW_SENSE	1	ENG30-02523221-v	Ponuđeno značenje ne odgovara kontekstu. U rečenici, 'može' se koristi da izrazi mogućnost ili verovatnoću da će se nešto desiti, a ne da označi istrajnost ili uspeh.	
+199-9	5016-5020	doći	V	VERB	_	_	doći	_	_	_	ENG30-00344886-v	12	ENG30-00341917-v;ENG30-00342443-v;ENG30-00344886-v;ENG30-00425071-v;ENG30-02005948-v;ENG30-02006573-v;ENG30-02006709-v;ENG30-02020590-v;ENG30-02108791-v;ENG30-02624263-v;ENG30-02737187-v;ENG30-02743214-v	U kontekstu rečenice, 'doći' znači desiti se kao rezultat reakcije imunog sistema na infekciju. To je uzročno-posledična veza, gde reakcija sistema dovodi do oštećenja pluća.	
+199-10	5021-5023	do	PREP	ADP	_	_	do	_	_	_	_	_	_	_	
+199-11	5024-5027	još	ADV	ADV	_	_	još	_	_	_	NEW_SENSE	1	ENG30-00027795-b	Ponuđeno značenje 'do sadašnjeg trenutka' ne odgovara kontekstu rečenice. U rečenici 'još' se koristi kao pojačivač, ukazujući na dodatno ili veće oštećenje pluća.	
+199-12	5028-5033	većeg	A	ADJ	_	_	velik	_	_	_	ENG30-01190683-a	8	ENG30-00579622-a;ENG30-01114658-a;ENG30-01190683-a;ENG30-01278080-a;ENG30-01375909-a;ENG30-01467919-a;ENG30-01488616-a;ENG30-01510444-a	U kontekstu rečenice, 'većeg' se odnosi na stepen oštećenja pluća, što odgovara značenju 'velik po stepenu ili intenzitetu'.	
+199-13	5034-5043	oštećenja	N	NOUN	_	_	oštećenje	_	_	_	ENG30-07420770-n	2	ENG30-04692157-n;ENG30-07420770-n	U kontekstu rečenice, 'oštećenje' se odnosi na pogoršanje stanja pluća usled reakcije imunog sistema na infekciju, što odgovara značenju 'pojave promene nagore'.	
+199-14	5044-5049	pluća	N	NOUN	_	_	pluća	_	_	_	ENG30-05387544-n	1	ENG30-05387544-n	U rečenici se govori o oštećenju organa usled infekcije, što se direktno odnosi na definiciju pluća kao respiratornog organa.	
+199-15	5049-5050	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	
+
+#Text=Glavni grad republike bio je Tbilisi, a zvanični jezik gruzijski.
+200-1	5050-5056	Glavni	A	ADJ	_	_	glavni	1[836]	glavni grad[836]	NID[836]	ENG30-08518505-n[3540]	1[3540]	ENG30-08518505-n[3540]	Glavni grad je sedište vlade i administrativni centar države, što se podudara sa značenjem u rečenici.[3540]	
+200-2	5057-5061	grad	N	NOUN	_	_	grad	1[836]	glavni grad[836]	NID[836]	ENG30-08518505-n[3540]	1[3540]	ENG30-08518505-n[3540]	Glavni grad je sedište vlade i administrativni centar države, što se podudara sa značenjem u rečenici.[3540]	
+200-3	5062-5071	republike	N	NOUN	_	_	republika	_	_	_	ENG30-08362917-n	2	ENG30-08361329-n;ENG30-08362917-n	U navedenom kontekstu, 'republika' se odnosi na oblik vladavine države, gde šef države nije monarh, što odgovara značenju 2.	
+200-4	5072-5075	bio	V	AUX	_	_	biti	_	_	_	_	_	_	_	
+200-5	5076-5078	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	
+200-6	5079-5086	Tbilisi	N	PROPN	http://www.wikidata.org/entity/Q994	LOC	Tbilisi	_	_	_	_	_	_	_	
+200-7	5086-5087	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	
+200-8	5088-5089	a	CONJ	CCONJ	_	_	a	_	_	_	_	_	_	_	
+200-9	5090-5098	zvanični	A	ADJ	_	_	zvaničan	2[837]	zvanični jezik[837]	NID[837]	LLM-0345[3541]	2[3541]	CVMWE-0405;LLM-0345[3541]	Zvanični jezik u kontekstu rečenice odnosi se na jezik koji se koristi u administraciji, zakonodavstvu i obrazovanju države, što je definicija značenja LLM-0345.[3541]	
+200-10	5099-5104	jezik	N	NOUN	_	_	jezik	2[837]	zvanični jezik[837]	NID[837]	LLM-0345[3541]	2[3541]	CVMWE-0405;LLM-0345[3541]	Zvanični jezik u kontekstu rečenice odnosi se na jezik koji se koristi u administraciji, zakonodavstvu i obrazovanju države, što je definicija značenja LLM-0345.[3541]	
+200-11	5105-5114	gruzijski	A	ADJ	*	DEMO	gruzijski	_	_	_	ENG30-03067957-a	1	ENG30-03067957-a	U navedenom kontekstu, 'gruzijski' se odnosi na zvanični jezik koji se govori u Gruziji, što je direktno povezano sa Gruzijom i njenom kulturom.	
+200-12	5114-5115	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	

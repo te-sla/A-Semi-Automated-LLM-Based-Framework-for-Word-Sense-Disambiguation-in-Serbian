@@ -1,0 +1,446 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue|coarseValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_SP=webanno.custom.MWE|MWEid|MWElemma|MWEtype
+#T_SP=webanno.custom.WSD|Comment|Explanation|KBid|NumberOfSenses|Origine|Possible
+
+
+#Text=Tehnološki faktori podrazumevaju tehnološke aspekte, kao što su aktivnosti istraživanja i razvoja, automatizacija, tehnološki podsticaji i stopa tehnoloških promena.
+1-1	0-10	Tehnološki	A	ADJ	_	_	tehnološki	_	_	_	*	simple_wsd - ENG30-02809692-a:0.9729::Koji se odnosi na praktičan predmet koji je organizovan po naučnim principima. - ENG30-02084979-a:0.8300::zasnovano na naučnom i industrijskom napretku	http://llod.jerteh.rs/WSD/seENG3002809692a	2	tesla_wsd	ENG30-02084979-a;ENG30-02809692-a	
+1-2	11-18	faktori	N	NOUN	_	_	faktor	_	_	_	*	simple_wsd - ENG30-05436752-n:0.8838::(genetika) segment DNK koji je uključen u proizvodnju polipeptidnog lanca; može uključivati regione koji prethode i sle… - ENG30-07327805-n:0.8371::Bilo šta što uzročno doprinosi rezultatu. - ENG30-10461424-n:0.8337::Neko ko poseduje ili primenjuje silu, uticaj ili autoritet.	http://llod.jerteh.rs/WSD/seENG3005436752n	3	tesla_wsd	ENG30-05436752-n;ENG30-07327805-n;ENG30-10461424-n	
+1-3	19-32	podrazumevaju	V	VERB	_	_	podrazumevati	_	_	_	*	simple_wsd - ENG30-00930599-v:0.8942::nagovestiti, predlagati, kao logički neophodnu posledicu; u logici - ENG30-02635189-v:0.7439::imati kao logičnu posledicu - ENG30-02634808-v:0.5152::nametnuti, uključiti ili implicirati kao neophodnu pratnju ili rezultat	http://llod.jerteh.rs/WSD/seENG3000930599v	3	tesla_wsd	ENG30-00930599-v;ENG30-02634808-v;ENG30-02635189-v	
+1-4	33-43	tehnološke	A	ADJ	_	_	tehnološki	_	_	_	*	simple_wsd - ENG30-02809692-a:0.9125::Koji se odnosi na praktičan predmet koji je organizovan po naučnim principima. - ENG30-02084979-a:0.8063::zasnovano na naučnom i industrijskom napretku	http://llod.jerteh.rs/WSD/seENG3002809692a	2	tesla_wsd	ENG30-02084979-a;ENG30-02809692-a	
+1-5	44-51	aspekte	N	NOUN	_	_	aspekt	_	_	_	*	simple_wsd - ENG30-05852553-n:0.8808::aspekt nečega (u suprotnosti sa nekim drugim podrazumevanim aspektom) - ENG30-05850624-n:0.8287::Određena karakteristika ili element u problemu. - ENG30-04733118-n:0.8019::karakteristika koja se treba uzeti u obzir	http://llod.jerteh.rs/WSD/seENG3005852553n	5	tesla_wsd	ENG30-04733118-n;ENG30-05850624-n;ENG30-05852553-n;ENG30-05852973-n;ENG30-13804669-n	
+1-6	51-52	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	
+1-7	53-56	kao	CONJ	SCONJ	_	_	kao	1[6]	kao što[6]	ConjID[6]	*[14]	simple_wsd - LLM-0091:0.8384::Veznik koji uvodi poređenje ili primer; na način kao.[2000]	http://llod.jerteh.rs/WSD/seLLM0091[2000]	1[2000]	tesla_wsd	LLM-0091[2000]	
+1-8	57-60	što	CONJ	SCONJ	_	_	što	1[6]	kao što[6]	ConjID[6]	*[14]	simple_wsd - LLM-0091:0.8384::Veznik koji uvodi poređenje ili primer; na način kao.[2000]	http://llod.jerteh.rs/WSD/seLLM0091[2000]	1[2000]	tesla_wsd	LLM-0091[2000]	
+1-9	61-63	su	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	
+1-10	64-74	aktivnosti	N	NOUN	_	_	aktivnost	_	_	_	*	simple_wsd - ENG30-00407535-n:0.7845::Bilo koji poseban čin. - ENG30-14006945-n:0.7806::Stanje u kome je neko aktivan.	http://llod.jerteh.rs/WSD/seENG3000407535n	2	tesla_wsd	ENG30-00407535-n;ENG30-14006945-n	
+1-11	75-87	istraživanja	N	NOUN	_	_	istraživanje	_	_	_	*	simple_wsd - ENG30-00633864-n:0.8806::Rad koji istražuje nešto sistematski i iscrpno. - ENG30-00636921-n:0.8244::Sistematsko ispitivanje da bi se utvrdile činjenice. - ENG30-00636728-n:0.8242::sistematsko istraživanje pitanja od javnog interesa	http://llod.jerteh.rs/WSD/seENG3000633864n	7	tesla_wsd	ENG30-00310063-n;ENG30-00633864-n;ENG30-00636728-n;ENG30-00636921-n;ENG30-00644503-n;ENG30-00945777-n;ENG30-00947041-n	
+1-12	88-89	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	
+1-13	90-97	razvoja	N	NOUN	_	_	razvoj	_	_	_	*	simple_wsd - ENG30-00250259-n:0.9489::Čin poboljšavanje širenjem, povećavanjem ili profinjavanjem. - ENG30-07423560-n:0.8688::nedavni događaj koji ima neki značaj za sadašnju situaciju - ENG30-13464820-n:0.8264::Proces u kome nešto postepeno prelazi u drugo stanje, posebno u naprednije ili zrelije stanje.	http://llod.jerteh.rs/WSD/seENG3000250259n	4	tesla_wsd	ENG30-00250259-n;ENG30-07324917-n;ENG30-07423560-n;ENG30-13464820-n	
+1-14	97-98	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	
+1-15	99-113	automatizacija	N	NOUN	_	_	automatizacija	_	_	_	*	simple_wsd - ENG30-00102457-n:0.8484::čin sprovođenja kontrole opreme sa naprednom tehnologijom; obično uključuje elektronski hardver	http://llod.jerteh.rs/WSD/seENG3000102457n	1	tesla_wsd	ENG30-00102457-n	
+1-16	113-114	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	
+1-17	115-125	tehnološki	A	ADJ	_	_	tehnološki	_	_	_	*	simple_wsd - ENG30-02809692-a:0.9001::Koji se odnosi na praktičan predmet koji je organizovan po naučnim principima. - ENG30-02084979-a:0.7401::zasnovano na naučnom i industrijskom napretku	http://llod.jerteh.rs/WSD/seENG3002809692a	2	tesla_wsd	ENG30-02084979-a;ENG30-02809692-a	
+1-18	126-136	podsticaji	N	NOUN	_	_	podsticaj	_	_	_	*	simple_wsd - ENG30-05827684-n:0.8021::bilo koji podsticajan podatak ili događaj; dela koja pobuđuju akciju - ENG30-01214746-n:0.6072::čin iskrene podrške ili podsticanja - ENG30-09179776-n:0.5621::pozitivan motivacioni uticaj	http://llod.jerteh.rs/WSD/seENG3005827684n	3	tesla_wsd	ENG30-01214746-n;ENG30-05827684-n;ENG30-09179776-n	
+1-19	137-138	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	
+1-20	139-144	stopa	N	NOUN	_	_	stopa	_	_	_	*	simple_wsd - ENG30-13650045-n:0.6321::Dužinska jedinica koja iznosi 12 inča ili trećinu jarde. - ENG30-13816649-n:0.5614::Veličina ili frekvencija, relativno u odnosu na jedinicu vremena. - ENG30-13325010-n:0.5388::iznos naknade ili plaćanja u odnosu na neku osnovu	http://llod.jerteh.rs/WSD/seENG3013650045n	4	tesla_wsd	ENG30-06645039-n;ENG30-13325010-n;ENG30-13650045-n;ENG30-13816649-n	
+1-21	145-156	tehnoloških	A	ADJ	_	_	tehnološki	_	_	_	*	simple_wsd - ENG30-02809692-a:0.6307::Koji se odnosi na praktičan predmet koji je organizovan po naučnim principima. - ENG30-02084979-a:0.4608::zasnovano na naučnom i industrijskom napretku	http://llod.jerteh.rs/WSD/seENG3002809692a	2	tesla_wsd	ENG30-02084979-a;ENG30-02809692-a	
+1-22	157-164	promena	N	NOUN	_	_	promena	_	_	_	*	simple_wsd - ENG30-13859043-n:0.8388::relacione razlike između stanja; posebno između stanja pre i posle nekog događaja - ENG30-13803782-n:0.8185::promena forme reči (često putem dodavanja sufiksa) kojom se označava promena u njenoj gramatičkoj funkciji - ENG30-07296428-n:0.7765::Događaj koji se desi kada nešto pređe iz jednog stanja u drugo.	http://llod.jerteh.rs/WSD/seENG3013859043n	6	tesla_wsd	ENG30-00191142-n;ENG30-00331655-n;ENG30-07296428-n;ENG30-11412727-n;ENG30-13803782-n;ENG30-13859043-n	
+1-23	164-165	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	
+
+#Text=Austrijske pretenzije na te nemačke države su bez izuzetka odbačene.
+2-1	165-175	Austrijske	A	ADJ	*	DEMO	austrijski	_	_	_	*	simple_wsd - ENG30-02961099-a:0.7403::Koji se tiče Austrije, njenih stanovnika i kulture	http://llod.jerteh.rs/WSD/seENG3002961099a	1	tesla_wsd	ENG30-02961099-a	
+2-2	176-186	pretenzije	N	NOUN	_	_	pretenzija	_	_	_	*	simple_wsd - DRJ0-216951/0:0.7083::težnja, ambicija, polaganje prava na nešto.	http://llod.jerteh.rs/WSD/seDRJ0216951_0	1	tesla_wsd	DRJ0-216951/0	
+2-3	187-189	na	PREP	ADP	_	_	na	_	_	_	_	_	_	_	_	_	
+2-4	190-192	te	PRO	DET	_	_	taj	_	_	_	_	_	_	_	_	_	
+2-5	193-200	nemačke	A	ADJ	*	DEMO	nemački	_	_	_	*	simple_wsd - ENG30-02957469-a:0.7021::koji se tiče Nemačke, njenih ljudi ili kulture	http://llod.jerteh.rs/WSD/seENG3002957469a	1	tesla_wsd	ENG30-02957469-a	
+2-6	201-207	države	N	NOUN	_	_	država	_	_	_	*	simple_wsd - ENG30-08168978-n:0.5272::Politička organizacija tela ljudi koji su pod jednom vladom. - ENG30-08178547-n:0.5056::Grupa ljudi koji čine vlast suverene države. - ENG30-08544813-n:0.5054::Teritorija koju zauzima narod.	http://llod.jerteh.rs/WSD/seENG3008168978n	3	tesla_wsd	ENG30-08168978-n;ENG30-08178547-n;ENG30-08544813-n	
+2-7	208-210	su	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	
+2-8	211-214	bez	PREP	ADP	_	_	bez	1[7]	bez izuzetka[7]	AdvID[7]	*[15]	simple_wsd - LLM-0016:0.6794::Uvek, svaki put; bez odstupanja od pravila.[2001]	http://llod.jerteh.rs/WSD/seLLM0016[2001]	1[2001]	tesla_wsd	LLM-0016[2001]	
+2-9	215-223	izuzetka	N	NOUN	_	_	izuzetak	1[7]	bez izuzetka[7]	AdvID[7]	*[15]	simple_wsd - LLM-0016:0.6794::Uvek, svaki put; bez odstupanja od pravila.[2001]	http://llod.jerteh.rs/WSD/seLLM0016[2001]	1[2001]	tesla_wsd	LLM-0016[2001]	
+2-10	224-232	odbačene	V	VERB	_	_	odbaciti	_	_	_	*	simple_wsd - ENG30-00555780-v:0.7595::Ukloniti četkom ili kao četkom. - ENG30-00814850-v:0.7553::Opovrgnuti argumentima, dokazom ili činjenicama. - ENG30-00685683-v:0.7531::Ne pristati na prihvatanje ili priznanje nečega.	http://llod.jerteh.rs/WSD/seENG3000555780v	10	tesla_wsd	ENG30-00555780-v;ENG30-00614999-v;ENG30-00685683-v;ENG30-00687181-v;ENG30-00796976-v;ENG30-00800930-v;ENG30-00807178-v;ENG30-00814850-v;ENG30-02222318-v;ENG30-02502916-v	
+2-11	232-233	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	
+
+#Text=AH-1 je bio okosnica flote jurišnih helikoptera američke vojske, ali ga je u vojnoj službi zamenio AH-64 Apač.
+3-1	233-237	AH-1	ABB	X	http://www.wikidata.org/entity/Q927610	PRODUCT	AH-1	_	_	_	_	_	_	_	_	_	
+3-2	238-240	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	
+3-3	241-244	bio	V	AUX	_	_	biti	_	_	_	_	_	_	_	_	_	
+3-4	245-253	okosnica	N	NOUN	_	_	okosnica	_	_	_	*	simple_wsd - ENG30-04226537-n:0.7889::unutrašnja noseća struktura koja objektu daje oblik	http://llod.jerteh.rs/WSD/seENG3004226537n	1	tesla_wsd	ENG30-04226537-n	
+3-5	254-259	flote	N	NOUN	_	_	flota	_	_	_	*	simple_wsd - ENG30-08293336-n:0.8310::Grupa parnih brodova koji prevoze za istog vlasnika.	http://llod.jerteh.rs/WSD/seENG3008293336n	1	tesla_wsd	ENG30-08293336-n	
+3-6	260-268	jurišnih	A	ADJ	_	_	jurišni	1[8]	jurišni helikopter[8]	NID[8]	*[16]	simple_wsd - CVMWE-0168:0.8972::naoružani helikopter sa primarnom ulogom jurišne letelice, sa ofanzivnom sposobnošću da gađa kopnene ciljeve kao što s…[2002]	http://llod.jerteh.rs/WSD/seCVMWE0168[2002]	1[2002]	tesla_wsd	CVMWE-0168[2002]	
+3-7	269-280	helikoptera	N	NOUN	_	_	helikopter	1[8]	jurišni helikopter[8]	NID[8]	*[16]	simple_wsd - CVMWE-0168:0.8972::naoružani helikopter sa primarnom ulogom jurišne letelice, sa ofanzivnom sposobnošću da gađa kopnene ciljeve kao što s…[2002]	http://llod.jerteh.rs/WSD/seCVMWE0168[2002]	1[2002]	tesla_wsd	CVMWE-0168[2002]	
+3-8	281-289	američke	A	ADJ	*	DEMO	američki	_	_	_	*	simple_wsd - ENG30-02927512-a:0.8713::O Sjedinjenim Američkim Državama ili koji se odnosi na SAD	http://llod.jerteh.rs/WSD/seENG3002927512a	1	tesla_wsd	ENG30-02927512-a	
+3-9	290-296	vojske	N	NOUN	_	_	vojska	_	_	_	*	simple_wsd - ENG30-08191230-n:0.7976::Organizacija vojnih kopnenih snaga. - ENG30-01206986-n:0.7859::Vremenski period proveden u vojnoj službi. - ENG30-08199025-n:0.7092::Vojne snage jedne države.	http://llod.jerteh.rs/WSD/seENG3008191230n	3	tesla_wsd	ENG30-01206986-n;ENG30-08191230-n;ENG30-08199025-n	
+3-10	296-297	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	
+3-11	298-301	ali	CONJ	CCONJ	_	_	ali	_	_	_	_	_	_	_	_	_	
+3-12	302-304	ga	PRO	PRON	_	_	on	_	_	_	_	_	_	_	_	_	
+3-13	305-307	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	
+3-14	308-309	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	_	_	
+3-15	310-316	vojnoj	A	ADJ	_	_	vojni	_	_	_	*	simple_wsd - ENG30-01545149-a:0.8996::karakterističan za vojnike ili vojsku - ENG30-02764251-a:0.8255::odnosi se na proučavanje principa ratovanja	http://llod.jerteh.rs/WSD/seENG3001545149a	2	tesla_wsd	ENG30-01545149-a;ENG30-02764251-a	
+3-16	317-323	službi	N	NOUN	_	_	služba	_	_	_	*	simple_wsd - ENG30-01032040-n:0.8629::Čin javnog veroispovedanja. - ENG30-01033458-n:0.8522::Religiozni obred ili služba koju propisuje crkvena vlast - ENG30-01206986-n:0.8417::Vremenski period proveden u vojnoj službi.	http://llod.jerteh.rs/WSD/seENG3001032040n	6	tesla_wsd	ENG30-00584891-n;ENG30-00586262-n;ENG30-01032040-n;ENG30-01033458-n;ENG30-01206986-n;ENG30-01209576-n	
+3-17	324-331	zamenio	V	VERB	_	_	zameniti	_	_	_	*	simple_wsd - ENG30-00162688-v:0.8315::zameniti osobu ili stvar koja više ne vrši svoju funkciju drugom - ENG30-02405390-v:0.8312::čije mesto zauzeti ili se na čiju poziciju pomeriti - ENG30-02257767-v:0.7851::Staviti na mesto drugog, razmeniti prividno jednake entitete.	http://llod.jerteh.rs/WSD/seENG3000162688v	4	tesla_wsd	ENG30-00162688-v;ENG30-02257767-v;ENG30-02394662-v;ENG30-02405390-v	
+3-18	332-337	AH-64	ABB	X	http://www.wikidata.org/entity/Q171468[1]	PRODUCT[1]	AH-64	_	_	_	_	_	_	_	_	_	
+3-19	338-342	Apač	N	PROPN	http://www.wikidata.org/entity/Q171468[1]	PRODUCT[1]	Apač	_	_	_	_	_	_	_	_	_	
+3-20	342-343	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	
+
+#Text=U požaru je došlo do urušavanja krova, a bomba je uništila deo severne strane.
+4-1	343-344	U	PREP	ADP	_	_	u	_	_	_	_	_	_	_	_	_	
+4-2	345-351	požaru	N	NOUN	_	_	požar	_	_	_	*	simple_wsd - ENG30-07302836-n:0.8053::Događaj gorenja (često destruktivnog).	http://llod.jerteh.rs/WSD/seENG3007302836n	1	tesla_wsd	ENG30-07302836-n	
+4-3	352-354	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	
+4-4	355-360	došlo	V	VERB	_	_	doći	_	_	_	*	simple_wsd - ENG30-02005948-v:0.9218::Dostignuti destinaciju; doći kretanjem ili napredovanjem. - ENG30-02020590-v:0.7952::Doći na odredište ili određenu tačku ili nivo. - ENG30-00341917-v:0.7885::desiti se; stići, u odgovarajućem trenutku	http://llod.jerteh.rs/WSD/seENG3002005948v	12	tesla_wsd	ENG30-00341917-v;ENG30-00342443-v;ENG30-00344886-v;ENG30-00425071-v;ENG30-02005948-v;ENG30-02006573-v;ENG30-02006709-v;ENG30-02020590-v;ENG30-02108791-v;ENG30-02624263-v;ENG30-02737187-v;ENG30-02743214-v	
+4-5	361-363	do	PREP	ADP	_	_	do	_	_	_	_	_	_	_	_	_	
+4-6	364-374	urušavanja	N	NOUN	_	_	urušavanje	_	_	_	*	simple_wsd - RSSJ-55799/0:0.7933::postepeno propadanje, gubljenje stabilnosti i raspadanje nečega.	http://llod.jerteh.rs/WSD/seRSSJ55799_0	1	tesla_wsd	RSSJ-55799/0	
+4-7	375-380	krova	N	NOUN	_	_	krov	_	_	_	*	simple_wsd - ENG30-04105068-n:0.7737::Struktura koja prekriva ili čini vrh građevine	http://llod.jerteh.rs/WSD/seENG3004105068n	1	tesla_wsd	ENG30-04105068-n	
+4-8	380-381	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	
+4-9	382-383	a	CONJ	CCONJ	_	_	a	_	_	_	_	_	_	_	_	_	
+4-10	384-389	bomba	N	NOUN	_	_	bomba	_	_	_	*	simple_wsd - ENG30-02866578-n:0.9542::Eksplozivno sredstvo sa osiguračem koje opaljuje pod posebnim uslovima.	http://llod.jerteh.rs/WSD/seENG3002866578n	1	tesla_wsd	ENG30-02866578-n	
+4-11	390-392	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	
+4-12	393-401	uništila	V	VERB	_	_	uništiti	_	_	_	*	simple_wsd - ENG30-01564144-v:0.8426::potpuno uništiti; nepovratno oštetiti - ENG30-01619929-v:0.8238::ukinuti, čega uništenje ili opoziv uzrokovati - ENG30-00470701-v:0.7946::Usmrtiti u velikom broju.	http://llod.jerteh.rs/WSD/seENG3001564144v	4	tesla_wsd	ENG30-00470701-v;ENG30-00471711-v;ENG30-01564144-v;ENG30-01619929-v	
+4-13	402-405	deo	N	NOUN	_	_	deo	_	_	_	*	simple_wsd - ENG30-08548733-n:0.7870::teritorijalna i administrativna podela nekih zemalja (kao što je Francuska) - ENG30-03892891-n:0.7781::Nešto što je manje od celine ljudske tvorevine. - ENG30-05867413-n:0.7612::Jedan od delova u koje je nešto podeljeno i koji zajedno čine celinu.	http://llod.jerteh.rs/WSD/seENG3008548733n	7	tesla_wsd	ENG30-01085098-n;ENG30-03892891-n;ENG30-05867413-n;ENG30-05868954-n;ENG30-08548733-n;ENG30-09385911-n;ENG30-13289159-n	
+4-14	406-413	severne	A	ADJ	_	_	severni	_	_	_	*	simple_wsd - ENG30-01601297-a:0.7405::smešten ili orijentisan ka severu	http://llod.jerteh.rs/WSD/seENG3001601297a	1	tesla_wsd	ENG30-01601297-a	
+4-15	414-420	strane	N	NOUN	_	_	strana	_	_	_	*	simple_wsd - ENG30-05852553-n:0.9186::aspekt nečega (u suprotnosti sa nekim drugim podrazumevanim aspektom) - ENG30-08510666-n:0.7645::Površina koja predstavlja deo spoljašnjosti nekog objekta. - ENG30-05850624-n:0.7454::Određena karakteristika ili element u problemu.	http://llod.jerteh.rs/WSD/seENG3005852553n	12	tesla_wsd	ENG30-02464223-n;ENG30-04213626-n;ENG30-05551318-n;ENG30-05850624-n;ENG30-05852553-n;ENG30-05852973-n;ENG30-06256229-n;ENG30-06783265-n;ENG30-08408709-n;ENG30-08510666-n;ENG30-08649345-n;ENG30-10402824-n	
+4-16	420-421	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	
+
+#Text=Čovek se može slobodno kretati u prostoru, ali ne i u vremenu.
+5-1	421-426	Čovek	N	NOUN	_	_	čovek	_	_	_	*	simple_wsd - ENG30-10288763-n:0.8224::odrasla muška osoba koja ima muževan karakter (muževit i hrabar kompetentan) - ENG30-10289039-n:0.8208::Generičko korošćenje reči za referisanje bilo kog ljudskog bića. - ENG30-10288516-n:0.7836::Muška osoba koja igra značajnu ulogu (muž, ljubavnik ili momak) u životu određene žene.	http://llod.jerteh.rs/WSD/seENG3010288763n	6	tesla_wsd	ENG30-02472293-n;ENG30-10287213-n;ENG30-10288516-n;ENG30-10288763-n;ENG30-10289039-n;ENG30-10289176-n	
+5-2	427-429	se	PAR	PART	_	_	se	1	*	IRV	*[17]	simple_wsd - CVMWE-0183:0.7153::ići, hodati, biti u pokretu uopšte - CVMWE-0184:0.7028::biti, odvijati se, vršiti se u okviru nečega - ENG30-00124442-v:0.6818::napredovati od jedne tačke do druge[2003]	http://llod.jerteh.rs/WSD/seCVMWE0183[2003]	5[2003]	tesla_wsd	CVMWE-0183;CVMWE-0184;ENG30-00014549-v;ENG30-00124442-v;ENG30-01835496-v[2003]	
+5-3	430-434	može	V	VERB	_	_	moći	_	_	_	*[17]|*[18]	simple_wsd - ENG30-02523221-v:0.7407::Istrajati ili uspevati.	http://llod.jerteh.rs/WSD/seENG3002523221v	1	tesla_wsd	ENG30-02523221-v	
+5-4	435-443	slobodno	ADV	ADV	_	_	slobodno	_	_	_	*[17]|*[19]	simple_wsd - ENG30-00210651-b:0.6364::na slobodan način	http://llod.jerteh.rs/WSD/seENG3000210651b	1	tesla_wsd	ENG30-00210651-b	
+5-5	444-451	kretati	V	VERB	_	_	kretati	1	kretati se	IRV	*[17]	simple_wsd - CVMWE-0183:0.7153::ići, hodati, biti u pokretu uopšte - CVMWE-0184:0.7028::biti, odvijati se, vršiti se u okviru nečega - ENG30-00124442-v:0.6818::napredovati od jedne tačke do druge[2003]	http://llod.jerteh.rs/WSD/seCVMWE0183[2003]	5[2003]	tesla_wsd	CVMWE-0183;CVMWE-0184;ENG30-00014549-v;ENG30-00124442-v;ENG30-01835496-v[2003]	
+5-6	452-453	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	_	_	
+5-7	454-462	prostoru	N	NOUN	_	_	prostor	_	_	_	*	simple_wsd - ENG30-09277538-n:0.9592::Širok i otvoren prostor, kao što su površine, zemlja ili more. - ENG30-00028651-n:0.8912::Neograničeno trodimenzionalno prostranstvo u kome je sve smešteno. - ENG30-08652970-n:0.8696::Zona rezervisana za neku posebnu namenu.	http://llod.jerteh.rs/WSD/seENG3009277538n	7	tesla_wsd	ENG30-00028651-n;ENG30-02884607-n;ENG30-06389553-n;ENG30-08001685-n;ENG30-08630039-n;ENG30-08652970-n;ENG30-09277538-n	
+5-8	462-463	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	
+5-9	464-467	ali	CONJ	CCONJ	_	_	ali	_	_	_	_	_	_	_	_	_	
+5-10	468-470	ne	PAR	PART	_	_	ne	_	_	_	_	_	_	_	_	_	
+5-11	471-472	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	
+5-12	473-474	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	_	_	
+5-13	475-482	vremenu	N	NOUN	_	_	vreme	_	_	_	*	simple_wsd - ENG30-06329506-n:0.8973::gramatička kategorija glagola kojom se izražavaju distinkcije u vremenu - ENG30-15270431-n:0.8793::Vremenski period koji je pod nečijom kontrolom i koji ga smatra dovoljnim za postizanje nečega. - ENG30-15122231-n:0.8369::Nedefinisani period, obično obeležen specifičnim atributima i aktivnostima.	http://llod.jerteh.rs/WSD/seENG3006329506n	12	tesla_wsd	ENG30-00028270-n;ENG30-00807078-n;ENG30-06329506-n;ENG30-11524662-n;ENG30-15122231-n;ENG30-15129927-n;ENG30-15135822-n;ENG30-15228378-n;ENG30-15228910-n;ENG30-15244650-n;ENG30-15249236-n;ENG30-15270431-n	
+5-14	482-483	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	
+
+#Text=To je možda bio pokušaj da se objasni teorija tadašnjih grčkih astronoma, među njima i Eratostena–da je Zemlja okrugla.
+6-1	483-485	To	PRO	DET	_	_	taj	_	_	_	_	_	_	_	_	_	
+6-2	486-488	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	
+6-3	489-494	možda	PAR	PART	_	_	možda	_	_	_	_	_	_	_	_	_	
+6-4	495-498	bio	V	AUX	_	_	biti	_	_	_	_	_	_	_	_	_	
+6-5	499-506	pokušaj	N	NOUN	_	_	pokušaj	_	_	_	*	simple_wsd - ENG30-00786195-n:0.9354::Ozbiljna i svesna aktivnost s ciljem da se nešto postigne. - ENG30-00787061-n:0.6844::obično kratak pokušaj	http://llod.jerteh.rs/WSD/seENG3000786195n	2	tesla_wsd	ENG30-00786195-n;ENG30-00787061-n	
+6-6	507-509	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	
+6-7	510-512	se	PAR	PART	_	_	se	_	_	_	_	_	_	_	_	_	
+6-8	513-520	objasni	V	VERB	_	_	objasniti	_	_	_	*	simple_wsd - ENG30-02607432-v:0.8549::biti jedini ili glavni faktor u postojanju, sticanju, snabdevanju ili odlaganju nečega - ENG30-00957378-v:0.8242::proizvesti definiciju za značenje koje reči - ENG30-00893435-v:0.7784::služiti kao razlog ili uzrok ili opravdanje	http://llod.jerteh.rs/WSD/seENG3002607432v	8	tesla_wsd	ENG30-00867644-v;ENG30-00893435-v;ENG30-00896141-v;ENG30-00938247-v;ENG30-00939277-v;ENG30-00957378-v;ENG30-01033189-v;ENG30-02607432-v	
+6-9	521-528	teorija	N	NOUN	_	_	teorija	_	_	_	*	simple_wsd - ENG30-05989479-n:0.8763::Dobroutemeljeno objašnjenje nekog aspekta pirodnog sveta; organizovani sistem priznatog znanja koji se može primeniti u…	http://llod.jerteh.rs/WSD/seENG3005989479n	1	tesla_wsd	ENG30-05989479-n	
+6-10	529-538	tadašnjih	A	ADJ	_	_	tadašnji	_	_	_	*	simple_wsd - DRJ0-179686/0:0.8052::koji je bio tad(a), u to vreme (o kome se govori):	http://llod.jerteh.rs/WSD/seDRJ0179686_0	1	tesla_wsd	DRJ0-179686/0	
+6-11	539-545	grčkih	A	ADJ	*	DEMO	grčki	_	_	_	*	simple_wsd - ENG30-03016202-a:0.7977::koji se tiče ili je karakteristično za Grčku	http://llod.jerteh.rs/WSD/seENG3003016202a	1	tesla_wsd	ENG30-03016202-a	
+6-12	546-555	astronoma	N	NOUN	_	_	astronom	_	_	_	*	simple_wsd - ENG30-09818343-n:0.6698::Fizičar koji izučava astronomij.	http://llod.jerteh.rs/WSD/seENG3009818343n	1	tesla_wsd	ENG30-09818343-n	
+6-13	555-556	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	
+6-14	557-561	među	PREP	ADP	_	_	među	_	_	_	_	_	_	_	_	_	
+6-15	562-567	njima	PRO	PRON	_	_	oni	_	_	_	_	_	_	_	_	_	
+6-16	568-569	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	
+6-17	570-580	Eratostena	N	PROPN	http://www.wikidata.org/entity/Q43182	PERS	Eratosten	_	_	_	_	_	_	_	_	_	
+6-18	580-581	–	PUNCT	PUNCT	_	_	–	_	_	_	_	_	_	_	_	_	
+6-19	581-583	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	
+6-20	584-586	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	
+6-21	587-593	Zemlja	N	PROPN	http://www.wikidata.org/entity/Q2	LOC	Zemlja	_	_	_	_	_	_	_	_	_	
+6-22	594-601	okrugla	A	ADJ	_	_	okrugao	_	_	_	*	simple_wsd - DRJ0-209128/2:0.9562::koji nije oštrih, zaobljenih linija, obao: - DRJ0-209128/3:0.8835::zaokrugljen, zaokružen na desetice, stotine ili celu vrednost (o broju, brojkama, svoti, sumi).; konferencijski sto okr… - DRJ0-209128/1а.:0.8536::koji ima oblik kruga, odn. lopte ili valjka, koji je tim oblicima sličan, loptast;	http://llod.jerteh.rs/WSD/seDRJ0209128_2	4	tesla_wsd	DRJ0-209128/1а.;DRJ0-209128/1б.;DRJ0-209128/2;DRJ0-209128/3	
+6-23	601-602	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	
+
+#Text=Različite strane planine u velikoj meri se razlikuju jedna od druge.
+7-1	602-611	Različite	A	ADJ	_	_	različit	_	_	_	*	simple_wsd - ENG30-02507772-a:0.9130::imati veliku raznovrsnost ili raznolikost - ENG30-02065665-a:0.9015::mnogo različitih vrsta namenski raspoređenih, ali bez ikakve uniformnosti - ENG30-02064745-a:0.8147::Koji nije nalik po prirodi, kvalitetu, oblik ili stepenu.	http://llod.jerteh.rs/WSD/seENG3002507772a	7	tesla_wsd	ENG30-00494409-a;ENG30-02064745-a;ENG30-02065665-a;ENG30-02067719-a;ENG30-02070342-a;ENG30-02110778-a;ENG30-02507772-a	
+7-2	612-618	strane	N	NOUN	_	_	strana	_	_	_	*	simple_wsd - ENG30-08649345-n:0.8000::mesto unutar zone koje se identifikuje kao relativno u odnosu na centar - ENG30-05852553-n:0.7544::aspekt nečega (u suprotnosti sa nekim drugim podrazumevanim aspektom) - ENG30-08510666-n:0.7266::Površina koja predstavlja deo spoljašnjosti nekog objekta.	http://llod.jerteh.rs/WSD/seENG3008649345n	12	tesla_wsd	ENG30-02464223-n;ENG30-04213626-n;ENG30-05551318-n;ENG30-05850624-n;ENG30-05852553-n;ENG30-05852973-n;ENG30-06256229-n;ENG30-06783265-n;ENG30-08408709-n;ENG30-08510666-n;ENG30-08649345-n;ENG30-10402824-n	
+7-3	619-626	planine	N	NOUN	_	_	planina	_	_	_	*	simple_wsd - ENG30-09359803-n:0.8225::Masiv koji se uzdiže znatno iznad okoline; viši od brda.	http://llod.jerteh.rs/WSD/seENG3009359803n	1	tesla_wsd	ENG30-09359803-n	
+7-4	627-628	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	_	_	
+7-5	629-636	velikoj	A	ADJ	_	_	velik	_	_	_	*	simple_wsd - ENG30-01190683-a:0.9281::Velik po stepenu ili intenzitetu ili broju ili količini. - ENG30-01488616-a:0.8061::Za životinje, potpuno razvijen. - ENG30-01375909-a:0.7576::iznad proseka po veličini ili broju ili količini ili snazi ili iznosu	http://llod.jerteh.rs/WSD/seENG3001190683a	8	tesla_wsd	ENG30-00579622-a;ENG30-01114658-a;ENG30-01190683-a;ENG30-01278080-a;ENG30-01375909-a;ENG30-01467919-a;ENG30-01488616-a;ENG30-01510444-a	
+7-6	637-641	meri	N	NOUN	_	_	mera	_	_	_	*	simple_wsd - ENG30-00174412-n:0.8573::bilo koji potez povučen kao korak bliže cilju - ENG30-06501622-n:0.8459::politika usvojena platformom koje političke partije - ENG30-05901508-n:0.8436::plan akcije usvojen od strane pojedinca ili društvene grupe	http://llod.jerteh.rs/WSD/seENG3000174412n	7	tesla_wsd	ENG30-00033615-n;ENG30-00174412-n;ENG30-05117660-n;ENG30-05901508-n;ENG30-06501622-n;ENG30-13815342-n;ENG30-13941125-n	
+7-7	642-644	se	PAR	PART	_	_	se	1	*	IRV	*[20]	simple_wsd - CVMWE-0379:0.7809::biti različit, drugačiji od drugih, imati, pokazivati razliku, nejednakost u odnosu na druge - ENG30-02718543-v:0.6782::razlikovati se jedan od drugog - ENG30-02666239-v:0.6618::Biti različit.[2004]	http://llod.jerteh.rs/WSD/seCVMWE0379[2004]	3[2004]	tesla_wsd	CVMWE-0379;ENG30-02666239-v;ENG30-02718543-v[2004]	
+7-8	645-654	razlikuju	V	VERB	_	_	razlikovati	1	razlikovati se	IRV	*[20]	simple_wsd - CVMWE-0379:0.7809::biti različit, drugačiji od drugih, imati, pokazivati razliku, nejednakost u odnosu na druge - ENG30-02718543-v:0.6782::razlikovati se jedan od drugog - ENG30-02666239-v:0.6618::Biti različit.[2004]	http://llod.jerteh.rs/WSD/seCVMWE0379[2004]	3[2004]	tesla_wsd	CVMWE-0379;ENG30-02666239-v;ENG30-02718543-v[2004]	
+7-9	655-660	jedna	NUM	NUM	_	_	jedan	_	_	_	_	_	_	_	_	_	
+7-10	661-663	od	PREP	ADP	_	_	od	_	_	_	_	_	_	_	_	_	
+7-11	664-669	druge	A	ADJ	_	_	drugi	_	_	_	*	simple_wsd - ENG30-02070030-a:0.7650::jasno različit od nekog sasvim drugog ili prvog - ENG30-02070188-a:0.7442::Ne baš onaj koji je prvo pomenut ili ne od najveće važnosti; neki drugi. - ENG30-00048858-a:0.7112::dalje ili dodato	http://llod.jerteh.rs/WSD/seENG3002070030a	4	tesla_wsd	ENG30-00048858-a;ENG30-02070030-a;ENG30-02070188-a;ENG30-02202146-a	
+7-12	669-670	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	
+
+#Text=Takve oluje mogu da traju samo nekoliko sati ili da se otegnu vekovima.
+8-1	670-675	Takve	PRO	DET	_	_	takav	_	_	_	_	_	_	_	_	_	
+8-2	676-681	oluje	N	NOUN	_	_	oluja	_	_	_	*	simple_wsd - ENG30-11462526-n:0.8305::Loša vremenska prilika sa vetrovima od 64 do 72 čvora (11 po Boforovoj skali) sa padavinama, grmljavinom i sevanjem.	http://llod.jerteh.rs/WSD/seENG3011462526n	1	tesla_wsd	ENG30-11462526-n	
+8-3	682-686	mogu	V	VERB	_	_	moći	_	_	_	*	simple_wsd - ENG30-02523221-v:0.7325::Istrajati ili uspevati.	http://llod.jerteh.rs/WSD/seENG3002523221v	1	tesla_wsd	ENG30-02523221-v	
+8-4	687-689	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	
+8-5	690-695	traju	V	VERB	_	_	trajati	_	_	_	*	simple_wsd - ENG30-02704928-v:0.6899::Vremenski dugo trajati. - ENG30-02618149-v:0.6896::Nastavljati da traje.	http://llod.jerteh.rs/WSD/seENG3002704928v	2	tesla_wsd	ENG30-02618149-v;ENG30-02704928-v	
+8-6	696-700	samo	ADV	ADV	_	_	samo	_	_	_	*	simple_wsd - ENG30-00158309-b:0.7519::ukazivanje na tačnost ili preciznost - ENG30-00008600-b:0.7412::bez uključivanja ili učešća drugih - ENG30-00028797-b:0.7167::nasuprot tome; s druge strane	http://llod.jerteh.rs/WSD/seENG3000158309b	6	tesla_wsd	ENG30-00004722-b;ENG30-00008600-b;ENG30-00011011-b;ENG30-00028797-b;ENG30-00158309-b;ENG30-00505114-b	
+8-7	701-709	nekoliko	ADV	ADV	_	_	nekoliko	_	_	_	*	simple_wsd - DRJ0-206395/1:0.7277::neodređeno koliko; više od četiri. - DRJ0-206395/2:0.6505::malo, nešto.	http://llod.jerteh.rs/WSD/seDRJ0206395_1	2	tesla_wsd	DRJ0-206395/1;DRJ0-206395/2	
+8-8	710-714	sati	N	NOUN	_	_	sat	_	_	_	*	simple_wsd - ENG30-15227846-n:0.8235::period vremena koji iznosi 1/24 dana - ENG30-03046257-n:0.7410::uređaj koji pokazuje doba dana - ENG30-15228378-n:0.7373::vreme po časovniku	http://llod.jerteh.rs/WSD/seENG3015227846n	3	tesla_wsd	ENG30-03046257-n;ENG30-15227846-n;ENG30-15228378-n	
+8-9	715-718	ili	CONJ	CCONJ	_	_	ili	_	_	_	_	_	_	_	_	_	
+8-10	719-721	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	
+8-11	722-724	se	PAR	PART	_	_	se	1	*	IRV	*[21]	simple_wsd - CVMWE-0275:0.7678::odužiti se u trajanju, vremenu, potrajati[2005]	http://llod.jerteh.rs/WSD/seCVMWE0275[2005]	1[2005]	tesla_wsd	CVMWE-0275[2005]	
+8-12	725-731	otegnu	V	VERB	_	_	otegnuti	1	otegnuti se	IRV	*[21]	simple_wsd - CVMWE-0275:0.7678::odužiti se u trajanju, vremenu, potrajati[2005]	http://llod.jerteh.rs/WSD/seCVMWE0275[2005]	1[2005]	tesla_wsd	CVMWE-0275[2005]	
+8-13	732-740	vekovima	N	NOUN	_	_	vek	_	_	_	*	simple_wsd - ENG30-15140744-n:0.7644::Period između rođenja i sadašnjosti. - ENG30-15140892-n:0.7093::Period od sadašnjosti do smrti. - ENG30-15205532-n:0.6706::Sto godina.	http://llod.jerteh.rs/WSD/seENG3015140744n	3	tesla_wsd	ENG30-15140744-n;ENG30-15140892-n;ENG30-15205532-n	
+8-14	740-741	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	
+
+#Text=Ona mora da izbegava nepotrebne reči, a on ne sme da se previše uzda u njene godine i njenu pobožnost.
+9-1	741-744	Ona	PRO	PRON	_	_	ona	_	_	_	_	_	_	_	_	_	
+9-2	745-749	mora	V	VERB	_	_	morati	_	_	_	*	simple_wsd - DRJ0-203172/3:0.8802::osećati potrebu, pobudu, impuls da se nešto (u)čini, (u)radi. - DRJ0-203172/4а.:0.8510::za isticanje verovatnoće, izvesnosti onoga što se kazuje dopunskim glagolom, dopunskom rečenicom. - DRJ0-203172/1:0.8341::činiti nešto iz nužde, biti prinuđen, prisiljen, primoran, obavezan (u)činiti nešto:	http://llod.jerteh.rs/WSD/seDRJ0203172_3	5	tesla_wsd	DRJ0-203172/1;DRJ0-203172/2;DRJ0-203172/3;DRJ0-203172/4а.;DRJ0-203172/4б.	
+9-3	750-752	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	
+9-4	753-761	izbegava	V	VERB	_	_	izbegavati	_	_	_	*	simple_wsd - ENG30-00811375-v:0.7558::držati se podalje od; držati podalje od; skloniti se s puta nekome ili nečemu - ENG30-01189823-v:0.7354::uzdržati se od određene hrane ili pića - ENG30-02463510-v:0.7068::uzdržati se od nečega	http://llod.jerteh.rs/WSD/seENG3000811375v	3	tesla_wsd	ENG30-00811375-v;ENG30-01189823-v;ENG30-02463510-v	
+9-5	762-772	nepotrebne	A	ADJ	_	_	nepotreban	_	_	_	*	simple_wsd - ENG30-02527734-a:0.6813::onaj koji nije potreban - ENG30-01581115-a:0.6600::Koji nije potreban.	http://llod.jerteh.rs/WSD/seENG3002527734a	2	tesla_wsd	ENG30-01581115-a;ENG30-02527734-a	
+9-6	773-777	reči	N	NOUN	_	_	reč	_	_	_	*	simple_wsd - ENG30-13627327-n:0.8769::Reč je niska bitova uskladištenih u memoriji računara. - ENG30-07226841-n:0.8253::svečano obećanje, koje se obično poziva na božanskog svedoka, u vezi sa vašim budućim postupcima ili ponašanjem - ENG30-06286395-n:0.7816::Jedinica jezika koju govornik tog jezika može da identifikuje.	http://llod.jerteh.rs/WSD/seENG3013627327n	6	tesla_wsd	ENG30-06283764-n;ENG30-06286395-n;ENG30-06738162-n;ENG30-07226841-n;ENG30-13627327-n;ENG30-14485526-n	
+9-7	777-778	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	
+9-8	779-780	a	CONJ	CCONJ	_	_	a	_	_	_	_	_	_	_	_	_	
+9-9	781-783	on	PRO	PRON	_	_	on	_	_	_	_	_	_	_	_	_	
+9-10	784-786	ne	PAR	PART	_	_	ne	_	_	_	_	_	_	_	_	_	
+9-11	787-790	sme	V	VERB	_	_	smeti	_	_	_	*	simple_wsd - DRJ0-176894/1:0.8803::imati smelosti, usuđivati se učiniti nešto: - DRJ0-176894/2а.:0.7516::biti dopušteno, dozvoljeno (nekome). - DRJ0-176894/2б.:0.6900::u učtivom pitanju.	http://llod.jerteh.rs/WSD/seDRJ0176894_1	4	tesla_wsd	DRJ0-176894/1;DRJ0-176894/2а.;DRJ0-176894/2б.;DRJ0-176894/3	
+9-12	791-793	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	
+9-13	794-796	se	PAR	PART	_	_	se	1	*	IRV	*[22]	simple_wsd - CVMWE-0480:0.8675::imati pouzdanja, poverenja u nekoga ili nešto, oslanjati se na nekoga ili nešto - ENG30-00688377-v:0.7450::Imati poverenje ili veru u nekoga.[2006]	http://llod.jerteh.rs/WSD/seCVMWE0480[2006]	2[2006]	tesla_wsd	CVMWE-0480;ENG30-00688377-v[2006]	
+9-14	797-804	previše	ADV	ADV	_	_	previše	_	_	_	*[22]|*[23]	simple_wsd - ENG30-00047392-b:0.6578::u preteranoj meri - ENG30-00415963-b:0.6523::više nego što je potrebno	http://llod.jerteh.rs/WSD/seENG3000047392b	2	tesla_wsd	ENG30-00047392-b;ENG30-00415963-b	
+9-15	805-809	uzda	V	VERB	_	_	uzdati	1	uzdati se	IRV	*[22]	simple_wsd - CVMWE-0480:0.8675::imati pouzdanja, poverenja u nekoga ili nešto, oslanjati se na nekoga ili nešto - ENG30-00688377-v:0.7450::Imati poverenje ili veru u nekoga.[2006]	http://llod.jerteh.rs/WSD/seCVMWE0480[2006]	2[2006]	tesla_wsd	CVMWE-0480;ENG30-00688377-v[2006]	
+9-16	810-811	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	_	_	
+9-17	812-817	njene	PRO	DET	_	_	njen	_	_	_	_	_	_	_	_	_	
+9-18	818-824	godine	N	NOUN	_	_	godina	_	_	_	*	simple_wsd - ENG30-15204297-n:0.8583::Vremenski period koji zauzima stalni deo kalendarske godine i koristi se za neku određenu aktivnost. - ENG30-15202634-n:0.8009::Godina računata od 1. januara do 31. decembra po Gregorijanskom kalendaru. - ENG30-15203791-n:0.7483::Vremenski period od 365 (ili 366) dana.	http://llod.jerteh.rs/WSD/seENG3015204297n	5	tesla_wsd	ENG30-08238660-n;ENG30-15201505-n;ENG30-15202634-n;ENG30-15203791-n;ENG30-15204297-n	
+9-19	825-826	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	
+9-20	827-832	njenu	PRO	DET	_	_	njen	_	_	_	_	_	_	_	_	_	
+9-21	833-842	pobožnost	N	NOUN	_	_	pobožnost	_	_	_	*	simple_wsd - ENG30-04826771-n:0.6944::pravednost zbog pobožnosti - ENG30-04826999-n:0.6663::pobožnost zbog posvećenosti	http://llod.jerteh.rs/WSD/seENG3004826771n	2	tesla_wsd	ENG30-04826771-n;ENG30-04826999-n	
+9-22	842-843	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	
+
+#Text=Godine 1805. Žozef Luj Ge-Lisak i Aleksandar fon Humbolt su pokazali da se voda sastoji od dva dela vodonika i jednog dela kiseonika.
+10-1	843-849	Godine	N	NOUN	_	_	godina	_	_	_	*	simple_wsd - ENG30-15202634-n:0.9218::Godina računata od 1. januara do 31. decembra po Gregorijanskom kalendaru. - ENG30-15203791-n:0.8843::Vremenski period od 365 (ili 366) dana. - ENG30-08238660-n:0.8426::Zajednica studenata ili đaka koji zajedno diplomiraju.	http://llod.jerteh.rs/WSD/seENG3015202634n	5	tesla_wsd	ENG30-08238660-n;ENG30-15201505-n;ENG30-15202634-n;ENG30-15203791-n;ENG30-15204297-n	
+10-2	850-855	1805.	A	ADJ	_	_	1805.	_	_	_	_	_	_	_	_	_	
+10-3	856-861	Žozef	N	PROPN	http://www.wikidata.org/entity/Q153185[2]	PERS[2]	Žozef	_	_	_	_	_	_	_	_	_	
+10-4	862-865	Luj	N	PROPN	http://www.wikidata.org/entity/Q153185[2]	PERS[2]	Luj	_	_	_	_	_	_	_	_	_	
+10-5	866-868	Ge	N	PROPN	http://www.wikidata.org/entity/Q153185[2]	PERS[2]	Ge	_	_	_	_	_	_	_	_	_	
+10-6	868-869	-	PUNCT	PUNCT	http://www.wikidata.org/entity/Q153185[2]	PERS[2]	-	_	_	_	_	_	_	_	_	_	
+10-7	869-874	Lisak	N	PROPN	http://www.wikidata.org/entity/Q153185[2]	PERS[2]	Lisak	_	_	_	_	_	_	_	_	_	
+10-8	875-876	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	
+10-9	877-887	Aleksandar	N	PROPN	http://www.wikidata.org/entity/Q6694[3]	PERS[3]	Aleksandar	_	_	_	_	_	_	_	_	_	
+10-10	888-891	fon	F	X	http://www.wikidata.org/entity/Q6694[3]	PERS[3]	fon	_	_	_	_	_	_	_	_	_	
+10-11	892-899	Humbolt	N	PROPN	http://www.wikidata.org/entity/Q6694[3]	PERS[3]	Humbolt	_	_	_	_	_	_	_	_	_	
+10-12	900-902	su	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	
+10-13	903-911	pokazali	V	VERB	_	_	pokazati	_	_	_	*	simple_wsd - ENG30-02144460-v:0.9583::ispoljiti efekat (gena ili genetske osobine) - ENG30-00928232-v:0.9162::ukazati na neophodnost kakvog zahvata (u medicini) - ENG30-01686956-v:0.8867::prikaži u, ili kao na slici	http://llod.jerteh.rs/WSD/seENG3002144460v	15	tesla_wsd	ENG30-00664788-v;ENG30-00772640-v;ENG30-00922867-v;ENG30-00923307-v;ENG30-00923793-v;ENG30-00928232-v;ENG30-00932161-v;ENG30-00974367-v;ENG30-01152214-v;ENG30-01339505-v;ENG30-01686956-v;ENG30-02137132-v;ENG30-02143283-v;ENG30-02144460-v;ENG30-02632167-v	
+10-14	912-914	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	
+10-15	915-917	se	PAR	PART	_	_	se	2	*	IRV	*[24]	simple_wsd - CVMWE-0394:0.6748::biti sastavljen iz (od) nečega - ENG30-02632940-v:0.6429::Imati kao deo.[2007]	http://llod.jerteh.rs/WSD/seCVMWE0394[2007]	2[2007]	tesla_wsd	CVMWE-0394;ENG30-02632940-v[2007]	
+10-16	918-922	voda	N	NOUN	_	_	voda	_	_	_	*[24]|*[25]	simple_wsd - ENG30-14845743-n:0.8509::Prozirna tečnost bez mirisa i ukusa. - ENG30-05405139-n:0.8368::Slankasta tečnost koju luče suzne žlezde; podmazuje površinu očne jabučice. - ENG30-07935504-n:0.7905::tečnost koja je neophodna za život većine biljaka i životinja	http://llod.jerteh.rs/WSD/seENG3014845743n	6	tesla_wsd	ENG30-04562658-n;ENG30-05405139-n;ENG30-06838005-n;ENG30-07935504-n;ENG30-14845743-n;ENG30-14847357-n	
+10-17	923-930	sastoji	V	VERB	_	_	sastojati	2	sastojati se	IRV	*[24]	simple_wsd - CVMWE-0394:0.6748::biti sastavljen iz (od) nečega - ENG30-02632940-v:0.6429::Imati kao deo.[2007]	http://llod.jerteh.rs/WSD/seCVMWE0394[2007]	2[2007]	tesla_wsd	CVMWE-0394;ENG30-02632940-v[2007]	
+10-18	931-933	od	PREP	ADP	_	_	od	_	_	_	_	_	_	_	_	_	
+10-19	934-937	dva	NUM	NUM	_	_	dva	_	_	_	_	_	_	_	_	_	
+10-20	938-942	dela	N	NOUN	_	_	deo	_	_	_	*	simple_wsd - ENG30-08548733-n:0.8846::teritorijalna i administrativna podela nekih zemalja (kao što je Francuska) - ENG30-03892891-n:0.8659::Nešto što je manje od celine ljudske tvorevine. - ENG30-05867413-n:0.8544::Jedan od delova u koje je nešto podeljeno i koji zajedno čine celinu.	http://llod.jerteh.rs/WSD/seENG3008548733n	7	tesla_wsd	ENG30-01085098-n;ENG30-03892891-n;ENG30-05867413-n;ENG30-05868954-n;ENG30-08548733-n;ENG30-09385911-n;ENG30-13289159-n	
+10-21	943-951	vodonika	N	NOUN	_	_	vodonik	_	_	_	*	simple_wsd - ENG30-14640434-n:0.9431::Jednovalentni nemetal koji je obično bez boje i mirisa, veoma zapaljiv diatomski gas; najjednostaviji, najlakši i najpr…	http://llod.jerteh.rs/WSD/seENG3014640434n	1	tesla_wsd	ENG30-14640434-n	
+10-22	952-953	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	
+10-23	954-960	jednog	NUM	NUM	_	_	jedan	_	_	_	_	_	_	_	_	_	
+10-24	961-965	dela	N	NOUN	_	_	deo	_	_	_	*	simple_wsd - ENG30-08548733-n:0.8865::teritorijalna i administrativna podela nekih zemalja (kao što je Francuska) - ENG30-03892891-n:0.8639::Nešto što je manje od celine ljudske tvorevine. - ENG30-05867413-n:0.8583::Jedan od delova u koje je nešto podeljeno i koji zajedno čine celinu.	http://llod.jerteh.rs/WSD/seENG3008548733n	7	tesla_wsd	ENG30-01085098-n;ENG30-03892891-n;ENG30-05867413-n;ENG30-05868954-n;ENG30-08548733-n;ENG30-09385911-n;ENG30-13289159-n	
+10-25	966-975	kiseonika	N	NOUN	_	_	kiseonik	_	_	_	*	simple_wsd - ENG30-14648100-n:0.8309::Bivalentni nemetal bez boje, ukusa i mirisa, ne gori; u vazduhu ga ima 12 procenat.	http://llod.jerteh.rs/WSD/seENG3014648100n	1	tesla_wsd	ENG30-14648100-n	
+10-26	975-976	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	
+
+#Text=Paleografska studija u Britanskom muzeju iz 1938. godine otkrila je da je tekst pretrpeo nekoliko korekcija.
+11-1	976-988	Paleografska	A	ADJ	_	_	paleografski	_	_	_	*	simple_wsd - DRJ0-210793/0:0.8607::koji se odnosi na paleografe i na paleografiju.	http://llod.jerteh.rs/WSD/seDRJ0210793_0	1	tesla_wsd	DRJ0-210793/0	
+11-2	989-996	studija	N	NOUN	_	_	studija	_	_	_	*	simple_wsd - ENG30-07218470-n:0.8790::pismeni dokument koji opisuje otkrića nekog pojedinca ili grupe - ENG30-05755883-n:0.8034::primena uma za učenje i razumevanje neke teme (posebno čitanjem) - ENG30-05734288-n:0.7747::kritička studija (kao, na primer, dela nekog pisca)	http://llod.jerteh.rs/WSD/seENG3007218470n	4	tesla_wsd	ENG30-00644503-n;ENG30-05734288-n;ENG30-05755883-n;ENG30-07218470-n	
+11-3	997-998	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	_	_	
+11-4	999-1009	Britanskom	A	ADJ	http://www.wikidata.org/entity/Q6373[4]	ORG[4]	britanski	_	_	_	*	simple_wsd - ENG30-03022177-a:0.7582::koji se tiče Velike Britanije, njenih ljudi i kulture - ENG30-02958017-a:0.6303::Britanije	http://llod.jerteh.rs/WSD/seENG3003022177a	2	tesla_wsd	ENG30-02958017-a;ENG30-03022177-a	
+11-5	1010-1016	muzeju	N	NOUN	http://www.wikidata.org/entity/Q6373[4]	ORG[4]	muzej	_	_	_	*	simple_wsd - ENG30-03800563-n:0.8814::Mesto za sakupljanje i prikazivanje predmeta koji imaju naučnu ili istorijsku ili umetničku vrednost.	http://llod.jerteh.rs/WSD/seENG3003800563n	1	tesla_wsd	ENG30-03800563-n	
+11-6	1017-1019	iz	PREP	ADP	_	_	iz	_	_	_	_	_	_	_	_	_	
+11-7	1020-1025	1938.	A	ADJ	_	_	1938.	_	_	_	_	_	_	_	_	_	
+11-8	1026-1032	godine	N	NOUN	_	_	godina	_	_	_	*	simple_wsd - ENG30-15202634-n:0.9179::Godina računata od 1. januara do 31. decembra po Gregorijanskom kalendaru. - ENG30-15203791-n:0.8589::Vremenski period od 365 (ili 366) dana. - ENG30-08238660-n:0.8236::Zajednica studenata ili đaka koji zajedno diplomiraju.	http://llod.jerteh.rs/WSD/seENG3015202634n	5	tesla_wsd	ENG30-08238660-n;ENG30-15201505-n;ENG30-15202634-n;ENG30-15203791-n;ENG30-15204297-n	
+11-9	1033-1040	otkrila	V	VERB	_	_	otkriti	_	_	_	*	simple_wsd - ENG30-01036319-v:0.9386::staviti u opasan, nepovoljan ili težak položaj - ENG30-00933821-v:0.9124::Učiniti javnom informaciju koja je ranije bila poznata samo nekolicini ljudi ili koja je trebalo da bude tajna. - ENG30-01339505-v:0.8467::ukloniti svu odeću ili deo odeće da bi pokazali svoje telo	http://llod.jerteh.rs/WSD/seENG3001036319v	14	tesla_wsd	ENG30-00598954-v;ENG30-00599992-v;ENG30-00721437-v;ENG30-00920336-v;ENG30-00933821-v;ENG30-01036319-v;ENG30-01339505-v;ENG30-01637982-v;ENG30-02129709-v;ENG30-02137710-v;ENG30-02143283-v;ENG30-02197781-v;ENG30-02230022-v;ENG30-02235842-v	
+11-10	1041-1043	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	
+11-11	1044-1046	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	
+11-12	1047-1049	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	
+11-13	1050-1055	tekst	N	NOUN	_	_	tekst	_	_	_	*	simple_wsd - ENG30-06388579-n:0.8066::osnovni deo pisanog dela (za razliku od ilustracija ili fusnota itd.) - ENG30-06387980-n:0.7573::Reci nečeg što je napisano.	http://llod.jerteh.rs/WSD/seENG3006388579n	2	tesla_wsd	ENG30-06387980-n;ENG30-06388579-n	
+11-14	1056-1064	pretrpeo	V	VERB	_	_	pretrpeti	_	_	_	*	simple_wsd - ENG30-00065639-v:0.8694::Pretrpeti (o povredama i bolestima). - ENG30-02706816-v:0.8672::odupreti se ili suočiti se sa otporom - ENG30-02611373-v:0.8586::Biti u nekom određenom stanju ili uslovima	http://llod.jerteh.rs/WSD/seENG3000065639v	6	tesla_wsd	ENG30-00065639-v;ENG30-00669762-v;ENG30-02109645-v;ENG30-02110082-v;ENG30-02611373-v;ENG30-02706816-v	
+11-15	1065-1073	nekoliko	ADV	ADV	_	_	nekoliko	_	_	_	*	simple_wsd - DRJ0-206395/1:0.8050::neodređeno koliko; više od četiri. - DRJ0-206395/2:0.7071::malo, nešto.	http://llod.jerteh.rs/WSD/seDRJ0206395_1	2	tesla_wsd	DRJ0-206395/1;DRJ0-206395/2	
+11-16	1074-1083	korekcija	N	NOUN	_	_	korekcija	_	_	_	*	simple_wsd - ENG30-00258854-n:0.8332::Čin nuđenja poboljšanja da se ispravi greška. - ENG30-01250208-n:0.8231::ispravka putem emendacije - korekcija koja je rezultat kritičkog uređivanja - ENG30-06428537-n:0.7442::nešto što zamnjuje grešku grešku (u tekstu)	http://llod.jerteh.rs/WSD/seENG3000258854n	4	tesla_wsd	ENG30-00258854-n;ENG30-00662527-n;ENG30-01250208-n;ENG30-06428537-n	
+11-17	1083-1084	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	
+
+#Text=Može čak i da preživi u svemirskom vakuumu.
+12-1	1084-1088	Može	V	VERB	_	_	moći	_	_	_	*	simple_wsd - ENG30-02523221-v:0.7863::Istrajati ili uspevati.	http://llod.jerteh.rs/WSD/seENG3002523221v	1	tesla_wsd	ENG30-02523221-v	
+12-2	1089-1092	čak	PAR	PART	_	_	čak	_	_	_	_	_	_	_	_	_	
+12-3	1093-1094	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	
+12-4	1095-1097	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	
+12-5	1098-1105	preživi	V	VERB	_	_	preživeti	_	_	_	*	simple_wsd - ENG30-02619924-v:0.9749::nastaviti postojanje nakon (nevolje, itd.) - ENG30-02619739-v:0.8682::živeti duže od	http://llod.jerteh.rs/WSD/seENG3002619924v	2	tesla_wsd	ENG30-02619739-v;ENG30-02619924-v	
+12-6	1106-1107	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	_	_	
+12-7	1108-1118	svemirskom	A	ADJ	_	_	svemirski	_	_	_	*	simple_wsd - DRJ0-174678/0:0.9556::koji se odnosi na svemir, vasionski, kosmički:	http://llod.jerteh.rs/WSD/seDRJ0174678_0	1	tesla_wsd	DRJ0-174678/0	
+12-8	1119-1126	vakuumu	N	NOUN	_	_	vakuum	_	_	_	*	simple_wsd - ENG30-08653474-n:0.7823::zona lišena materije - ENG30-14455206-n:0.7764::stanje odsustva svega - ENG30-14456054-n:0.7615::odsustvo materije	http://llod.jerteh.rs/WSD/seENG3008653474n	3	tesla_wsd	ENG30-08653474-n;ENG30-14455206-n;ENG30-14456054-n	
+12-9	1126-1127	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	
+
+#Text=Enskombov kvartet se sastoji od četiri skupa podataka, čije su jednostavne deskriptivne statističke karakteristike gotovo identične, ali izgledaju potpuno različito kada se prikažu grafički.
+13-1	1127-1136	Enskombov	A	ADJ	_	_	Enskombov	_	_	_	*	simple_wsd - CVDf-333/0:0.8641::prisvojni pridev od Enskomb	http://llod.jerteh.rs/WSD/seCVDf333_0	1	tesla_wsd	CVDf-333/0	
+13-2	1137-1144	kvartet	N	NOUN	_	_	kvartet	_	_	_	*	simple_wsd - ENG30-07988089-n:0.6908::skup od četiri slične stvari koje se smatraju jedinicom	http://llod.jerteh.rs/WSD/seENG3007988089n	1	tesla_wsd	ENG30-07988089-n	
+13-3	1145-1147	se	PAR	PART	_	_	se	1	*	IRV	*[26]	simple_wsd - ENG30-02632940-v:0.7437::Imati kao deo. - CVMWE-0394:0.6900::biti sastavljen iz (od) nečega[2008]	http://llod.jerteh.rs/WSD/seENG3002632940v[2008]	2[2008]	tesla_wsd	CVMWE-0394;ENG30-02632940-v[2008]	
+13-4	1148-1155	sastoji	V	VERB	_	_	sastojati	1	sastojati se	IRV	*[26]	simple_wsd - ENG30-02632940-v:0.7437::Imati kao deo. - CVMWE-0394:0.6900::biti sastavljen iz (od) nečega[2008]	http://llod.jerteh.rs/WSD/seENG3002632940v[2008]	2[2008]	tesla_wsd	CVMWE-0394;ENG30-02632940-v[2008]	
+13-5	1156-1158	od	PREP	ADP	_	_	od	_	_	_	_	_	_	_	_	_	
+13-6	1159-1165	četiri	NUM	NUM	_	_	četiri	_	_	_	_	_	_	_	_	_	
+13-7	1166-1171	skupa	N	NOUN	_	_	skup	2[9]	skup podataka[9]	NID[9]	*[27]	simple_wsd - LLM-0244:0.8077::Kolekcija organizovanih informacija.[2009]	http://llod.jerteh.rs/WSD/seLLM0244[2009]	1[2009]	tesla_wsd	LLM-0244[2009]	
+13-8	1172-1180	podataka	N	NOUN	_	_	podatak	2[9]	skup podataka[9]	NID[9]	*[27]	simple_wsd - LLM-0244:0.8077::Kolekcija organizovanih informacija.[2009]	http://llod.jerteh.rs/WSD/seLLM0244[2009]	1[2009]	tesla_wsd	LLM-0244[2009]	
+13-9	1180-1181	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	
+13-10	1182-1186	čije	PRO	DET	_	_	čiji	_	_	_	_	_	_	_	_	_	
+13-11	1187-1189	su	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	
+13-12	1190-1201	jednostavne	A	ADJ	_	_	jednostavan	_	_	_	*	simple_wsd - ENG30-02174896-a:0.7239::sa malo delova; nije složen, komplikovan ili zamršen; „jednostavan problem“; „jednostavni mehanizmi“; „jednostavan diza…	http://llod.jerteh.rs/WSD/seENG3002174896a	1	tesla_wsd	ENG30-02174896-a	
+13-13	1202-1214	deskriptivne	A	ADJ	_	_	deskriptivan	_	_	_	*	simple_wsd - ENG30-02377186-a:0.8926::koji se odnosi na fenomene (posebno u jeziku) u određenom periodu bez razmatranja istorijskih prethodnika - ENG30-00732318-a:0.7678::koji opisuje strukturu jezika	http://llod.jerteh.rs/WSD/seENG3002377186a	2	tesla_wsd	ENG30-00732318-a;ENG30-02377186-a	
+13-14	1215-1226	statističke	A	ADJ	_	_	statistički	_	_	_	*	simple_wsd - DRJ0-178132/0:0.8141::koji se donosi na statistiku:	http://llod.jerteh.rs/WSD/seDRJ0178132_0	1	tesla_wsd	DRJ0-178132/0	
+13-15	1227-1241	karakteristike	N	NOUN	_	_	karakteristika	_	_	_	*	simple_wsd - ENG30-05849284-n:0.8104::Karakteristično svojstvo koje definiše očiglednu individualnu prirodu nečega. - ENG30-04731497-n:0.7731::Razlikovni kvalitet.	http://llod.jerteh.rs/WSD/seENG3005849284n	2	tesla_wsd	ENG30-04731497-n;ENG30-05849284-n	
+13-16	1242-1248	gotovo	ADV	ADV	_	_	gotovo	_	_	_	*	simple_wsd - ENG30-00018781-b:0.8857::do određene mere (ne koristi se sa negacijom) - ENG30-00160659-b:0.7706::na blizak način	http://llod.jerteh.rs/WSD/seENG3000018781b	2	tesla_wsd	ENG30-00018781-b;ENG30-00160659-b	
+13-17	1249-1258	identične	A	ADJ	_	_	identičan	_	_	_	*	simple_wsd - ENG30-02064127-a:0.8883::potpuno isti; ne može se percipirati kao različit - ENG30-01411065-a:0.8025::jednak po količini ili vrednosti	http://llod.jerteh.rs/WSD/seENG3002064127a	2	tesla_wsd	ENG30-01411065-a;ENG30-02064127-a	
+13-18	1258-1259	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	
+13-19	1260-1263	ali	CONJ	CCONJ	_	_	ali	_	_	_	_	_	_	_	_	_	
+13-20	1264-1273	izgledaju	V	VERB	_	_	izgledati	_	_	_	*	simple_wsd - ENG30-02133435-v:0.8901::Dati određeni utisak ili imati određeni spoljašnji izgled. - ENG30-2133435-v:0.8308::Imati izvestan vanjski izraz. - ENG30-02134672-v:0.8244::izgledati istinito, verovatno ili očigledno	http://llod.jerteh.rs/WSD/seENG3002133435v	4	tesla_wsd	ENG30-02133435-v;ENG30-02134672-v;ENG30-02658447-v;ENG30-2133435-v	
+13-21	1274-1281	potpuno	ADV	ADV	_	_	potpuno	_	_	_	*	simple_wsd - ENG30-00008600-b:0.8203::bez uključivanja ili učešća drugih - ENG30-00178909-b:0.7953::dovoljno; više nego adekvatno - ENG30-00057257-b:0.7890::na iscrpan način	http://llod.jerteh.rs/WSD/seENG3000008600b	5	tesla_wsd	ENG30-00006777-b;ENG30-00008600-b;ENG30-00057257-b;ENG30-00057626-b;ENG30-00178909-b	
+13-22	1282-1291	različito	ADV	ADV	_	_	različito	_	_	_	*	simple_wsd - DRJ0-221189/0:0.9423::na različit(e) način(e), na razne načine; na drugi, drukčiji način, drukčije:	http://llod.jerteh.rs/WSD/seDRJ0221189_0	1	tesla_wsd	DRJ0-221189/0	
+13-23	1292-1296	kada	CONJ	SCONJ	_	_	kada	_	_	_	_	_	_	_	_	_	
+13-24	1297-1299	se	PAR	PART	_	_	se	_	_	_	_	_	_	_	_	_	
+13-25	1300-1307	prikažu	V	VERB	_	_	prikazati	_	_	_	*	simple_wsd - ENG30-00965035-v:0.8944::Dati rečima izveštaj ili predstavu o nečemu. - ENG30-00923307-v:0.8916::davati dokaze o čemu (kao prema kakvoj evidenciji) - ENG30-01686956-v:0.8789::prikaži u, ili kao na slici	http://llod.jerteh.rs/WSD/seENG3000965035v	6	tesla_wsd	ENG30-00923307-v;ENG30-00965035-v;ENG30-01686956-v;ENG30-01716882-v;ENG30-01732172-v;ENG30-02148788-v	
+13-26	1308-1316	grafički	ADV	ADV	_	_	grafički	_	_	_	*	simple_wsd - ENG30-00124038-b:0.7680::predstavljeno grafički	http://llod.jerteh.rs/WSD/seENG3000124038b	1	tesla_wsd	ENG30-00124038-b	
+13-27	1316-1317	.	PUNCT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	
+
+#Text=Nakon popuštanja verskih tenzija bilo je nekih radova na restauraciji katedrale.
+14-1	1317-1322	Nakon	PREP	ADP	_	_	nakon	_	_	_	_	_	_	_	_	_	
+14-2	1323-1333	popuštanja	N	NOUN	_	_	popuštanje	_	_	_	*	simple_wsd - ENG30-01071090-n:0.7957::čin tolerisanja čega - ENG30-04749991-n:0.7081::dopuštena razlika - dozvoljavanje određene slobode kretanja unutar granica	http://llod.jerteh.rs/WSD/seENG3001071090n	2	tesla_wsd	ENG30-01071090-n;ENG30-04749991-n	
+14-3	1334-1341	verskih	A	ADJ	_	_	verski	_	_	_	*	simple_wsd - ENG30-02055062-a:0.8410::koji se tiče religije ili ima religijsku namenu - ENG30-02056265-a:0.8109::koji se tiče svetih stvari, religije ili crkve	http://llod.jerteh.rs/WSD/seENG3002055062a	2	tesla_wsd	ENG30-02055062-a;ENG30-02056265-a	
+14-4	1342-1349	tenzija	N	NOUN	_	_	tenzija	_	_	_	*	simple_wsd - ENG30-13980596-n:0.8416::osećanja neprijateljstva koja nisu očigledna	http://llod.jerteh.rs/WSD/seENG3013980596n	1	tesla_wsd	ENG30-13980596-n	
+14-5	1350-1354	bilo	V	AUX	_	_	biti	_	_	_	_	_	_	_	_	_	
+14-6	1355-1357	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	
+14-7	1358-1363	nekih	PRO	DET	_	_	nekih	_	_	_	_	_	_	_	_	_	
+14-8	1364-1370	radova	N	NOUN	_	_	rad	_	_	_	*	simple_wsd - ENG30-00575741-n:0.8256::Aktivanost koja je usmerena ka tome da se nešto uradi. - ENG30-06269956-n:0.8227::naučni članak koji opisuje rezultate zapažanja ili iznosi hipoteze - ENG30-05755883-n:0.8199::primena uma za učenje i razumevanje neke teme (posebno čitanjem)	http://llod.jerteh.rs/WSD/seENG3000575741n	5	tesla_wsd	ENG30-00575741-n;ENG30-03838535-n;ENG30-04599396-n;ENG30-05755883-n;ENG30-06269956-n	
+14-9	1371-1373	na	PREP	ADP	_	_	na	_	_	_	_	_	_	_	_	_	
+14-10	1374-1386	restauraciji	N	NOUN	_	_	restauracija	_	_	_	*	simple_wsd - ENG30-00268557-n:0.8173::čin vraćanja nečega ili nekog u zadovoljavajući položaj - ENG30-04083468-n:0.8060::neki artefakt koji je obnovljen ili rekonstruisan - ENG30-00089351-n:0.7997::Dobijanje nečeg nazad.	http://llod.jerteh.rs/WSD/seENG3000268557n	4	tesla_wsd	ENG30-00089351-n;ENG30-00268557-n;ENG30-04083468-n;ENG30-14424517-n	
+14-11	1387-1396	katedrale	N	NOUN	_	_	katedrala	_	_	_	*	simple_wsd - ENG30-02984061-n:0.7408::bilo koja velika i važna crkva	http://llod.jerteh.rs/WSD/seENG3002984061n	1	tesla_wsd	ENG30-02984061-n	
+14-12	1396-1397	.	PUNCT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	
+
+#Text=Pošto je problem odolevao napadima vodećih matematičara tog vremena, dvadesetosmogodišnji Ojler je rešivši problem odmah postao slavan.
+15-1	1397-1402	Pošto	CONJ	SCONJ	_	_	pošto	_	_	_	_	_	_	_	_	_	
+15-2	1403-1405	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	
+15-3	1406-1413	problem	N	NOUN	_	_	problem	_	_	_	*	simple_wsd - ENG30-06784003-n:0.7551::pitanje postavljeno radi razmatranja ili rešenja - ENG30-14410605-n:0.7484::stanje teškoće koje treba rešiti - ENG30-05814650-n:0.7126::važno pitanje koje je sporno i mora se rešiti	http://llod.jerteh.rs/WSD/seENG3006784003n	4	tesla_wsd	ENG30-05687338-n;ENG30-05814650-n;ENG30-06784003-n;ENG30-14410605-n	
+15-4	1414-1422	odolevao	V	VERB	_	_	odolevati	_	_	_	*	simple_wsd - ENG30-02707800-v:0.7379::opirati se, pogotovo na zbunjujuć način	http://llod.jerteh.rs/WSD/seENG3002707800v	1	tesla_wsd	ENG30-02707800-v	
+15-5	1423-1431	napadima	N	NOUN	_	_	napad	_	_	_	*	simple_wsd - ENG30-00972621-n:0.8200::Ofanziva protiv neprijatelja, korišćenjem oružja. - ENG30-00974444-n:0.8173::bliska borba tokom kulminacije vojnog napada - ENG30-07456906-n:0.8129::Period igre tokom koga je jedan tim u napadu (u sportovima).	http://llod.jerteh.rs/WSD/seENG3000972621n	11	tesla_wsd	ENG30-00770543-n;ENG30-00773814-n;ENG30-00941140-n;ENG30-00964569-n;ENG30-00972621-n;ENG30-00974444-n;ENG30-01220619-n;ENG30-01221611-n;ENG30-07456906-n;ENG30-14081375-n;ENG30-14406303-n	
+15-6	1432-1439	vodećih	A	ADJ	_	_	vodeći	_	_	_	*	simple_wsd - ENG30-02339341-a:0.8688::najveći po važnosti ili stepenu ili značaju ili dostignuću - ENG30-01012855-a:0.8656::koji prethodi svim ostalima u vremenu - ENG30-01010862-a:0.8261::pre svih ostalih u vremenu, prostoru ili stepenu	http://llod.jerteh.rs/WSD/seENG3002339341a	3	tesla_wsd	ENG30-01010862-a;ENG30-01012855-a;ENG30-02339341-a	
+15-7	1440-1452	matematičara	N	NOUN	http://www.wikidata.org/entity/Q170790	ROLE	matematičar	_	_	_	*	simple_wsd - ENG30-10301261-n:0.7366::naučnik koji se bavi metematikom	http://llod.jerteh.rs/WSD/seENG3010301261n	1	tesla_wsd	ENG30-10301261-n	
+15-8	1453-1456	tog	PRO	DET	_	_	taj	_	_	_	_	_	_	_	_	_	
+15-9	1457-1464	vremena	N	NOUN	_	_	vreme	_	_	_	*	simple_wsd - ENG30-06329506-n:0.9177::gramatička kategorija glagola kojom se izražavaju distinkcije u vremenu - ENG30-15270431-n:0.9115::Vremenski period koji je pod nečijom kontrolom i koji ga smatra dovoljnim za postizanje nečega. - ENG30-15249236-n:0.8348::Doba postojanja ili uticaja.	http://llod.jerteh.rs/WSD/seENG3006329506n	12	tesla_wsd	ENG30-00028270-n;ENG30-00807078-n;ENG30-06329506-n;ENG30-11524662-n;ENG30-15122231-n;ENG30-15129927-n;ENG30-15135822-n;ENG30-15228378-n;ENG30-15228910-n;ENG30-15244650-n;ENG30-15249236-n;ENG30-15270431-n	
+15-10	1464-1465	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	
+15-11	1466-1486	dvadesetosmogodišnji	A	ADJ	_	_	dvadesetosmogodišnji	_	_	_	*	simple_wsd - CVDf-303/0:0.8421::koji traje ili se dešava u periodu od dvadeset godina.	http://llod.jerteh.rs/WSD/seCVDf303_0	1	tesla_wsd	CVDf-303/0	
+15-12	1487-1492	Ojler	N	PROPN	http://www.wikidata.org/entity/Q7604	PERS	Ojler	_	_	_	_	_	_	_	_	_	
+15-13	1493-1495	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	
+15-14	1496-1503	rešivši	V	VERB	_	_	rešiti	1	rešiti problem	LVC.full	*[28]	simple_wsd - CVMWE-0387:0.8308::naći pravilno rešenje, pronaći tačan odgovor[2010]	http://llod.jerteh.rs/WSD/seCVMWE0387[2010]	1[2010]	tesla_wsd	CVMWE-0387[2010]	
+15-15	1504-1511	problem	N	NOUN	_	_	problem	1	*	LVC.full	*[28]	simple_wsd - CVMWE-0387:0.8308::naći pravilno rešenje, pronaći tačan odgovor[2010]	http://llod.jerteh.rs/WSD/seCVMWE0387[2010]	1[2010]	tesla_wsd	CVMWE-0387[2010]	
+15-16	1512-1517	odmah	ADV	ADV	_	_	odmah	_	_	_	*	simple_wsd - ENG30-00048739-b:0.8005::bez odlaganja ili oklevanja; bez vremenskog razmaka - ENG30-00105467-b:0.7990::odmah (obično modifikuje nepoželjan događaj) - ENG30-00105603-b:0.7805::sa malim ili bez zakašnjenja	http://llod.jerteh.rs/WSD/seENG3000048739b	4	tesla_wsd	ENG30-00048739-b;ENG30-00105467-b;ENG30-00105603-b;ENG30-00181342-b	
+15-17	1518-1524	postao	V	VERB	_	_	postati	_	_	_	*	simple_wsd - ENG30-00094460-v:0.7942::promeniti se (u pogledu fizičkih karakteristika i atributa) - ENG30-02626604-v:0.7927::biti podvrgnut promeni ili razvoju - ENG30-00149583-v:0.7550::Ući ili poprimiti određeno stanje.	http://llod.jerteh.rs/WSD/seENG3000094460v	5	tesla_wsd	ENG30-00094460-v;ENG30-00149583-v;ENG30-02381571-v;ENG30-02623529-v;ENG30-02626604-v	
+15-18	1525-1531	slavan	A	ADJ	_	_	slavan	_	_	_	*	simple_wsd - ENG30-01375831-a:0.8104::opšte prihvaćen i uvažen - ENG30-01121402-a:0.7688::koji ima slavnu prošlost	http://llod.jerteh.rs/WSD/seENG3001375831a	2	tesla_wsd	ENG30-01121402-a;ENG30-01375831-a	
+15-19	1531-1532	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	
+
+#Text=Prema uslovima tog Sporazuma, Boemund je pristao da postane carski vazal i da brani carstvo kad god zatreba.
+16-1	1532-1537	Prema	PREP	ADP	_	_	prema	_	_	_	_	_	_	_	_	_	
+16-2	1538-1546	uslovima	N	NOUN	_	_	uslov	_	_	_	*	simple_wsd - ENG30-06751974-n:0.8749::jedan od koncepata koji se poredi ili povezuje u logičkoj propoziciji - ENG30-05822746-n:0.8676::informacije koje treba imati na umu kada se donosi odluka - ENG30-13920429-n:0.7919::Način postojanja ili oblik eszistencije osobe ili stvari.	http://llod.jerteh.rs/WSD/seENG3006751974n	5	tesla_wsd	ENG30-05822746-n;ENG30-05892651-n;ENG30-06751974-n;ENG30-06770875-n;ENG30-13920429-n	
+16-3	1547-1550	tog	PRO	DET	_	_	taj	_	_	_	_	_	_	_	_	_	
+16-4	1551-1560	Sporazuma	N	NOUN	_	_	sporazum	_	_	_	*	simple_wsd - ENG30-06773684-n:0.8597::formalni sporazum koji uspostavlja udruženje ili savez između nacija ili drugih grupa radi postizanja određenog cilja - ENG30-06770275-n:0.7954::iskaz (usmeni ili pisani) kojim se razmenjuju uzjamana obećanja - ENG30-06773434-n:0.7574::Pismeni sporazum između suverenih država.	http://llod.jerteh.rs/WSD/seENG3006773684n	5	tesla_wsd	ENG30-05794057-n;ENG30-06770275-n;ENG30-06773434-n;ENG30-06773684-n;ENG30-07176804-n	
+16-5	1560-1561	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	
+16-6	1562-1569	Boemund	N	PROPN	http://www.wikidata.org/entity/Q879631	PERS	Boemund	_	_	_	_	_	_	_	_	_	
+16-7	1570-1572	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	
+16-8	1573-1580	pristao	V	VERB	_	_	pristati	_	_	_	*	simple_wsd - ENG30-02301825-v:0.8821::prisvojiti kao svoje troškove ili dugove drugog lica - ENG30-01979085-v:0.8541::iskrcati se ili doći do luke - ENG30-02381397-v:0.8439::stupiti na dužnosti ili preuzeti kancelariju	http://llod.jerteh.rs/WSD/seENG3002301825v	6	tesla_wsd	ENG30-01979085-v;ENG30-02022486-v;ENG30-02087156-v;ENG30-02087472-v;ENG30-02301825-v;ENG30-02381397-v	
+16-9	1581-1583	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	
+16-10	1584-1591	postane	V	VERB	_	_	postati	_	_	_	*	simple_wsd - ENG30-02626604-v:0.8442::biti podvrgnut promeni ili razvoju - ENG30-00094460-v:0.8208::promeniti se (u pogledu fizičkih karakteristika i atributa) - ENG30-00149583-v:0.8075::Ući ili poprimiti određeno stanje.	http://llod.jerteh.rs/WSD/seENG3002626604v	5	tesla_wsd	ENG30-00094460-v;ENG30-00149583-v;ENG30-02381571-v;ENG30-02623529-v;ENG30-02626604-v	
+16-11	1592-1598	carski	A	ADJ	_	_	carski	_	_	_	*	simple_wsd - ENG30-01591394-a:0.8255::pripada ili priliči vrhovnom vladaru	http://llod.jerteh.rs/WSD/seENG3001591394a	1	tesla_wsd	ENG30-01591394-a	
+16-12	1599-1604	vazal	N	NOUN	http://www.wikidata.org/entity/Q223266	ROLE	vazal	_	_	_	*	simple_wsd - ENG30-10259094-n:0.7505::osoba koja drži feud	http://llod.jerteh.rs/WSD/seENG3010259094n	1	tesla_wsd	ENG30-10259094-n	
+16-13	1605-1606	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	
+16-14	1607-1609	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	
+16-15	1610-1615	brani	V	VERB	_	_	braniti	_	_	_	*	simple_wsd - ENG30-01076370-v:0.9210::igrati neposredno iza navalne linije (US ragbi) - ENG30-01129337-v:0.9135::paziti ili zaštititi od opasnosti ili štete; zaštititi - ENG30-02581675-v:0.9039::biti branilac nekoga u sudskom postupku	http://llod.jerteh.rs/WSD/seENG3001076370v	8	tesla_wsd	ENG30-00895304-v;ENG30-00896497-v;ENG30-01076370-v;ENG30-01129337-v;ENG30-01129876-v;ENG30-01148296-v;ENG30-01149138-v;ENG30-02581675-v	
+16-16	1616-1623	carstvo	N	NOUN	_	_	carstvo	_	_	_	*	simple_wsd - ENG30-07940552-n:0.8986::Jedna od sedam bioloških kategorija: Monera ili Protoctista ili Plantae ili Fungi ili Animalia. - ENG30-08052413-n:0.8430::grupa zemalja pod jedinstvenom vlašću - ENG30-08557482-n:0.7931::zemlja kojom upravlja car ili carica	http://llod.jerteh.rs/WSD/seENG3007940552n	4	tesla_wsd	ENG30-07940448-n;ENG30-07940552-n;ENG30-08052413-n;ENG30-08557482-n	
+16-17	1624-1627	kad	CONJ	SCONJ	_	_	kad	_	_	_	_	_	_	_	_	_	
+16-18	1628-1631	god	PAR	PART	_	_	god	_	_	_	_	_	_	_	_	_	
+16-19	1632-1639	zatreba	V	VERB	_	_	zatrebati	_	_	_	*	simple_wsd - DRJ0-243269/0:0.8315::postati potreban, ustrebati.	http://llod.jerteh.rs/WSD/seDRJ0243269_0	1	tesla_wsd	DRJ0-243269/0	
+16-20	1639-1640	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	
+
+#Text=Do naseljavanja Atrebata u Britaniji nije došlo masovnom seobom stanovništva.
+17-1	1640-1642	Do	PREP	ADP	_	_	do	_	_	_	_	_	_	_	_	_	
+17-2	1643-1655	naseljavanja	N	NOUN	_	_	naseljavanje	_	_	_	*	simple_wsd - ENG30-01252280-n:0.8803::čin kolonizacije; osnivanje kolonija	http://llod.jerteh.rs/WSD/seENG3001252280n	1	tesla_wsd	ENG30-01252280-n	
+17-3	1656-1664	Atrebata	N	PROPN	http://www.wikidata.org/entity/Q164811	DEMO	Atrebat	_	_	_	_	_	_	_	_	_	
+17-4	1665-1666	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	_	_	
+17-5	1667-1676	Britaniji	N	PROPN	http://www.wikidata.org/entity/Q23666	LOC	Britanija	_	_	_	_	_	_	_	_	_	
+17-6	1677-1681	nije	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	
+17-7	1682-1687	došlo	V	VERB	_	_	doći	_	_	_	*	simple_wsd - ENG30-02020590-v:0.9267::Doći na odredište ili određenu tačku ili nivo. - ENG30-02005948-v:0.8876::Dostignuti destinaciju; doći kretanjem ili napredovanjem. - ENG30-00341917-v:0.8775::desiti se; stići, u odgovarajućem trenutku	http://llod.jerteh.rs/WSD/seENG3002020590v	12	tesla_wsd	ENG30-00341917-v;ENG30-00342443-v;ENG30-00344886-v;ENG30-00425071-v;ENG30-02005948-v;ENG30-02006573-v;ENG30-02006709-v;ENG30-02020590-v;ENG30-02108791-v;ENG30-02624263-v;ENG30-02737187-v;ENG30-02743214-v	
+17-8	1688-1696	masovnom	A	ADJ	_	_	masovan	_	_	_	*	simple_wsd - ENG30-00487198-a:0.7715::preovlađuje među i zajednički za širu javnost - ENG30-01063521-a:0.7218::koji je nacionalnog obima	http://llod.jerteh.rs/WSD/seENG3000487198a	2	tesla_wsd	ENG30-00487198-a;ENG30-01063521-a	
+17-9	1697-1703	seobom	N	NOUN	_	_	seoba	_	_	_	*	simple_wsd - ENG30-01123095-n:0.6870::Migracija osoba iz jedne zemlje ili lokaliteta u drugu.	http://llod.jerteh.rs/WSD/seENG3001123095n	1	tesla_wsd	ENG30-01123095-n	
+17-10	1704-1716	stanovništva	N	NOUN	_	_	stanovništvo	_	_	_	*	simple_wsd - ENG30-13779804-n:0.8097::broj stanovnika (bilo ukupan broj ili broj određene rase ili klase) na određenom mestu (država ili grad itd.) - ENG30-08179879-n:0.7118::Ljudi koji nastanjuju teritoriju ili državu.	http://llod.jerteh.rs/WSD/seENG3013779804n	2	tesla_wsd	ENG30-08179879-n;ENG30-13779804-n	
+17-11	1716-1717	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	
+
+#Text=Na ovoj poziciji podržavao je careve interese i na kraju postao jedan od njegovih najbližih savetnika.
+18-1	1717-1719	Na	PREP	ADP	_	_	na	_	_	_	_	_	_	_	_	_	
+18-2	1720-1724	ovoj	PRO	DET	_	_	ovaj	_	_	_	_	_	_	_	_	_	
+18-3	1725-1733	poziciji	N	NOUN	_	_	pozicija	_	_	_	*	simple_wsd - ENG30-13945919-n:0.8213::Relativan položaj stvari, a posebno ljudi, u društvu. - ENG30-08620061-n:0.8064::Precizno mesto negde; prostorno ograničeno mesto. - ENG30-08622201-n:0.7925::odgovarajuća ili uobičajena lokacija	http://llod.jerteh.rs/WSD/seENG3013945919n	8	tesla_wsd	ENG30-06196284-n;ENG30-06483454-n;ENG30-06783265-n;ENG30-08620061-n;ENG30-08622201-n;ENG30-08622950-n;ENG30-13925752-n;ENG30-13945919-n	
+18-4	1734-1743	podržavao	V	VERB	_	_	podržavati	_	_	_	*	simple_wsd - ENG30-02663340-v:0.9023::podržati dokazima ili autoritetom ili učiniti sigurnijim ili potvrditi - ENG30-00719231-v:0.8697::pozitivno na šta reagovati; ispravnim i pravilnim smatrati - ENG30-01149138-v:0.8325::koga štititi ili se za koga boriti kao pokrovitelj	http://llod.jerteh.rs/WSD/seENG3002663340v	6	tesla_wsd	ENG30-00719231-v;ENG30-00806314-v;ENG30-01148710-v;ENG30-01149138-v;ENG30-02556126-v;ENG30-02663340-v	
+18-5	1744-1746	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	
+18-6	1747-1753	careve	A	ADJ	_	_	carev	_	_	_	*	simple_wsd - RSSJ-58559/0:0.8336::koji pripada caru; svojstven caru.	http://llod.jerteh.rs/WSD/seRSSJ58559_0	1	tesla_wsd	RSSJ-58559/0	
+18-7	1754-1762	interese	N	NOUN	_	_	interes	_	_	_	*	simple_wsd - ENG30-05682950-n:0.8605::Osećaj zanimanja i zainteresovanosti za nekoga ili nešto. - ENG30-05143077-n:0.8293::razlog za želju da se nešto uradi - ENG30-13286801-n:0.7193::Pravedni ili zakoniti deo nečega; finansijska uključenost u nešto.	http://llod.jerteh.rs/WSD/seENG3005682950n	4	tesla_wsd	ENG30-05143077-n;ENG30-05682950-n;ENG30-13286801-n;ENG30-13318584-n	
+18-8	1763-1764	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	
+18-9	1765-1767	na	PREP	ADP	_	_	na	1[10]	na kraju[10]	AdvID[10]	*[29]	simple_wsd - LLM-0131:0.9292::Na završetku nečega (kao predlog, npr. "na kraju puta"). - LLM-0130:0.7875::Po završetku nečega; u poslednjem trenutku.[2011]	http://llod.jerteh.rs/WSD/seLLM0131[2011]	2[2011]	tesla_wsd	LLM-0130;LLM-0131[2011]	
+18-10	1768-1773	kraju	N	NOUN	_	_	kraj	1[10]	na kraju[10]	AdvID[10]	*[29]	simple_wsd - LLM-0131:0.9292::Na završetku nečega (kao predlog, npr. "na kraju puta"). - LLM-0130:0.7875::Po završetku nečega; u poslednjem trenutku.[2011]	http://llod.jerteh.rs/WSD/seLLM0131[2011]	2[2011]	tesla_wsd	LLM-0130;LLM-0131[2011]	
+18-11	1774-1780	postao	V	VERB	_	_	postati	_	_	_	*	simple_wsd - ENG30-00094460-v:0.8841::promeniti se (u pogledu fizičkih karakteristika i atributa) - ENG30-02626604-v:0.8437::biti podvrgnut promeni ili razvoju - ENG30-00149583-v:0.8016::Ući ili poprimiti određeno stanje.	http://llod.jerteh.rs/WSD/seENG3000094460v	5	tesla_wsd	ENG30-00094460-v;ENG30-00149583-v;ENG30-02381571-v;ENG30-02623529-v;ENG30-02626604-v	
+18-12	1781-1786	jedan	NUM	NUM	_	_	jedan	_	_	_	_	_	_	_	_	_	
+18-13	1787-1789	od	PREP	ADP	_	_	od	_	_	_	_	_	_	_	_	_	
+18-14	1790-1798	njegovih	PRO	DET	_	_	njegov	_	_	_	_	_	_	_	_	_	
+18-15	1799-1808	najbližih	A	ADJ	_	_	blizak	_	_	_	*	simple_wsd - ENG30-01972070-a:0.9414::koji je povezan zajedničkom karakteristikom ili poreklom - ENG30-00445308-a:0.8656::koji je u tragaču blizini traženog objekta (cilja) - ENG30-00444519-a:0.8222::Koji nije dalek u vremenu ili prostoru ili po okolnostima.	http://llod.jerteh.rs/WSD/seENG3001972070a	5	tesla_wsd	ENG30-00444519-a;ENG30-00445169-a;ENG30-00445308-a;ENG30-00451510-a;ENG30-01972070-a	
+18-16	1809-1818	savetnika	N	NOUN	http://www.wikidata.org/entity/Q2994387	ROLE	savetnik	_	_	_	*	simple_wsd - ENG30-00591236-n:0.6801::Pozicija savetnika. - ENG30-09968845-n:0.6514::neko ko daje savete o problemima	http://llod.jerteh.rs/WSD/seENG3000591236n	2	tesla_wsd	ENG30-00591236-n;ENG30-09968845-n	
+18-17	1818-1819	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	
+
+#Text=Univerzitet se sastoji od 18 koledža i škola koje nude preko 150 studijskih programa.
+19-1	1819-1830	Univerzitet	N	NOUN	_	_	univerzitet	_	_	_	*	simple_wsd - ENG30-04511002-n:0.9768::Objekat u kome je sedište visokog obrazovanja, uključujući upravu, smeštaj kao i prostorije za istraživanje i nastavu. - ENG30-08286163-n:0.8040::fakultet i studenti na univerzitetu - ENG30-08274923-n:0.7577::akademski svet	http://llod.jerteh.rs/WSD/seENG3004511002n	4	tesla_wsd	ENG30-04511002-n;ENG30-08274923-n;ENG30-08286163-n;ENG30-08286569-n	
+19-2	1831-1833	se	PAR	PART	_	_	se	1	*	IRV	*[30]	simple_wsd - CVMWE-0394:0.7856::biti sastavljen iz (od) nečega - ENG30-02632940-v:0.6993::Imati kao deo.[2012]	http://llod.jerteh.rs/WSD/seCVMWE0394[2012]	2[2012]	tesla_wsd	CVMWE-0394;ENG30-02632940-v[2012]	
+19-3	1834-1841	sastoji	V	VERB	_	_	sastojati	1	sastojati se	IRV	*[30]	simple_wsd - CVMWE-0394:0.7856::biti sastavljen iz (od) nečega - ENG30-02632940-v:0.6993::Imati kao deo.[2012]	http://llod.jerteh.rs/WSD/seCVMWE0394[2012]	2[2012]	tesla_wsd	CVMWE-0394;ENG30-02632940-v[2012]	
+19-4	1842-1844	od	PREP	ADP	_	_	od	_	_	_	_	_	_	_	_	_	
+19-5	1845-1847	18	NUM	NUM	_	_	18	_	_	_	_	_	_	_	_	_	
+19-6	1848-1855	koledža	N	NOUN	_	_	koledž	_	_	_	*	simple_wsd - ENG30-07778422-n:0.7456::institucija višeg obrazovanja stvorena s ciljem da obrazuje i dodeljuje diplome, često kao deo univerziteta - ENG30-08278169-n:0.6069::fakulteta i studenti koji su u sklopu koledža	http://llod.jerteh.rs/WSD/seENG3007778422n	2	tesla_wsd	ENG30-07778422-n;ENG30-08278169-n	
+19-7	1856-1857	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	
+19-8	1858-1863	škola	N	NOUN	_	_	škola	_	_	_	*	simple_wsd - ENG30-08275185-n:0.8270::grupa umetnika, pisaca ili mislilaca koje okuplja sličan stil ili učenje - ENG30-08277393-n:0.6880::fakultet i studenti u kakvoj obrazovnoj ustanovi - ENG30-04146050-n:0.6566::Zgrada u kojoj se mladi ljudi obrazuju.	http://llod.jerteh.rs/WSD/seENG3008275185n	5	tesla_wsd	ENG30-04146050-n;ENG30-05757536-n;ENG30-08275185-n;ENG30-08276720-n;ENG30-08277393-n	
+19-9	1864-1868	koje	PRO	DET	_	_	koji	_	_	_	_	_	_	_	_	_	
+19-10	1869-1873	nude	V	VERB	_	_	nuditi	_	_	_	*	simple_wsd - ENG30-02296726-v:0.7579::Napraviti dostupnim ili pristupačnim. - ENG30-00888009-v:0.7244::s najboljom namerom šta ponuditi - ENG30-02613487-v:0.7214::nuditi u znak vere u boga	http://llod.jerteh.rs/WSD/seENG3002296726v	4	tesla_wsd	ENG30-00888009-v;ENG30-02296726-v;ENG30-02297948-v;ENG30-02613487-v	
+19-11	1874-1879	preko	PREP	ADP	_	_	preko	_	_	_	_	_	_	_	_	_	
+19-12	1880-1883	150	NUM	NUM	_	_	150	_	_	_	_	_	_	_	_	_	
+19-13	1884-1894	studijskih	A	ADJ	_	_	studijski	2[11]	studijski program[11]	NID[11]	*[31]	simple_wsd - LLM-0251:0.8896::Nastavni plan i program koji se realizuje na obrazovnoj ustanovi.[2013]	http://llod.jerteh.rs/WSD/seLLM0251[2013]	1[2013]	tesla_wsd	LLM-0251[2013]	
+19-14	1895-1903	programa	N	NOUN	_	_	program	2[11]	studijski program[11]	NID[11]	*[31]	simple_wsd - LLM-0251:0.8896::Nastavni plan i program koji se realizuje na obrazovnoj ustanovi.[2013]	http://llod.jerteh.rs/WSD/seLLM0251[2013]	1[2013]	tesla_wsd	LLM-0251[2013]	
+19-15	1903-1904	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	
+
+#Text=Svi prosto nastavljaju da hodaju kao zombiji.
+20-1	1904-1907	Svi	PRO	DET	_	_	sav	_	_	_	_	_	_	_	_	_	
+20-2	1908-1914	prosto	ADV	ADV	_	_	prosto	_	_	_	*	simple_wsd - ENG30-00005055-b:0.9045::na jednostavan način; bez preterivanja ili ulepšavanja	http://llod.jerteh.rs/WSD/seENG3000005055b	1	tesla_wsd	ENG30-00005055-b	
+20-3	1915-1926	nastavljaju	V	VERB	_	_	nastavljati	_	_	_	*	simple_wsd - ENG30-02747709-v:0.8091::nastaviti nakon prekida	http://llod.jerteh.rs/WSD/seENG3002747709v	1	tesla_wsd	ENG30-02747709-v	
+20-4	1927-1929	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	
+20-5	1930-1936	hodaju	V	VERB	_	_	hodati	_	_	_	*	simple_wsd - ENG30-01882170-v:0.8161::šetati se; krenuti u šetnju, šetati se iz zadovoljstva - ENG30-01959776-v:0.8036::hodati određenim korakom - ENG30-01906823-v:0.7487::šetati se	http://llod.jerteh.rs/WSD/seENG3001882170v	3	tesla_wsd	ENG30-01882170-v;ENG30-01906823-v;ENG30-01959776-v	
+20-6	1937-1940	kao	CONJ	CCONJ	_	_	kao	_	_	_	_	_	_	_	_	_	
+20-7	1941-1948	zombiji	N	NOUN	_	_	zombi	_	_	_	*	simple_wsd - ENG30-10805638-n:0.8907::mrtvo telo koje je natprirodna sila vratila u život	http://llod.jerteh.rs/WSD/seENG3010805638n	1	tesla_wsd	ENG30-10805638-n	
+20-8	1948-1949	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	
+
+#Text=Drugi amandman ustava Sjedinjenih Država daje nam pravo da nosimo oružje.
+21-1	1949-1954	Drugi	A	ADJ	_	_	drugi	_	_	_	*	simple_wsd - ENG30-02070030-a:0.7382::jasno različit od nekog sasvim drugog ili prvog - ENG30-00048858-a:0.6884::dalje ili dodato - ENG30-02070188-a:0.6458::Ne baš onaj koji je prvo pomenut ili ne od najveće važnosti; neki drugi.	http://llod.jerteh.rs/WSD/seENG3002070030a	4	tesla_wsd	ENG30-00048858-a;ENG30-02070030-a;ENG30-02070188-a;ENG30-02202146-a	
+21-2	1955-1963	amandman	N	NOUN	_	_	amandman	_	_	_	*	simple_wsd - ENG30-01250101-n:0.6713::čin popravljanja ili ispravljanja	http://llod.jerteh.rs/WSD/seENG3001250101n	1	tesla_wsd	ENG30-01250101-n	
+21-3	1964-1970	ustava	N	NOUN	_	_	ustav	_	_	_	*	simple_wsd - ENG30-06533648-n:0.7516::Zakon koji određuje ustrojstvo vlade.	http://llod.jerteh.rs/WSD/seENG3006533648n	1	tesla_wsd	ENG30-06533648-n	
+21-4	1971-1982	Sjedinjenih	A	ADJ	http://www.wikidata.org/entity/Q30[5]	LOC[5]	sjedinjen	_	_	_	*	simple_wsd - ENG30-02112108-a:0.6721::koji ukjljučuje zajedničku aktivnost dvoje ili više njih	http://llod.jerteh.rs/WSD/seENG3002112108a	1	tesla_wsd	ENG30-02112108-a	
+21-5	1983-1989	Država	N	NOUN	http://www.wikidata.org/entity/Q30[5]	LOC[5]	država	_	_	_	*	simple_wsd - ENG30-08168978-n:0.7918::Politička organizacija tela ljudi koji su pod jednom vladom. - ENG30-08178547-n:0.7448::Grupa ljudi koji čine vlast suverene države. - ENG30-08544813-n:0.7423::Teritorija koju zauzima narod.	http://llod.jerteh.rs/WSD/seENG3008168978n	3	tesla_wsd	ENG30-08168978-n;ENG30-08178547-n;ENG30-08544813-n	
+21-6	1990-1994	daje	V	VERB	_	_	davati	1	dati pravo	LVC.full	*[32]	simple_wsd - CVMWE-0041:0.7272::odobriti nekome da nešto radi, deluje na neki način[2014]	http://llod.jerteh.rs/WSD/seCVMWE0041[2014]	1[2014]	tesla_wsd	CVMWE-0041[2014]	
+21-7	1995-1998	nam	PRO	PRON	_	_	mi	_	_	_	*[32]	_	_	_	_	_	
+21-8	1999-2004	pravo	N	NOUN	_	_	pravo	1	*	LVC.full	*[32]	simple_wsd - CVMWE-0041:0.7272::odobriti nekome da nešto radi, deluje na neki način[2014]	http://llod.jerteh.rs/WSD/seCVMWE0041[2014]	1[2014]	tesla_wsd	CVMWE-0041[2014]	
+21-9	2005-2007	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	
+21-10	2008-2014	nosimo	V	VERB	_	_	nositi	_	_	_	*	simple_wsd - ENG30-01432601-v:0.8011::Držati na leđima i prenositi; nositi darove; i sa imenicama komunikacije: "prenositi vesti"; "prenositi naređenja". - ENG30-02302220-v:0.7943::Imati po pravu; o pravima i titulama. - ENG30-01450792-v:0.7713::prenositi, poneti, preneti ili doneti	http://llod.jerteh.rs/WSD/seENG3001432601v	9	tesla_wsd	ENG30-00059019-v;ENG30-01224415-v;ENG30-01432601-v;ENG30-01450792-v;ENG30-01601234-v;ENG30-02079933-v;ENG30-02302220-v;ENG30-02636516-v;ENG30-02717102-v	
+21-11	2015-2021	oružje	N	NOUN	_	_	oružje	_	_	_	*	simple_wsd - ENG30-04565375-n:0.8371::Oruđe koje se koristi za borbu ili lov. - ENG30-07246932-n:0.7229::Sredstva za ubeđivanje ili argumentaciju. - ENG30-02738031-n:0.7161::oružje koje koriste vojne ili pomorske snage	http://llod.jerteh.rs/WSD/seENG3004565375n	5	tesla_wsd	ENG30-02738031-n;ENG30-02746365-n;ENG30-04565375-n;ENG30-04566257-n;ENG30-07246932-n	
+21-12	2021-2022	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	
+
+#Text=Koristi se i za pravljenje sladoleda.
+22-1	2022-2029	Koristi	V	VERB	_	_	koristiti	_	_	_	*	simple_wsd - ENG30-01165043-v:0.9587::Uzimati ili konzumirati redovno ili često. - ENG30-02436963-v:0.9546::uzrokovati da šta radi ili funkcioniše - ENG30-02707429-v:0.9536::biti primenljiv na (npr. u vezi sa kakvom analizom)	http://llod.jerteh.rs/WSD/seENG3001165043v	6	tesla_wsd	ENG30-01165043-v;ENG30-01224415-v;ENG30-02436963-v;ENG30-02541251-v;ENG30-02561332-v;ENG30-02707429-v	
+22-2	2030-2032	se	PAR	PART	_	_	se	_	_	_	_	_	_	_	_	_	
+22-3	2033-2034	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	
+22-4	2035-2037	za	PREP	ADP	_	_	za	_	_	_	_	_	_	_	_	_	
+22-5	2038-2048	pravljenje	N	NOUN	_	_	pravljenje	_	_	_	*	simple_wsd - RSSJ-39346/0:0.8838::činjenje, stvaranje, sastavljanje nečega.	http://llod.jerteh.rs/WSD/seRSSJ39346_0	1	tesla_wsd	RSSJ-39346/0	
+22-6	2049-2058	sladoleda	N	NOUN	_	_	sladoled	_	_	_	*	simple_wsd - ENG30-07614500-n:0.9622::hladna poslastica koja sadrži slatku pavlaku, voće i šećer	http://llod.jerteh.rs/WSD/seENG3007614500n	1	tesla_wsd	ENG30-07614500-n	
+22-7	2058-2059	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	
+
+#Text=Robot ne sme da povredi ljudsko biće ili da, nečinjenjem, dozvoli da se ljudsko biće povredi.
+23-1	2059-2064	Robot	N	NOUN	_	_	robot	_	_	_	*	simple_wsd - ENG30-02761392-n:0.8167::Mehanizam koji se sam pokreće.	http://llod.jerteh.rs/WSD/seENG3002761392n	1	tesla_wsd	ENG30-02761392-n	
+23-2	2065-2067	ne	PAR	PART	_	_	ne	_	_	_	_	_	_	_	_	_	
+23-3	2068-2071	sme	V	VERB	_	_	smeti	_	_	_	*	simple_wsd - DRJ0-176894/1:0.7868::imati smelosti, usuđivati se učiniti nešto: - DRJ0-176894/2а.:0.6935::biti dopušteno, dozvoljeno (nekome). - DRJ0-176894/2б.:0.6387::u učtivom pitanju.	http://llod.jerteh.rs/WSD/seDRJ0176894_1	4	tesla_wsd	DRJ0-176894/1;DRJ0-176894/2а.;DRJ0-176894/2б.;DRJ0-176894/3	
+23-4	2072-2074	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	
+23-5	2075-2082	povredi	V	VERB	_	_	povrediti	_	_	_	*	simple_wsd - ENG30-00064643-v:0.7921::Izazvati bol ili nevolju kod nekoga. - ENG30-01793177-v:0.7462::povrediti nečija osećanja	http://llod.jerteh.rs/WSD/seENG3000064643v	2	tesla_wsd	ENG30-00064643-v;ENG30-01793177-v	
+23-6	2083-2090	ljudsko	A	ADJ	_	_	ljudski	1[12]	ljudsko biće[12]	NID[12]	*[33]	simple_wsd - ENG30-00007846-n:0.6450::Ljudsko biće.[2015]	http://llod.jerteh.rs/WSD/seENG3000007846n[2015]	1[2015]	tesla_wsd	ENG30-00007846-n[2015]	
+23-7	2091-2095	biće	N	NOUN	_	_	biće	1[12]	ljudsko biće[12]	NID[12]	*[33]	simple_wsd - ENG30-00007846-n:0.6450::Ljudsko biće.[2015]	http://llod.jerteh.rs/WSD/seENG3000007846n[2015]	1[2015]	tesla_wsd	ENG30-00007846-n[2015]	
+23-8	2096-2099	ili	CONJ	CCONJ	_	_	ili	_	_	_	_	_	_	_	_	_	
+23-9	2100-2102	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	
+23-10	2102-2103	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	
+23-11	2104-2115	nečinjenjem	N	NOUN	_	_	nečinjenje	_	_	_	*	simple_wsd - RSSJ-30760/0:0.7282::izostanak činjenja; propuštanje, neaktivnost.	http://llod.jerteh.rs/WSD/seRSSJ30760_0	1	tesla_wsd	RSSJ-30760/0	
+23-12	2115-2116	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	
+23-13	2117-2124	dozvoli	V	VERB	_	_	dozvoliti	_	_	_	*	simple_wsd - ENG30-00802946-v:0.7663::dozvoliti nečije prisustvo ili aktivnost bez protivljenja ili zabrane - ENG30-02721438-v:0.7510::Napraviti mogućnost ili obezbediti mogućnost za nešto; dozvoliti da se dostigne ili izazvati da ostane. - ENG30-02494047-v:0.6908::učiniti dostupnim publikaciji (informacije)	http://llod.jerteh.rs/WSD/seENG3000802946v	11	tesla_wsd	ENG30-00723545-v;ENG30-00724150-v;ENG30-00802318-v;ENG30-00802946-v;ENG30-00803325-v;ENG30-00806049-v;ENG30-02255462-v;ENG30-02444662-v;ENG30-02494047-v;ENG30-02721438-v;ENG30-02745486-v	
+23-14	2125-2127	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	
+23-15	2128-2130	se	PAR	PART	_	_	se	_	_	_	_	_	_	_	_	_	
+23-16	2131-2138	ljudsko	A	ADJ	_	_	ljudski	2[13]	ljudsko biće[13]	NID[13]	*[34]	simple_wsd - ENG30-00007846-n:0.6347::Ljudsko biće.[2016]	http://llod.jerteh.rs/WSD/seENG3000007846n[2016]	1[2016]	tesla_wsd	ENG30-00007846-n[2016]	
+23-17	2139-2143	biće	N	NOUN	_	_	biće	2[13]	ljudsko biće[13]	NID[13]	*[34]	simple_wsd - ENG30-00007846-n:0.6347::Ljudsko biće.[2016]	http://llod.jerteh.rs/WSD/seENG3000007846n[2016]	1[2016]	tesla_wsd	ENG30-00007846-n[2016]	
+23-18	2144-2151	povredi	V	VERB	_	_	povrediti	_	_	_	*	simple_wsd - ENG30-00064643-v:0.6618::Izazvati bol ili nevolju kod nekoga. - ENG30-01793177-v:0.6269::povrediti nečija osećanja	http://llod.jerteh.rs/WSD/seENG3000064643v	2	tesla_wsd	ENG30-00064643-v;ENG30-01793177-v	
+23-19	2151-2152	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	
+
+#Text=Odnosi su se dodatno pogoršali kada je Čen pozvao anarhiste, komuniste i federaliste u pokret.
+24-1	2152-2158	Odnosi	N	NOUN	_	_	odnos	_	_	_	*	simple_wsd - ENG30-00031921-n:0.9297::Apstrakcija koja pripada ili karakteriše dva entiteta. - ENG30-13928668-n:0.8784::Stanje koje uključuje uzajamno delovanje ljudi, partija ili zemalja. - ENG30-13815449-n:0.8293::Relativna veličina dve vrednosti, obično se izražava razlomkom.	http://llod.jerteh.rs/WSD/seENG3000031921n	4	tesla_wsd	ENG30-00031921-n;ENG30-00040962-n;ENG30-13815449-n;ENG30-13928668-n	
+24-2	2159-2161	su	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	
+24-3	2162-2164	se	PAR	PART	_	_	se	1	*	IRV	*[35]	simple_wsd - CVMWE-0296:0.8803::postati gori, lošiji, nepodnošljiviji - CVMWE-0295:0.7889::krenuti nagore (o zdravlju) - ENG30-00203866-v:0.7267::Postati lošije.[2017]	http://llod.jerteh.rs/WSD/seCVMWE0296[2017]	4[2017]	tesla_wsd	CVMWE-0295;CVMWE-0296;ENG30-00203866-v;ENG30-00431826-v[2017]	
+24-4	2165-2172	dodatno	ADV	ADV	_	_	dodatno	_	_	_	*[35]|*[36]	simple_wsd - DRJ0-237188/0:0.7513::još, uz već postojeće:	http://llod.jerteh.rs/WSD/seDRJ0237188_0	1	tesla_wsd	DRJ0-237188/0	
+24-5	2173-2182	pogoršali	V	VERB	_	_	pogoršati	1	pogoršati se	IRV	*[35]	simple_wsd - CVMWE-0296:0.8803::postati gori, lošiji, nepodnošljiviji - CVMWE-0295:0.7889::krenuti nagore (o zdravlju) - ENG30-00203866-v:0.7267::Postati lošije.[2017]	http://llod.jerteh.rs/WSD/seCVMWE0296[2017]	4[2017]	tesla_wsd	CVMWE-0295;CVMWE-0296;ENG30-00203866-v;ENG30-00431826-v[2017]	
+24-6	2183-2187	kada	CONJ	SCONJ	_	_	kada	_	_	_	_	_	_	_	_	_	
+24-7	2188-2190	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	
+24-8	2191-2194	Čen	N	PROPN	http://www.wikidata.org/entity/Q714677	PERS	Čen	_	_	_	_	_	_	_	_	_	
+24-9	2195-2201	pozvao	V	VERB	_	_	pozvati	_	_	_	*	simple_wsd - ENG30-01469770-v:0.8795::Pozvati nekoga da uđe ili navrati. - ENG30-01041762-v:0.8576::zatražiti od koga da dođe - ENG30-00754156-v:0.8113::narediti ili zahtevati ili dati komandu za	http://llod.jerteh.rs/WSD/seENG3001469770v	8	tesla_wsd	ENG30-00655555-v;ENG30-00753881-v;ENG30-00754156-v;ENG30-00792471-v;ENG30-01041762-v;ENG30-01469770-v;ENG30-02305586-v;ENG30-02384686-v	
+24-10	2202-2211	anarhiste	N	NOUN	_	_	anarhista	_	_	_	*	simple_wsd - ENG30-09791816-n:0.7915::zagovornik anarhizma	http://llod.jerteh.rs/WSD/seENG3009791816n	1	tesla_wsd	ENG30-09791816-n	
+24-11	2211-2212	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	
+24-12	2213-2222	komuniste	N	NOUN	_	_	komunista	_	_	_	*	simple_wsd - ENG30-09945319-n:0.7904::socilaista koji zastupa komunističku ideologiju - ENG30-09945603-n:0.7380::član komunističke partije	http://llod.jerteh.rs/WSD/seENG3009945319n	2	tesla_wsd	ENG30-09945319-n;ENG30-09945603-n	
+24-13	2223-2224	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	
+24-14	2225-2236	federaliste	N	NOUN	_	_	federalista	_	_	_	*	simple_wsd - ENG30-10082997-n:0.7638::zagovornik federalizma	http://llod.jerteh.rs/WSD/seENG3010082997n	1	tesla_wsd	ENG30-10082997-n	
+24-15	2237-2238	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	_	_	
+24-16	2239-2245	pokret	N	NOUN	_	_	pokret	_	_	_	*	simple_wsd - ENG30-07309781-n:0.9093::Prirodni događaj koji uključuje promenu pozicije ili lokacije nečega. - ENG30-08464601-n:0.8974::Grupa ljudi koji imaju zejdničku ideologiju i koji zajedno pokušavaju da ostvare određene opšte ciljeve. - ENG30-00347652-n:0.8749::uzrokovanje da se nešto stalno pomera sa jedne na drugu stranu	http://llod.jerteh.rs/WSD/seENG3007309781n	6	tesla_wsd	ENG30-00334509-n;ENG30-00347652-n;ENG30-00349369-n;ENG30-00569898-n;ENG30-07309781-n;ENG30-08464601-n	
+24-17	2245-2246	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	

@@ -1,0 +1,27 @@
+\textit{System Message:}
+
+Vi ste ekspert za leksiku i semantiku. Na osnovu konteksta rečenice i liste validnih značenja ciljne reči,
+vaš zadatak je da identifikujete ono značenje koje se najpreciznije koristi u datom kontekstu.
+
+Odgovor mora biti u strogo definisanom JSON formatu:
+
+\{\{
+  "sense\_id": "<jedan od ponuđenih ID-jeva ili 'NEW\_SENSE'>",
+  "explanation": "<kratko i jasno obrazloženje u jednoj ili dve rečenice zašto je to značenje primenjivo. Ako se koristi 'NEW\_SENSE', objasnite zašto nijedno ponuđeno značenje ne odgovara.>"
+\}\}
+
+Ne dodajete nikakav dodatni tekst van JSON strukture.
+Koristite 'NEW\_SENSE' samo ako nijedno značenje nije čak ni približno tačno u kontekstu.
+Sense\_id mora biti identičan jednom od ponuđenih ID-jeva ili tačno 'NEW\_SENSE'; nikada ne smete izmišljati druge ID-ove.
+
+\textit{User Message:}
+
+\textbf{Kontekst:} \textbf{Krup} pogađa oko 15 \% dece i obično se javlja između 6 meseci i 5–6 godina.
+
+\textbf{Ciljna reč:} krup
+
+\textbf{Moguća značenja:}
+\begin{enumerate}
+    \item ID: ENG30-14174011-n — bolest odojčadi i male dece; jak kašalj i promuklost i groznica i otežano disanje
+    \item ID: ENG30-14349311-n — upaljenje grkljana, dušnika i bronhijalnih prolaza
+\end{enumerate}

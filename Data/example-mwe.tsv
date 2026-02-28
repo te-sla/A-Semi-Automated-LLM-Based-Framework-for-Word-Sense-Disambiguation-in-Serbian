@@ -1,0 +1,38 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue|coarseValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_SP=webanno.custom.MWE|MWEid|MWElemma|MWEtype
+#T_SP=webanno.custom.WSD|Comment|Explanation|KBid|NumberOfSenses|Origine|Possible
+
+
+#Text=Bakterije se mogu širiti i putem krvi.
+185-1	17460-17469	Bakterije	N	NOUN	_	_	bakterija	_	_	_	*	U ovom kontekstu, 'bakterije' se odnosi na mikroorganizme koji mogu da se šire putem krvi, što odgovara opisu jednoćelijskih organizama iz ponuđenog značenja.	http://llod.jerteh.rs/WSD/seENG3001348530n	1	ChatGPT	ENG30-01348530-n	
+185-2	17470-17472	se	PAR	PART	_	_	se	1	*	IRV	*[607]	U ovom kontekstu, 'širiti se' znači da bakterije postaju rasprostranjenije i zauzimaju veći prostor u organizmu, što odgovara značenju 'uzimati maha, dobijati sve veće razmere, postajati se rasprostranjeniji'.[607]	http://llod.jerteh.rs/WSD/seCVMWE0399[607]	2[607]	ChatGPT[607]	CVMWE-0399\;ENG30-00969873-v[607]	
+185-3	17473-17477	mogu	V	VERB	_	_	moći	_	_	_	*[607]|*[608]	U ovom kontekstu, 'širiti se' znači da bakterije postaju rasprostranjenije i zauzimaju veći prostor u organizmu, što odgovara značenju 'uzimati maha, dobijati sve veće razmere, postajati se rasprostranjeniji'.[607]|U ovom kontekstu, 'mogu' označava sposobnost ili mogućnost da se bakterije šire putem krvi, a ne istrajavanje ili uspevanje, pa ponuđeno značenje nije odgovarajuće.[608]	http://llod.jerteh.rs/WSD/seCVMWE0399[607]|http://llod.jerteh.rs/WSD/seENG3002523221v[608]	2[607]|1[608]	ChatGPT[607]|FIRST[608]	CVMWE-0399\;ENG30-00969873-v[607]|ENG30-02523221-v[608]	
+185-4	17478-17484	širiti	V	VERB	_	_	širiti	1	širiti se	IRV	*[607]	U ovom kontekstu, 'širiti se' znači da bakterije postaju rasprostranjenije i zauzimaju veći prostor u organizmu, što odgovara značenju 'uzimati maha, dobijati sve veće razmere, postajati se rasprostranjeniji'.[607]	http://llod.jerteh.rs/WSD/seCVMWE0399[607]	2[607]	ChatGPT[607]	CVMWE-0399\;ENG30-00969873-v[607]	
+185-5	17485-17486	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	
+185-6	17487-17492	putem	PREP	ADP	_	_	putem	_	_	_	_	_	_	_	_	_	
+185-7	17493-17497	krvi	N	NOUN	_	_	krv	_	_	_	*	U ovom kontekstu, 'krv' se odnosi na tečnost koju pumpa srce i koja može služiti kao medijum za širenje bakterija kroz organizam.	http://llod.jerteh.rs/WSD/seENG3005399847n	1	ChatGPT	ENG30-05399847-n	
+185-8	17497-17498	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	
+
+#Text=Simptomi se obično poboljšavaju u roku od dva dana, ali mogu trajati i do sedam dana.
+207-1	19542-19550	Simptomi	N	NOUN	_	_	simptom	_	_	_	*	U ovom kontekstu, 'simptomi' se odnose na subjektivne osećaje ili promene koje pacijent doživljava tokom bolesti, što odgovara prvom značenju.	http://llod.jerteh.rs/WSD/seENG3014299637n	2	ChatGPT	ENG30-14299637-n\;ENG30-14301785-n	
+207-2	19551-19553	se	PAR	PART	_	_	se	1	*	IRV	*[618]	U ovom kontekstu, 'poboljšavati se' znači da simptomi postaju blaži ili nestaju, što odgovara značenju 'poći nabolje, popraviti se, uznapredovati'.[618]	http://llod.jerteh.rs/WSD/seCVMWE0292[618]	1[618]	ChatGPT[618]	CVMWE-0292[618]	
+207-3	19554-19560	obično	ADV	ADV	_	_	obično	_	_	_	*[618]|*[619]	U ovom kontekstu, 'poboljšavati se' znači da simptomi postaju blaži ili nestaju, što odgovara značenju 'poći nabolje, popraviti se, uznapredovati'.[618]|U ovom kontekstu, 'obično' znači 'po pravilu' ili 'najčešće', što odgovara značenju ENG30-00155621-b.[619]	http://llod.jerteh.rs/WSD/seCVMWE0292[618]|http://llod.jerteh.rs/WSD/seENG3000155621b[619]	1[618]|3[619]	ChatGPT[618]|ChatGPT[619]	CVMWE-0292[618]|ENG30-00041954-b\;ENG30-00106921-b\;ENG30-00155621-b[619]	
+207-4	19561-19573	poboljšavaju	V	VERB	_	_	poboljšavati	1	poboljšavati se	IRV	*[618]	U ovom kontekstu, 'poboljšavati se' znači da simptomi postaju blaži ili nestaju, što odgovara značenju 'poći nabolje, popraviti se, uznapredovati'.[618]	http://llod.jerteh.rs/WSD/seCVMWE0292[618]	1[618]	ChatGPT[618]	CVMWE-0292[618]	
+207-5	19574-19575	u	PREP	ADP	_	_	u	2[297]	u roku od[297]	AdpID[297]	*[620]	U ovom kontekstu, 'u roku od' znači da se simptomi poboljšavaju unutar perioda od dva dana, što precizno odgovara ponuđenom značenju.[620]	http://llod.jerteh.rs/WSD/seLLM0287[620]	1[620]	ChatGPT[620]	LLM-0287[620]	
+207-6	19576-19580	roku	N	NOUN	_	_	rok	2[297]	u roku od[297]	AdpID[297]	*[620]	U ovom kontekstu, 'u roku od' znači da se simptomi poboljšavaju unutar perioda od dva dana, što precizno odgovara ponuđenom značenju.[620]	http://llod.jerteh.rs/WSD/seLLM0287[620]	1[620]	ChatGPT[620]	LLM-0287[620]	
+207-7	19581-19583	od	PREP	ADP	_	_	od	2[297]	u roku od[297]	AdpID[297]	*[620]	U ovom kontekstu, 'u roku od' znači da se simptomi poboljšavaju unutar perioda od dva dana, što precizno odgovara ponuđenom značenju.[620]	http://llod.jerteh.rs/WSD/seLLM0287[620]	1[620]	ChatGPT[620]	LLM-0287[620]	
+207-8	19584-19587	dva	NUM	NUM	_	_	dva	_	_	_	_	_	_	_	_	_	
+207-9	19588-19592	dana	N	NOUN	_	_	dan	_	_	_	*	U ovom kontekstu, 'dan' označava vremenski period od 24 sata, računat od ponoći do ponoći, što je standardna jedinica za merenje trajanja simptoma.	http://llod.jerteh.rs/WSD/seENG3015157041n	8	ChatGPT	ENG30-14484516-n\;ENG30-15123115-n\;ENG30-15136453-n\;ENG30-15155220-n\;ENG30-15157041-n\;ENG30-15157225-n\;ENG30-15164957-n\;ENG30-15208540-n	
+207-10	19592-19593	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	
+207-11	19594-19597	ali	CONJ	CCONJ	_	_	ali	_	_	_	_	_	_	_	_	_	
+207-12	19598-19602	mogu	V	VERB	_	_	moći	_	_	_	*	U ovom kontekstu, 'mogu' izražava mogućnost ili verovatnoću da simptomi traju do sedam dana, a ne značenje istrajavanja ili uspevanja. Nijedno ponuđeno značenje ne odgovara upotrebi u rečenici.	http://llod.jerteh.rs/WSD/seENG3002523221v	1	FIRST	ENG30-02523221-v	
+207-13	19603-19610	trajati	V	VERB	_	_	trajati	_	_	_	*	U ovom kontekstu, 'trajati' znači da simptomi mogu nastaviti da postoje tokom određenog vremenskog perioda, što odgovara značenju 'nastavljati da traje'.	http://llod.jerteh.rs/WSD/seENG3002618149v	2	ChatGPT	ENG30-02618149-v\;ENG30-02704928-v	
+207-14	19611-19612	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	
+207-15	19613-19615	do	PREP	ADP	_	_	do	_	_	_	_	_	_	_	_	_	
+207-16	19616-19621	sedam	NUM	NUM	_	_	sedam	_	_	_	_	_	_	_	_	_	
+207-17	19622-19626	dana	N	NOUN	_	_	dan	_	_	_	*	U ovom kontekstu, 'dana' označava broj uzastopnih perioda od ponoći do ponoći, što odgovara standardnom kalendarskom danu.	http://llod.jerteh.rs/WSD/seENG3015157041n	8	ChatGPT	ENG30-14484516-n\;ENG30-15123115-n\;ENG30-15136453-n\;ENG30-15155220-n\;ENG30-15157041-n\;ENG30-15157225-n\;ENG30-15164957-n\;ENG30-15208540-n	
+207-18	19626-19627	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	
+

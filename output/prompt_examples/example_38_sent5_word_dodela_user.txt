@@ -1,0 +1,9 @@
+Kontekst rečenice (ciljna reč je označena kao bold):
+"Kulminacija je bila ceremonija \textbf{dodele} Kupa devet vrednosti (Nine Values Cup), koji je osvojio fudbalski klub Barselona."
+
+Ciljna reč: "dodela"
+
+Lista mogućih značenja:
+1. ID: ENG30-00164579-n — (računarstvo) dodeljivanje određenih oblasti magnetskog diska određenim podacima ili instrukcijama
+2. ID: ENG30-01083645-n — čin distribucije raspoređivanjem, obično prema planu
+3. ID: PS001 — svečano uručenje nagrade ili priznanja

@@ -1,0 +1,139 @@
+PROMPT EXAMPLES SUMMARY
+================================================================================
+
+Total examples generated: 41
+Generated from first 5 sentences
+
+Examples:
+--------------------------------------------------------------------------------
+
+1. Sentence 1, Word: 'u skladu sa' (1 senses)
+   Files: example_01_sent1_word_u skladu sa_*.txt
+
+2. Sentence 1, Word: 'peti' (1 senses)
+   Files: example_02_sent1_word_peti_*.txt
+
+3. Sentence 1, Word: 'sezona' (1 senses)
+   Files: example_03_sent1_word_sezona_*.txt
+
+4. Sentence 1, Word: 'program' (7 senses)
+   Files: example_04_sent1_word_program_*.txt
+
+5. Sentence 1, Word: 'održati' (7 senses)
+   Files: example_05_sent1_word_održati_*.txt
+
+6. Sentence 1, Word: 'nov' (6 senses)
+   Files: example_06_sent1_word_nov_*.txt
+
+7. Sentence 1, Word: 'koncept' (4 senses)
+   Files: example_07_sent1_word_koncept_*.txt
+
+8. Sentence 1, Word: 'mlad' (2 senses)
+   Files: example_08_sent1_word_mlad_*.txt
+
+9. Sentence 1, Word: 'fudbaler' (2 senses)
+   Files: example_09_sent1_word_fudbaler_*.txt
+
+10. Sentence 1, Word: 'zemlja' (11 senses)
+   Files: example_10_sent1_word_zemlja_*.txt
+
+11. Sentence 1, Word: 'izabrati' (5 senses)
+   Files: example_11_sent1_word_izabrati_*.txt
+
+12. Sentence 1, Word: 'predstavnik' (3 senses)
+   Files: example_12_sent1_word_predstavnik_*.txt
+
+13. Sentence 2, Word: 'javljati se' (1 senses)
+   Files: example_13_sent2_word_javljati se_*.txt
+
+14. Sentence 2, Word: 'krup' (2 senses)
+   Files: example_14_sent2_word_krup_*.txt
+
+15. Sentence 2, Word: 'pogađati' (2 senses)
+   Files: example_15_sent2_word_pogađati_*.txt
+
+16. Sentence 2, Word: 'oko' (1 senses)
+   Files: example_16_sent2_word_oko_*.txt
+
+17. Sentence 2, Word: 'deca' (3 senses)
+   Files: example_17_sent2_word_deca_*.txt
+
+18. Sentence 2, Word: 'obično' (3 senses)
+   Files: example_18_sent2_word_obično_*.txt
+
+19. Sentence 2, Word: 'mesec' (7 senses)
+   Files: example_19_sent2_word_mesec_*.txt
+
+20. Sentence 2, Word: 'godina' (5 senses)
+   Files: example_20_sent2_word_godina_*.txt
+
+21. Sentence 3, Word: 'poznat' (5 senses)
+   Files: example_21_sent3_word_poznat_*.txt
+
+22. Sentence 3, Word: 'fudbaler' (2 senses)
+   Files: example_22_sent3_word_fudbaler_*.txt
+
+23. Sentence 3, Word: 'srpski' (1 senses)
+   Files: example_23_sent3_word_srpski_*.txt
+
+24. Sentence 3, Word: 'defanzivac' (1 senses)
+   Files: example_24_sent3_word_defanzivac_*.txt
+
+25. Sentence 3, Word: 'holandski' (1 senses)
+   Files: example_25_sent3_word_holandski_*.txt
+
+26. Sentence 3, Word: 'napadač' (2 senses)
+   Files: example_26_sent3_word_napadač_*.txt
+
+27. Sentence 3, Word: 'učestvovati' (3 senses)
+   Files: example_27_sent3_word_učestvovati_*.txt
+
+28. Sentence 3, Word: 'razni' (5 senses)
+   Files: example_28_sent3_word_razni_*.txt
+
+29. Sentence 3, Word: 'događaj' (6 senses)
+   Files: example_29_sent3_word_događaj_*.txt
+
+30. Sentence 3, Word: 'svet' (5 senses)
+   Files: example_30_sent3_word_svet_*.txt
+
+31. Sentence 4, Word: 'više' (3 senses)
+   Files: example_31_sent4_word_više_*.txt
+
+32. Sentence 4, Word: 'ljudi' (3 senses)
+   Files: example_32_sent4_word_ljudi_*.txt
+
+33. Sentence 4, Word: 'otići' (7 senses)
+   Files: example_33_sent4_word_otići_*.txt
+
+34. Sentence 4, Word: 'premijera' (1 senses)
+   Files: example_34_sent4_word_premijera_*.txt
+
+35. Sentence 4, Word: 'film' (3 senses)
+   Files: example_35_sent4_word_film_*.txt
+
+36. Sentence 5, Word: 'kulminacija' (3 senses)
+   Files: example_36_sent5_word_kulminacija_*.txt
+
+37. Sentence 5, Word: 'ceremonija' (3 senses)
+   Files: example_37_sent5_word_ceremonija_*.txt
+
+38. Sentence 5, Word: 'dodela' (3 senses)
+   Files: example_38_sent5_word_dodela_*.txt
+
+39. Sentence 5, Word: 'kup' (2 senses)
+   Files: example_39_sent5_word_kup_*.txt
+
+40. Sentence 5, Word: 'vrednost' (6 senses)
+   Files: example_40_sent5_word_vrednost_*.txt
+
+41. Sentence 5, Word: 'osvojiti' (3 senses)
+   Files: example_41_sent5_word_osvojiti_*.txt
+
+================================================================================
+
+File Format Types (all LaTeX-friendly):
+  *_full.txt    - Complete prompt with system and user messages (LaTeX)
+  *_user.txt    - User message only (LaTeX)
+  *_compact.txt - Compact format with system+user (LaTeX)
+  *_latex.txt   - LaTeX enumerate format with system+user

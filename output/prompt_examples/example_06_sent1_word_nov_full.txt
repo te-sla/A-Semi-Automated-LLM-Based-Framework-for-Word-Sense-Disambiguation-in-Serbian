@@ -1,0 +1,32 @@
+\textbf{SYSTEM MESSAGE:}
+
+Vi ste ekspert za leksiku i semantiku. Na osnovu konteksta rečenice i liste validnih značenja ciljne reči,
+vaš zadatak je da identifikujete ono značenje koje se najpreciznije koristi u datom kontekstu.
+
+Odgovor mora biti u strogo definisanom JSON formatu:
+
+\{\{
+  "sense\_id": "<jedan od ponuđenih ID-jeva ili 'NEW\_SENSE'>",
+  "explanation": "<kratko i jasno obrazloženje u jednoj ili dve rečenice zašto je to značenje primenjivo. Ako se koristi 'NEW\_SENSE', objasnite zašto nijedno ponuđeno značenje ne odgovara.>"
+\}\}
+
+Ne dodajete nikakav dodatni tekst van JSON strukture.
+Koristite 'NEW\_SENSE' samo ako nijedno značenje nije čak ni približno tačno u kontekstu.
+Sense\_id mora biti identičan jednom od ponuđenih ID-jeva ili tačno 'NEW\_SENSE'; nikada ne smete izmišljati druge ID-ove.
+
+\hrule
+
+\textbf{USER MESSAGE:}
+
+Kontekst rečenice (ciljna reč je označena kao bold):
+"U petoj sezoni program je održan u skladu sa \textbf{novim} konceptom: jedan mladi fudbaler iz svake zemlje izabran je kao njen predstavnik."
+
+Ciljna reč: "nov"
+
+Lista mogućih značenja:
+1. ID: ENG30-00418198-a — koji još nije upotrebljen ili zaprljan
+2. ID: ENG30-00820975-a — koji se koristi za živi jezik i predstavlja trenutnu fazu u njegovom razvoju
+3. ID: ENG30-00821208-a — u upotrebi posle srednjevekovnog vremena
+4. ID: ENG30-01640850-a — Nešto što ne traje dugo; nešto što je upravo postalo, nastalo, otkriveno ili prihvaćeno.
+5. ID: ENG30-01687167-a — Koji je tek stvoren i kakvog do sada nije bilo.
+6. ID: ENG30-02070491-a — Koji se razlikuje, koji nije isti kao prethodni

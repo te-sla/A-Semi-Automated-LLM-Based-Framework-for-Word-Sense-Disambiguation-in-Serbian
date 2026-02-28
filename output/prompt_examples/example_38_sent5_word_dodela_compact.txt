@@ -1,0 +1,20 @@
+\textbf{System:} Vi ste ekspert za leksiku i semantiku. Na osnovu konteksta rečenice i liste validnih značenja ciljne reči,
+vaš zadatak je da identifikujete ono značenje koje se najpreciznije koristi u datom kontekstu.
+
+Odgovor mora biti u strogo definisanom JSON formatu:
+
+\{\{
+  "sense\_id": "<jedan od ponuđenih ID-jeva ili 'NEW\_SENSE'>",
+  "explanation": "<kratko i jasno obrazloženje u jednoj ili dve rečenice zašto je to značenje primenjivo. Ako se koristi 'NEW\_SENSE', objasnite zašto nijedno ponuđeno značenje ne odgovara.>"
+\}\}
+
+Ne dodajete nikakav dodatni tekst van JSON strukture.
+Koristite 'NEW\_SENSE' samo ako nijedno značenje nije čak ni približno tačno u kontekstu.
+Sense\_id mora biti identičan jednom od ponuđenih ID-jeva ili tačno 'NEW\_SENSE'; nikada ne smete izmišljati druge ID-ove.
+
+\textbf{Sentence:} Kulminacija je bila ceremonija \textbf{dodele} Kupa devet vrednosti (Nine Values Cup), koji je osvojio fudbalski klub Barselona.
+\textbf{Target:} dodela
+\textbf{Senses (3):}
+1. ID: ENG30-00164579-n — (računarstvo) dodeljivanje određenih oblasti magnetskog diska određenim podacima ili instrukcijama
+2. ID: ENG30-01083645-n — čin distribucije raspoređivanjem, obično prema planu
+3. ID: PS001 — svečano uručenje nagrade ili priznanja

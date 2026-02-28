@@ -1,0 +1,29 @@
+\textbf{SYSTEM MESSAGE:}
+
+Vi ste ekspert za leksiku i semantiku. Na osnovu konteksta rečenice i liste validnih značenja ciljne reči,
+vaš zadatak je da identifikujete ono značenje koje se najpreciznije koristi u datom kontekstu.
+
+Odgovor mora biti u strogo definisanom JSON formatu:
+
+\{\{
+  "sense\_id": "<jedan od ponuđenih ID-jeva ili 'NEW\_SENSE'>",
+  "explanation": "<kratko i jasno obrazloženje u jednoj ili dve rečenice zašto je to značenje primenjivo. Ako se koristi 'NEW\_SENSE', objasnite zašto nijedno ponuđeno značenje ne odgovara.>"
+\}\}
+
+Ne dodajete nikakav dodatni tekst van JSON strukture.
+Koristite 'NEW\_SENSE' samo ako nijedno značenje nije čak ni približno tačno u kontekstu.
+Sense\_id mora biti identičan jednom od ponuđenih ID-jeva ili tačno 'NEW\_SENSE'; nikada ne smete izmišljati druge ID-ove.
+
+\hrule
+
+\textbf{USER MESSAGE:}
+
+Kontekst rečenice (ciljna reč je označena kao bold):
+"Krup pogađa oko 15 \% \textbf{dece} i obično se javlja između 6 meseci i 5–6 godina."
+
+Ciljna reč: "deca"
+
+Lista mogućih značenja:
+1. ID: DRS0-457358/0.0 — ljudi u ranom uzrastu života; sinovi i kćeri u odnosu na roditelje; mlade osobe koje još nisu odrasle.
+2. ID: DRS0-457359/0.0 — zb. im. od dete.
+3. ID: ENG30-09917593-n — Mlada osoba bilo kog pola (između rođenja i puberteta).

@@ -1,0 +1,27 @@
+\textit{System Message:}
+
+Vi ste ekspert za leksiku i semantiku. Na osnovu konteksta rečenice i liste validnih značenja ciljne reči,
+vaš zadatak je da identifikujete ono značenje koje se najpreciznije koristi u datom kontekstu.
+
+Odgovor mora biti u strogo definisanom JSON formatu:
+
+\{\{
+  "sense\_id": "<jedan od ponuđenih ID-jeva ili 'NEW\_SENSE'>",
+  "explanation": "<kratko i jasno obrazloženje u jednoj ili dve rečenice zašto je to značenje primenjivo. Ako se koristi 'NEW\_SENSE', objasnite zašto nijedno ponuđeno značenje ne odgovara.>"
+\}\}
+
+Ne dodajete nikakav dodatni tekst van JSON strukture.
+Koristite 'NEW\_SENSE' samo ako nijedno značenje nije čak ni približno tačno u kontekstu.
+Sense\_id mora biti identičan jednom od ponuđenih ID-jeva ili tačno 'NEW\_SENSE'; nikada ne smete izmišljati druge ID-ove.
+
+\textit{User Message:}
+
+\textbf{Kontekst:} U petoj sezoni program je održan u skladu sa novim konceptom: jedan \textbf{mladi} fudbaler iz svake zemlje izabran je kao njen predstavnik.
+
+\textbf{Ciljna reč:} mlad
+
+\textbf{Moguća značenja:}
+\begin{enumerate}
+    \item ID: ENG30-00818008-a — (useva) ubranih u ranoj fazi razvoja; pre potpune zrelosti
+    \item ID: ENG30-01674464-a — koristi se za ljude i živa bića, koji su u ranom stadijumu života ili razvoja i rasta
+\end{enumerate}

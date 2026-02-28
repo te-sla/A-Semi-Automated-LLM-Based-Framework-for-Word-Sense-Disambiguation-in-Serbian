@@ -1,0 +1,103 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue|coarseValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_SP=webanno.custom.MWE|MWEid|MWElemma|MWEtype
+#T_SP=webanno.custom.sense|SenseID|Number_of_candidate_senses|List_of_candidate_senses|Comment|Ainotes
+
+
+#Text=Pobednika su izabrala deca koja su uoči Foruma učestvovala u globalnom glasanju održanom u sve 24 zemlje učesnice.
+243-1	0-9	Pobednika	N	NOUN	_	_	pobednik	_	_	_	ENG30-09906704-n	3	ENG30-09762821-n;ENG30-09906704-n;ENG30-10782940-n	*	U kontekstu globalnog glasanja bira se pobednik kao onaj ko zauzima prvo mesto među učesnicima. Dakle, označava osobu koja je osvojila prvo mesto na takmičenju/izboru.	
+243-2	10-12	su	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	
+243-3	13-21	izabrala	V	VERB	_	_	izabrati	_	_	_	ENG30-00676864-v	5	ENG30-00676450-v;ENG30-00676864-v;ENG30-00679937-v;ENG30-00790308-v;ENG30-01078050-v	*	U kontekstu globalnog glasanja, deca su napravila izbor pobednika. Ovo odgovara opštem značenju 'napraviti izbor'.	
+243-4	22-26	deca	N	NOUN	_	_	deca	_	_	_	DRS0-457358/0.0	3	DRS0-457358/0.0;DRS0-457359/0.0;ENG30-09917593-n	*	U kontekstu znači ‘deca’ kao mlade osobe koje još nisu odrasle i koje su učestvovale u glasanju. Ovo je standardno značenje reči ‘deca’ u ovakvim društvenim kontekstima.	
+243-5	27-31	koja	PRO	DET	_	_	koji	_	_	_	_	_	_	_	_	
+243-6	32-34	su	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	
+243-7	35-39	uoči	PREP	ADP	_	_	uoči	_	_	_	_	_	_	_	_	
+243-8	40-46	Foruma	N	NOUN	_	_	forum	_	_	_	ENG30-02749953-n	1	ENG30-02749953-n	*	Ovde 'Forum' označava konkretan javni skup/sastanak na kome se raspravlja; deca su učestvovala u glasanju uoči tog skupa.	
+243-9	47-58	učestvovala	V	VERB	_	_	učestvovati	_	_	_	ENG30-02450256-v	3	ENG30-01082606-v;ENG30-02375131-v;ENG30-02450256-v	*	Radi se o sudelovanju u zajedničkoj aktivnosti — globalnom glasanju. Deca su aktivno uzela učešće u toj kolektivnoj akciji.	
+243-10	59-60	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	_	
+243-11	61-70	globalnom	A	ADJ	_	_	globalan	_	_	_	ENG30-01568684-a	2	CV0175;ENG30-01568684-a	*	Reč označava glasanje sprovedeno širom više zemalja, tj. međunarodnog dometa, što odgovara značenju ‘koji uključuje ceo svet’ (ne ograničeno lokalno). Značenje ‘sveobuhvatno’ (ukupno) nije primarno u ovom kontekstu.	
+243-12	71-79	glasanju	N	NOUN	_	_	glasanje	_	_	_	ENG30-00183505-n	3	ENG30-00181781-n;ENG30-00182213-n;ENG30-00183505-n	*	Ovde „glasanje” označava čin izbora koji se pravi glasanjem (globalni proces u kome su deca učestvovala), a ne političke izbore niti grupni stav kao rezultat glasanja.	
+243-13	80-88	održanom	A	ADJ	_	_	održan	_	_	_	CV0215	2	CV0215;ENG30-00596639-a	*	Ovde 'održanom' znači da je glasanje sprovedeno/obavljeno u 24 zemlje učesnice. Ne odnosi se na trajanje bez prekida.	
+243-14	89-90	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	_	
+243-15	91-94	sve	PRO	DET	_	_	sav	_	_	_	_	_	_	_	_	
+243-16	95-97	24	NUM	NUM	_	_	24	_	_	_	_	_	_	_	_	
+243-17	98-104	zemlje	N	NOUN	_	_	zemlja	_	_	_	ENG30-08493064-n	11	ENG30-08168978-n;ENG30-08493064-n;ENG30-08544813-n;ENG30-09270894-n;ENG30-09334396-n;ENG30-09335240-n;ENG30-09451517-n;ENG30-13250048-n;ENG30-14842992-n;ENG30-14844414-n;ENG30-14844693-n	*	Ovde 'zemlje' označava države kao geografska područja pod jurisdikcijom suverenih država, jer je glasanje održano 'u' svim tim zemljama. Fokus je na lokaciji gde je događaj sproveden, ne na političkoj organizaciji.	
+243-18	105-113	učesnice	N	NOUN	_	_	učesnica	_	_	_	DRJ0-186203/0	1	DRJ0-186203/0	*	Ovde 'učesnice' stoji uz 'zemlje' i znači 'zemlje koje učestvuju' (zemlje učesnice Foruma). Ponuđeno značenje 'ženska osoba učenik' ne odgovara ovom kontekstu.	
+243-19	113-114	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	
+
+#Text=Timovi koji učestvuju na prvenstvu formirani su tokom otvorenog žreba.
+244-1	114-120	Timovi	N	NOUN	_	_	tim	_	_	_	ENG30-08208560-n	2	ENG30-08208560-n;ENG30-08264897-n	*	Reč se odnosi na sportske ekipe koje učestvuju na prvenstvu. Kontekst je sportski, pa značenje 'skupina koja sarađuje (posebno u sportu)' najpreciznije odgovara.	
+244-2	121-125	koji	PRO	DET	_	_	koji	_	_	_	_	_	_	_	_	
+244-3	126-135	učestvuju	V	VERB	_	_	učestvovati	_	_	_	ENG30-02375131-v	3	ENG30-01082606-v;ENG30-02375131-v;ENG30-02450256-v	*	Ovde 'učestvovati' znači uzeti učešće u događaju, tj. biti uključen u prvenstvo. Reč se koristi u opštem smislu participacije, bez naglaska na ulazak ili zajedničku akciju.	
+244-4	136-138	na	PREP	ADP	_	_	na	_	_	_	_	_	_	_	_	
+244-5	139-148	prvenstvu	N	NOUN	_	_	prvenstvo	_	_	_	CV0017	4	CV0017;ENG30-13948912-n;ENG30-13949802-n;ENG30-14435353-n	*	Reč se koristi za sportsko takmičenje (šampionat) na kojem timovi učestvuju, što potvrđuje i pominjanje otvorenog žreba. Dakle, odnosi se na takmičenje za titulu prvaka.	
+244-6	149-158	formirani	V	VERB	_	_	formirati	_	_	_	ENG30-02448185-v	5	ENG30-00698256-v;ENG30-01619014-v;ENG30-02448185-v;ENG30-02621395-v;ENG30-02623906-v	*	U kontekstu „formirani su tokom žreba” znači da su timovi stvoreni/sastavljeni kao entiteti u tom procesu.	
+244-7	159-161	su	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	
+244-8	162-167	tokom	PREP	ADP	_	_	tokom	_	_	_	_	_	_	_	_	
+244-9	168-177	otvorenog	A	ADJ	_	_	otvoren	_	_	_	ENG30-01704761-a	7	ENG30-00523479-a;ENG30-00685615-a;ENG30-00760916-a;ENG30-01652902-a;ENG30-01704761-a;ENG30-01985247-a;ENG30-02003357-a	*	Ovde 'otvoren' opisuje žreb koji je javan i transparentan, tj. može se posmatrati i nije tajan. To odgovara značenju 'onaj koji se može promatrati; koji nije tajan ili sakriven'.	
+244-10	178-183	žreba	N	NOUN	_	_	žreb	_	_	_	DRJ0-240858/0	1	DRJ0-240858/0	*	Ovde 'žreb' označava javno izvlačenje kojim se slučajnim putem određuju sastavi/parovi ili raspored u prvenstvu, što odgovara datoj definiciji.	
+244-11	183-184	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	
+
+#Text=Film je mnogo drugačiji od knjige.
+245-1	184-188	Film	N	NOUN	_	_	film	_	_	_	ENG30-06613686-n	3	ENG30-03338821-n;ENG30-06262567-n;ENG30-06613686-n	*	Rečenica poredi filmsku adaptaciju sa knjigom, tj. konkretno delo koje priču prikazuje nizom pokretnih slika. To odgovara značenju oblika zabave koji predstavlja priču iluzijom kretanja.	
+245-2	189-191	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	
+245-3	192-197	mnogo	ADV	ADV	_	_	mnogo	_	_	_	ENG30-00059086-b	4	ENG30-00032803-b;ENG30-00059086-b;ENG30-00059413-b;ENG30-00145713-b	*	Ovde 'mnogo' pojačava pridev 'drugačiji' i znači 'u velikoj meri', tj. film se znatno razlikuje od knjige.	
+245-4	198-207	drugačiji	A	ADJ	_	_	drugačiji	_	_	_	ENG30-02067491-a	3	ENG30-02067491-a;ENG30-02070030-a;ENG30-02070342-a	*	Rečenica poredi film i knjigu i naglašava veliku razliku (“mnogo”), što odgovara značenju ‘izrazito različit/za razliku od’.	
+245-5	208-210	od	PREP	ADP	_	_	od	_	_	_	_	_	_	_	_	
+245-6	211-217	knjige	N	NOUN	_	_	knjiga	_	_	_	ENG30-06410904-n	4	ENG30-02870092-n;ENG30-06394865-n;ENG30-06410904-n;ENG30-06413579-n	*	Ovde se „knjiga” odnosi na pisano delo (objavljeni tekst) u poređenju sa filmskom adaptacijom, a ne na fizički predmet. U ovoj upotrebi poredi se sadržaj/delo, što odgovara izdanom pisanom delu.	
+245-7	217-218	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	
+
+#Text=Vaše pitanje je najvažnije od onih koje svaki misleći čovek može da postavi.
+246-1	218-222	Vaše	PRO	DET	_	_	vaš	_	_	_	_	_	_	_	_	
+246-2	223-230	pitanje	N	NOUN	_	_	pitanje	_	_	_	ENG30-07193596-n	4	ENG30-05814650-n;ENG30-06783768-n;ENG30-07193596-n;ENG30-07196682-n	*	Iz konteksta ('može da postavi') jasno je da se radi o pitanju koje se postavlja da bi se dobio odgovor. Dakle, ovde je 'pitanje' čin obraćanja sa ciljem dobijanja odgovora.	
+246-3	231-233	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	
+246-4	234-244	najvažnije	ADV	ADV	_	_	najvažnije	_	_	_	RSSJ-27928/0	1	RSSJ-27928/0	*	U kontekstu se poredi značaj različitih pitanja i tvrdi da je ovo pitanje od najveće važnosti među njima, tj. ključno. To odgovara značenju 'što je od najveće važnosti, presudno, ključno'.	
+246-5	245-247	od	PREP	ADP	_	_	od	_	_	_	_	_	_	_	_	
+246-6	248-252	onih	PRO	DET	_	_	onaj	_	_	_	_	_	_	_	_	
+246-7	253-257	koje	PRO	DET	_	_	koji	_	_	_	_	_	_	_	_	
+246-8	258-263	svaki	PRO	DET	_	_	svaki	_	_	_	_	_	_	_	_	
+246-9	264-271	misleći	A	ADJ	_	_	misleći	_	_	_	RSSJ-26269/0	1	RSSJ-26269/0	*	U izrazu 'misleći čovek' označava osobu koja razmišlja i poseduje sposobnost mišljenja, što direktno odgovara ponuđenom značenju.	
+246-10	272-277	čovek	N	NOUN	_	_	čovek	_	_	_	ENG30-10289039-n	6	ENG30-02472293-n;ENG30-10287213-n;ENG30-10288516-n;ENG30-10288763-n;ENG30-10289039-n;ENG30-10289176-n	*	Ovde 'čovek' znači 'svako ljudsko biće' u opštem, generičkom smislu, bez upućivanja na pol. Kontekst ('svaki misleći') cilja na univerzalnu kategoriju ljudi.	
+246-11	278-282	može	V	VERB	_	_	moći	_	_	_	CV0044	6	CV0044;CV0071;CV0124;CV0171;DRJ0-203294/2b.;ENG30-02523221-v	*	Ovde 'može' označava sposobnost: svaki misleći čovek je kadar da postavi takvo pitanje.	
+246-12	283-285	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	
+246-13	286-293	postavi	V	VERB	_	_	postaviti	_	_	_	ENG30-02722663-v	22	CV0280;ENG30-00557537-v;ENG30-01025246-v;ENG30-01271936-v;ENG30-01465921-v;ENG30-01494310-v;ENG30-01570108-v;ENG30-01591621-v;ENG30-01651972-v;ENG30-01661243-v;ENG30-01711749-v;ENG30-01741562-v;ENG30-01987160-v;ENG30-02333689-v;ENG30-02376289-v;ENG30-02384041-v;ENG30-02392762-v;ENG30-02401523-v;ENG30-02427103-v;ENG30-02427726-v;ENG30-02475922-v;ENG30-02722663-v	*	Ovde 'postaviti' znači 'postaviti pitanje', tj. uvesti pitanje koje treba razmotriti ili rešiti. Kontekst govori o važnosti pitanja koje neko može da postavi.	
+246-14	293-294	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	
+
+#Text=Prevod na engleski je objavljen u časopisu The Galpin Society Journal 1961. godine.
+247-1	294-300	Prevod	N	NOUN	_	_	prevod	_	_	_	ENG30-06536389-n	1	ENG30-06536389-n	*	Radi se o objavljenom prevodu na engleski, tj. pisanoj verziji originalnog teksta na drugom jeziku koja zadržava isto značenje, što odgovara datom značenju.	
+247-2	301-303	na	PREP	ADP	_	_	na	_	_	_	_	_	_	_	_	
+247-3	304-312	engleski	A	ADJ	*	DEMO	engleski	_	_	_	ENG30-06947032-n	2	ENG30-03003344-a;ENG30-06947032-n	*	U kontekstu 'Prevod na engleski', reč označava jezik na koji je urađen prevod (engleski jezik), a ne nešto vezano za Englesku kao zemlju ili kulturu.	
+247-4	313-315	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	
+247-5	316-325	objavljen	V	VERB	_	_	objaviti	_	_	_	ENG30-00967625-v	13	ENG30-00841986-v;ENG30-00930806-v;ENG30-00932161-v;ENG30-00965871-v;ENG30-00967625-v;ENG30-00974367-v;ENG30-00977336-v;ENG30-01017001-v;ENG30-01065115-v;ENG30-01591621-v;ENG30-01717851-v;ENG30-01744611-v;ENG30-01745722-v	*	Radi se o objavljivanju u časopisu, tj. tekst je pripremljen i izdat za javnu distribuciju 1961. godine.	
+247-6	326-327	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	_	
+247-7	328-336	časopisu	N	NOUN	_	_	časopis	_	_	_	ENG30-06593296-n	3	ENG30-03704210-n;ENG30-06593296-n;ENG30-08063303-n	*	Ovde 'časopis' označava serijsku publikaciju ('The Galpin Society Journal') koja izlazi periodično. Pominje se objava prevoda u tom izdanju, što upućuje na publikaciju kao serijal, a ne na fizički primerak ili izdavačku firmu.	
+247-8	337-340	The	F	X	http://www.wikidata.org/entity/Q15758744[108]	WORK[108]	The	_	_	_	_	_	_	_	_	
+247-9	341-347	Galpin	F	X	http://www.wikidata.org/entity/Q15758744[108]	WORK[108]	Galpin	_	_	_	_	_	_	_	_	
+247-10	348-355	Society	F	X	http://www.wikidata.org/entity/Q15758744[108]	WORK[108]	Society	_	_	_	_	_	_	_	_	
+247-11	356-363	Journal	F	X	http://www.wikidata.org/entity/Q15758744[108]	WORK[108]	Journal	_	_	_	_	_	_	_	_	
+247-12	364-369	1961.	PREP	ADP	_	_	1961.	_	_	_	_	_	_	_	_	
+247-13	370-376	godine	N	NOUN	_	_	godina	_	_	_	ENG30-15202634-n	5	ENG30-08238660-n;ENG30-15201505-n;ENG30-15202634-n;ENG30-15203791-n;ENG30-15204297-n	*	Izraz '1961. godine' upućuje na određenu kalendarsku godinu prema Gregorijanskom kalendaru. Ovo je referenca na celu kalendarsku godinu 1961.	
+247-14	376-377	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	
+
+#Text=Italijanski rat 1521–1526, ponekad poznat kao Četvorogodišnji rat, bio je jedan od italijanskih ratova.
+248-1	377-388	Italijanski	A	ADJ	http://www.wikidata.org/entity/Q273348[109]	EVENT[109]	italijanski	_	_	_	ENG30-02957066-a	2	ENG30-02957066-a;ENG30-03075662-a	*	Ovde 'italijanski' označava rat povezan s Italijom (njena teritorija i istorijski kontekst). Ne odnosi se na italske jezike, već na Italiju kao zemlju.	
+248-2	389-392	rat	N	NOUN	http://www.wikidata.org/entity/Q273348[109]	EVENT[109]	rat	_	_	_	ENG30-00973077-n	3	ENG30-00973077-n;ENG30-01236296-n;ENG30-13981403-n	*	Ovde 'rat' označava konkretan istorijski oružani sukob (Italijanski rat 1521–1526), a ne metaforičko nadmetanje niti pravno stanje rata.	
+248-3	393-397	1521	A	ADJ	_	_	1521	_	_	_	_	_	_	_	_	
+248-4	397-398	–	PUNCT	PUNCT	_	_	–	_	_	_	_	_	_	_	_	
+248-5	398-402	1526	A	ADJ	_	_	1526	_	_	_	_	_	_	_	_	
+248-6	402-403	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	
+248-7	404-411	ponekad	ADV	ADV	_	_	ponekad	_	_	_	ENG30-00021878-b	2	ENG30-00021878-b;ENG30-00035385-b	*	Ovde 'ponekad' znači da se rat naziva Četvorogodišnjim u nekim slučajevima, ali ne uvek. Ne označava retkost, već povremenu upotrebu naziva.	
+248-8	412-418	poznat	A	ADJ	_	_	poznat	_	_	_	CV0074	5	CV0074;CV0214;ENG30-00970249-a;ENG30-01375174-a;ENG30-01375831-a	*	U frazi 'ponekad poznat kao' reč 'poznat' znači 'nazivan/poznat pod imenom', tj. da se entitet ponekad označava tim nazivom. Nijedno ponuđeno značenje (slavan, ranije poznat, uobičajen, sigurno identifikovan, uvažen) ne pokriva ovu upotrebu.	
+248-9	419-422	kao	CONJ	CCONJ	_	_	kao	_	_	_	_	_	_	_	_	
+248-10	423-438	Četvorogodišnji	A	ADJ	http://www.wikidata.org/entity/Q698281[110]	EVENT[110]	četvorogodišnji	_	_	_	DRJ0-190343/0	1	DRJ0-190343/0	*	U nazivu 'Četvorogodišnji rat' pridev označava trajanje sukoba — rat je trajao oko četiri godine (1521–1526).	
+248-11	439-442	rat	N	NOUN	http://www.wikidata.org/entity/Q698281[110]	EVENT[110]	rat	_	_	_	ENG30-00973077-n	3	ENG30-00973077-n;ENG30-01236296-n;ENG30-13981403-n	*	Reč se odnosi na istorijski događaj koji predstavlja oružani sukob između država/sila, dakle na rat kao vojni sukob.	
+248-12	442-443	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	
+248-13	444-447	bio	V	AUX	_	_	biti	_	_	_	_	_	_	_	_	
+248-14	448-450	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	
+248-15	451-456	jedan	NUM	NUM	_	_	jedan	_	_	_	_	_	_	_	_	
+248-16	457-459	od	PREP	ADP	_	_	od	_	_	_	_	_	_	_	_	
+248-17	460-472	italijanskih	A	ADJ	*	DEMO	italijanski	_	_	_	ENG30-02957066-a	2	ENG30-02957066-a;ENG30-03075662-a	*	Ovde 'italijanski' označava ratove povezane s Italijom (teritorijom/istorijom), a ne italske jezike.	
+248-18	473-479	ratova	N	NOUN	_	_	rat	_	_	_	ENG30-00973077-n	3	ENG30-00973077-n;ENG30-01236296-n;ENG30-13981403-n	*	Reč označava konkretan istorijski oružani sukob (Italijanski rat 1521–1526) kao deo Italijanskih ratova, a ne metaforičko nadmetanje niti pravno stanje rata.	
+248-19	479-480	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	

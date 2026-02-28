@@ -1,0 +1,7 @@
+Kontekst rečenice (ciljna reč je označena kao bold):
+"Poznati fudbaleri, među kojima i \textbf{srpski} defanzivac Branislav Ivanović i holandski napadač Dirk Kojt, učestvovali su u raznim događajima širom sveta."
+
+Ciljna reč: "srpski"
+
+Lista mogućih značenja:
+1. ID: ENG30-02963942-a — koji se odnosi na ljude, jezik ili kulturu regiona Srbije

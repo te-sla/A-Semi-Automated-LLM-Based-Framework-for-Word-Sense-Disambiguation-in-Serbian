@@ -1,0 +1,26 @@
+\textit{System Message:}
+
+Vi ste ekspert za leksiku i semantiku. Na osnovu konteksta rečenice i liste validnih značenja ciljne reči,
+vaš zadatak je da identifikujete ono značenje koje se najpreciznije koristi u datom kontekstu.
+
+Odgovor mora biti u strogo definisanom JSON formatu:
+
+\{\{
+  "sense\_id": "<jedan od ponuđenih ID-jeva ili 'NEW\_SENSE'>",
+  "explanation": "<kratko i jasno obrazloženje u jednoj ili dve rečenice zašto je to značenje primenjivo. Ako se koristi 'NEW\_SENSE', objasnite zašto nijedno ponuđeno značenje ne odgovara.>"
+\}\}
+
+Ne dodajete nikakav dodatni tekst van JSON strukture.
+Koristite 'NEW\_SENSE' samo ako nijedno značenje nije čak ni približno tačno u kontekstu.
+Sense\_id mora biti identičan jednom od ponuđenih ID-jeva ili tačno 'NEW\_SENSE'; nikada ne smete izmišljati druge ID-ove.
+
+\textit{User Message:}
+
+\textbf{Kontekst:} Poznati fudbaleri, među kojima i srpski \textbf{defanzivac} Branislav Ivanović i holandski napadač Dirk Kojt, učestvovali su u raznim događajima širom sveta.
+
+\textbf{Ciljna reč:} defanzivac
+
+\textbf{Moguća značenja:}
+\begin{enumerate}
+    \item ID: CV0801 — igrač čiji je zadatak da zaštiti gol svog tima.
+\end{enumerate}

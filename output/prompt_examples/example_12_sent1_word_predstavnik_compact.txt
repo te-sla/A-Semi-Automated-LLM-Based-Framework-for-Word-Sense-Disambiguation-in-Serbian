@@ -1,0 +1,20 @@
+\textbf{System:} Vi ste ekspert za leksiku i semantiku. Na osnovu konteksta rečenice i liste validnih značenja ciljne reči,
+vaš zadatak je da identifikujete ono značenje koje se najpreciznije koristi u datom kontekstu.
+
+Odgovor mora biti u strogo definisanom JSON formatu:
+
+\{\{
+  "sense\_id": "<jedan od ponuđenih ID-jeva ili 'NEW\_SENSE'>",
+  "explanation": "<kratko i jasno obrazloženje u jednoj ili dve rečenice zašto je to značenje primenjivo. Ako se koristi 'NEW\_SENSE', objasnite zašto nijedno ponuđeno značenje ne odgovara.>"
+\}\}
+
+Ne dodajete nikakav dodatni tekst van JSON strukture.
+Koristite 'NEW\_SENSE' samo ako nijedno značenje nije čak ni približno tačno u kontekstu.
+Sense\_id mora biti identičan jednom od ponuđenih ID-jeva ili tačno 'NEW\_SENSE'; nikada ne smete izmišljati druge ID-ove.
+
+\textbf{Sentence:} U petoj sezoni program je održan u skladu sa novim konceptom: jedan mladi fudbaler iz svake zemlje izabran je kao njen \textbf{predstavnik}.
+\textbf{Target:} predstavnik
+\textbf{Senses (3):}
+1. ID: ENG30-05820620-n — Jedna stavka informacije koja predstavlja tip.
+2. ID: ENG30-10005721-n — lice imenovano da zastupa ili deluje u ime drugih
+3. ID: ENG30-10522035-n — Osoba koja predstavlja druge ljude.

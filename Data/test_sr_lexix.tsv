@@ -1,0 +1,117 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue|coarseValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_SP=webanno.custom.MWE|MWEid|MWElemma|MWEtype
+
+#Text=U petoj sezoni program je održan u skladu sa novim konceptom: jedan mladi fudbaler iz svake zemlje izabran je kao njen predstavnik.
+1-1	1-2	U	PREP	ADP	_	_	u	_	_	_	
+1-2	3-8	petoj	A	ADJ	_	_	peti	_	_	_	
+1-3	9-15	sezoni	N	NOUN	_	_	sezona	_	_	_	
+1-4	16-23	program	N	NOUN	_	_	program	_	_	_	
+1-5	24-26	je	V	AUX	_	_	jesam	_	_	_	
+1-6	27-33	održan	V	VERB	_	_	održati	_	_	_	
+1-7	34-35	u	PREP	ADP	_	_	u	1[729]	u skladu sa[729]	AdpID[729]	
+1-8	36-42	skladu	N	NOUN	_	_	sklad	1[729]	u skladu sa[729]	AdpID[729]	
+1-9	43-45	sa	PREP	ADP	_	_	sa	1[729]	u skladu sa[729]	AdpID[729]	
+1-10	46-51	novim	A	ADJ	_	_	nov	_	_	_	
+1-11	52-61	konceptom	N	NOUN	_	_	koncept	_	_	_	
+1-12	61-62	:	PUNCT	PUNCT	_	_	:	_	_	_	
+1-13	63-68	jedan	NUM	NUM	_	_	jedan	_	_	_	
+1-14	69-74	mladi	A	ADJ	_	_	mlad	_	_	_	
+1-15	75-83	fudbaler	N	NOUN	http://www.wikidata.org/entity/Q937857	ROLE	fudbaler	_	_	_	
+1-16	84-86	iz	PREP	ADP	_	_	iz	_	_	_	
+1-17	87-92	svake	PRO	DET	_	_	svaki	_	_	_	
+1-18	93-99	zemlje	N	NOUN	_	_	zemlja	_	_	_	
+1-19	100-107	izabran	V	VERB	_	_	izabrati	_	_	_	
+1-20	108-110	je	V	AUX	_	_	jesam	_	_	_	
+1-21	111-114	kao	CONJ	CCONJ	_	_	kao	_	_	_	
+1-22	115-119	njen	PRO	DET	_	_	njen	_	_	_	
+1-23	120-131	predstavnik	N	NOUN	_	_	predstavnik	_	_	_	
+1-24	131-132	.	SENT	PUNCT	_	_	.	_	_	_	
+
+#Text=U junu 2014, kao vođa pokreta, posetio je deveti međunarodni omladinski fudbalski turnir organizovan u znak sećanja na Jurija Andrejeviča Morozova.
+6-1	536-537	U	PREP	ADP	_	_	u	_	_	_	
+6-2	538-542	junu	N	NOUN	_	_	jun	_	_	_	
+6-3	543-547	2014	A	ADJ	_	_	2014	_	_	_	
+6-4	547-548	,	PUNCT	PUNCT	_	_	,	_	_	_	
+6-5	549-552	kao	ADV	ADV	_	_	kao	_	_	_	
+6-6	553-557	vođa	N	NOUN	_	_	vođa	_	_	_	
+6-7	558-565	pokreta	N	NOUN	_	_	pokret	_	_	_	
+6-8	565-566	,	PUNCT	PUNCT	_	_	,	_	_	_	
+6-9	567-574	posetio	V	VERB	_	_	posetiti	_	_	_	
+6-10	575-577	je	V	AUX	_	_	jesam	_	_	_	
+6-11	578-584	deveti	A	ADJ	_	_	deveti	_	_	_	
+6-12	585-596	međunarodni	A	ADJ	_	_	međunarodan	_	_	_	
+6-13	597-607	omladinski	A	ADJ	_	_	omladinski	_	_	_	
+6-14	608-617	fudbalski	A	ADJ	_	_	fudbalski	_	_	_	
+6-15	618-624	turnir	N	NOUN	_	_	turnir	_	_	_	
+6-16	625-636	organizovan	V	VERB	_	_	organizovati	_	_	_	
+6-17	637-638	u	PREP	ADP	_	_	u	1[730]	u znak[730]	AdpID[730]	
+6-18	639-643	znak	N	NOUN	_	_	znak	1[730]	u znak[730]	AdpID[730]	
+6-19	644-651	sećanja	N	NOUN	_	_	sećanje	_	_	_	
+6-20	652-654	na	PREP	ADP	_	_	na	_	_	_	
+6-21	655-661	Jurija	N	PROPN	http://www.wikidata.org/entity/Q323105[6]	PERS[6]	Jurij	_	_	_	
+6-22	662-673	Andrejeviča	N	PROPN	http://www.wikidata.org/entity/Q323105[6]	PERS[6]	Andrejevič	_	_	_	
+6-23	674-682	Morozova	N	PROPN	http://www.wikidata.org/entity/Q323105[6]	PERS[6]	Morozov	_	_	_	
+6-24	682-683	.	SENT	PUNCT	_	_	.	_	_	_	
+
+#Text=Pristup sadržaju imaju samo nadležni organi koji su direktno uključeni u razmenu informacija.
+17-1	1592-1599	Pristup	N	NOUN	_	_	pristup	1	*	LVC.full	
+17-2	1600-1608	sadržaju	N	NOUN	_	_	sadržaj	_	_	_	
+17-3	1609-1614	imaju	V	VERB	_	_	imati	1	imati pristup	LVC.full	
+17-4	1615-1619	samo	ADV	ADV	_	_	samo	_	_	_	
+17-5	1620-1628	nadležni	A	ADJ	_	_	nadležan	_	_	_	
+17-6	1629-1635	organi	N	NOUN	_	_	organ	_	_	_	
+17-7	1636-1640	koji	PRO	DET	_	_	koji	_	_	_	
+17-8	1641-1643	su	V	AUX	_	_	jesam	_	_	_	
+17-9	1644-1652	direktno	ADV	ADV	_	_	direktno	_	_	_	
+17-10	1653-1662	uključeni	V	VERB	_	_	uključiti	_	_	_	
+17-11	1663-1664	u	PREP	ADP	_	_	u	_	_	_	
+17-12	1665-1672	razmenu	N	NOUN	_	_	razmena	2[733]	razmena informacija[733]	NID[733]	
+17-13	1673-1684	informacija	N	NOUN	_	_	informacija	2[733]	razmena informacija[733]	NID[733]	
+17-14	1684-1685	.	SENT	PUNCT	_	_	.	_	_	_	
+
+#Text=Mladi novinari pres centra iznose svoje viđenje učešća u Programu, realizujući format „deca o deci“.
+23-1	2261-2266	Mladi	A	ADJ	_	_	mlad	_	_	_	
+23-2	2267-2275	novinari	N	NOUN	http://www.wikidata.org/entity/Q1930187	ROLE	novinar	_	_	_	
+23-3	2276-2280	pres	N	NOUN	_	_	pres	1[743]	pres-centar[743]	NID[743]	
+23-4	2281-2287	centra	N	NOUN	_	_	centar	1[743]	pres-centar[743]	NID[743]	
+23-5	2288-2294	iznose	V	VERB	_	_	iznositi	2	iznositi viđenje	LVC.full	
+23-6	2295-2300	svoje	PRO	DET	_	_	svoj	_	_	_	
+23-7	2301-2308	viđenje	N	NOUN	_	_	viđenje	2	*	LVC.full	
+23-8	2309-2315	učešća	N	NOUN	_	_	učešće	_	_	_	
+23-9	2316-2317	u	PREP	ADP	_	_	u	_	_	_	
+23-10	2318-2326	Programu	N	NOUN	_	_	program	_	_	_	
+23-11	2326-2327	,	PUNCT	PUNCT	_	_	,	_	_	_	
+23-12	2328-2339	realizujući	V	VERB	_	_	realizovati	_	_	_	
+23-13	2340-2346	format	N	NOUN	_	_	format	_	_	_	
+23-14	2347-2348	„	PUNCT	PUNCT	_	_	"	_	_	_	
+23-15	2348-2352	deca	N	NOUN	_	_	deca	_	_	_	
+23-16	2353-2354	o	PREP	ADP	_	_	o	_	_	_	
+23-17	2355-2359	deci	N	NOUN	_	_	deca	_	_	_	
+23-18	2359-2360	“	PUNCT	PUNCT	_	_	“	_	_	_	
+23-19	2360-2361	.	SENT	PUNCT	_	_	.	_	_	_	
+
+#Text=Na treningu je golman FK Zenit Jurij Lodigin dao visoku ocenu Zaharovim sposobnostima i podelio s njim neke golmanske tajne.
+26-1	2457-2459	Na	PREP	ADP	_	_	na	_	_	_	
+26-2	2460-2468	treningu	N	NOUN	_	_	trening	_	_	_	
+26-3	2469-2471	je	V	AUX	_	_	jesam	_	_	_	
+26-4	2472-2478	golman	N	NOUN	http://www.wikidata.org/entity/Q201330	ROLE	golman	_	_	_	
+26-5	2479-2481	FK	ABB	X	http://www.wikidata.org/entity/Q601219[22]	ORG[22]	FK	_	_	_	
+26-6	2482-2487	Zenit	N	NOUN	http://www.wikidata.org/entity/Q601219[22]	ORG[22]	zenit	_	_	_	
+26-7	2488-2493	Jurij	N	PROPN	http://www.wikidata.org/entity/Q12875294[23]	PERS[23]	Jurij	_	_	_	
+26-8	2494-2501	Lodigin	N	PROPN	http://www.wikidata.org/entity/Q12875294[23]	PERS[23]	Lodigin	_	_	_	
+26-9	2502-2505	dao	V	VERB	_	_	dati	1	dati ocenu	LVC.full	
+26-10	2506-2512	visoku	A	ADJ	_	_	visok	_	_	_	
+26-11	2513-2518	ocenu	N	NOUN	_	_	ocena	1	*	LVC.full	
+26-12	2519-2528	Zaharovim	A	ADJ	_	_	Zaharov	_	_	_	
+26-13	2529-2542	sposobnostima	N	NOUN	_	_	sposobnost	_	_	_	
+26-14	2543-2544	i	CONJ	CCONJ	_	_	i	_	_	_	
+26-15	2545-2552	podelio	V	VERB	_	_	podeliti	_	_	_	
+26-16	2553-2554	s	PREP	ADP	_	_	s	_	_	_	
+26-17	2555-2559	njim	PRO	PRON	_	_	on	_	_	_	
+26-18	2560-2564	neke	PRO	DET	_	_	neki	_	_	_	
+26-19	2565-2574	golmanske	A	ADJ	_	_	golmanski	_	_	_	
+26-20	2575-2580	tajne	N	NOUN	_	_	tajna	_	_	_	
+26-21	2580-2581	.	SENT	PUNCT	_	_	.	_	_	_	

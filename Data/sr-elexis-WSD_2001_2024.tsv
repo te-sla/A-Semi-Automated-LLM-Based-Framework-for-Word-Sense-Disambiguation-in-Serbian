@@ -1,0 +1,446 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue|coarseValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_SP=webanno.custom.MWE|MWEid|MWElemma|MWEtype
+#T_SP=webanno.custom.WSD|Comment|Explanation|KBid|NumberOfSenses|Origine|Possible
+
+
+#Text=Tehnološki faktori podrazumevaju tehnološke aspekte, kao što su aktivnosti istraživanja i razvoja, automatizacija, tehnološki podsticaji i stopa tehnoloških promena.
+1-1	0-10	Tehnološki	A	ADJ	_	_	tehnološki	_	_	_	*	_	_	_	_	_	_
+1-2	11-18	faktori	N	NOUN	_	_	faktor	_	_	_	*	_	_	_	_	_	_
+1-3	19-32	podrazumevaju	V	VERB	_	_	podrazumevati	_	_	_	*	_	_	_	_	_	_
+1-4	33-43	tehnološke	A	ADJ	_	_	tehnološki	_	_	_	*	_	_	_	_	_	_
+1-5	44-51	aspekte	N	NOUN	_	_	aspekt	_	_	_	*	_	_	_	_	_	_
+1-6	51-52	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	_
+1-7	53-56	kao	CONJ	SCONJ	_	_	kao	1[6]	kao što[6]	ConjID[6]	*[14]	_	_	_	_	_	_
+1-8	57-60	što	CONJ	SCONJ	_	_	što	1[6]	kao što[6]	ConjID[6]	*[14]	_	_	_	_	_	_
+1-9	61-63	su	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	_
+1-10	64-74	aktivnosti	N	NOUN	_	_	aktivnost	_	_	_	*	_	_	_	_	_	_
+1-11	75-87	istraživanja	N	NOUN	_	_	istraživanje	_	_	_	*	_	_	_	_	_	_
+1-12	88-89	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	_
+1-13	90-97	razvoja	N	NOUN	_	_	razvoj	_	_	_	*	_	_	_	_	_	_
+1-14	97-98	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	_
+1-15	99-113	automatizacija	N	NOUN	_	_	automatizacija	_	_	_	*	_	_	_	_	_	_
+1-16	113-114	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	_
+1-17	115-125	tehnološki	A	ADJ	_	_	tehnološki	_	_	_	*	_	_	_	_	_	_
+1-18	126-136	podsticaji	N	NOUN	_	_	podsticaj	_	_	_	*	_	_	_	_	_	_
+1-19	137-138	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	_
+1-20	139-144	stopa	N	NOUN	_	_	stopa	_	_	_	*	_	_	_	_	_	_
+1-21	145-156	tehnoloških	A	ADJ	_	_	tehnološki	_	_	_	*	_	_	_	_	_	_
+1-22	157-164	promena	N	NOUN	_	_	promena	_	_	_	*	_	_	_	_	_	_
+1-23	164-165	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	_
+
+#Text=Austrijske pretenzije na te nemačke države su bez izuzetka odbačene.
+2-1	165-175	Austrijske	A	ADJ	*	DEMO	austrijski	_	_	_	*	_	_	_	_	_	_
+2-2	176-186	pretenzije	N	NOUN	_	_	pretenzija	_	_	_	*	_	_	_	_	_	_
+2-3	187-189	na	PREP	ADP	_	_	na	_	_	_	_	_	_	_	_	_	_
+2-4	190-192	te	PRO	DET	_	_	taj	_	_	_	_	_	_	_	_	_	_
+2-5	193-200	nemačke	A	ADJ	*	DEMO	nemački	_	_	_	*	_	_	_	_	_	_
+2-6	201-207	države	N	NOUN	_	_	država	_	_	_	*	_	_	_	_	_	_
+2-7	208-210	su	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	_
+2-8	211-214	bez	PREP	ADP	_	_	bez	1[7]	bez izuzetka[7]	AdvID[7]	*[15]	_	_	_	_	_	_
+2-9	215-223	izuzetka	N	NOUN	_	_	izuzetak	1[7]	bez izuzetka[7]	AdvID[7]	*[15]	_	_	_	_	_	_
+2-10	224-232	odbačene	V	VERB	_	_	odbaciti	_	_	_	*	_	_	_	_	_	_
+2-11	232-233	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	_
+
+#Text=AH-1 je bio okosnica flote jurišnih helikoptera američke vojske, ali ga je u vojnoj službi zamenio AH-64 Apač.
+3-1	233-237	AH-1	ABB	X	http://www.wikidata.org/entity/Q927610	PRODUCT	AH-1	_	_	_	_	_	_	_	_	_	_
+3-2	238-240	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	_
+3-3	241-244	bio	V	AUX	_	_	biti	_	_	_	_	_	_	_	_	_	_
+3-4	245-253	okosnica	N	NOUN	_	_	okosnica	_	_	_	*	_	_	_	_	_	_
+3-5	254-259	flote	N	NOUN	_	_	flota	_	_	_	*	_	_	_	_	_	_
+3-6	260-268	jurišnih	A	ADJ	_	_	jurišni	1[8]	jurišni helikopter[8]	NID[8]	*[16]	_	_	_	_	_	_
+3-7	269-280	helikoptera	N	NOUN	_	_	helikopter	1[8]	jurišni helikopter[8]	NID[8]	*[16]	_	_	_	_	_	_
+3-8	281-289	američke	A	ADJ	*	DEMO	američki	_	_	_	*	_	_	_	_	_	_
+3-9	290-296	vojske	N	NOUN	_	_	vojska	_	_	_	*	_	_	_	_	_	_
+3-10	296-297	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	_
+3-11	298-301	ali	CONJ	CCONJ	_	_	ali	_	_	_	_	_	_	_	_	_	_
+3-12	302-304	ga	PRO	PRON	_	_	on	_	_	_	_	_	_	_	_	_	_
+3-13	305-307	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	_
+3-14	308-309	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	_	_	_
+3-15	310-316	vojnoj	A	ADJ	_	_	vojni	_	_	_	*	_	_	_	_	_	_
+3-16	317-323	službi	N	NOUN	_	_	služba	_	_	_	*	_	_	_	_	_	_
+3-17	324-331	zamenio	V	VERB	_	_	zameniti	_	_	_	*	_	_	_	_	_	_
+3-18	332-337	AH-64	ABB	X	http://www.wikidata.org/entity/Q171468[1]	PRODUCT[1]	AH-64	_	_	_	_	_	_	_	_	_	_
+3-19	338-342	Apač	N	PROPN	http://www.wikidata.org/entity/Q171468[1]	PRODUCT[1]	Apač	_	_	_	_	_	_	_	_	_	_
+3-20	342-343	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	_
+
+#Text=U požaru je došlo do urušavanja krova, a bomba je uništila deo severne strane.
+4-1	343-344	U	PREP	ADP	_	_	u	_	_	_	_	_	_	_	_	_	_
+4-2	345-351	požaru	N	NOUN	_	_	požar	_	_	_	*	_	_	_	_	_	_
+4-3	352-354	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	_
+4-4	355-360	došlo	V	VERB	_	_	doći	_	_	_	*	_	_	_	_	_	_
+4-5	361-363	do	PREP	ADP	_	_	do	_	_	_	_	_	_	_	_	_	_
+4-6	364-374	urušavanja	N	NOUN	_	_	urušavanje	_	_	_	*	_	_	_	_	_	_
+4-7	375-380	krova	N	NOUN	_	_	krov	_	_	_	*	_	_	_	_	_	_
+4-8	380-381	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	_
+4-9	382-383	a	CONJ	CCONJ	_	_	a	_	_	_	_	_	_	_	_	_	_
+4-10	384-389	bomba	N	NOUN	_	_	bomba	_	_	_	*	_	_	_	_	_	_
+4-11	390-392	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	_
+4-12	393-401	uništila	V	VERB	_	_	uništiti	_	_	_	*	_	_	_	_	_	_
+4-13	402-405	deo	N	NOUN	_	_	deo	_	_	_	*	_	_	_	_	_	_
+4-14	406-413	severne	A	ADJ	_	_	severni	_	_	_	*	_	_	_	_	_	_
+4-15	414-420	strane	N	NOUN	_	_	strana	_	_	_	*	_	_	_	_	_	_
+4-16	420-421	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	_
+
+#Text=Čovek se može slobodno kretati u prostoru, ali ne i u vremenu.
+5-1	421-426	Čovek	N	NOUN	_	_	čovek	_	_	_	*	_	_	_	_	_	_
+5-2	427-429	se	PAR	PART	_	_	se	1	*	IRV	*[17]	_	_	_	_	_	_
+5-3	430-434	može	V	VERB	_	_	moći	_	_	_	*[17]|*[18]	_	_	_	_	_	_
+5-4	435-443	slobodno	ADV	ADV	_	_	slobodno	_	_	_	*[17]|*[19]	_	_	_	_	_	_
+5-5	444-451	kretati	V	VERB	_	_	kretati	1	kretati se	IRV	*[17]	_	_	_	_	_	_
+5-6	452-453	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	_	_	_
+5-7	454-462	prostoru	N	NOUN	_	_	prostor	_	_	_	*	_	_	_	_	_	_
+5-8	462-463	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	_
+5-9	464-467	ali	CONJ	CCONJ	_	_	ali	_	_	_	_	_	_	_	_	_	_
+5-10	468-470	ne	PAR	PART	_	_	ne	_	_	_	_	_	_	_	_	_	_
+5-11	471-472	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	_
+5-12	473-474	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	_	_	_
+5-13	475-482	vremenu	N	NOUN	_	_	vreme	_	_	_	*	_	_	_	_	_	_
+5-14	482-483	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	_
+
+#Text=To je možda bio pokušaj da se objasni teorija tadašnjih grčkih astronoma, među njima i Eratostena–da je Zemlja okrugla.
+6-1	483-485	To	PRO	DET	_	_	taj	_	_	_	_	_	_	_	_	_	_
+6-2	486-488	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	_
+6-3	489-494	možda	PAR	PART	_	_	možda	_	_	_	_	_	_	_	_	_	_
+6-4	495-498	bio	V	AUX	_	_	biti	_	_	_	_	_	_	_	_	_	_
+6-5	499-506	pokušaj	N	NOUN	_	_	pokušaj	_	_	_	*	_	_	_	_	_	_
+6-6	507-509	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	_
+6-7	510-512	se	PAR	PART	_	_	se	_	_	_	_	_	_	_	_	_	_
+6-8	513-520	objasni	V	VERB	_	_	objasniti	_	_	_	*	_	_	_	_	_	_
+6-9	521-528	teorija	N	NOUN	_	_	teorija	_	_	_	*	_	_	_	_	_	_
+6-10	529-538	tadašnjih	A	ADJ	_	_	tadašnji	_	_	_	*	_	_	_	_	_	_
+6-11	539-545	grčkih	A	ADJ	*	DEMO	grčki	_	_	_	*	_	_	_	_	_	_
+6-12	546-555	astronoma	N	NOUN	_	_	astronom	_	_	_	*	_	_	_	_	_	_
+6-13	555-556	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	_
+6-14	557-561	među	PREP	ADP	_	_	među	_	_	_	_	_	_	_	_	_	_
+6-15	562-567	njima	PRO	PRON	_	_	oni	_	_	_	_	_	_	_	_	_	_
+6-16	568-569	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	_
+6-17	570-580	Eratostena	N	PROPN	http://www.wikidata.org/entity/Q43182	PERS	Eratosten	_	_	_	_	_	_	_	_	_	_
+6-18	580-581	–	PUNCT	PUNCT	_	_	–	_	_	_	_	_	_	_	_	_	_
+6-19	581-583	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	_
+6-20	584-586	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	_
+6-21	587-593	Zemlja	N	PROPN	http://www.wikidata.org/entity/Q2	LOC	Zemlja	_	_	_	_	_	_	_	_	_	_
+6-22	594-601	okrugla	A	ADJ	_	_	okrugao	_	_	_	*	_	_	_	_	_	_
+6-23	601-602	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	_
+
+#Text=Različite strane planine u velikoj meri se razlikuju jedna od druge.
+7-1	602-611	Različite	A	ADJ	_	_	različit	_	_	_	*	_	_	_	_	_	_
+7-2	612-618	strane	N	NOUN	_	_	strana	_	_	_	*	_	_	_	_	_	_
+7-3	619-626	planine	N	NOUN	_	_	planina	_	_	_	*	_	_	_	_	_	_
+7-4	627-628	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	_	_	_
+7-5	629-636	velikoj	A	ADJ	_	_	velik	_	_	_	*	_	_	_	_	_	_
+7-6	637-641	meri	N	NOUN	_	_	mera	_	_	_	*	_	_	_	_	_	_
+7-7	642-644	se	PAR	PART	_	_	se	1	*	IRV	*[20]	_	_	_	_	_	_
+7-8	645-654	razlikuju	V	VERB	_	_	razlikovati	1	razlikovati se	IRV	*[20]	_	_	_	_	_	_
+7-9	655-660	jedna	NUM	NUM	_	_	jedan	_	_	_	_	_	_	_	_	_	_
+7-10	661-663	od	PREP	ADP	_	_	od	_	_	_	_	_	_	_	_	_	_
+7-11	664-669	druge	A	ADJ	_	_	drugi	_	_	_	*	_	_	_	_	_	_
+7-12	669-670	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	_
+
+#Text=Takve oluje mogu da traju samo nekoliko sati ili da se otegnu vekovima.
+8-1	670-675	Takve	PRO	DET	_	_	takav	_	_	_	_	_	_	_	_	_	_
+8-2	676-681	oluje	N	NOUN	_	_	oluja	_	_	_	*	_	_	_	_	_	_
+8-3	682-686	mogu	V	VERB	_	_	moći	_	_	_	*	_	_	_	_	_	_
+8-4	687-689	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	_
+8-5	690-695	traju	V	VERB	_	_	trajati	_	_	_	*	_	_	_	_	_	_
+8-6	696-700	samo	ADV	ADV	_	_	samo	_	_	_	*	_	_	_	_	_	_
+8-7	701-709	nekoliko	ADV	ADV	_	_	nekoliko	_	_	_	*	_	_	_	_	_	_
+8-8	710-714	sati	N	NOUN	_	_	sat	_	_	_	*	_	_	_	_	_	_
+8-9	715-718	ili	CONJ	CCONJ	_	_	ili	_	_	_	_	_	_	_	_	_	_
+8-10	719-721	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	_
+8-11	722-724	se	PAR	PART	_	_	se	1	*	IRV	*[21]	_	_	_	_	_	_
+8-12	725-731	otegnu	V	VERB	_	_	otegnuti	1	otegnuti se	IRV	*[21]	_	_	_	_	_	_
+8-13	732-740	vekovima	N	NOUN	_	_	vek	_	_	_	*	_	_	_	_	_	_
+8-14	740-741	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	_
+
+#Text=Ona mora da izbegava nepotrebne reči, a on ne sme da se previše uzda u njene godine i njenu pobožnost.
+9-1	741-744	Ona	PRO	PRON	_	_	ona	_	_	_	_	_	_	_	_	_	_
+9-2	745-749	mora	V	VERB	_	_	morati	_	_	_	*	_	_	_	_	_	_
+9-3	750-752	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	_
+9-4	753-761	izbegava	V	VERB	_	_	izbegavati	_	_	_	*	_	_	_	_	_	_
+9-5	762-772	nepotrebne	A	ADJ	_	_	nepotreban	_	_	_	*	_	_	_	_	_	_
+9-6	773-777	reči	N	NOUN	_	_	reč	_	_	_	*	_	_	_	_	_	_
+9-7	777-778	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	_
+9-8	779-780	a	CONJ	CCONJ	_	_	a	_	_	_	_	_	_	_	_	_	_
+9-9	781-783	on	PRO	PRON	_	_	on	_	_	_	_	_	_	_	_	_	_
+9-10	784-786	ne	PAR	PART	_	_	ne	_	_	_	_	_	_	_	_	_	_
+9-11	787-790	sme	V	VERB	_	_	smeti	_	_	_	*	_	_	_	_	_	_
+9-12	791-793	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	_
+9-13	794-796	se	PAR	PART	_	_	se	1	*	IRV	*[22]	_	_	_	_	_	_
+9-14	797-804	previše	ADV	ADV	_	_	previše	_	_	_	*[22]|*[23]	_	_	_	_	_	_
+9-15	805-809	uzda	V	VERB	_	_	uzdati	1	uzdati se	IRV	*[22]	_	_	_	_	_	_
+9-16	810-811	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	_	_	_
+9-17	812-817	njene	PRO	DET	_	_	njen	_	_	_	_	_	_	_	_	_	_
+9-18	818-824	godine	N	NOUN	_	_	godina	_	_	_	*	_	_	_	_	_	_
+9-19	825-826	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	_
+9-20	827-832	njenu	PRO	DET	_	_	njen	_	_	_	_	_	_	_	_	_	_
+9-21	833-842	pobožnost	N	NOUN	_	_	pobožnost	_	_	_	*	_	_	_	_	_	_
+9-22	842-843	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	_
+
+#Text=Godine 1805. Žozef Luj Ge-Lisak i Aleksandar fon Humbolt su pokazali da se voda sastoji od dva dela vodonika i jednog dela kiseonika.
+10-1	843-849	Godine	N	NOUN	_	_	godina	_	_	_	*	_	_	_	_	_	_
+10-2	850-855	1805.	A	ADJ	_	_	1805.	_	_	_	_	_	_	_	_	_	_
+10-3	856-861	Žozef	N	PROPN	http://www.wikidata.org/entity/Q153185[2]	PERS[2]	Žozef	_	_	_	_	_	_	_	_	_	_
+10-4	862-865	Luj	N	PROPN	http://www.wikidata.org/entity/Q153185[2]	PERS[2]	Luj	_	_	_	_	_	_	_	_	_	_
+10-5	866-868	Ge	N	PROPN	http://www.wikidata.org/entity/Q153185[2]	PERS[2]	Ge	_	_	_	_	_	_	_	_	_	_
+10-6	868-869	-	PUNCT	PUNCT	http://www.wikidata.org/entity/Q153185[2]	PERS[2]	-	_	_	_	_	_	_	_	_	_	_
+10-7	869-874	Lisak	N	PROPN	http://www.wikidata.org/entity/Q153185[2]	PERS[2]	Lisak	_	_	_	_	_	_	_	_	_	_
+10-8	875-876	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	_
+10-9	877-887	Aleksandar	N	PROPN	http://www.wikidata.org/entity/Q6694[3]	PERS[3]	Aleksandar	_	_	_	_	_	_	_	_	_	_
+10-10	888-891	fon	F	X	http://www.wikidata.org/entity/Q6694[3]	PERS[3]	fon	_	_	_	_	_	_	_	_	_	_
+10-11	892-899	Humbolt	N	PROPN	http://www.wikidata.org/entity/Q6694[3]	PERS[3]	Humbolt	_	_	_	_	_	_	_	_	_	_
+10-12	900-902	su	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	_
+10-13	903-911	pokazali	V	VERB	_	_	pokazati	_	_	_	*	_	_	_	_	_	_
+10-14	912-914	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	_
+10-15	915-917	se	PAR	PART	_	_	se	2	*	IRV	*[24]	_	_	_	_	_	_
+10-16	918-922	voda	N	NOUN	_	_	voda	_	_	_	*[24]|*[25]	_	_	_	_	_	_
+10-17	923-930	sastoji	V	VERB	_	_	sastojati	2	sastojati se	IRV	*[24]	_	_	_	_	_	_
+10-18	931-933	od	PREP	ADP	_	_	od	_	_	_	_	_	_	_	_	_	_
+10-19	934-937	dva	NUM	NUM	_	_	dva	_	_	_	_	_	_	_	_	_	_
+10-20	938-942	dela	N	NOUN	_	_	deo	_	_	_	*	_	_	_	_	_	_
+10-21	943-951	vodonika	N	NOUN	_	_	vodonik	_	_	_	*	_	_	_	_	_	_
+10-22	952-953	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	_
+10-23	954-960	jednog	NUM	NUM	_	_	jedan	_	_	_	_	_	_	_	_	_	_
+10-24	961-965	dela	N	NOUN	_	_	deo	_	_	_	*	_	_	_	_	_	_
+10-25	966-975	kiseonika	N	NOUN	_	_	kiseonik	_	_	_	*	_	_	_	_	_	_
+10-26	975-976	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	_
+
+#Text=Paleografska studija u Britanskom muzeju iz 1938. godine otkrila je da je tekst pretrpeo nekoliko korekcija.
+11-1	976-988	Paleografska	A	ADJ	_	_	paleografski	_	_	_	*	_	_	_	_	_	_
+11-2	989-996	studija	N	NOUN	_	_	studija	_	_	_	*	_	_	_	_	_	_
+11-3	997-998	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	_	_	_
+11-4	999-1009	Britanskom	A	ADJ	http://www.wikidata.org/entity/Q6373[4]	ORG[4]	britanski	_	_	_	*	_	_	_	_	_	_
+11-5	1010-1016	muzeju	N	NOUN	http://www.wikidata.org/entity/Q6373[4]	ORG[4]	muzej	_	_	_	*	_	_	_	_	_	_
+11-6	1017-1019	iz	PREP	ADP	_	_	iz	_	_	_	_	_	_	_	_	_	_
+11-7	1020-1025	1938.	A	ADJ	_	_	1938.	_	_	_	_	_	_	_	_	_	_
+11-8	1026-1032	godine	N	NOUN	_	_	godina	_	_	_	*	_	_	_	_	_	_
+11-9	1033-1040	otkrila	V	VERB	_	_	otkriti	_	_	_	*	_	_	_	_	_	_
+11-10	1041-1043	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	_
+11-11	1044-1046	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	_
+11-12	1047-1049	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	_
+11-13	1050-1055	tekst	N	NOUN	_	_	tekst	_	_	_	*	_	_	_	_	_	_
+11-14	1056-1064	pretrpeo	V	VERB	_	_	pretrpeti	_	_	_	*	_	_	_	_	_	_
+11-15	1065-1073	nekoliko	ADV	ADV	_	_	nekoliko	_	_	_	*	_	_	_	_	_	_
+11-16	1074-1083	korekcija	N	NOUN	_	_	korekcija	_	_	_	*	_	_	_	_	_	_
+11-17	1083-1084	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	_
+
+#Text=Može čak i da preživi u svemirskom vakuumu.
+12-1	1084-1088	Može	V	VERB	_	_	moći	_	_	_	*	_	_	_	_	_	_
+12-2	1089-1092	čak	PAR	PART	_	_	čak	_	_	_	_	_	_	_	_	_	_
+12-3	1093-1094	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	_
+12-4	1095-1097	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	_
+12-5	1098-1105	preživi	V	VERB	_	_	preživeti	_	_	_	*	_	_	_	_	_	_
+12-6	1106-1107	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	_	_	_
+12-7	1108-1118	svemirskom	A	ADJ	_	_	svemirski	_	_	_	*	_	_	_	_	_	_
+12-8	1119-1126	vakuumu	N	NOUN	_	_	vakuum	_	_	_	*	_	_	_	_	_	_
+12-9	1126-1127	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	_
+
+#Text=Enskombov kvartet se sastoji od četiri skupa podataka, čije su jednostavne deskriptivne statističke karakteristike gotovo identične, ali izgledaju potpuno različito kada se prikažu grafički.
+13-1	1127-1136	Enskombov	A	ADJ	_	_	Enskombov	_	_	_	*	_	_	_	_	_	_
+13-2	1137-1144	kvartet	N	NOUN	_	_	kvartet	_	_	_	*	_	_	_	_	_	_
+13-3	1145-1147	se	PAR	PART	_	_	se	1	*	IRV	*[26]	_	_	_	_	_	_
+13-4	1148-1155	sastoji	V	VERB	_	_	sastojati	1	sastojati se	IRV	*[26]	_	_	_	_	_	_
+13-5	1156-1158	od	PREP	ADP	_	_	od	_	_	_	_	_	_	_	_	_	_
+13-6	1159-1165	četiri	NUM	NUM	_	_	četiri	_	_	_	_	_	_	_	_	_	_
+13-7	1166-1171	skupa	N	NOUN	_	_	skup	2[9]	skup podataka[9]	NID[9]	*[27]	_	_	_	_	_	_
+13-8	1172-1180	podataka	N	NOUN	_	_	podatak	2[9]	skup podataka[9]	NID[9]	*[27]	_	_	_	_	_	_
+13-9	1180-1181	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	_
+13-10	1182-1186	čije	PRO	DET	_	_	čiji	_	_	_	_	_	_	_	_	_	_
+13-11	1187-1189	su	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	_
+13-12	1190-1201	jednostavne	A	ADJ	_	_	jednostavan	_	_	_	*	_	_	_	_	_	_
+13-13	1202-1214	deskriptivne	A	ADJ	_	_	deskriptivan	_	_	_	*	_	_	_	_	_	_
+13-14	1215-1226	statističke	A	ADJ	_	_	statistički	_	_	_	*	_	_	_	_	_	_
+13-15	1227-1241	karakteristike	N	NOUN	_	_	karakteristika	_	_	_	*	_	_	_	_	_	_
+13-16	1242-1248	gotovo	ADV	ADV	_	_	gotovo	_	_	_	*	_	_	_	_	_	_
+13-17	1249-1258	identične	A	ADJ	_	_	identičan	_	_	_	*	_	_	_	_	_	_
+13-18	1258-1259	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	_
+13-19	1260-1263	ali	CONJ	CCONJ	_	_	ali	_	_	_	_	_	_	_	_	_	_
+13-20	1264-1273	izgledaju	V	VERB	_	_	izgledati	_	_	_	*	_	_	_	_	_	_
+13-21	1274-1281	potpuno	ADV	ADV	_	_	potpuno	_	_	_	*	_	_	_	_	_	_
+13-22	1282-1291	različito	ADV	ADV	_	_	različito	_	_	_	*	_	_	_	_	_	_
+13-23	1292-1296	kada	CONJ	SCONJ	_	_	kada	_	_	_	_	_	_	_	_	_	_
+13-24	1297-1299	se	PAR	PART	_	_	se	_	_	_	_	_	_	_	_	_	_
+13-25	1300-1307	prikažu	V	VERB	_	_	prikazati	_	_	_	*	_	_	_	_	_	_
+13-26	1308-1316	grafički	ADV	ADV	_	_	grafički	_	_	_	*	_	_	_	_	_	_
+13-27	1316-1317	.	PUNCT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	_
+
+#Text=Nakon popuštanja verskih tenzija bilo je nekih radova na restauraciji katedrale.
+14-1	1317-1322	Nakon	PREP	ADP	_	_	nakon	_	_	_	_	_	_	_	_	_	_
+14-2	1323-1333	popuštanja	N	NOUN	_	_	popuštanje	_	_	_	*	_	_	_	_	_	_
+14-3	1334-1341	verskih	A	ADJ	_	_	verski	_	_	_	*	_	_	_	_	_	_
+14-4	1342-1349	tenzija	N	NOUN	_	_	tenzija	_	_	_	*	_	_	_	_	_	_
+14-5	1350-1354	bilo	V	AUX	_	_	biti	_	_	_	_	_	_	_	_	_	_
+14-6	1355-1357	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	_
+14-7	1358-1363	nekih	PRO	DET	_	_	nekih	_	_	_	_	_	_	_	_	_	_
+14-8	1364-1370	radova	N	NOUN	_	_	rad	_	_	_	*	_	_	_	_	_	_
+14-9	1371-1373	na	PREP	ADP	_	_	na	_	_	_	_	_	_	_	_	_	_
+14-10	1374-1386	restauraciji	N	NOUN	_	_	restauracija	_	_	_	*	_	_	_	_	_	_
+14-11	1387-1396	katedrale	N	NOUN	_	_	katedrala	_	_	_	*	_	_	_	_	_	_
+14-12	1396-1397	.	PUNCT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	_
+
+#Text=Pošto je problem odolevao napadima vodećih matematičara tog vremena, dvadesetosmogodišnji Ojler je rešivši problem odmah postao slavan.
+15-1	1397-1402	Pošto	CONJ	SCONJ	_	_	pošto	_	_	_	_	_	_	_	_	_	_
+15-2	1403-1405	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	_
+15-3	1406-1413	problem	N	NOUN	_	_	problem	_	_	_	*	_	_	_	_	_	_
+15-4	1414-1422	odolevao	V	VERB	_	_	odolevati	_	_	_	*	_	_	_	_	_	_
+15-5	1423-1431	napadima	N	NOUN	_	_	napad	_	_	_	*	_	_	_	_	_	_
+15-6	1432-1439	vodećih	A	ADJ	_	_	vodeći	_	_	_	*	_	_	_	_	_	_
+15-7	1440-1452	matematičara	N	NOUN	http://www.wikidata.org/entity/Q170790	ROLE	matematičar	_	_	_	*	_	_	_	_	_	_
+15-8	1453-1456	tog	PRO	DET	_	_	taj	_	_	_	_	_	_	_	_	_	_
+15-9	1457-1464	vremena	N	NOUN	_	_	vreme	_	_	_	*	_	_	_	_	_	_
+15-10	1464-1465	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	_
+15-11	1466-1486	dvadesetosmogodišnji	A	ADJ	_	_	dvadesetosmogodišnji	_	_	_	*	_	_	_	_	_	_
+15-12	1487-1492	Ojler	N	PROPN	http://www.wikidata.org/entity/Q7604	PERS	Ojler	_	_	_	_	_	_	_	_	_	_
+15-13	1493-1495	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	_
+15-14	1496-1503	rešivši	V	VERB	_	_	rešiti	1	rešiti problem	LVC.full	*[28]	_	_	_	_	_	_
+15-15	1504-1511	problem	N	NOUN	_	_	problem	1	*	LVC.full	*[28]	_	_	_	_	_	_
+15-16	1512-1517	odmah	ADV	ADV	_	_	odmah	_	_	_	*	_	_	_	_	_	_
+15-17	1518-1524	postao	V	VERB	_	_	postati	_	_	_	*	_	_	_	_	_	_
+15-18	1525-1531	slavan	A	ADJ	_	_	slavan	_	_	_	*	_	_	_	_	_	_
+15-19	1531-1532	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	_
+
+#Text=Prema uslovima tog Sporazuma, Boemund je pristao da postane carski vazal i da brani carstvo kad god zatreba.
+16-1	1532-1537	Prema	PREP	ADP	_	_	prema	_	_	_	_	_	_	_	_	_	_
+16-2	1538-1546	uslovima	N	NOUN	_	_	uslov	_	_	_	*	_	_	_	_	_	_
+16-3	1547-1550	tog	PRO	DET	_	_	taj	_	_	_	_	_	_	_	_	_	_
+16-4	1551-1560	Sporazuma	N	NOUN	_	_	sporazum	_	_	_	*	_	_	_	_	_	_
+16-5	1560-1561	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	_
+16-6	1562-1569	Boemund	N	PROPN	http://www.wikidata.org/entity/Q879631	PERS	Boemund	_	_	_	_	_	_	_	_	_	_
+16-7	1570-1572	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	_
+16-8	1573-1580	pristao	V	VERB	_	_	pristati	_	_	_	*	_	_	_	_	_	_
+16-9	1581-1583	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	_
+16-10	1584-1591	postane	V	VERB	_	_	postati	_	_	_	*	_	_	_	_	_	_
+16-11	1592-1598	carski	A	ADJ	_	_	carski	_	_	_	*	_	_	_	_	_	_
+16-12	1599-1604	vazal	N	NOUN	http://www.wikidata.org/entity/Q223266	ROLE	vazal	_	_	_	*	_	_	_	_	_	_
+16-13	1605-1606	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	_
+16-14	1607-1609	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	_
+16-15	1610-1615	brani	V	VERB	_	_	braniti	_	_	_	*	_	_	_	_	_	_
+16-16	1616-1623	carstvo	N	NOUN	_	_	carstvo	_	_	_	*	_	_	_	_	_	_
+16-17	1624-1627	kad	CONJ	SCONJ	_	_	kad	_	_	_	_	_	_	_	_	_	_
+16-18	1628-1631	god	PAR	PART	_	_	god	_	_	_	_	_	_	_	_	_	_
+16-19	1632-1639	zatreba	V	VERB	_	_	zatrebati	_	_	_	*	_	_	_	_	_	_
+16-20	1639-1640	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	_
+
+#Text=Do naseljavanja Atrebata u Britaniji nije došlo masovnom seobom stanovništva.
+17-1	1640-1642	Do	PREP	ADP	_	_	do	_	_	_	_	_	_	_	_	_	_
+17-2	1643-1655	naseljavanja	N	NOUN	_	_	naseljavanje	_	_	_	*	_	_	_	_	_	_
+17-3	1656-1664	Atrebata	N	PROPN	http://www.wikidata.org/entity/Q164811	DEMO	Atrebat	_	_	_	_	_	_	_	_	_	_
+17-4	1665-1666	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	_	_	_
+17-5	1667-1676	Britaniji	N	PROPN	http://www.wikidata.org/entity/Q23666	LOC	Britanija	_	_	_	_	_	_	_	_	_	_
+17-6	1677-1681	nije	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	_
+17-7	1682-1687	došlo	V	VERB	_	_	doći	_	_	_	*	_	_	_	_	_	_
+17-8	1688-1696	masovnom	A	ADJ	_	_	masovan	_	_	_	*	_	_	_	_	_	_
+17-9	1697-1703	seobom	N	NOUN	_	_	seoba	_	_	_	*	_	_	_	_	_	_
+17-10	1704-1716	stanovništva	N	NOUN	_	_	stanovništvo	_	_	_	*	_	_	_	_	_	_
+17-11	1716-1717	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	_
+
+#Text=Na ovoj poziciji podržavao je careve interese i na kraju postao jedan od njegovih najbližih savetnika.
+18-1	1717-1719	Na	PREP	ADP	_	_	na	_	_	_	_	_	_	_	_	_	_
+18-2	1720-1724	ovoj	PRO	DET	_	_	ovaj	_	_	_	_	_	_	_	_	_	_
+18-3	1725-1733	poziciji	N	NOUN	_	_	pozicija	_	_	_	*	_	_	_	_	_	_
+18-4	1734-1743	podržavao	V	VERB	_	_	podržavati	_	_	_	*	_	_	_	_	_	_
+18-5	1744-1746	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	_
+18-6	1747-1753	careve	A	ADJ	_	_	carev	_	_	_	*	_	_	_	_	_	_
+18-7	1754-1762	interese	N	NOUN	_	_	interes	_	_	_	*	_	_	_	_	_	_
+18-8	1763-1764	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	_
+18-9	1765-1767	na	PREP	ADP	_	_	na	1[10]	na kraju[10]	AdvID[10]	*[29]	_	_	_	_	_	_
+18-10	1768-1773	kraju	N	NOUN	_	_	kraj	1[10]	na kraju[10]	AdvID[10]	*[29]	_	_	_	_	_	_
+18-11	1774-1780	postao	V	VERB	_	_	postati	_	_	_	*	_	_	_	_	_	_
+18-12	1781-1786	jedan	NUM	NUM	_	_	jedan	_	_	_	_	_	_	_	_	_	_
+18-13	1787-1789	od	PREP	ADP	_	_	od	_	_	_	_	_	_	_	_	_	_
+18-14	1790-1798	njegovih	PRO	DET	_	_	njegov	_	_	_	_	_	_	_	_	_	_
+18-15	1799-1808	najbližih	A	ADJ	_	_	blizak	_	_	_	*	_	_	_	_	_	_
+18-16	1809-1818	savetnika	N	NOUN	http://www.wikidata.org/entity/Q2994387	ROLE	savetnik	_	_	_	*	_	_	_	_	_	_
+18-17	1818-1819	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	_
+
+#Text=Univerzitet se sastoji od 18 koledža i škola koje nude preko 150 studijskih programa.
+19-1	1819-1830	Univerzitet	N	NOUN	_	_	univerzitet	_	_	_	*	_	_	_	_	_	_
+19-2	1831-1833	se	PAR	PART	_	_	se	1	*	IRV	*[30]	_	_	_	_	_	_
+19-3	1834-1841	sastoji	V	VERB	_	_	sastojati	1	sastojati se	IRV	*[30]	_	_	_	_	_	_
+19-4	1842-1844	od	PREP	ADP	_	_	od	_	_	_	_	_	_	_	_	_	_
+19-5	1845-1847	18	NUM	NUM	_	_	18	_	_	_	_	_	_	_	_	_	_
+19-6	1848-1855	koledža	N	NOUN	_	_	koledž	_	_	_	*	_	_	_	_	_	_
+19-7	1856-1857	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	_
+19-8	1858-1863	škola	N	NOUN	_	_	škola	_	_	_	*	_	_	_	_	_	_
+19-9	1864-1868	koje	PRO	DET	_	_	koji	_	_	_	_	_	_	_	_	_	_
+19-10	1869-1873	nude	V	VERB	_	_	nuditi	_	_	_	*	_	_	_	_	_	_
+19-11	1874-1879	preko	PREP	ADP	_	_	preko	_	_	_	_	_	_	_	_	_	_
+19-12	1880-1883	150	NUM	NUM	_	_	150	_	_	_	_	_	_	_	_	_	_
+19-13	1884-1894	studijskih	A	ADJ	_	_	studijski	2[11]	studijski program[11]	NID[11]	*[31]	_	_	_	_	_	_
+19-14	1895-1903	programa	N	NOUN	_	_	program	2[11]	studijski program[11]	NID[11]	*[31]	_	_	_	_	_	_
+19-15	1903-1904	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	_
+
+#Text=Svi prosto nastavljaju da hodaju kao zombiji.
+20-1	1904-1907	Svi	PRO	DET	_	_	sav	_	_	_	_	_	_	_	_	_	_
+20-2	1908-1914	prosto	ADV	ADV	_	_	prosto	_	_	_	*	_	_	_	_	_	_
+20-3	1915-1926	nastavljaju	V	VERB	_	_	nastavljati	_	_	_	*	_	_	_	_	_	_
+20-4	1927-1929	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	_
+20-5	1930-1936	hodaju	V	VERB	_	_	hodati	_	_	_	*	_	_	_	_	_	_
+20-6	1937-1940	kao	CONJ	CCONJ	_	_	kao	_	_	_	_	_	_	_	_	_	_
+20-7	1941-1948	zombiji	N	NOUN	_	_	zombi	_	_	_	*	_	_	_	_	_	_
+20-8	1948-1949	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	_
+
+#Text=Drugi amandman ustava Sjedinjenih Država daje nam pravo da nosimo oružje.
+21-1	1949-1954	Drugi	A	ADJ	_	_	drugi	_	_	_	*	_	_	_	_	_	_
+21-2	1955-1963	amandman	N	NOUN	_	_	amandman	_	_	_	*	_	_	_	_	_	_
+21-3	1964-1970	ustava	N	NOUN	_	_	ustav	_	_	_	*	_	_	_	_	_	_
+21-4	1971-1982	Sjedinjenih	A	ADJ	http://www.wikidata.org/entity/Q30[5]	LOC[5]	sjedinjen	_	_	_	*	_	_	_	_	_	_
+21-5	1983-1989	Država	N	NOUN	http://www.wikidata.org/entity/Q30[5]	LOC[5]	država	_	_	_	*	_	_	_	_	_	_
+21-6	1990-1994	daje	V	VERB	_	_	davati	1	dati pravo	LVC.full	*[32]	_	_	_	_	_	_
+21-7	1995-1998	nam	PRO	PRON	_	_	mi	_	_	_	*[32]	_	_	_	_	_	_
+21-8	1999-2004	pravo	N	NOUN	_	_	pravo	1	*	LVC.full	*[32]	_	_	_	_	_	_
+21-9	2005-2007	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	_
+21-10	2008-2014	nosimo	V	VERB	_	_	nositi	_	_	_	*	_	_	_	_	_	_
+21-11	2015-2021	oružje	N	NOUN	_	_	oružje	_	_	_	*	_	_	_	_	_	_
+21-12	2021-2022	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	_
+
+#Text=Koristi se i za pravljenje sladoleda.
+22-1	2022-2029	Koristi	V	VERB	_	_	koristiti	_	_	_	*	_	_	_	_	_	_
+22-2	2030-2032	se	PAR	PART	_	_	se	_	_	_	_	_	_	_	_	_	_
+22-3	2033-2034	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	_
+22-4	2035-2037	za	PREP	ADP	_	_	za	_	_	_	_	_	_	_	_	_	_
+22-5	2038-2048	pravljenje	N	NOUN	_	_	pravljenje	_	_	_	*	_	_	_	_	_	_
+22-6	2049-2058	sladoleda	N	NOUN	_	_	sladoled	_	_	_	*	_	_	_	_	_	_
+22-7	2058-2059	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	_
+
+#Text=Robot ne sme da povredi ljudsko biće ili da, nečinjenjem, dozvoli da se ljudsko biće povredi.
+23-1	2059-2064	Robot	N	NOUN	_	_	robot	_	_	_	*	_	_	_	_	_	_
+23-2	2065-2067	ne	PAR	PART	_	_	ne	_	_	_	_	_	_	_	_	_	_
+23-3	2068-2071	sme	V	VERB	_	_	smeti	_	_	_	*	_	_	_	_	_	_
+23-4	2072-2074	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	_
+23-5	2075-2082	povredi	V	VERB	_	_	povrediti	_	_	_	*	_	_	_	_	_	_
+23-6	2083-2090	ljudsko	A	ADJ	_	_	ljudski	1[12]	ljudsko biće[12]	NID[12]	*[33]	_	_	_	_	_	_
+23-7	2091-2095	biće	N	NOUN	_	_	biće	1[12]	ljudsko biće[12]	NID[12]	*[33]	_	_	_	_	_	_
+23-8	2096-2099	ili	CONJ	CCONJ	_	_	ili	_	_	_	_	_	_	_	_	_	_
+23-9	2100-2102	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	_
+23-10	2102-2103	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	_
+23-11	2104-2115	nečinjenjem	N	NOUN	_	_	nečinjenje	_	_	_	*	_	_	_	_	_	_
+23-12	2115-2116	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	_
+23-13	2117-2124	dozvoli	V	VERB	_	_	dozvoliti	_	_	_	*	_	_	_	_	_	_
+23-14	2125-2127	da	CONJ	SCONJ	_	_	da	_	_	_	_	_	_	_	_	_	_
+23-15	2128-2130	se	PAR	PART	_	_	se	_	_	_	_	_	_	_	_	_	_
+23-16	2131-2138	ljudsko	A	ADJ	_	_	ljudski	2[13]	ljudsko biće[13]	NID[13]	*[34]	_	_	_	_	_	_
+23-17	2139-2143	biće	N	NOUN	_	_	biće	2[13]	ljudsko biće[13]	NID[13]	*[34]	_	_	_	_	_	_
+23-18	2144-2151	povredi	V	VERB	_	_	povrediti	_	_	_	*	_	_	_	_	_	_
+23-19	2151-2152	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	_
+
+#Text=Odnosi su se dodatno pogoršali kada je Čen pozvao anarhiste, komuniste i federaliste u pokret.
+24-1	2152-2158	Odnosi	N	NOUN	_	_	odnos	_	_	_	*	_	_	_	_	_	_
+24-2	2159-2161	su	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	_
+24-3	2162-2164	se	PAR	PART	_	_	se	1	*	IRV	*[35]	_	_	_	_	_	_
+24-4	2165-2172	dodatno	ADV	ADV	_	_	dodatno	_	_	_	*[35]|*[36]	_	_	_	_	_	_
+24-5	2173-2182	pogoršali	V	VERB	_	_	pogoršati	1	pogoršati se	IRV	*[35]	_	_	_	_	_	_
+24-6	2183-2187	kada	CONJ	SCONJ	_	_	kada	_	_	_	_	_	_	_	_	_	_
+24-7	2188-2190	je	V	AUX	_	_	jesam	_	_	_	_	_	_	_	_	_	_
+24-8	2191-2194	Čen	N	PROPN	http://www.wikidata.org/entity/Q714677	PERS	Čen	_	_	_	_	_	_	_	_	_	_
+24-9	2195-2201	pozvao	V	VERB	_	_	pozvati	_	_	_	*	_	_	_	_	_	_
+24-10	2202-2211	anarhiste	N	NOUN	_	_	anarhista	_	_	_	*	_	_	_	_	_	_
+24-11	2211-2212	,	PUNCT	PUNCT	_	_	,	_	_	_	_	_	_	_	_	_	_
+24-12	2213-2222	komuniste	N	NOUN	_	_	komunista	_	_	_	*	_	_	_	_	_	_
+24-13	2223-2224	i	CONJ	CCONJ	_	_	i	_	_	_	_	_	_	_	_	_	_
+24-14	2225-2236	federaliste	N	NOUN	_	_	federalista	_	_	_	*	_	_	_	_	_	_
+24-15	2237-2238	u	PREP	ADP	_	_	u	_	_	_	_	_	_	_	_	_	_
+24-16	2239-2245	pokret	N	NOUN	_	_	pokret	_	_	_	*	_	_	_	_	_	_
+24-17	2245-2246	.	SENT	PUNCT	_	_	.	_	_	_	_	_	_	_	_	_	_

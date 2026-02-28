@@ -1,0 +1,389 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue|coarseValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_SP=webanno.custom.MWE|MWEid|MWElemma|MWEtype
+#T_SP=webanno.custom.sense|SenseID|Number_of_candidate_senses|List_of_candidate_senses|Comment|Ainotes
+
+
+#Text=U petoj sezoni program je održan u skladu sa novim konceptom: jedan mladi fudbaler iz svake zemlje izabran je kao njen predstavnik.
+1-1	0-1	U	PREP	ADP	_	_	u	_	_	_	_	0	_	_	_	
+1-2	2-7	petoj	A	ADJ	_	_	peti	_	_	_	ENG30-02202712-a	1	ENG30-02202712-a	*	Odnosi se na redni broj sezone; peta sezona je ona koja dolazi posle četvrte i pre šeste.	
+1-3	8-14	sezoni	N	NOUN	_	_	sezona	_	_	_	ENG30-15239579-n	1	ENG30-15239579-n	*	Odnosi se na numerisani ciklus emitovanja programa, tj. period aktivnosti u okviru jedne programske celine. 'Peta sezona' označava naredni period organizovan po novom konceptu.	
+1-4	15-22	program	N	NOUN	_	_	program	_	_	_	ENG30-06619428-n	7	ENG30-00551215-n;ENG30-03962685-n;ENG30-05898568-n;ENG30-05899087-n;ENG30-06568978-n;ENG30-06619428-n;ENG30-06676416-n	CV	Pominje se peta sezona i novi koncept, što je tipično za TV emisije. Dakle, 'program' ovde znači emisiju na televiziji.	
+1-5	23-25	je	V	AUX	_	_	jesam	_	_	_	_	0	_	_	_	
+1-6	26-32	održan	V	VERB	_	_	održati	_	_	_	ENG30-01733477-v	7	ENG30-00118523-v;ENG30-00339934-v;ENG30-01733477-v;ENG30-02202928-v;ENG30-02280132-v;ENG30-02408965-v;ENG30-02679899-v	CV	Ovde 'održan' znači da je program bio organizovan i sproveden prema novom konceptu. Reč se odnosi na održavanje/organizovanje događaja, a ne na puko zbivanje ili očuvanje.	
+1-7	33-34	u	PREP	ADP	_	_	u	1[187]	u skladu sa[187]	AdpID[187]	LLM-0288[2000]	1[2000]	LLM-0288[2000]	*[451]	Fraza označava da je program sproveden prema novom konceptu, tj. u saglasnosti s njim. Kontekst jasno ukazuje na postupanje ‘u skladu sa’ definisanim pravilima/konceptom.[2000]	
+1-8	35-41	skladu	N	NOUN	_	_	sklad	1[187]	u skladu sa[187]	AdpID[187]	LLM-0288[2000]	1[2000]	LLM-0288[2000]	*[451]	Fraza označava da je program sproveden prema novom konceptu, tj. u saglasnosti s njim. Kontekst jasno ukazuje na postupanje ‘u skladu sa’ definisanim pravilima/konceptom.[2000]	
+1-9	42-44	sa	PREP	ADP	_	_	sa	1[187]	u skladu sa[187]	AdpID[187]	LLM-0288[2000]	1[2000]	LLM-0288[2000]	*[451]	Fraza označava da je program sproveden prema novom konceptu, tj. u saglasnosti s njim. Kontekst jasno ukazuje na postupanje ‘u skladu sa’ definisanim pravilima/konceptom.[2000]	
+1-10	45-50	novim	A	ADJ	_	_	nov	_	_	_	ENG30-02070491-a	6	ENG30-00418198-a;ENG30-00820975-a;ENG30-00821208-a;ENG30-01640850-a;ENG30-01687167-a;ENG30-02070491-a	*	Reč 'novim' opisuje koncept koji je različit od prethodnog, tj. uveden je drugačiji format programa u toj sezoni u odnosu na ranije.	
+1-11	51-60	konceptom	N	NOUN	_	_	koncept	_	_	_	CV004	4	CV004;ENG30-03179318-n;ENG30-05835747-n;ENG30-06390962-n	CV	Ovde 'koncept' označava osnovnu zamisao i plan formata programa; novi koncept je pravilo da svaka zemlja ima jednog predstavnika.	
+1-12	60-61	:	PUNCT	PUNCT	_	_	:	_	_	_	_	0	_	_	_	
+1-13	62-67	jedan	NUM	NUM	_	_	jedan	_	_	_	_	0	_	_	_	
+1-14	68-73	mladi	A	ADJ	_	_	mlad	_	_	_	ENG30-01674464-a	2	ENG30-00818008-a;ENG30-01674464-a	*	Odnosi se na osobu (fudbalera) u ranom stadijumu života ili razvoja. Pridev 'mladi' ovde označava čoveka koji još nije dostigao punu zrelost.	
+1-15	74-82	fudbaler	N	NOUN	http://www.wikidata.org/entity/Q937857	ROLE	fudbaler	_	_	_	ENG30-10618342-n	2	ENG30-10101634-n;ENG30-10618342-n	*	U srpskom jeziku 'fudbaler' uobičajeno označava igrača (asocijacionog) fudbala, dok bi za američki fudbal stajalo 'igrač američkog fudbala'. Kontekst sa predstavnicima iz svake zemlje takođe odgovara globalnom fudbalu.	
+1-16	83-85	iz	PREP	ADP	_	_	iz	_	_	_	_	0	_	_	_	
+1-17	86-91	svake	PRO	DET	_	_	svaki	_	_	_	_	0	_	_	_	
+1-18	92-98	zemlje	N	NOUN	_	_	zemlja	_	_	_	ENG30-08168978-n	11	ENG30-08168978-n;ENG30-08493064-n;ENG30-08544813-n;ENG30-09270894-n;ENG30-09334396-n;ENG30-09335240-n;ENG30-09451517-n;ENG30-13250048-n;ENG30-14842992-n;ENG30-14844414-n;ENG30-14844693-n	*	Ovde 'zemlja' označava državu kao politički entitet pod jednom vladom, jer fudbaler nastupa kao njen predstavnik.	
+1-19	99-106	izabran	V	VERB	_	_	izabrati	_	_	_	ENG30-00676450-v	5	ENG30-00676450-v;ENG30-00676864-v;ENG30-00679937-v;ENG30-00790308-v;ENG30-01078050-v	*	Jedan fudbaler u svakoj zemlji pažljivo je odabran iz grupe kandidata da bude predstavnik. Kontekst upućuje na proces selekcije, a ne na nasumičan izbor ili odluku o delovanju.	
+1-20	107-109	je	V	AUX	_	_	jesam	_	_	_	_	0	_	_	_	
+1-21	110-113	kao	CONJ	CCONJ	_	_	kao	_	_	_	_	0	_	_	_	
+1-22	114-118	njen	PRO	DET	_	_	njen	_	_	_	_	0	_	_	_	
+1-23	119-130	predstavnik	N	NOUN	_	_	predstavnik	_	_	_	ENG30-10005721-n	3	ENG30-05820620-n;ENG30-10005721-n;ENG30-10522035-n	*	Ovde je u pitanju osoba koju je zemlja izabrala da je predstavlja u programu, tj. lice imenovano da deluje u ime drugih. Naglašeno je biranje/imenovanje predstavnika iz svake zemlje.	
+1-24	130-131	.	SENT	PUNCT	_	_	.	_	_	_	_	0	_	_	_	
+
+#Text=Krup pogađa oko 15 % dece i obično se javlja između 6 meseci i 5–6 godina.
+2-1	131-135	Krup	N	NOUN	_	_	krup	_	_	_	ENG30-14174011-n	2	ENG30-14174011-n;ENG30-14349311-n	*	Rečenica govori o učestalosti i uzrastu kod dece, što odgovara kliničkom sindromu krupa sa kašljem i promuklošću. Ne opisuje anatomski nivo upale, pa je prikladnije značenje bolesti kod odojčadi i male dece.	
+2-2	136-142	pogađa	V	VERB	_	_	pogađati	_	_	_	ENG30-00019448-v	2	DRJ0-212537/0;ENG30-00019448-v	CV	Ovde 'pogađa' znači da krup zahvata/utiče na određeni procenat dece. To odgovara značenju 'imati uticaja na nešto', tipično za opis delovanja bolesti na populaciju.	
+2-3	143-146	oko	ADV	ADV	_	_	oko	_	_	_	ENG30-00007015-b	1	ENG30-00007015-b	*	Ovde 'oko' znači približno, tj. da je vrednost 15% neprecizna ali bliska tačnoj. Koristi se za zaokruženu procenu učestalosti (oko 15%).	
+2-4	147-149	15	NUM	NUM	_	_	15	_	_	_	_	0	_	_	_	
+2-5	150-151	%	PUNCT	SYM	_	_	%	_	_	_	_	0	_	_	_	
+2-6	152-156	dece	N	NOUN	_	_	deca	_	_	_	ENG30-09917593-n	3	DRS0-457358/0.0;DRS0-457359/0.0;ENG30-09917593-n	CV	Ovde se pod 'decom' misli na mlade osobe pre puberteta, što odgovara uzrastu 6 meseci do 5–6 godina na koji se bolest odnosi.	
+2-7	157-158	i	CONJ	CCONJ	_	_	i	_	_	_	_	0	_	_	_	
+2-8	159-165	obično	ADV	ADV	_	_	obično	_	_	_	ENG30-00155621-b	3	ENG30-00041954-b;ENG30-00106921-b;ENG30-00155621-b	*	U rečenici se iskazuje tipična učestalost pojave (po pravilu, u većini slučajeva), što odgovara značenju „obično; po pravilu“. Ne radi se o uslovima, već o generalizaciji o vremenskom opsegu.	
+2-9	166-168	se	PAR	PART	_	_	se	1	*	IRV	CVMWE-0161[2001]	1[2001]	CVMWE-0161[2001]	*[452]	U kontekstu bolesti, 'se javlja' znači 'pojavljuje se' ili 'nastaje'. Rečenica opisuje period kada se krup obično pojavljuje kod dece.[2001]	
+2-10	169-175	javlja	V	VERB	_	_	javljati	1	javljati se	IRV	CVMWE-0161[2001]	1[2001]	CVMWE-0161[2001]	*[452]	U kontekstu bolesti, 'se javlja' znači 'pojavljuje se' ili 'nastaje'. Rečenica opisuje period kada se krup obično pojavljuje kod dece.[2001]	
+2-11	176-182	između	PREP	ADP	_	_	između	_	_	_	_	0	_	_	_	
+2-12	183-184	6	NUM	NUM	_	_	6	_	_	_	_	0	_	_	_	
+2-13	185-191	meseci	N	NOUN	_	_	mesec	_	_	_	ENG30-15209413-n	7	CVMWE-0348;ENG30-09358226-n;ENG30-09358550-n;ENG30-11484975-n;ENG30-15206296-n;ENG30-15207872-n;ENG30-15209413-n	*	Ovde „meseci” označava jedinice starosti deteta u kalendaru, tj. mesece kao delove godine, a ne nebesko telo ni lunarne cikluse.	
+2-14	192-193	i	CONJ	CCONJ	_	_	i	_	_	_	_	0	_	_	_	
+2-15	194-195	5	NUM	NUM	_	_	5	_	_	_	_	0	_	_	_	
+2-16	195-196	–	PUNCT	PUNCT	_	_	–	_	_	_	_	0	_	_	_	
+2-17	196-197	6	NUM	NUM	_	_	6	_	_	_	_	0	_	_	_	
+2-18	198-204	godina	N	NOUN	_	_	godina	_	_	_	ENG30-15203791-n	5	ENG30-08238660-n;ENG30-15201505-n;ENG30-15202634-n;ENG30-15203791-n;ENG30-15204297-n	*	U kontekstu uzrasta dece, 'godina' označava vremenski period trajanja (oko 365/366 dana), tj. koliko dete ima godina. Ne radi se o kalendarskoj godini niti specifičnoj aktivnosti.	
+2-19	204-205	.	SENT	PUNCT	_	_	.	_	_	_	_	0	_	_	_	
+
+#Text=Poznati fudbaleri, među kojima i srpski defanzivac Branislav Ivanović i holandski napadač Dirk Kojt, učestvovali su u raznim događajima širom sveta.
+3-1	205-212	Poznati	A	ADJ	_	_	poznat	_	_	_	CV0214	5	CV0074;CV0214;ENG30-00970249-a;ENG30-01375174-a;ENG30-01375831-a	*	U kontekstu „poznati fudbaleri” znači čuveni/slavni, široko poznati igračima kao što su Ivanović i Kojt. Naglasak je na njihovoj javnoj prepoznatljivosti, a ne samo na ranijem poznavanju ili identifikaciji.	
+3-2	213-222	fudbaleri	N	NOUN	http://www.wikidata.org/entity/Q937857	ROLE	fudbaler	_	_	_	ENG30-10618342-n	2	ENG30-10101634-n;ENG30-10618342-n	*	Pominju se Branislav Ivanović i Dirk Kojt, poznati igrači asocijacionog fudbala, uz pozicije 'defanzivac' i 'napadač'. Zato se misli na sportistu koji igra fudbal, a ne američki fudbal.	
+3-3	222-223	,	PUNCT	PUNCT	_	_	,	_	_	_	_	0	_	_	_	
+3-4	224-228	među	PREP	ADP	_	_	među	_	_	_	_	0	_	_	_	
+3-5	229-235	kojima	PRO	DET	_	_	koji	_	_	_	_	0	_	_	_	
+3-6	236-237	i	CONJ	CCONJ	_	_	i	_	_	_	_	0	_	_	_	
+3-7	238-244	srpski	A	ADJ	http://www.wikidata.org/entity/Q9299	DEMO	srpski	_	_	_	ENG30-02963942-a	1	ENG30-02963942-a	*	'Srpski' opisuje nacionalnu pripadnost defanzivca Branislava Ivanovića (povezanost sa Srbijom), što odgovara značenju koje se odnosi na ljude, jezik ili kulturu Srbije.	
+3-8	245-255	defanzivac	N	NOUN	http://www.wikidata.org/entity/Q336286	ROLE	defanzivac	_	_	_	CV0801	1	CV0801	*	U kontekstu fudbala, 'defanzivac' označava odbrambenog igrača čiji je zadatak da štiti gol svog tima; Branislav Ivanović je poznat kao takav igrač.	
+3-9	256-265	Branislav	N	PROPN	http://www.wikidata.org/entity/Q181921[1]	PERS[1]	Branislav	_	_	_	_	0	_	_	_	
+3-10	266-274	Ivanović	N	PROPN	http://www.wikidata.org/entity/Q181921[1]	PERS[1]	Ivanović	_	_	_	_	0	_	_	_	
+3-11	275-276	i	CONJ	CCONJ	_	_	i	_	_	_	_	0	_	_	_	
+3-12	277-286	holandski	A	ADJ	*	DEMO	holandski	_	_	_	ENG30-02960686-a	1	ENG30-02960686-a	*	Ovde 'holandski' označava nacionalnost napadača Dirka Kojta, tj. da potiče iz Holandije. Zato se koristi značenje koje se tiče Holandije, njenih ljudi i kulture.	
+3-13	287-294	napadač	N	NOUN	http://www.wikidata.org/entity/Q280658	ROLE	napadač	_	_	_	ENG30-10663996-n	2	ENG30-00726567-n;ENG30-10663996-n	*	Izraz 'holandski napadač' ovde označava fudbalera na poziciji napadača (strikera), što odgovara ulozi Dirka Kojta. Prva opcija opisuje pozadinsku/defanzivnu poziciju i ne uklapa se u kontekst.	
+3-14	295-299	Dirk	N	PROPN	http://www.wikidata.org/entity/Q294214[2]	PERS[2]	Dirk	_	_	_	_	0	_	_	_	
+3-15	300-304	Kojt	N	PROPN	http://www.wikidata.org/entity/Q294214[2]	PERS[2]	Kojt	_	_	_	_	0	_	_	_	
+3-16	304-305	,	PUNCT	PUNCT	_	_	,	_	_	_	_	0	_	_	_	
+3-17	306-317	učestvovali	V	VERB	_	_	učestvovati	_	_	_	ENG30-02375131-v	3	ENG30-01082606-v;ENG30-02375131-v;ENG30-02450256-v	CV	Rečenica govori o opštem učestvovanju u događajima, tj. uzimanju učešća u aktivnosti. Ovo značenje najbolje odgovara navedenom kontekstu bez naglaska na 'postati učesnik' ili na zajedničku akciju.	
+3-18	318-320	su	V	AUX	_	_	jesam	_	_	_	_	0	_	_	_	
+3-19	321-322	u	PREP	ADP	_	_	u	_	_	_	_	0	_	_	_	
+3-20	323-329	raznim	A	ADJ	_	_	razni	_	_	_	MIN0003	5	CV0009;DRJ0-221334/1a.;DRJ0-221334/1b.;DRJ0-221334/2;MIN0003	CV	Označava da su događaji različitih vrsta ili karaktera, tj. raznovrsni. U kontekstu je naglašena raznolikost događaja širom sveta, a ne njihov neodređen broj.	
+3-21	330-340	događajima	N	NOUN	_	_	događaj	_	_	_	CV0008	6	CV0008;ENG30-00029378-n;ENG30-07283608-n;ENG30-07307477-n;ENG30-07447261-n;ENG30-11453860-n	CV	Formulacija 'učestvovali su u raznim događajima' upućuje na organizovane javne ili društvene aktivnosti (npr. mečevi, turniri, promotivni ili humanitarni događaji). Zato je najpreciznije značenje planirani javni ili društveni događaj.	
+3-22	341-346	širom	PREP	ADP	_	_	širom	_	_	_	_	0	_	_	_	
+3-23	347-352	sveta	N	NOUN	_	_	svet	_	_	_	ENG30-09480809-n	5	ENG30-05809878-n;ENG30-07947255-n;ENG30-07965937-n;ENG30-09466280-n;ENG30-09480809-n	CV	U izrazu 'širom sveta' reč se koristi u geografskom smislu, kao upućivanje na Zemlju i njene delove. Radi se o događajima koji su se odvijali na različitim mestima širom planete, a ne o ljudima uopšte ili celokupnom postojanju.	
+3-24	352-353	.	SENT	PUNCT	_	_	.	_	_	_	_	0	_	_	_	
+
+#Text=Više od 7000 ljudi otišlo je na premijeru filma u Damasku.
+4-1	353-357	Više	ADV	ADV	_	_	više	_	_	_	ENG30-00099712-b	3	CV0061;ENG30-00099712-b;ENG30-01555133-a	*	U izrazu 'više od 7000' reč označava komparativ od 'mnogo' i iskazuje veću količinu, tj. 'more than 7000'. Ovo je numeričko poređenje, a ne samo značenje 'više od jednog'.	
+4-2	358-360	od	PREP	ADP	_	_	od	_	_	_	_	0	_	_	_	
+4-3	361-365	7000	NUM	NUM	_	_	7000	_	_	_	_	0	_	_	_	
+4-4	366-371	ljudi	N	NOUN	_	_	ljudi	_	_	_	ENG30-07942152-n	3	ENG30-07942152-n;ENG30-08208016-n;ENG30-10289176-n	*	Ovde 'ljudi' označava opštu grupu osoba (posetilaca) koji su išli na premijeru, bez nagoveštaja podređenosti ili isključivo muškog roda.	
+4-5	372-378	otišlo	V	VERB	_	_	otići	_	_	_	ENG30-02493030-v	7	ENG30-01848718-v;ENG30-02008396-v;ENG30-02009433-v;ENG30-02383440-v;ENG30-02493030-v;ENG30-02653862-v;ENG30-02661252-v	CV	U kontekstu znači ići na događaj/na mesto („na premijeru“), što odgovara značenju ‘otići na neko mesto, recimo radi zabave’.	
+4-6	379-381	je	V	AUX	_	_	jesam	_	_	_	_	0	_	_	_	
+4-7	382-384	na	PREP	ADP	_	_	na	_	_	_	_	0	_	_	_	
+4-8	385-394	premijeru	N	NOUN	_	_	premijera	_	_	_	ENG30-06893285-n	1	ENG30-06893285-n	*	U kontekstu filma, 'premijera' označava prvo javno prikazivanje; rečenica govori o velikom broju ljudi koji su prisustvovali tom prvom prikazivanju.	
+4-9	395-400	filma	N	NOUN	_	_	film	_	_	_	ENG30-06613686-n	3	ENG30-03338821-n;ENG30-06262567-n;ENG30-06613686-n	*	U frazi 'premijera filma' radi se o konkretnom filmskom ostvarenju kao obliku zabave, a ne o fotografskom filmu niti o medijumu kao tehnologiji.	
+4-10	401-402	u	PREP	ADP	_	_	u	_	_	_	_	0	_	_	_	
+4-11	403-410	Damasku	N	PROPN	http://www.wikidata.org/entity/Q3766	LOC	Damask	_	_	_	_	0	_	_	_	
+4-12	410-411	.	SENT	PUNCT	_	_	.	_	_	_	_	0	_	_	_	
+
+#Text=Kulminacija je bila ceremonija dodele Kupa devet vrednosti (Nine Values Cup), koji je osvojio fudbalski klub Barselona.
+5-1	411-422	Kulminacija	N	NOUN	_	_	kulminacija	_	_	_	ENG30-15291199-n	3	ENG30-06373747-n;ENG30-13940456-n;ENG30-15291199-n	*	Ovde 'kulminacija' označava završnu, klimaktičku fazu događaja—ceremoniju dodele nagrade kao vrhunac dešavanja.	
+5-2	423-425	je	V	AUX	_	_	jesam	_	_	_	_	0	_	_	_	
+5-3	426-430	bila	V	AUX	_	_	biti	_	_	_	_	0	_	_	_	
+5-4	431-441	ceremonija	N	NOUN	_	_	ceremonija	_	_	_	ENG30-07450842-n	3	ENG30-01027379-n;ENG30-07450842-n;ENG30-07452251-n	*	Ovde se ‘ceremonija’ odnosi na formalan događaj dodele nagrade (Kupa devet vrednosti). Ne radi se o ponašanju u svečanoj prilici niti je naglašena raskoš ili spektakl.	
+5-5	442-448	dodele	N	NOUN	_	_	dodela	_	_	_	PS001	3	ENG30-00164579-n;ENG30-01083645-n;PS001	*	U kontekstu se radi o svečanosti na kojoj se uručuje pehar („Nine Values Cup“) klubu Barselona. To odgovara značenju svečanog uručenja nagrade ili priznanja.	
+5-6	449-453	Kupa	N	NOUN	http://www.wikidata.org/entity/\*[3]	WORK[3]	kup	_	_	_	CV0012	2	CV0012;ENG30-01859325-n	CV	Reč se odnosi na sportski kup/takmičenje čiji se pehar dodeljuje pobedniku; ovde je to 'Nine Values Cup' koji je osvojila Barselona.	
+5-7	454-459	devet	NUM	NUM	http://www.wikidata.org/entity/\*[3]	WORK[3]	devet	_	_	_	_	0	_	_	_	
+5-8	460-469	vrednosti	N	NOUN	http://www.wikidata.org/entity/\*[3]	WORK[3]	vrednost	_	_	_	ENG30-05923983-n	6	ENG30-05138208-n;ENG30-05138488-n;ENG30-05145118-n;ENG30-05856388-n;ENG30-05923983-n;ENG30-13764342-n	*	U nazivu 'Kup devet vrednosti' reč označava moralne/etičke principe koje zajednica ceni. Nagrada se odnosi na skup društveno poželjnih vrednosti (poput fer-pleja, timskog duha), a ne na numeričku ili novčanu vrednost.	
+5-9	470-471	(	PUNCT	PUNCT	_	_	(	_	_	_	_	0	_	_	_	
+5-10	471-475	Nine	F	X	http://www.wikidata.org/entity/\*[4]	WORK[4]	Nine	_	_	_	_	0	_	_	_	
+5-11	476-482	Values	F	X	http://www.wikidata.org/entity/\*[4]	WORK[4]	Values	_	_	_	_	0	_	_	_	
+5-12	483-486	Cup	F	X	http://www.wikidata.org/entity/\*[4]	WORK[4]	cup	_	_	_	_	0	_	_	_	
+5-13	486-487	)	PUNCT	PUNCT	_	_	)	_	_	_	_	0	_	_	_	
+5-14	487-488	,	PUNCT	PUNCT	_	_	,	_	_	_	_	0	_	_	_	
+5-15	489-493	koji	PRO	DET	_	_	koji	_	_	_	_	0	_	_	_	
+5-16	494-496	je	V	AUX	_	_	jesam	_	_	_	_	0	_	_	_	
+5-17	497-504	osvojio	V	VERB	_	_	osvojiti	_	_	_	CV0015	3	CV0015;ENG30-01114303-v;ENG30-02272549-v	*	Radi se o osvajanju trofeja/nagrade; Barselona je dobila Kup devet vrednosti kao pobednik. To odgovara značenju dobijanja nagrade kao rezultat pobede u takmičenju.	
+5-18	505-514	fudbalski	A	ADJ	http://www.wikidata.org/entity/Q7156[5]	ORG[5]	fudbalski	_	_	_	_	0	_	*	_	
+5-19	515-519	klub	N	NOUN	http://www.wikidata.org/entity/Q7156[5]	ORG[5]	klub	_	_	_	_	0	_	*	_	
+5-20	520-529	Barselona	N	PROPN	http://www.wikidata.org/entity/Q7156[5]	ORG[5]	Barselona	_	_	_	_	0	_	_	_	
+5-21	529-530	.	SENT	PUNCT	_	_	.	_	_	_	_	0	_	_	_	
+
+#Text=U junu 2014, kao vođa pokreta, posetio je deveti međunarodni omladinski fudbalski turnir organizovan u znak sećanja na Jurija Andrejeviča Morozova.
+6-1	530-531	U	PREP	ADP	_	_	u	_	_	_	_	0	_	_	_	
+6-2	532-536	junu	N	NOUN	_	_	jun	_	_	_	ENG30-15211806-n	1	ENG30-15211806-n	*	Ovde 'junu' označava kalendarski mesec u vremenskoj odrednici ('u junu 2014'), tj. mesec između maja i jula.	
+6-3	537-541	2014	A	ADJ	_	_	2014	_	_	_	_	0	_	_	_	
+6-4	541-542	,	PUNCT	PUNCT	_	_	,	_	_	_	_	0	_	_	_	
+6-5	543-546	kao	ADV	ADV	_	_	kao	_	_	_	DRJ0-194033/1a.	5	DRJ0-194033/1a.;DRJ0-194033/1b.;DRJ0-194033/2a.;DRJ0-194033/2b.;DRJ0-194033/2v.	*	Ovde 'kao' označava ulogu/svojstvo i stoji ispred imenice 'vođa pokreta', određujući u kom svojstvu je posetio turnir.	
+6-6	547-551	vođa	N	NOUN	_	_	vođa	_	_	_	ENG30-09623038-n	1	ENG30-09623038-n	*	U izrazu 'vođa pokreta' reč se odnosi na osobu koja predvodi i upravlja pokretom. To odgovara opštem značenju osobe koja vodi ili inspiriše druge.	
+6-7	552-559	pokreta	N	NOUN	_	_	pokret	_	_	_	ENG30-08464601-n	6	ENG30-00334509-n;ENG30-00347652-n;ENG30-00349369-n;ENG30-00569898-n;ENG30-07309781-n;ENG30-08464601-n	*	U izrazu 'vođa pokreta' reč 'pokret' označava organizovanu grupu ljudi sa zajedničkom ideologijom i ciljevima. Ne radi se o fizičkoj kretnji već o društvenom/političkom pokretu.	
+6-8	559-560	,	PUNCT	PUNCT	_	_	,	_	_	_	_	0	_	_	_	
+6-9	561-568	posetio	V	VERB	_	_	posetiti	_	_	_	ENG30-01844048-v	3	ENG30-01843689-v;ENG30-01844048-v;ENG30-02487573-v	*	Formulacija 'kao vođa pokreta' implicira da je poseta bila u službenom ili zvaničnom svojstvu. Ne radi se o razgledanju niti je naglasak na kratkoći posete.	
+6-10	569-571	je	V	AUX	_	_	jesam	_	_	_	_	0	_	_	_	
+6-11	572-578	deveti	A	ADJ	_	_	deveti	_	_	_	ENG30-02203249-a	1	ENG30-02203249-a	*	U izrazu 'deveti međunarodni ... turnir' reč 'deveti' označava redni broj događaja, onaj koji dolazi odmah posle osmog i pre desetog.	
+6-12	579-590	međunarodni	A	ADJ	_	_	međunarodan	_	_	_	ENG30-01568375-a	1	ENG30-01568375-a	*	Turnir je opisan kao međunarodni, što podrazumeva učešće ili organizaciju koja uključuje bar dve države. Dakle, radi se o događaju koji se tiče više nacija.	
+6-13	591-601	omladinski	A	ADJ	_	_	omladinski	_	_	_	BILI-00000996	1	BILI-00000996	*	Reč opisuje fudbalski turnir namenjen mladim učesnicima. Odnosi se na omladince i omladinke.	
+6-14	602-611	fudbalski	A	ADJ	_	_	fudbalski	_	_	_	DRJ0-187395/0	1	DRJ0-187395/0	*	Ovde 'fudbalski' opisuje turnir koji je vezan za sport fudbal, tj. turnir iz oblasti fudbala. To se direktno uklapa u značenje 'koji se odnosi na fudbal'.	
+6-15	612-618	turnir	N	NOUN	_	_	turnir	_	_	_	ENG30-07464725-n	1	ENG30-07464725-n	*	Odnosi se na sportsko nadmetanje u fudbalu gde se igra niz utakmica radi određivanja pobednika. Kontekst pominje međunarodni omladinski fudbalski turnir.	
+6-16	619-630	organizovan	V	VERB	_	_	organizovati	_	_	_	ENG30-00710005-v	5	ENG30-00404642-v;ENG30-00710005-v;ENG30-01651444-v;ENG30-02432530-v;ENG30-02448185-v	*	U kontekstu turnira, 'organizovan' znači da je događaj planiran i koordinisan u svrhu obeležavanja sećanja na Morozova. Odnosi se na planiranje i usmeravanje složenog poduhvata.	
+6-17	631-632	u	PREP	ADP	_	_	u	1[188]	u znak[188]	AdpID[188]	LLM-0301[2002]	1[2002]	LLM-0301[2002]	*[453]	Fraza 'u znak sećanja' znači da je turnir organizovan kao simbol ili izraz sećanja na Jurija A. Morozova. To se poklapa sa značenjem 'kao simbol nečega; u cilju pokazivanja'.[2002]	
+6-18	633-637	znak	N	NOUN	_	_	znak	1[188]	u znak[188]	AdpID[188]	LLM-0301[2002]	1[2002]	LLM-0301[2002]	*[453]	Fraza 'u znak sećanja' znači da je turnir organizovan kao simbol ili izraz sećanja na Jurija A. Morozova. To se poklapa sa značenjem 'kao simbol nečega; u cilju pokazivanja'.[2002]	
+6-19	638-645	sećanja	N	NOUN	_	_	sećanje	_	_	_	ENG30-05935060-n	3	ENG30-05761559-n;ENG30-05935060-n;ENG30-05935292-n	*	Fraza 'u znak sećanja na' označava komemoraciju, tj. ono što je o osobi zapamćeno, a ne sam proces prisećanja niti sposobnost pamćenja.	
+6-20	646-648	na	PREP	ADP	_	_	na	_	_	_	_	0	_	_	_	
+6-21	649-655	Jurija	N	PROPN	http://www.wikidata.org/entity/Q323105[6]	PERS[6]	Jurij	_	_	_	_	0	_	_	_	
+6-22	656-667	Andrejeviča	N	PROPN	http://www.wikidata.org/entity/Q323105[6]	PERS[6]	Andrejevič	_	_	_	_	0	_	_	_	
+6-23	668-676	Morozova	N	PROPN	http://www.wikidata.org/entity/Q323105[6]	PERS[6]	Morozov	_	_	_	_	0	_	_	_	
+6-24	676-677	.	SENT	PUNCT	_	_	.	_	_	_	_	0	_	_	_	
+
+#Text=Dan fudbala i prijateljstva (Day of Football and Friendship) obeležen je u Nižnjem Novgorodu i Kazanju.
+7-1	677-680	Dan	N	NOUN	http://www.wikidata.org/entity/\*[7]	EVENT[7]	dan	_	_	_	ENG30-15157225-n	8	ENG30-14484516-n;ENG30-15123115-n;ENG30-15136453-n;ENG30-15155220-n;ENG30-15157041-n;ENG30-15157225-n;ENG30-15164957-n;ENG30-15208540-n	*	Radi se o obeležavanju 'Dana fudbala i prijateljstva', odnosno posebnog dana posvećenog konkretnoj temi. To je najpreciznije značenje u ovom kontekstu.	
+7-2	681-688	fudbala	N	NOUN	http://www.wikidata.org/entity/\*[7]	EVENT[7]	fudbal	_	_	_	ENG30-00468480-n	2	ENG30-00468480-n;ENG30-00478262-n	*	Ovde se 'fudbal' odnosi na sport uopšte, u okviru događaja posvećenog fudbalu i prijateljstvu, a ne na konkretnu utakmicu sa 11 igrača.	
+7-3	689-690	i	CONJ	CCONJ	http://www.wikidata.org/entity/\*[7]	EVENT[7]	i	_	_	_	_	0	_	_	_	
+7-4	691-704	prijateljstva	N	NOUN	http://www.wikidata.org/entity/\*[7]	EVENT[7]	prijateljstvo	_	_	_	ENG30-13931145-n	2	ENG30-04654998-n;ENG30-13931145-n	*	U izrazu 'Dan fudbala i prijateljstva' 'prijateljstvo' označava odnos/stanje biti prijatelji koje se obeležava, a ne osobinu druželjubivosti.	
+7-5	705-706	(	PUNCT	PUNCT	_	_	(	_	_	_	_	0	_	_	_	
+7-6	706-709	Day	F	X	http://www.wikidata.org/entity/\*[8]	EVENT[8]	Day	_	_	_	_	0	_	_	_	
+7-7	710-712	of	F	X	http://www.wikidata.org/entity/\*[8]	EVENT[8]	of	_	_	_	_	0	_	_	_	
+7-8	713-721	Football	F	X	http://www.wikidata.org/entity/\*[8]	EVENT[8]	Football	_	_	_	_	0	_	_	_	
+7-9	722-725	and	F	X	http://www.wikidata.org/entity/\*[8]	EVENT[8]	and	_	_	_	_	0	_	_	_	
+7-10	726-736	Friendship	F	X	http://www.wikidata.org/entity/\*[8]	EVENT[8]	Friendship	_	_	_	_	0	_	_	_	
+7-11	736-737	)	PUNCT	PUNCT	_	_	)	_	_	_	_	0	_	_	_	
+7-12	738-746	obeležen	V	VERB	_	_	obeležiti	_	_	_	ENG30-02490877-v	7	ENG30-00508032-v;ENG30-00510869-v;ENG30-00511040-v;ENG30-00662182-v;ENG30-00921738-v;ENG30-02144644-v;ENG30-02490877-v	CV	U rečenici se govori da je Dan fudbala i prijateljstva obeležen u dva grada, što znači da je proslavljen ili svečano istaknut, a ne fizički označen.	
+7-13	747-749	je	V	AUX	_	_	jesam	_	_	_	_	0	_	_	_	
+7-14	750-751	u	PREP	ADP	_	_	u	_	_	_	_	0	_	_	_	
+7-15	752-759	Nižnjem	A	ADJ	http://www.wikidata.org/entity/Q4322484[9]	LOC[9]	nižnji	_	_	_	_	0	_	*	_	
+7-16	760-769	Novgorodu	N	PROPN	http://www.wikidata.org/entity/Q4322484[9]	LOC[9]	Novgorod	_	_	_	_	0	_	_	_	
+7-17	770-771	i	CONJ	CCONJ	_	_	i	_	_	_	_	0	_	_	_	
+7-18	772-779	Kazanju	N	PROPN	http://www.wikidata.org/entity/Q900	LOC	Kazanj	_	_	_	_	0	_	_	_	
+7-19	779-780	.	SENT	PUNCT	_	_	.	_	_	_	_	0	_	_	_	
+
+#Text=Rezultat druge sezone programa bio je izbor lidera pokreta Fudbal za prijateljstvo (Football for Friendship, F4F).
+8-1	780-788	Rezultat	N	NOUN	_	_	rezultat	_	_	_	ENG30-07292694-n	3	ENG30-00186634-n;ENG30-07292694-n;ENG30-13594585-n	*	Ovde 'rezultat' označava ishod/posledicu druge sezone programa — izbor lidera pokreta. Ne radi se o sportskom poenu niti numeričkom rezultatu.	
+8-2	789-794	druge	A	ADJ	_	_	drugi	_	_	_	ENG30-02202146-a	4	ENG30-00048858-a;ENG30-02070030-a;ENG30-02070188-a;ENG30-02202146-a	*	Ovde 'druge' označava redni broj sezone, tj. sezonu koja dolazi odmah posle prve u vremenskom nizu.	
+8-3	795-801	sezone	N	NOUN	_	_	sezona	_	_	_	ENG30-15239579-n	1	ENG30-15239579-n	*	Izraz 'druga sezona programa' označava vremenski period/ciklus aktivnosti u okviru tog programa, što odgovara značenju perioda obeleženog posebnim događajima i aktivnostima u određenom polju.	
+8-4	802-810	programa	N	NOUN	_	_	program	_	_	_	ENG30-05899087-n	7	ENG30-00551215-n;ENG30-03962685-n;ENG30-05898568-n;ENG30-05899087-n;ENG30-06568978-n;ENG30-06619428-n;ENG30-06676416-n	CV	Ovde 'program' označava društvenu/razvojnu inicijativu (F4F) koja se sprovodi po sezonama; izbor lidera kao ishod druge sezone upućuje na sistem projekata/usluga namenjenih javnom interesu.	
+8-5	811-814	bio	V	AUX	_	_	biti	_	_	_	_	0	_	_	_	
+8-6	815-817	je	V	AUX	_	_	jesam	_	_	_	_	0	_	_	_	
+8-7	818-823	izbor	N	NOUN	_	_	izbor	_	_	_	ENG30-00180962-n	5	ENG30-00161243-n;ENG30-00180962-n;ENG30-05790242-n;ENG30-05790944-n;ENG30-13926329-n	*	Rečenica govori o činu biranja konkretne osobe — lidera pokreta — što precizno odgovara značenju 'čin biranja nekoga'.	
+8-8	824-830	lidera	N	NOUN	http://www.wikidata.org/entity/Q1251441	ROLE	lider	_	_	_	DRJ0-199452/0	1	DRJ0-199452/0	*	Rečenica govori o izboru lidera pokreta, tj. osobe koja vodi i/ili inspiriše članove tog pokreta.	
+8-9	831-838	pokreta	N	NOUN	_	_	pokret	_	_	_	ENG30-08464601-n	6	ENG30-00334509-n;ENG30-00347652-n;ENG30-00349369-n;ENG30-00569898-n;ENG30-07309781-n;ENG30-08464601-n	*	Ovde se „pokret“ odnosi na društvenu inicijativu/organizaciju — grupu ljudi okupljenih oko ideje „Fudbal za prijateljstvo“ sa zajedničkim ciljevima, pa se bira lider tog pokreta.	
+8-10	839-845	Fudbal	N	NOUN	http://www.wikidata.org/entity/Q19960532[10]	PRODUCT[10]	fudbal	_	_	_	ENG30-00468480-n	2	ENG30-00468480-n;ENG30-00478262-n	*	Reč se javlja u nazivu pokreta i odnosi se na sport uopšte, a ne na konkretnu utakmicu. Zato je primenjivo opšte značenje igre loptom.	
+8-11	846-848	za	PREP	ADP	http://www.wikidata.org/entity/Q19960532[10]	PRODUCT[10]	za	_	_	_	_	0	_	_	_	
+8-12	849-862	prijateljstvo	N	NOUN	http://www.wikidata.org/entity/Q19960532[10]	PRODUCT[10]	prijateljstvo	_	_	_	ENG30-13931145-n	2	ENG30-04654998-n;ENG30-13931145-n	*	U nazivu 'Fudbal za prijateljstvo' reč označava odnos između ljudi (stanje biti prijatelji), koji se program promoviše, a ne ličnu crtu druželjubivosti.	
+8-13	863-864	(	PUNCT	PUNCT	_	_	(	_	_	_	_	0	_	_	_	
+8-14	864-872	Football	F	X	http://www.wikidata.org/entity/Q19960532[11]	PRODUCT[11]	Football	_	_	_	_	0	_	_	_	
+8-15	873-876	for	F	X	http://www.wikidata.org/entity/Q19960532[11]	PRODUCT[11]	for	_	_	_	_	0	_	_	_	
+8-16	877-887	Friendship	F	X	http://www.wikidata.org/entity/Q19960532[11]	PRODUCT[11]	Friendship	_	_	_	_	0	_	_	_	
+8-17	887-888	,	PUNCT	PUNCT	_	_	,	_	_	_	_	0	_	_	_	
+8-18	889-892	F4F	ABB	X	http://www.wikidata.org/entity/Q19960532	PRODUCT	F4F	_	_	_	_	0	_	_	_	
+8-19	892-893	)	PUNCT	PUNCT	_	_	)	_	_	_	_	0	_	_	_	
+8-20	893-894	.	SENT	PUNCT	_	_	.	_	_	_	_	0	_	_	_	
+
+#Text=On je započeo studije hemije kod Adolfa fon Bejera i botanike kod Karla Negelija na Botaničkom institutu u Minhenu.
+9-1	894-896	On	PRO	PRON	_	_	on	_	_	_	_	0	_	_	_	
+9-2	897-899	je	V	AUX	_	_	jesam	_	_	_	_	0	_	_	_	
+9-3	900-907	započeo	V	VERB	_	_	započeti	_	_	_	ENG30-00345761-v	11	ENG30-00345761-v;ENG30-00348746-v;ENG30-01070777-v;ENG30-01628449-v;ENG30-01641914-v;ENG30-02379528-v;ENG30-02600948-v;ENG30-02608347-v;ENG30-02608823-v;ENG30-02609203-v;ENG30-02679227-v	CV	Ovde znači da je počeo da se bavi studijama hemije i botanike, tj. načinio prve korake u toj aktivnosti.	
+9-4	908-915	studije	N	NOUN	_	_	studije	_	_	_	CVDf-246/0	2	CVDf-246/0;ENG30-05996646-n	*	Fraza 'započeo studije ... na Botaničkom institutu' označava pohađanje univerzitetskog programa/predavanja i polaganje ispita, a ne samu granu znanja.	
+9-5	916-922	hemije	N	NOUN	_	_	hemija	_	_	_	ENG30-06084469-n	1	ENG30-06084469-n	*	Ovde 'hemija' označava akademsku disciplinu koju je studirao (pod mentorstvom Adolfa fon Bejera), što odgovara nauci o materiji, njenim svojstvima i reakcijama.	
+9-6	923-926	kod	PREP	ADP	_	_	kod	_	_	_	_	0	_	_	_	
+9-7	927-933	Adolfa	N	PROPN	http://www.wikidata.org/entity/Q57078[12]	PERS[12]	Adolf	_	_	_	_	0	_	_	_	
+9-8	934-937	fon	F	X	http://www.wikidata.org/entity/Q57078[12]	PERS[12]	fon	_	_	_	_	0	_	_	_	
+9-9	938-944	Bejera	N	PROPN	http://www.wikidata.org/entity/Q57078[12]	PERS[12]	Bejer	_	_	_	_	0	_	_	_	
+9-10	945-946	i	CONJ	CCONJ	_	_	i	_	_	_	_	0	_	_	_	
+9-11	947-955	botanike	N	NOUN	_	_	botanika	_	_	_	ENG30-06066555-n	1	ENG30-06066555-n	*	'Botanike' ovde označava naučnu disciplinu koju je studirao kod Karla Negelija, tj. granu biologije koja proučava biljke.	
+9-12	956-959	kod	PREP	ADP	_	_	kod	_	_	_	_	0	_	_	_	
+9-13	960-965	Karla	N	PROPN	http://www.wikidata.org/entity/Q124855513[13]	PERS[13]	Karl	_	_	_	_	0	_	_	_	
+9-14	966-974	Negelija	N	PROPN	http://www.wikidata.org/entity/Q124855513[13]	PERS[13]	Negelij	_	_	_	_	0	_	_	_	
+9-15	975-977	na	PREP	ADP	_	_	na	_	_	_	_	0	_	_	_	
+9-16	978-988	Botaničkom	A	ADJ	http://www.wikidata.org/entity/Q875673[14]	ORG[14]	botanički	_	_	_	_	0	_	*	_	
+9-17	989-998	institutu	N	NOUN	http://www.wikidata.org/entity/Q875673[14]	ORG[14]	institut	_	_	_	_	0	_	*	_	
+9-18	999-1000	u	PREP	ADP	http://www.wikidata.org/entity/Q875673[14]	ORG[14]	u	_	_	_	_	0	_	_	_	
+9-19	1001-1008	Minhenu	N	PROPN	http://www.wikidata.org/entity/Q875673[14]	ORG[14]	Minhen	_	_	_	_	0	_	_	_	
+9-20	1008-1009	.	SENT	PUNCT	_	_	.	_	_	_	_	0	_	_	_	
+
+#Text=Kup je osvojio fudbalski klub Bajern.
+10-1	1009-1012	Kup	N	NOUN	_	_	kup	_	_	_	CV0012	2	CV0012;ENG30-01859325-n	CV	U sportskom kontekstu, rečenica govori o trofeju koji je osvojio fudbalski klub, što upućuje na kup takmičenje na ispadanje. Labud nije relevantan za ovaj kontekst.	
+10-2	1013-1015	je	V	AUX	_	_	jesam	_	_	_	_	0	_	_	_	
+10-3	1016-1023	osvojio	V	VERB	_	_	osvojiti	_	_	_	CV0015	3	CV0015;ENG30-01114303-v;ENG30-02272549-v	CV	U sportskom kontekstu 'osvojiti kup' znači pobediti i osvojiti trofej. Rečenica kaže da je Bajern pobedom osvojio nagradu (kup).	
+10-4	1024-1033	fudbalski	A	ADJ	http://www.wikidata.org/entity/Q15789[15]	ORG[15]	fudbalski	_	_	_	_	0	_	*	_	
+10-5	1034-1038	klub	N	NOUN	http://www.wikidata.org/entity/Q15789[15]	ORG[15]	klub	_	_	_	_	0	_	*	_	
+10-6	1039-1045	Bajern	N	PROPN	http://www.wikidata.org/entity/Q15789[15]	ORG[15]	Bajern	_	_	_	_	0	_	_	_	
+10-7	1045-1046	.	SENT	PUNCT	_	_	.	_	_	_	_	0	_	_	_	
+
+#Text=Rusiju je predstavljalo 11 fudbalskih timova iz 11 ruskih gradova koji će biti domaćini utakmica Svetskog prvenstva FIFA 2018.
+11-1	1046-1052	Rusiju	N	PROPN	http://www.wikidata.org/entity/Q159	LOC	Rusija	_	_	_	_	0	_	_	_	
+11-2	1053-1055	je	V	AUX	_	_	jesam	_	_	_	_	0	_	_	_	
+11-3	1056-1069	predstavljalo	V	VERB	_	_	predstavljati	_	_	_	ENG30-02541509-v	7	CV0151;ENG30-00874175-v;ENG30-00987345-v;ENG30-01741562-v;ENG30-02541509-v;ENG30-02541921-v;ENG30-02723733-v	*	Ovde 'predstavljalo' znači da su ti timovi nastupali kao predstavnici Rusije, tj. zastupali je u određenom kontekstu. To odgovara značenju 'biti delegat ili zastupnik'.	
+11-4	1070-1072	11	NUM	NUM	_	_	11	_	_	_	_	0	_	_	_	
+11-5	1073-1083	fudbalskih	A	ADJ	_	_	fudbalski	1[189]	fudbalski tim[189]	NID[189]	LLM-0053[2003]	1[2003]	LLM-0053[2003]	*[454]	U kontekstu se govori o 11 fudbalskih timova iz različitih gradova u vezi sa Svetskim prvenstvom, što odgovara grupi igrača koji nastupaju zajedno u takmičenju s loptom na terenu.[2003]	
+11-6	1084-1090	timova	N	NOUN	_	_	tim	1[189]	fudbalski tim[189]	NID[189]	LLM-0053[2003]	1[2003]	LLM-0053[2003]	*[454]	U kontekstu se govori o 11 fudbalskih timova iz različitih gradova u vezi sa Svetskim prvenstvom, što odgovara grupi igrača koji nastupaju zajedno u takmičenju s loptom na terenu.[2003]	
+11-7	1091-1093	iz	PREP	ADP	_	_	iz	_	_	_	_	0	_	_	_	
+11-8	1094-1096	11	NUM	NUM	_	_	11	_	_	_	_	0	_	_	_	
+11-9	1097-1103	ruskih	A	ADJ	*	DEMO	ruski	_	_	_	ENG30-02957276-a	1	ENG30-02957276-a	*	Pridev 'ruskih' opisuje gradove koji pripadaju Rusiji, tj. gradove na teritoriji Rusije. To direktno odgovara značenju koje se tiče Rusije, njenih ljudi i kulture.	
+11-10	1104-1111	gradova	N	NOUN	_	_	grad	_	_	_	CV0016	6	CV0016;ENG30-08226335-n;ENG30-08540903-n;ENG30-08672199-n;ENG30-11465530-n;ENG30-13780180-n	CV	Odnosi se na grad kao urbano naseljeno mesto iz koga dolaze timovi i koji će biti domaćin utakmica. Ne radi se o stanovnicima grada niti o pravnoj jedinici, već o samom urbanom području.	
+11-11	1112-1116	koji	PRO	DET	_	_	koji	_	_	_	_	0	_	_	_	
+11-12	1117-1119	će	V	AUX	_	_	hteti	_	_	_	_	0	_	_	_	
+11-13	1120-1124	biti	V	AUX	_	_	biti	_	_	_	_	0	_	_	_	
+11-14	1125-1133	domaćini	N	NOUN	_	_	domaćin	_	_	_	ENG30-08481184-n	3	ENG30-01385527-n;ENG30-08481184-n;ENG30-10187130-n	*	Ovde 'domaćini' označava gradove koji obezbeđuju uslove i infrastrukturu za održavanje utakmica. To odgovara organizaciji koja daje sredstva i mogućnosti za događaj.	
+11-15	1134-1142	utakmica	N	NOUN	_	_	utakmica	_	_	_	ENG30-07470671-n	1	ENG30-07470671-n	*	U kontekstu Svetskog prvenstva 'utakmica' označava pojedinačni meč između timova, tj. zvanično sportsko nadmetanje. Gradovi su domaćini tih mečeva.	
+11-16	1143-1151	Svetskog	A	ADJ	http://www.wikidata.org/entity/Q223366[16]	EVENT[16]	svetski	_	_	_	ENG30-00527188-a	4	ENG30-00527188-a;ENG30-01567694-a;ENG30-01568684-a;ENG30-02578035-a	*	Odnosi se na globalno takmičenje koje važi za ceo svet (FIFA Svetsko prvenstvo). Nije reč o fizičkom prostiranju širom planete niti o svetovnim brigama.	
+11-17	1152-1161	prvenstva	N	NOUN	http://www.wikidata.org/entity/Q223366[16]	EVENT[16]	prvenstvo	_	_	_	CV0017	4	CV0017;ENG30-13948912-n;ENG30-13949802-n;ENG30-14435353-n	CV	U izrazu 'Svetsko prvenstvo FIFA 2018' reč 'prvenstvo' označava sportsko takmičenje na kojem se timovi nadmeću za titulu prvaka. Ostala značenja (status prvaka ili prvenstvo po važnosti) ne odgovaraju ovom kontekstu.	
+11-18	1162-1166	FIFA	ABB	X	http://www.wikidata.org/entity/Q223366[16]	EVENT[16]	FIFA	_	_	_	_	0	_	_	_	
+11-19	1167-1172	2018.	NUM	NUM	_	_	2018.	_	_	_	_	0	_	_	_	
+
+#Text=Prvi svetski rat izbio je 1914.
+12-1	1172-1176	Prvi	A	ADJ	http://www.wikidata.org/entity/Q361[17]	EVENT[17]	prvi	_	_	_	ENG30-01012855-a	7	ENG30-00228294-a;ENG30-01009206-a;ENG30-01009343-a;ENG30-01010862-a;ENG30-01012855-a;ENG30-01467919-a;ENG30-02202047-a	CV	Odnosi se na rat koji je prethodio svim ostalima u vremenu. 'Prvi svetski rat' je najraniji u nizu svetskih ratova.	
+12-2	1177-1184	svetski	A	ADJ	http://www.wikidata.org/entity/Q361[17]	EVENT[17]	svetski	1[190]	svetski rat[190]	NID[190]	ENG30-00996817-n[2004]	1[2004]	ENG30-00996817-n[2004]	*[455]	U rečenici se govori o Prvom svetskom ratu koji je započeo 1914, velikom sukobu koji je uključio sve veće svetske sile, što odgovara datoj definiciji.[2004]	
+12-3	1185-1188	rat	N	NOUN	http://www.wikidata.org/entity/Q361[17]	EVENT[17]	rat	1[190]	svetski rat[190]	NID[190]	ENG30-00996817-n[2004]	1[2004]	ENG30-00996817-n[2004]	*[455]	U rečenici se govori o Prvom svetskom ratu koji je započeo 1914, velikom sukobu koji je uključio sve veće svetske sile, što odgovara datoj definiciji.[2004]	
+12-4	1189-1194	izbio	V	VERB	_	_	izbiti	_	_	_	ENG30-00345508-v	8	ENG30-00345508-v;ENG30-00935987-v;ENG30-01990281-v;ENG30-02028366-v;ENG30-02123903-v;ENG30-02624263-v;ENG30-02625786-v;ENG30-02690093-v	*	U kontekstu rata, 'izbiti' znači naglo početi (npr. rat je izbio). Ovo je ustaljeni izraz za početak sukoba.	
+12-5	1195-1197	je	V	AUX	_	_	jesam	_	_	_	_	0	_	_	_	
+12-6	1198-1203	1914.	A	ADJ	_	_	1914.	_	_	_	_	0	_	_	_	
+
+#Text=Većinu stanovništva čine katolici.
+13-1	1203-1209	Većinu	N	NOUN	_	_	većina	1	*	VID	CVMWE-0034[2005]	1[2005]	CVMWE-0034[2005]	*[456]	Katolici sačinjavaju veći deo stanovništva; 'činiti većinu' ovde znači tvoriti dominantni deo skupa.[2005]	
+13-2	1210-1222	stanovništva	N	NOUN	_	_	stanovništvo	_	_	_	ENG30-08179879-n	2	ENG30-08179879-n;ENG30-13779804-n	*[456]|*[457]	Rečenica govori o sastavu ljudi koji žive na nekom području (većinu čine katolici), a ne o brojčanom iznosu. Zato se odnosi na ljude koji nastanjuju teritoriju.	
+13-3	1223-1227	čine	V	VERB	_	_	činiti	1	činiti većinu	VID	CVMWE-0034[2005]	1[2005]	CVMWE-0034[2005]	*[456]	Katolici sačinjavaju veći deo stanovništva; 'činiti većinu' ovde znači tvoriti dominantni deo skupa.[2005]	
+13-4	1228-1236	katolici	N	NOUN	http://www.wikidata.org/entity/Q17549077	ROLE	katolik	_	_	_	ENG30-09679925-n	1	ENG30-09679925-n	*	U demografskom kontekstu, 'katolici' označava pripadnike Katoličke crkve. Rečenica govori o verskoj pripadnosti većine stanovništva.	
+13-5	1236-1237	.	SENT	PUNCT	_	_	.	_	_	_	_	0	_	_	_	
+
+#Text=Članovi svake političke grupe se sastaju pre velikih sastanaka kako bi usvojili zajedničke stavove.
+14-1	1237-1244	Članovi	N	NOUN	_	_	član	_	_	_	ENG30-10307234-n	5	ENG30-06324669-n;ENG30-06392935-n;ENG30-08170686-n;ENG30-10307234-n;ENG30-13810615-n	*	Odnosi se na osobe koje čine političku grupu, tj. pojedince koji su pristupili organizaciji i učestvuju u njenim aktivnostima.	
+14-2	1245-1250	svake	PRO	DET	_	_	svaki	_	_	_	_	0	_	_	_	
+14-3	1251-1260	političke	A	ADJ	_	_	politički	_	_	_	ENG30-01814385-a	3	ENG30-01814385-a;ENG30-02857407-a;ENG30-02857587-a	*	Odnosi se na grupu u smislu delatnosti vezane za politiku, političke stranke ili političare. Fraza 'politička grupa' tipično označava organizaciju unutar političkog života, ne lično mišljenje niti profesiju vladanja.	
+14-4	1261-1266	grupe	N	NOUN	_	_	grupa	_	_	_	ENG30-08227916-n	10	ENG30-00031264-n;ENG30-06016853-n;ENG30-07953827-n;ENG30-08006094-n;ENG30-08215044-n;ENG30-08227916-n;ENG30-08240169-n;ENG30-08249038-n;ENG30-08480512-n;ENG30-13782769-n	*	Izraz 'politička grupa' upućuje na udruženje ljudi koji dele zajednička politička uverenja i aktivnosti. Članovi se sastaju da usaglase stavove, što odgovara ovom značenju.	
+14-5	1267-1269	se	PAR	PART	_	_	se	1	*	IRV	CVMWE-0393[2006]	4[2006]	CVMWE-0393;ENG30-01079480-v;ENG30-02023107-v;ENG30-02486232-v[2006]	*[458]	Ovde 'sastajati se' znači okupljati se na dogovorenom mestu radi održavanja sastanka kako bi uskladili stavove. Nije reč o slučajnom susretu, nadmetanju ili romantičnom viđanju.[2006]	
+14-6	1270-1277	sastaju	V	VERB	_	_	sastajati	1	sastajati se	IRV	CVMWE-0393[2006]	4[2006]	CVMWE-0393;ENG30-01079480-v;ENG30-02023107-v;ENG30-02486232-v[2006]	*[458]	Ovde 'sastajati se' znači okupljati se na dogovorenom mestu radi održavanja sastanka kako bi uskladili stavove. Nije reč o slučajnom susretu, nadmetanju ili romantičnom viđanju.[2006]	
+14-7	1278-1281	pre	PREP	ADP	_	_	pre	_	_	_	_	0	_	_	_	
+14-8	1282-1289	velikih	A	ADJ	_	_	velik	_	_	_	ENG30-01278818-a	11	CV0139;ENG30-00579622-a;ENG30-01114658-a;ENG30-01190683-a;ENG30-01278080-a;ENG30-01278818-a;ENG30-01375909-a;ENG30-01386883-a;ENG30-01467919-a;ENG30-01488616-a;ENG30-01510444-a	*	U ovom kontekstu 'velikih sastanaka' znači sastanci od velike važnosti (npr. ključne, glavne sednice). Grupa se prethodno usaglašava jer su ti sastanci posebno značajni, a ne nužno brojni ili prostorno veliki.	
+14-9	1290-1299	sastanaka	N	NOUN	_	_	sastanak	_	_	_	ENG30-08307589-n	4	ENG30-01230965-n;ENG30-07414922-n;ENG30-08307589-n;ENG30-08310389-n	*	Izraz 'velikih sastanaka' upućuje na formalno dogovorena okupljanja, verovatno važna i planirana. Rečenica govori o pripremnim susretima pre takvih zvaničnih sastanaka.	
+14-10	1300-1304	kako	CONJ	SCONJ	_	_	kako	_	_	_	_	0	_	_	_	
+14-11	1305-1307	bi	V	AUX	_	_	biti	_	_	_	_	0	_	_	_	
+14-12	1308-1316	usvojili	V	VERB	_	_	usvojiti	_	_	_	ENG30-02346895-v	9	ENG30-00094460-v;ENG30-00524682-v;ENG30-00601822-v;ENG30-00602112-v;ENG30-02346724-v;ENG30-02346895-v;ENG30-02379528-v;ENG30-02381726-v;ENG30-02464866-v	CV	Ovde 'usvojiti' znači izabrati i dogovoriti zajedničke političke stavove koje će zatim slediti/braniti, što odgovara značenju izbora i praćenja ideja ili politike.	
+14-13	1317-1327	zajedničke	A	ADJ	_	_	zajednički	_	_	_	ENG30-02152473-a	5	ENG30-00492677-a;ENG30-00493012-a;ENG30-02152216-a;ENG30-02152473-a;ENG30-02635499-a	CV	Ovde 'zajedničke' označava stavove koje dele svi članovi političke grupe, tj. koji su zajednički više strana. Reč se koristi u značenju 'deljen od dve ili više strana'.	
+14-14	1328-1335	stavove	N	NOUN	_	_	stav	_	_	_	ENG30-06193203-n	5	ENG30-05079866-n;ENG30-06193203-n;ENG30-06399995-n;ENG30-06782019-n;ENG30-07046339-n	*	Ovde 'stavovi' označava političke pozicije/attitude — skup verovanja i vrednosti koje grupa usvaja kako bi nastupala usaglašeno. Nije reč o fizičkom stavu niti o poruci/izjavi, već o unutrašnjem, usaglašenom opredeljenju.	
+14-15	1335-1336	.	SENT	PUNCT	_	_	.	_	_	_	_	0	_	_	_	
+
+#Text=Oni su javna tela kojima je data odgovornost da se bave određenim elementima primene zakonodavstva unutrašnjeg tržišta.
+15-1	1336-1339	Oni	PRO	PRON	_	_	oni	_	_	_	_	0	_	_	_	
+15-2	1340-1342	su	V	AUX	_	_	jesam	_	_	_	_	0	_	_	_	
+15-3	1343-1348	javna	A	ADJ	_	_	javan	_	_	_	ENG30-01861205-a	4	ENG30-00493297-a;ENG30-01861205-a;ENG30-01862296-a;ENG30-02090567-a	*	U izrazu 'javna tela' reč 'javan' označava institucije koje nisu privatne, već pripadaju javnom sektoru i tiču se opšte javnosti. To odgovara značenju 'nije privatan; otvoreni je za ljude uopšte, ili ih se tiče'.	
+15-4	1349-1353	tela	N	NOUN	_	_	telo	_	_	_	ENG30-07965085-n	8	ENG30-02861886-n;ENG30-05216365-n;ENG30-05217859-n;ENG30-05549830-n;ENG30-06394701-n;ENG30-07965085-n;ENG30-08436288-n;ENG30-09224911-n	*	U izrazu 'javna tela' 'telo' označava organizacioni organ/instituciju, tj. grupu ljudi koja deluje kao jedinstveni entitet. Takva tela imaju odgovornosti u primeni zakonodavstva.	
+15-5	1354-1360	kojima	PRO	DET	_	_	koji	_	_	_	_	0	_	_	_	
+15-6	1361-1363	je	V	AUX	_	_	jesam	_	_	_	_	0	_	_	_	
+15-7	1364-1368	data	V	VERB	_	_	dati	_	_	_	ENG30-02317094-v	25	ENG30-00081072-v;ENG30-00673571-v;ENG30-00878876-v;ENG30-01060494-v;ENG30-01069638-v;ENG30-01629000-v;ENG30-01632897-v;ENG30-01647672-v;ENG30-01716112-v;ENG30-01733477-v;ENG30-02199590-v;ENG30-02230022-v;ENG30-02235842-v;ENG30-02255268-v;ENG30-02263346-v;ENG30-02297948-v;ENG30-02309165-v;ENG30-02309374-v;ENG30-02317094-v;ENG30-02324478-v;ENG30-02339171-v;ENG30-02343595-v;ENG30-02348568-v;ENG30-02349212-v;ENG30-02621853-v	*	Ovde 'data' znači zvanično dodeljena odgovornost javnim telima. Radi se o poveravanju obaveze u institucionalnom kontekstu.	
+15-8	1369-1380	odgovornost	N	NOUN	_	_	odgovornost	_	_	_	ENG30-01129920-n	3	ENG30-01124246-n;ENG30-01129920-n;ENG30-04669247-n	CV	Ovde 'odgovornost' znači dodeljenu obavezu/mandat javnim telima da preduzimaju određene radnje. To odgovara društvenoj snazi koja ih vezuje za obaveze i podstiče delovanje.	
+15-9	1381-1383	da	CONJ	SCONJ	_	_	da	_	_	_	_	0	_	_	_	
+15-10	1384-1386	se	PAR	PART	_	_	se	1	*	IRV	CVMWE-0011[2007]	5[2007]	CVMWE-0011;CVMWE-0012;CVMWE-0013;ENG30-00651145-v;ENG30-01033527-v[2007]	*[459]	Ovde 'baviti se' znači obavljati, raditi na određenim aspektima primene zakonodavstva, tj. praktično se njima baviti kao zadatkom javnih tela.[2007]	
+15-11	1387-1391	bave	V	VERB	_	_	baviti	1	baviti se	IRV	CVMWE-0011[2007]	5[2007]	CVMWE-0011;CVMWE-0012;CVMWE-0013;ENG30-00651145-v;ENG30-01033527-v[2007]	*[459]	Ovde 'baviti se' znači obavljati, raditi na određenim aspektima primene zakonodavstva, tj. praktično se njima baviti kao zadatkom javnih tela.[2007]	
+15-12	1392-1401	određenim	A	ADJ	_	_	određen	_	_	_	CV0021	10	CV0021;ENG30-00252954-a;ENG30-00335768-a;ENG30-00340626-a;ENG30-00550574-a;ENG30-00638396-a;ENG30-00740217-a;ENG30-00941148-a;ENG30-01339730-a;ENG30-02129718-a	CV	Izraz 'određenim elementima' ovde znači 'nekim, posebno izdvojenim ali ne detaljno navedenim' elementima primene, tj. neprecizno specificisan podskup.	
+15-13	1402-1412	elementima	N	NOUN	_	_	element	_	_	_	ENG30-05868954-n	3	ENG30-05868954-n;ENG30-14622893-n;ENG30-14840755-n	*	U kontekstu se ‘elementima’ odnosi na delove/aspekte sprovođenja zakonodavstva, tj. apstraktne komponente procesa, a ne na hemijske ili kosmološke elemente.	
+15-14	1413-1420	primene	N	NOUN	_	_	primena	_	_	_	ENG30-00036061-n	2	ENG30-00036061-n;ENG30-05149978-n	*	Ovde se radi o sprovođenju/implementaciji zakonodavstva, tj. činu stavljanja zakona u praksu, što odgovara opštem činu primene nečega.	
+15-15	1421-1434	zakonodavstva	N	NOUN	_	_	zakonodavstvo	_	_	_	ENG30-06535222-n	1	ENG30-06535222-n	*	Ovde 'zakonodavstvo' označava skup zakona (legislativu) unutrašnjeg tržišta čiju primenu nadziru javna tela. Reč se odnosi na zakone donete zakonodavnim telom, a ne na proces donošenja.	
+15-16	1435-1446	unutrašnjeg	A	ADJ	_	_	unutrašnji	_	_	_	ENG30-01038332-a	7	ENG30-00873113-a;ENG30-00948670-a;ENG30-00948985-a;ENG30-00951831-a;ENG30-00952867-a;ENG30-01038102-a;ENG30-01038332-a	*	U izrazu 'unutrašnje tržište' pridev označava tržište unutar zemlje (domestic), nasuprot spoljašnjem/stranom tržištu, što najbolje odgovara značenju 'unutar zemlje'.	
+15-17	1447-1454	tržišta	N	NOUN	_	_	tržište	_	_	_	ENG30-01097292-n	3	ENG30-01097292-n;ENG30-08072837-n;ENG30-08424951-n	*	U frazi 'unutrašnje tržište' misli se na opšti ekonomski prostor razmene dobara i usluga u okviru jedne jurisdikcije, na koji se primenjuje relevantno zakonodavstvo. To odgovara sferi komercijalnih aktivnosti.	
+15-18	1454-1455	.	SENT	PUNCT	_	_	.	_	_	_	_	0	_	_	_	
+
+#Text=Evropska unija stoga ne bi trebala da preuzima zadatke koji su prikladniji za nacionalne, regionalne ili lokalne uprave.
+16-1	1455-1463	Evropska	A	ADJ	http://www.wikidata.org/entity/Q458[18]	ORG[18]	evropski	_	_	_	_	0	_	*	_	
+16-2	1464-1469	unija	N	NOUN	http://www.wikidata.org/entity/Q458[18]	ORG[18]	unija	_	_	_	_	0	_	*	_	
+16-3	1470-1475	stoga	ADV	ADV	_	_	stoga	_	_	_	ENG30-00043003-b	3	ENG30-00043003-b;ENG30-00062857-b;ENG30-00294459-b	*	'Stoga' uvodi logički zaključak iz prethodno navedenih razloga, u značenju 'dakle/otuda'. Upotrebljeno je da poveže argument sa posledicom u narednoj tvrdnji.	
+16-4	1476-1478	ne	PAR	PART	_	_	ne	_	_	_	_	0	_	_	_	
+16-5	1479-1481	bi	V	AUX	_	_	biti	_	_	_	_	0	_	_	_	
+16-6	1482-1489	trebala	V	VERB	_	_	trebati	_	_	_	CV0022	2	CV0022;ENG30-02632567-v	CV	Glagol ovde izražava normativnu potrebu/savet ('ne bi trebala da'), tj. da EU ne treba da preuzima te zadatke. Ne radi se o značenju oskudice.	
+16-7	1490-1492	da	CONJ	SCONJ	_	_	da	_	_	_	_	0	_	_	_	
+16-8	1493-1501	preuzima	V	VERB	_	_	preuzimati	_	_	_	ENG30-02381726-v	8	ENG30-02216560-v;ENG30-02274299-v;ENG30-02301825-v;ENG30-02304013-v;ENG30-02379528-v;ENG30-02381397-v;ENG30-02381726-v;ENG30-02394183-v	CV	U rečenici se radi o tome da EU ne treba da uzima na sebe (preuzima) zadatke/dutnosti koji pripadaju drugim nivoima vlasti. Ovo odgovara značenju primanja na sebe dužnosti ili obaveza.	
+16-9	1502-1509	zadatke	N	NOUN	_	_	zadatak	_	_	_	ENG30-00719705-n	3	ENG30-00719705-n;ENG30-00730247-n;ENG30-00796586-n	*	Odnosi se na opšte poslove/obaveze koje pripadaju različitim nivoima vlasti, tj. konkretne delove posla. Ostala značenja (vojna dužnost, školski zadatak) ne odgovaraju.	
+16-10	1510-1514	koji	PRO	DET	_	_	koji	_	_	_	_	0	_	_	_	
+16-11	1515-1517	su	V	AUX	_	_	jesam	_	_	_	_	0	_	_	_	
+16-12	1518-1529	prikladniji	A	ADJ	_	_	prikladan	_	_	_	ENG30-00134701-a	6	ENG30-00134701-a;ENG30-00138314-a;ENG30-01020885-a;ENG30-01352714-a;ENG30-01660994-a;ENG30-01878870-a	*	Ovde 'prikladniji' znači da su zadaci primereniji određenom nivou vlasti, tj. bolje odgovaraju nacionalnim, regionalnim ili lokalnim upravama.	
+16-13	1530-1532	za	PREP	ADP	_	_	za	_	_	_	_	0	_	_	_	
+16-14	1533-1543	nacionalne	A	ADJ	_	_	nacionalan	_	_	_	ENG30-02988060-a	7	ENG30-00526984-a;ENG30-01038332-a;ENG30-01105840-a;ENG30-01567862-a;ENG30-01861776-a;ENG30-02988060-a;ENG30-02988402-a	*	U izrazu 'nacionalne uprave' reč upućuje na organe na nivou države, nasuprot regionalnim ili lokalnim, tj. ono što pripada ili se odnosi na naciju/državu.	
+16-15	1543-1544	,	PUNCT	PUNCT	_	_	,	_	_	_	_	0	_	_	_	
+16-16	1545-1555	regionalne	A	ADJ	_	_	regionalan	_	_	_	ENG30-02408977-a	1	ENG30-02408977-a	*	Ovde označava uprave na nivou regije, tj. administracije vezane za određenu teritorijalnu oblast. To odgovara značenju 'vezan ili ograničen na određenu oblast'.	
+16-17	1556-1559	ili	CONJ	CCONJ	_	_	ili	_	_	_	_	0	_	_	_	
+16-18	1560-1567	lokalne	A	ADJ	_	_	lokalan	_	_	_	ENG30-01106405-a	1	ENG30-01106405-a	*	Ovde „lokalne uprave” označava uprave na nivou grada/opštine/okruga, za razliku od širih (nacionalnih, regionalnih ili EU) nivoa, što odgovara ponuđenom značenju.	
+16-19	1568-1574	uprave	N	NOUN	_	_	uprava	_	_	_	ENG30-08164585-n	4	ENG30-05663671-n;ENG30-08164585-n;ENG30-08380768-n;ENG30-08381165-n	CV	Ovde 'uprave' označava administrativna tela na nacionalnom, regionalnom ili lokalnom nivou—ljude i odeljenja zadužene za upravljanje. Ne radi se o obliku vladavine niti o korporativnim odborima.	
+16-20	1574-1575	.	SENT	PUNCT	_	_	.	_	_	_	_	0	_	_	_	
+
+#Text=Pristup sadržaju imaju samo nadležni organi koji su direktno uključeni u razmenu informacija.
+17-1	1575-1582	Pristup	N	NOUN	_	_	pristup	1	*	LVC.full	CVMWE-0127[2008]	1[2008]	CVMWE-0127[2008]	*[460]	'Imati pristup' ovde znači biti u mogućnosti da dođe do ili koristi sadržaj; samo nadležni organi mogu da ga vide/koriste.[2008]	
+17-2	1583-1591	sadržaju	N	NOUN	_	_	sadržaj	_	_	_	ENG30-06598915-n	4	ENG30-04347225-n;ENG30-06598915-n;ENG30-06604066-n;ENG30-13816521-n	*[460]|*[461]	Ovde se 'sadržaj' odnosi na to o čemu je sama poruka/saopštenje u razmeni informacija. Pristup je ograničen na nadležne organe, dakle radi se o sadržaju komunikacije.	
+17-3	1592-1597	imaju	V	VERB	_	_	imati	1	imati pristup	LVC.full	CVMWE-0127[2008]	1[2008]	CVMWE-0127[2008]	*[460]	'Imati pristup' ovde znači biti u mogućnosti da dođe do ili koristi sadržaj; samo nadležni organi mogu da ga vide/koriste.[2008]	
+17-4	1598-1602	samo	ADV	ADV	_	_	samo	_	_	_	ENG30-00008600-b	6	ENG30-00004722-b;ENG30-00008600-b;ENG30-00011011-b;ENG30-00028797-b;ENG30-00158309-b;ENG30-00505114-b	*	'Samo' ovde označava da pristup imaju isključivo nadležni organi, bez uključivanja bilo koga drugog. Reč naglašava ekskluzivnost učesnika u pristupu.	
+17-5	1603-1611	nadležni	A	ADJ	_	_	nadležan	_	_	_	ENG30-00809201-a	1	ENG30-00809201-a	*	Ovde 'nadležni organi' označava organe koji su odgovorni i ovlašćeni za postupanje u toj oblasti, tj. one koji su u poziciji da donose odluke i snose odgovornost.	
+17-6	1612-1618	organi	N	NOUN	_	_	organ	_	_	_	ENG30-08349350-n	2	ENG30-05297523-n;ENG30-08349350-n	*	U izrazu 'nadležni organi' reč 'organ' označava državne ili administrativne institucije nadležne za određene poslove, a ne biološki deo tela.	
+17-7	1619-1623	koji	PRO	DET	_	_	koji	_	_	_	_	0	_	_	_	
+17-8	1624-1626	su	V	AUX	_	_	jesam	_	_	_	_	0	_	_	_	
+17-9	1627-1635	direktno	ADV	ADV	_	_	direktno	_	_	_	ENG30-00504281-b	3	ENG30-00048739-b;ENG30-00051848-b;ENG30-00504281-b	*	U ovom kontekstu 'direktno uključeni' znači učestvovati bez posrednika u razmeni informacija. Ne odnosi se na vreme niti na odstupanje.	
+17-10	1636-1645	uključeni	V	VERB	_	_	uključiti	_	_	_	ENG30-02677567-v	13	CV0163;ENG30-00183879-v;ENG30-00466651-v;ENG30-00684838-v;ENG30-01510399-v;ENG30-01510827-v;ENG30-02295447-v;ENG30-02436963-v;ENG30-02449847-v;ENG30-02629535-v;ENG30-02633218-v;ENG30-02677097-v;ENG30-02677567-v	CV	Ovde 'uključeni' znači angažovani kao učesnici u razmeni informacija. Odnosi se na one koji aktivno učestvuju u procesu.	
+17-11	1646-1647	u	PREP	ADP	_	_	u	_	_	_	_	0	_	_	_	
+17-12	1648-1655	razmenu	N	NOUN	_	_	razmena	2[191]	razmena informacija[191]	NID[191]	LLM-0224[2009]	1[2009]	LLM-0224[2009]	*[462]	U rečenici se opisuje situacija gde nadležni organi međusobno dele podatke, odnosno učestvuju u procesu prenosa informacija. To tačno odgovara značenju procesa međusobnog prenošenja podataka ili saznanja.[2009]	
+17-13	1656-1667	informacija	N	NOUN	_	_	informacija	2[191]	razmena informacija[191]	NID[191]	LLM-0224[2009]	1[2009]	LLM-0224[2009]	*[462]	U rečenici se opisuje situacija gde nadležni organi međusobno dele podatke, odnosno učestvuju u procesu prenosa informacija. To tačno odgovara značenju procesa međusobnog prenošenja podataka ili saznanja.[2009]	
+17-14	1667-1668	.	SENT	PUNCT	_	_	.	_	_	_	_	0	_	_	_	
+
+#Text=Generalnog sekretara imenuje Biro na pet godina.
+18-1	1668-1678	Generalnog	A	ADJ	http://www.wikidata.org/entity/Q6501749[19]	ROLE[19]	generalan	_	_	_	PS002	2	ENG30-00487198-a;PS002	CV	U izrazu 'Generalni sekretar' pridev označava najvišu, glavnu funkciju sekretara u organizaciji, tj. 'glavni/vrhovni'.	
+18-2	1679-1688	sekretara	N	NOUN	http://www.wikidata.org/entity/Q6501749[19]	ROLE[19]	sekretar	_	_	_	ENG30-10570019-n	4	ENG30-01618503-n;ENG30-10521928-n;ENG30-10569744-n;ENG30-10570019-n	*	Fraza 'Generalni sekretar' označava najvišeg administrativnog čelnika organizacije. Imenovanje od strane Biroa na određeni mandat ukazuje na rukovodeću funkciju, a ne na administrativnog pomoćnika.	
+18-3	1689-1696	imenuje	V	VERB	_	_	imenovati	_	_	_	ENG30-02391803-v	11	ENG30-00645552-v;ENG30-00879540-v;ENG30-00945853-v;ENG30-01026095-v;ENG30-01030132-v;ENG30-02391803-v;ENG30-02396205-v;ENG30-02396716-v;ENG30-02401523-v;ENG30-02475922-v;ENG30-02476385-v	*	Radi se o postavljanju na funkciju/dužnost na određeni mandat, tj. dodeljivanju mesta Generalnog sekretara. To najpreciznije odgovara značenju 'dati mesto ili zadatak nekome'.	
+18-4	1697-1701	Biro	N	NOUN	_	_	biro	_	_	_	ENG30-08337324-n	2	ENG30-03841666-n;ENG30-08337324-n	*	U rečenici 'Biro' označava telo koje imenuje funkcionera, što odgovara administrativnoj jedinici/organu. Ne radi se o fizičkom poslovnom prostoru.	
+18-5	1702-1704	na	PREP	ADP	_	_	na	_	_	_	_	0	_	_	_	
+18-6	1705-1708	pet	NUM	NUM	_	_	pet	_	_	_	_	0	_	_	_	
+18-7	1709-1715	godina	N	NOUN	_	_	godina	_	_	_	ENG30-15203791-n	5	ENG30-08238660-n;ENG30-15201505-n;ENG30-15202634-n;ENG30-15203791-n;ENG30-15204297-n	*	U izrazu 'na pet godina' reč označava vremensko trajanje mandata od pet uzastopnih godina (po 365/366 dana), a ne konkretne kalendarske godine.	
+18-8	1715-1716	.	SENT	PUNCT	_	_	.	_	_	_	_	0	_	_	_	
+
+#Text=Na ovaj dan održane su prijateljske utakmice, fleš mobovi, radio maratoni, master klasovi, televizijske emisije, slobodni treninzi i sl.
+19-1	1716-1718	Na	PREP	ADP	_	_	na	_	_	_	_	0	_	_	_	
+19-2	1719-1723	ovaj	PRO	DET	_	_	ovaj	_	_	_	_	0	_	_	_	
+19-3	1724-1727	dan	N	NOUN	_	_	dan	_	_	_	ENG30-15157225-n	8	ENG30-14484516-n;ENG30-15123115-n;ENG30-15136453-n;ENG30-15155220-n;ENG30-15157041-n;ENG30-15157225-n;ENG30-15164957-n;ENG30-15208540-n	*	Fraza 'Na ovaj dan' upućuje na obeleženi ili posvećeni dan tokom kog se organizuju posebni događaji, što potvrđuje nabrajanje aktivnosti.	
+19-4	1728-1735	održane	V	VERB	_	_	održati	_	_	_	ENG30-01733477-v	7	ENG30-00118523-v;ENG30-00339934-v;ENG30-01733477-v;ENG30-02202928-v;ENG30-02280132-v;ENG30-02408965-v;ENG30-02679899-v	CV	U kontekstu događaja ('održane su utakmice...') reč znači da su događaji bili organizovani i sprovedeni tog dana, što odgovara smislu 'organizovati ili biti odgovoran za nešto'.	
+19-5	1736-1738	su	V	AUX	_	_	jesam	_	_	_	_	0	_	_	_	
+19-6	1739-1751	prijateljske	A	ADJ	_	_	prijateljski	1[192]	prijateljska utakmica[192]	NID[192]	LLM-0200[2010]	1[2010]	LLM-0200[2010]	*[463]	U kontekstu nabrajanja događaja, 'prijateljske utakmice' označavaju mečeve bez takmičarskog značaja, održane radi treninga ili promocije.[2010]	
+19-7	1752-1760	utakmice	N	NOUN	_	_	utakmica	1[192]	prijateljska utakmica[192]	NID[192]	LLM-0200[2010]	1[2010]	LLM-0200[2010]	*[463]	U kontekstu nabrajanja događaja, 'prijateljske utakmice' označavaju mečeve bez takmičarskog značaja, održane radi treninga ili promocije.[2010]	
+19-8	1760-1761	,	PUNCT	PUNCT	_	_	,	_	_	_	_	0	_	_	_	
+19-9	1762-1766	fleš	N	NOUN	_	_	fleš	4[193]	fleš mob[193]	NID[193]	LLM-0051[2011]	1[2011]	LLM-0051[2011]	*[464]	U kontekstu nabrajanja javnih događaja, „fleš mobovi” označavaju kratke, neobične performanse koje izvodi spontano okupljena grupa ljudi na javnom mestu, što odgovara datoj definiciji.[2011]	
+19-10	1767-1773	mobovi	N	NOUN	_	_	mob	4[193]	fleš mob[193]	NID[193]	LLM-0051[2011]	1[2011]	LLM-0051[2011]	*[464]	U kontekstu nabrajanja javnih događaja, „fleš mobovi” označavaju kratke, neobične performanse koje izvodi spontano okupljena grupa ljudi na javnom mestu, što odgovara datoj definiciji.[2011]	
+19-11	1773-1774	,	PUNCT	PUNCT	_	_	,	_	_	_	_	0	_	_	_	
+19-12	1775-1780	radio	N	NOUN	_	_	radio	5[194]	radio maraton[194]	NID[194]	LLM-0215[2012]	1[2012]	LLM-0215[2012]	*[465]	U kontekstu nabrajanja događaja i aktivnosti, 'radio maratoni' označavaju dugotrajne radijske programe, često humanitarnog karaktera. Ovo se uklapa u opis događaja održanih tog dana.[2012]	
+19-13	1781-1789	maratoni	N	NOUN	_	_	maraton	5[194]	radio maraton[194]	NID[194]	LLM-0215[2012]	1[2012]	LLM-0215[2012]	*[465]	U kontekstu nabrajanja događaja i aktivnosti, 'radio maratoni' označavaju dugotrajne radijske programe, često humanitarnog karaktera. Ovo se uklapa u opis događaja održanih tog dana.[2012]	
+19-14	1789-1790	,	PUNCT	PUNCT	_	_	,	_	_	_	_	0	_	_	_	
+19-15	1791-1797	master	N	NOUN	_	_	master	2[195]	master-klas[195]	NID[195]	LLM-0115[2013]	1[2013]	LLM-0115[2013]	*[466]	U kontekstu nabrajanja događaja i aktivnosti, 'master klasovi' označava specijalizovane časove ili radionice koje vodi stručnjak visokog nivoa.[2013]	
+19-16	1798-1805	klasovi	N	NOUN	_	_	klas	2[195]	master-klas[195]	NID[195]	LLM-0115[2013]	1[2013]	LLM-0115[2013]	*[466]	U kontekstu nabrajanja događaja i aktivnosti, 'master klasovi' označava specijalizovane časove ili radionice koje vodi stručnjak visokog nivoa.[2013]	
+19-17	1805-1806	,	PUNCT	PUNCT	_	_	,	_	_	_	_	0	_	_	_	
+19-18	1807-1819	televizijske	A	ADJ	_	_	televizijski	3[196]	televizijske emisije[196]	NID[196]	LLM-0264[2014]	1[2014]	LLM-0264[2014]	*[467]	U kontekstu nabrajanja događaja i aktivnosti, 'televizijske emisije' označava programe emitovane na televiziji, tj. mediju za prenos slike i zvuka.[2014]	
+19-19	1820-1827	emisije	N	NOUN	_	_	emisija	3[196]	televizijske emisije[196]	NID[196]	LLM-0264[2014]	1[2014]	LLM-0264[2014]	*[467]	U kontekstu nabrajanja događaja i aktivnosti, 'televizijske emisije' označava programe emitovane na televiziji, tj. mediju za prenos slike i zvuka.[2014]	
+19-20	1827-1828	,	PUNCT	PUNCT	_	_	,	_	_	_	_	0	_	_	_	
+19-21	1829-1837	slobodni	A	ADJ	_	_	slobodan	_	_	_	ENG30-02003357-a	3	ENG30-00361837-a;ENG30-01061489-a;ENG30-02003357-a	CV	U ovom kontekstu 'slobodni treninzi' znači da su treninzi otvoreni i dostupni svima.	
+19-22	1838-1846	treninzi	N	NOUN	_	_	trening	_	_	_	ENG30-00893955-n	1	ENG30-00893955-n	*	U kontekstu 'slobodni treninzi' odnosi se na vežbačke/pripremne sesije, aktivnost usmerenu na uvežbavanje veština. To odgovara radnji usmerenoj ka uvežbanom ponašanju.	
+19-23	1847-1848	i	CONJ	CCONJ	_	_	i	_	_	_	_	0	_	_	_	
+19-24	1849-1852	sl.	ABB	X	_	_	sl.	_	_	_	_	0	_	_	_	
+
+#Text=Tom događaju u Grčkoj je prisustvovao Teodoras Zagorakis, pobednik Evropskog prvenstva u fudbalu 2004, zajedno sa nacionalnim timom svoje zemlje.
+20-1	1852-1855	Tom	PRO	DET	_	_	taj	_	_	_	_	0	_	_	_	
+20-2	1856-1864	događaju	N	NOUN	_	_	događaj	_	_	_	CV0008	6	CV0008;ENG30-00029378-n;ENG30-07283608-n;ENG30-07307477-n;ENG30-07447261-n;ENG30-11453860-n	*	Označava organizovan javni/društveni skup u Grčkoj kojem se prisustvuje, što implicira planiran događaj. Prisustvo Zagorakisa i nacionalnog tima sugeriše ceremoniju ili sličan javni događaj.	
+20-3	1865-1866	u	PREP	ADP	_	_	u	_	_	_	_	0	_	_	_	
+20-4	1867-1873	Grčkoj	N	PROPN	http://www.wikidata.org/entity/Q41	LOC	Grčka	_	_	_	_	0	_	_	_	
+20-5	1874-1876	je	V	AUX	_	_	jesam	_	_	_	_	0	_	_	_	
+20-6	1877-1889	prisustvovao	V	VERB	_	_	prisustvovati	_	_	_	ENG30-02612762-v	1	ENG30-02612762-v	*	Ovde 'prisustvovao' znači da je bio prisutan na događaju u Grčkoj, što odgovara značenju 'biti prisutan na sastanku/događaju'.	
+20-7	1890-1898	Teodoras	N	PROPN	http://www.wikidata.org/entity/Q296452[20]	PERS[20]	Teodoras	_	_	_	_	0	_	_	_	
+20-8	1899-1908	Zagorakis	N	PROPN	http://www.wikidata.org/entity/Q296452[20]	PERS[20]	Zagorakis	_	_	_	_	0	_	_	_	
+20-9	1908-1909	,	PUNCT	PUNCT	_	_	,	_	_	_	_	0	_	_	_	
+20-10	1910-1918	pobednik	N	NOUN	_	_	pobednik	_	_	_	ENG30-10782940-n	3	ENG30-09762821-n;ENG30-09906704-n;ENG30-10782940-n	*	Ovde „pobednik” označava sportskog takmičara koji je pobedio na takmičenju, osvojivši Evropsko prvenstvo kao član nacionalnog tima 2004. Opšte značenje „osoba sa uspehom” nije primenjivo jer je fokus na konkretnoj pobedi u takmičenju.	
+20-11	1919-1928	Evropskog	A	ADJ	http://www.wikidata.org/entity/Q102920[21]	EVENT[21]	evropski	_	_	_	ENG30-02968325-a	1	ENG30-02968325-a	*	U izrazu 'Evropskog prvenstva' pridev označava prvenstvo koje se odnosi na Evropu i evropske zemlje. Dakle, odnosi se na Evropu ili ljude Evrope.	
+20-12	1929-1938	prvenstva	N	NOUN	http://www.wikidata.org/entity/Q102920[21]	EVENT[21]	prvenstvo	_	_	_	CV0017	4	CV0017;ENG30-13948912-n;ENG30-13949802-n;ENG30-14435353-n	CV	Ovde 'prvenstvo' označava sportsko takmičenje—Evropsko prvenstvo u fudbalu 2004—na kojem se osvaja titula prvaka, a ne status šampiona ili prioritet.	
+20-13	1939-1940	u	PREP	ADP	http://www.wikidata.org/entity/Q102920[21]	EVENT[21]	u	_	_	_	_	0	_	_	_	
+20-14	1941-1948	fudbalu	N	NOUN	http://www.wikidata.org/entity/Q102920[21]	EVENT[21]	fudbal	_	_	_	ENG30-00468480-n	2	ENG30-00468480-n;ENG30-00478262-n	*	Ovde se govori o sportu (fudbalu) kao disciplini u okviru Evropskog prvenstva, a ne o konkretnoj utakmici, pa odgovara opštem značenju sporta.	
+20-15	1949-1953	2004	NUM	NUM	http://www.wikidata.org/entity/Q102920[21]	EVENT[21]	2004	_	_	_	_	0	_	_	_	
+20-16	1953-1954	,	PUNCT	PUNCT	_	_	,	_	_	_	_	0	_	_	_	
+20-17	1955-1962	zajedno	ADV	ADV	_	_	zajedno	1[197]	zajedno sa[197]	AdpID[197]	LLM-0331[2015]	1[2015]	LLM-0331[2015]	*[468]	U frazi 'zajedno sa nacionalnim timom' izraz označava da je bio prisutan skupa s nacionalnim timom, tj. u njihovoj pratnji. To direktno odgovara značenju 'Skupa sa; u pratnji nečega ili nekoga.'[2015]	
+20-18	1963-1965	sa	PREP	ADP	_	_	sa	1[197]	zajedno sa[197]	AdpID[197]	LLM-0331[2015]	1[2015]	LLM-0331[2015]	*[468]	U frazi 'zajedno sa nacionalnim timom' izraz označava da je bio prisutan skupa s nacionalnim timom, tj. u njihovoj pratnji. To direktno odgovara značenju 'Skupa sa; u pratnji nečega ili nekoga.'[2015]	
+20-19	1966-1977	nacionalnim	A	ADJ	_	_	nacionalan	2[198]	nacionalni tim[198]	NID[198]	LLM-0139[2016]	1[2016]	LLM-0139[2016]	*[469]	'Nacionalni tim' ovde označava reprezentaciju države u sportu; spominju se Zagorakis i Evropsko prvenstvo u fudbalu, što upućuje na reprezentaciju Grčke.[2016]	
+20-20	1978-1983	timom	N	NOUN	_	_	tim	2[198]	nacionalni tim[198]	NID[198]	LLM-0139[2016]	1[2016]	LLM-0139[2016]	*[469]	'Nacionalni tim' ovde označava reprezentaciju države u sportu; spominju se Zagorakis i Evropsko prvenstvo u fudbalu, što upućuje na reprezentaciju Grčke.[2016]	
+20-21	1984-1989	svoje	PRO	DET	_	_	svoj	_	_	_	_	0	_	_	_	
+20-22	1990-1996	zemlje	N	NOUN	_	_	zemlja	_	_	_	ENG30-08168978-n	11	ENG30-08168978-n;ENG30-08493064-n;ENG30-08544813-n;ENG30-09270894-n;ENG30-09334396-n;ENG30-09335240-n;ENG30-09451517-n;ENG30-13250048-n;ENG30-14842992-n;ENG30-14844414-n;ENG30-14844693-n	CV	U izrazu 'nacionalni tim svoje zemlje' 'zemlja' označava državu kao političku zajednicu (naciju/državu). Nacionalni tim predstavlja državu, a ne geografsko područje ili tlo.	
+20-23	1996-1997	.	SENT	PUNCT	_	_	.	_	_	_	_	0	_	_	_	

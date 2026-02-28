@@ -1,0 +1,831 @@
+Sentence	Token	Sentence index	Token index	First Model NEW_SENSE	Second Model NEW_SENSE
+Ipak, nastavio je da radi na esperantu sve dok nije umro od srčanog udara 1921. godine.	nastavio	1.0	3.0	False	False
+Ipak, nastavio je da radi na esperantu sve dok nije umro od srčanog udara 1921. godine.	godine	1.0	17.0	False	False
+Bol može biti jači tokom noći i može se pojačati tokom vremena dok ne postane nepodnošljiv i neprekidan.	postane	3.0	15.0	False	False
+Frederik IX je bio kralj Danske od 1947. do 1972. godine.	godine	4.0	11.0	False	False
+Votsonova je za svoj nastup dobila nagradu „Otto“ od nemačkog časopisa „Bravo“.	nastup	5.0	5.0	True	False
+Votsonova je za svoj nastup dobila nagradu „Otto“ od nemačkog časopisa „Bravo“.	dobila	5.0	6.0	False	False
+Votsonova je za svoj nastup dobila nagradu „Otto“ od nemačkog časopisa „Bravo“.	časopisa	5.0	13.0	False	False
+Godine 1814. Kristijanija je ponovo postala prava prestonica, kada je prestala da postoji unija sa Danskom.	Godine	6.0	1.0	False	False
+Godine 1814. Kristijanija je ponovo postala prava prestonica, kada je prestala da postoji unija sa Danskom.	postala	6.0	6.0	False	False
+Godine 1814. Kristijanija je ponovo postala prava prestonica, kada je prestala da postoji unija sa Danskom.	prava	6.0	7.0	False	False
+Godine 1814. Kristijanija je ponovo postala prava prestonica, kada je prestala da postoji unija sa Danskom.	prestala	6.0	12.0	False	False
+Njegov uticaj na strategiju Konfederacije bio je smanjen zbog loših profesionalnih odnosa sa predsednikom Džefersonom Dejvisom i drugim visokim generalima i zvaničnicima.	uticaj	9.0	2.0	False	False
+Njegov uticaj na strategiju Konfederacije bio je smanjen zbog loših profesionalnih odnosa sa predsednikom Džefersonom Dejvisom i drugim visokim generalima i zvaničnicima.	strategiju	9.0	4.0	False	False
+Njegov uticaj na strategiju Konfederacije bio je smanjen zbog loših profesionalnih odnosa sa predsednikom Džefersonom Dejvisom i drugim visokim generalima i zvaničnicima.	predsednikom	9.0	14.0	False	False
+Njegov uticaj na strategiju Konfederacije bio je smanjen zbog loših profesionalnih odnosa sa predsednikom Džefersonom Dejvisom i drugim visokim generalima i zvaničnicima.	drugim	9.0	18.0	False	False
+Timovi su organizovani na principima Fudbala za prijateljstvo: u istom timu igraju sportisti različitih nacionalnosti, pola i fizičkih sposobnosti.	Timovi	10.0	1.0	False	False
+Timovi su organizovani na principima Fudbala za prijateljstvo: u istom timu igraju sportisti različitih nacionalnosti, pola i fizičkih sposobnosti.	istom	10.0	11.0	False	False
+Timovi su organizovani na principima Fudbala za prijateljstvo: u istom timu igraju sportisti različitih nacionalnosti, pola i fizičkih sposobnosti.	timu	10.0	12.0	False	False
+Timovi su organizovani na principima Fudbala za prijateljstvo: u istom timu igraju sportisti različitih nacionalnosti, pola i fizičkih sposobnosti.	različitih	10.0	15.0	False	False
+Mađarska delegacija potpisala je sporazum uz negodovanje 4. juna 1920. u palati Veliki Trijanon, u Versaju u Francuskoj.	palati	11.0	12.0	False	False
+Godinu dana kasnije Votsonova je ponovo glumila Hermionu u filmu Hari Poter i Dvorana tajni, u drugom delu serije.	filmu	13.0	10.0	False	False
+Godinu dana kasnije Votsonova je ponovo glumila Hermionu u filmu Hari Poter i Dvorana tajni, u drugom delu serije.	tajni	13.0	15.0	False	False
+Naglasak uvek pada na poslednji slog reči.	pada	14.0	3.0	False	False
+Naglasak uvek pada na poslednji slog reči.	slog	14.0	6.0	True	False
+Naglasak uvek pada na poslednji slog reči.	reči	14.0	7.0	True	False
+Mehurići sapuna obično traju samo nekoliko sekundi pre nego što puknu, bilo sami ili u kontaktu sa drugim predmetom.	Mehurići	17.0	1.0	False	False
+Mehurići sapuna obično traju samo nekoliko sekundi pre nego što puknu, bilo sami ili u kontaktu sa drugim predmetom.	sami	17.0	14.0	False	False
+Mehurići sapuna obično traju samo nekoliko sekundi pre nego što puknu, bilo sami ili u kontaktu sa drugim predmetom.	drugim	17.0	19.0	False	False
+Robot ne sme da naudi čovečanstvu niti da dozvoli da mu njegovo nečinjenje naudi.	sme	18.0	3.0	False	False
+Robot ne sme da naudi čovečanstvu niti da dozvoli da mu njegovo nečinjenje naudi.	dozvoli	18.0	9.0	False	False
+Prvi komercijalno dostupan telefon koji koristi Android bio je HTC Dream (poznat i kao T-Mobile G1).	Prvi	19.0	1.0	False	False
+Prvi komercijalno dostupan telefon koji koristi Android bio je HTC Dream (poznat i kao T-Mobile G1).	telefon	19.0	4.0	True	False
+Prvi komercijalno dostupan telefon koji koristi Android bio je HTC Dream (poznat i kao T-Mobile G1).	poznat	19.0	13.0	False	False
+Iste te 1972. Sjedinjene Države su pokrenule program Landsat, najveći program za dobijanje slika Zemlje iz svemira.	slika	20.0	15.0	False	False
+Kritična masa je najmanja količina fisionog materijala potrebna za održavanje nuklearne lančane reakcije.	najmanja	22.0	4.0	False	False
+Kritična masa je najmanja količina fisionog materijala potrebna za održavanje nuklearne lančane reakcije.	potrebna	22.0	8.0	True	False
+Bio je siguran da je Zemlja okrugla.	siguran	23.0	3.0	False	False
+Bio je siguran da je Zemlja okrugla.	okrugla	23.0	7.0	False	False
+Moto Reda je: Za boga i carstvo.	Reda	25.0	2.0	False	False
+„Bože, sačuvaj naša Solomonova Ostrva“ jeste nacionalna himna Solomonovih Ostrva.	sačuvaj	26.0	4.0	False	False
+„Bože, sačuvaj naša Solomonova Ostrva“ jeste nacionalna himna Solomonovih Ostrva.	Ostrva	26.0	7.0	False	False
+„Bože, sačuvaj naša Solomonova Ostrva“ jeste nacionalna himna Solomonovih Ostrva.	Ostrva	26.0	13.0	False	False
+Najrasprostranjeniji čadski jezik je hausa, zajednički jezik većeg dela unutrašnjosti na istoku Zapadne Afrike.	zajednički	27.0	7.0	False	False
+Jerusalimsko kraljevstvo je bilo hrišćansko kraljevstvo osnovano na Levantu 1099. posle Prvog krstaškog rata.	kraljevstvo	28.0	2.0	True	False
+Jerusalimsko kraljevstvo je bilo hrišćansko kraljevstvo osnovano na Levantu 1099. posle Prvog krstaškog rata.	Prvog	28.0	12.0	False	False
+Poljoprivreda u Egiptu zavisila je od ciklusa reke Nil.	ciklusa	29.0	7.0	False	False
+Godine 1942. objavio je svoju autobiografiju „Tajni život Salvadora Dalija“.	Godine	30.0	1.0	False	False
+Godine 1942. objavio je svoju autobiografiju „Tajni život Salvadora Dalija“.	život	30.0	9.0	False	False
+1024 je prirodni broj koji sledi 1023 i prethodi broju 1025.	prethodi	31.0	9.0	False	False
+Završio je i akademske studije istorije, sociologije, političkih nauka, poreskog prava i ekonomije na Univerzitetu u Upsali, a kasnije i ekonomije na Univerzitetu u Stokholmu.	Univerzitetu	33.0	18.0	False	False
+Završio je i akademske studije istorije, sociologije, političkih nauka, poreskog prava i ekonomije na Univerzitetu u Upsali, a kasnije i ekonomije na Univerzitetu u Stokholmu.	Univerzitetu	33.0	27.0	False	False
+Kasnije je radio kao sekretar Akademije za malteški jezik (Akkademja tal-Malti).	radio	34.0	3.0	False	False
+Kasnije je radio kao sekretar Akademije za malteški jezik (Akkademja tal-Malti).	kao	34.0	4.0	False	False
+Pošto je njen otac nasledio titulu grofa Spensera, postala je poznata kao Lejdi Dajana Spenser.	postala	35.0	10.0	False	False
+Shodno tome, Frederik je postao princ Danske 1853.	postao	36.0	6.0	False	False
+Ako se implantacija ne dogodi u roku od otprilike dve nedelje, žuto telo će se smanjiti, izazivajući oštar pad nivoa i progesterona i estrogena.	se			False	False
+Ako se implantacija ne dogodi u roku od otprilike dve nedelje, žuto telo će se smanjiti, izazivajući oštar pad nivoa i progesterona i estrogena.	izazivajući	37.0	19.0	False	False
+Ako se implantacija ne dogodi u roku od otprilike dve nedelje, žuto telo će se smanjiti, izazivajući oštar pad nivoa i progesterona i estrogena.	nivoa	37.0	22.0	False	False
+Izveštaj se nastavlja do 1305. godine, ali godine 898–922, 1263–1283. i 1288–1294. nedostaju iz nepoznatih razloga.	Izveštaj	38.0	1.0	True	False
+Izveštaj se nastavlja do 1305. godine, ali godine 898–922, 1263–1283. i 1288–1294. nedostaju iz nepoznatih razloga.	godine	38.0	9.0	False	False
+Izveštaj se nastavlja do 1305. godine, ali godine 898–922, 1263–1283. i 1288–1294. nedostaju iz nepoznatih razloga.	nepoznatih	38.0	23.0	False	False
+Izveštaj se nastavlja do 1305. godine, ali godine 898–922, 1263–1283. i 1288–1294. nedostaju iz nepoznatih razloga.	razloga	38.0	24.0	False	False
+Dobila je počasni doktorat Univerziteta Kolumbija 1964. i Univerziteta u Kopenhagenu 1968. godine, kao i brojna počasna članstva.	Univerziteta	39.0	5.0	False	False
+Dobila je počasni doktorat Univerziteta Kolumbija 1964. i Univerziteta u Kopenhagenu 1968. godine, kao i brojna počasna članstva.	Univerziteta	39.0	9.0	False	False
+Dobila je počasni doktorat Univerziteta Kolumbija 1964. i Univerziteta u Kopenhagenu 1968. godine, kao i brojna počasna članstva.	godine	39.0	13.0	False	False
+Dobila je počasni doktorat Univerziteta Kolumbija 1964. i Univerziteta u Kopenhagenu 1968. godine, kao i brojna počasna članstva.	članstva	39.0	19.0	False	False
+Hvalio ga je Ajnštajn; objavljen kao monografija, ostaje nezaobilazna referenca za tu temu do danas.	kao	40.0	7.0	False	False
+Hvalio ga je Ajnštajn; objavljen kao monografija, ostaje nezaobilazna referenca za tu temu do danas.	ostaje	40.0	10.0	True	False
+Grad su uništili Huni 447. godine, ali ga je obnovio vizantijski car Justinijan u VI veku i preimenovan je u Trijadica.	Grad	41.0	1.0	False	False
+Grad su uništili Huni 447. godine, ali ga je obnovio vizantijski car Justinijan u VI veku i preimenovan je u Trijadica.	obnovio	41.0	11.0	False	False
+Grad su uništili Huni 447. godine, ali ga je obnovio vizantijski car Justinijan u VI veku i preimenovan je u Trijadica.	veku	41.0	17.0	False	False
+U napadu su učestvovala dva korpusa u glavnom napadu i dva korpusa koja su izvodila diverzione napade na Ipr.	napadu	42.0	2.0	False	False
+U napadu su učestvovala dva korpusa u glavnom napadu i dva korpusa koja su izvodila diverzione napade na Ipr.	učestvovala	42.0	4.0	False	False
+U napadu su učestvovala dva korpusa u glavnom napadu i dva korpusa koja su izvodila diverzione napade na Ipr.	napadu	42.0	9.0	False	False
+U jesen 2004. godine započela je kurs etnologije na istom univerzitetu.	godine	43.0	4.0	False	False
+Međunarodni dan maternjeg jezika (International Mother Language Day, IMLD) održava se 21. februara svake godine širom sveta u cilju promovisanja svesti o jezičkoj i kulturnoj raznolikosti, kao i promovisanja višejezičnosti.	dan	44.0	2.0	False	False
+Međunarodni dan maternjeg jezika (International Mother Language Day, IMLD) održava se 21. februara svake godine širom sveta u cilju promovisanja svesti o jezičkoj i kulturnoj raznolikosti, kao i promovisanja višejezičnosti.	održava	44.0	13.0	False	False
+Međunarodni dan maternjeg jezika (International Mother Language Day, IMLD) održava se 21. februara svake godine širom sveta u cilju promovisanja svesti o jezičkoj i kulturnoj raznolikosti, kao i promovisanja višejezičnosti.	godine	44.0	18.0	False	False
+Međunarodni dan maternjeg jezika (International Mother Language Day, IMLD) održava se 21. februara svake godine širom sveta u cilju promovisanja svesti o jezičkoj i kulturnoj raznolikosti, kao i promovisanja višejezičnosti.	svesti	44.0	24.0	False	False
+Radioaktivni otpad je otpad koji sadrži radioaktivni materijal.	otpad	45.0	4.0	False	False
+„El Diario La Prensa“ je najveći njujorški dnevni list na španskom jeziku i najstariji u državi.	državi	46.0	18.0	False	False
+Poslednji kralj koji je ovde krunisan bio je Ferdinand I 1531. godine.	godine	47.0	12.0	False	False
+Termoregulacija je sposobnost organizma da održava telesnu temperaturu u određenim granicama, čak i kada je spoljna temperatura mnogo drugačija.	sposobnost	48.0	3.0	False	False
+Termoregulacija je sposobnost organizma da održava telesnu temperaturu u određenim granicama, čak i kada je spoljna temperatura mnogo drugačija.	održava	48.0	6.0	False	False
+Termoregulacija je sposobnost organizma da održava telesnu temperaturu u određenim granicama, čak i kada je spoljna temperatura mnogo drugačija.	određenim	48.0	10.0	False	False
+Termoregulacija je sposobnost organizma da održava telesnu temperaturu u određenim granicama, čak i kada je spoljna temperatura mnogo drugačija.	mnogo	48.0	19.0	True	False
+Proveli su drugi deo godine na turneji sa Aly & AJ i sa The Cheetah Girls.	godine	51.0	5.0	False	False
+Dao bih generacijama koje dolaze oružje protiv mogućeg ponovnog oživljavanja takvog zla.	Dao	52.0	1.0	False	False
+Dao bih generacijama koje dolaze oružje protiv mogućeg ponovnog oživljavanja takvog zla.	oružje	52.0	6.0	True	False
+Dao bih generacijama koje dolaze oružje protiv mogućeg ponovnog oživljavanja takvog zla.	zla	52.0	12.0	False	False
+Tokom godina Serčuk je nekoliko puta odlazio u Evropu da svedoči na suđenjima nacističkim ratnim zločincima.	suđenjima	53.0	13.0	False	False
+Kada je Južna Afrika dobila status dominiona 1910. godine, Bota je postao prvi premijer Južnoafričke unije.	postao	54.0	13.0	False	False
+Kada je Južna Afrika dobila status dominiona 1910. godine, Bota je postao prvi premijer Južnoafričke unije.	prvi	54.0	14.0	False	False
+Oslobođeno je ukupno 685 alžirskih radnika i 107 stranaca.	Oslobođeno	55.0	1.0	False	False
+Džesika Stenli je Belina drugarica iz odeljenja i njena prva prijateljica u Forksu.	prva	57.0	10.0	False	False
+On je proširio teoriju specifične toplote Alberta Ajnštajna na niže temperature uključivanjem uticaja niskofrekventnih fonona.	proširio	58.0	3.0	False	False
+On je proširio teoriju specifične toplote Alberta Ajnštajna na niže temperature uključivanjem uticaja niskofrekventnih fonona.	niže	58.0	10.0	True	False
+Olimpijski moto „Citius, Altius, Fortius“ (brže, više, jače) prvi put je upotrebljen na Olimpijadi.	prvi	59.0	17.0	False	False
+Smitova je delila spavaonicu sa još devet devojaka i tamo je provodila vreme u plivanju, razgovoru i učenju ruskih pesama i plesova.	delila	60.0	3.0	False	False
+Svi u domaćinstvu, uključujući i poslugu, u idealnim slučajevima bi večerali zajedno.	slučajevima	62.0	11.0	False	False
+Dve vlade su počele da normalizuju odnose 2013. godine, u okviru Briselskog sporazuma.	vlade	64.0	2.0	False	False
+Dve vlade su počele da normalizuju odnose 2013. godine, u okviru Briselskog sporazuma.	odnose	64.0	7.0	False	False
+Do 31. oktobra Hindenburg je poražen u bici na reci Visli i odustao je od napada na Varšavu.	odustao	65.0	13.0	False	False
+Godine 1830. izbila je Belgijska revolucija, u kojoj je Belgija izvojevala nezavisnost od Holandije.	Godine	66.0	1.0	False	False
+Naučnici USGS-a proučavaju predele Sjedinjenih Država, njihove mineralne resurse i prirodne opasnosti koje im prete.	proučavaju	67.0	3.0	True	False
+Bah možda nikada nije bio toliko nagrađen za neko svoje delo kao za ovo.	toliko	68.0	6.0	False	False
+Bah možda nikada nije bio toliko nagrađen za neko svoje delo kao za ovo.	nagrađen	68.0	7.0	False	False
+Bah možda nikada nije bio toliko nagrađen za neko svoje delo kao za ovo.	delo	68.0	11.0	False	False
+Bolest se obično javlja u epidemijama u tropskim regionima podsaharske Afrike.	Bolest	69.0	1.0	True	False
+Bolest se obično javlja u epidemijama u tropskim regionima podsaharske Afrike.	obično	69.0	3.0	False	False
+Tuberkuloza je izazvala sveopštu zabrinutost javnosti u XIX i ranom XX veku pošto je bolest postala uobičajena među siromasima u gradskim sredinama.	izazvala	71.0	3.0	False	False
+Tuberkuloza je izazvala sveopštu zabrinutost javnosti u XIX i ranom XX veku pošto je bolest postala uobičajena među siromasima u gradskim sredinama.	veku	71.0	12.0	False	False
+Tuberkuloza je izazvala sveopštu zabrinutost javnosti u XIX i ranom XX veku pošto je bolest postala uobičajena među siromasima u gradskim sredinama.	bolest	71.0	15.0	True	False
+Tuberkuloza je izazvala sveopštu zabrinutost javnosti u XIX i ranom XX veku pošto je bolest postala uobičajena među siromasima u gradskim sredinama.	postala	71.0	16.0	False	False
+Tuberkuloza je izazvala sveopštu zabrinutost javnosti u XIX i ranom XX veku pošto je bolest postala uobičajena među siromasima u gradskim sredinama.	uobičajena	71.0	17.0	False	False
+Njihov brak je otkrio činjenicu da Vulstonkraftova nikada nije bila udata za Imleja i zbog toga su ona i Godvin izgubili mnogo prijatelja.	otkrio	72.0	4.0	False	False
+Njihov brak je otkrio činjenicu da Vulstonkraftova nikada nije bila udata za Imleja i zbog toga su ona i Godvin izgubili mnogo prijatelja.	izgubili	72.0	21.0	False	False
+Njihov brak je otkrio činjenicu da Vulstonkraftova nikada nije bila udata za Imleja i zbog toga su ona i Godvin izgubili mnogo prijatelja.	mnogo	72.0	22.0	False	False
+Frenklinovi ljudi su proveli zimu između 1845. i 1846. na ostrvu Biči, na kom su tri člana posade umrla i sahranjena.	ostrvu	73.0	11.0	False	False
+Ruske trupe su do leta 2005. godine bile stacionirane u južnom Tadžikistanu, kako bi čuvale granicu sa Avganistanom.	leta	76.0	5.0	True	False
+Ruske trupe su do leta 2005. godine bile stacionirane u južnom Tadžikistanu, kako bi čuvale granicu sa Avganistanom.	godine	76.0	7.0	False	False
+Ruske trupe su do leta 2005. godine bile stacionirane u južnom Tadžikistanu, kako bi čuvale granicu sa Avganistanom.	čuvale	76.0	16.0	False	False
+Šeklton je odlučio da sačeka nekoliko dana u nadi da će led pući.	nekoliko	77.0	6.0	False	False
+Šeklton je odlučio da sačeka nekoliko dana u nadi da će led pući.	dana	77.0	7.0	False	False
+Šeklton je odlučio da sačeka nekoliko dana u nadi da će led pući.	led	77.0	12.0	False	False
+Šeklton je odlučio da sačeka nekoliko dana u nadi da će led pući.	pući	77.0	13.0	False	False
+Tokom tridesetih godina XX veka Komacu je proizvodio i traktore za japansku vojsku, kao i buldožere, tenkove i haubice.	godina	78.0	3.0	False	False
+Tokom tridesetih godina XX veka Komacu je proizvodio i traktore za japansku vojsku, kao i buldožere, tenkove i haubice.	veka	78.0	5.0	True	False
+Podržao ga je Endru Karnegi, koji je sagradio Karnegi hol (otvoren 1891) specijalno za orkestar.	Podržao	79.0	1.0	False	False
+Podržao ga je Endru Karnegi, koji je sagradio Karnegi hol (otvoren 1891) specijalno za orkestar.	sagradio	79.0	9.0	False	False
+Podržao ga je Endru Karnegi, koji je sagradio Karnegi hol (otvoren 1891) specijalno za orkestar.	otvoren	79.0	13.0	False	False
+Inuiti su Reju pokazali mnoge predmete za koje je utvrđeno da su pripadali Frenklinu i njegovim ljudima.	pokazali	80.0	4.0	False	False
+Ostrvo je 1. januara 1739. otkrio Žan-Batist Šarl Buve de Lozije, komandant francuskih brodova Egl i Mari.	Ostrvo	81.0	1.0	False	False
+Ostrvo je 1. januara 1739. otkrio Žan-Batist Šarl Buve de Lozije, komandant francuskih brodova Egl i Mari.	otkrio	81.0	6.0	False	False
+Ostrvo je 1. januara 1739. otkrio Žan-Batist Šarl Buve de Lozije, komandant francuskih brodova Egl i Mari.	komandant	81.0	15.0	False	False
+Pošto je dobio tu dijagnozu, Zapa je najveći deo svoje energije posvetio savremenim delima za orkestar i sinklavir.	savremenim	82.0	14.0	False	False
+Pošto je dobio tu dijagnozu, Zapa je najveći deo svoje energije posvetio savremenim delima za orkestar i sinklavir.	delima	82.0	15.0	False	False
+Volstonkraftova je otišla u Pariz u decembru 1792. i stigla oko mesec dana pre nego što je Luj XVI giljotiniran.	dana	85.0	13.0	False	False
+Teroristički napad izveo je bombaš samoubica na putnički autobus koji je prevozio izraelske turiste na aerodrom u Burgasu.	izveo	86.0	3.0	False	False
+Teroristički napad izveo je bombaš samoubica na putnički autobus koji je prevozio izraelske turiste na aerodrom u Burgasu.	prevozio	86.0	12.0	False	True
+Mnogi Evropljani iskoristili su tu prednost kako bi istraživali dalje na istoku.	dalje	88.0	10.0	False	False
+Bolest se redovno javlja u nekim regionima podsaharske Afrike, pri čemu se u rizičnoj grupi nalazi oko 70 miliona stanovnika u 36 zemalja.	Bolest	91.0	1.0	True	False
+Bolest se redovno javlja u nekim regionima podsaharske Afrike, pri čemu se u rizičnoj grupi nalazi oko 70 miliona stanovnika u 36 zemalja.	redovno	91.0	3.0	False	False
+Prateći niz tragova nađenih na telu, Holms i Votson pronalaze Reordanovu kuću i otkrivaju eksperimente koji pokušavaju da spoje nauku s magijom.	Prateći	94.0	1.0	False	False
+Prateći niz tragova nađenih na telu, Holms i Votson pronalaze Reordanovu kuću i otkrivaju eksperimente koji pokušavaju da spoje nauku s magijom.	tragova	94.0	3.0	False	False
+Prateći niz tragova nađenih na telu, Holms i Votson pronalaze Reordanovu kuću i otkrivaju eksperimente koji pokušavaju da spoje nauku s magijom.	kuću	94.0	13.0	False	False
+Prateći niz tragova nađenih na telu, Holms i Votson pronalaze Reordanovu kuću i otkrivaju eksperimente koji pokušavaju da spoje nauku s magijom.	otkrivaju	94.0	15.0	False	False
+Brauning je uticao na dizajn skoro svih kategorija vatrenog oružja.	kategorija	95.0	8.0	True	False
+Pozivam te, ako ti tvoji dozvole, da dođeš u našu zemlju, najbolje ovog leta.	dozvole	97.0	7.0	False	False
+Bio je poznat po surovosti.	poznat	98.0	3.0	False	False
+Razumevanje strukture i funkcije ćelija je fundamentalno za sve biološke nauke.	fundamentalno	100.0	7.0	False	False
+Iz tog razloga, kao i da bi tekst bio što dosledniji, promene su napisane na jeziku koji je blizak originalu.	tekst	101.0	9.0	False	False
+Iz tog razloga, kao i da bi tekst bio što dosledniji, promene su napisane na jeziku koji je blizak originalu.	što	101.0	11.0	False	False
+Iz tog razloga, kao i da bi tekst bio što dosledniji, promene su napisane na jeziku koji je blizak originalu.	dosledniji	101.0	12.0	False	False
+Besplatna onlajn verzija postala je samo delimično dostupna javnosti.	postala	103.0	4.0	False	False
+Mnogi ga smatraju jednim od najvažnijih vladara u norveškoj istoriji.	vladara	106.0	7.0	False	False
+Mnogi ga smatraju jednim od najvažnijih vladara u norveškoj istoriji.	istoriji	106.0	10.0	False	False
+Dunavska komisija je odlučila da uništi dva stuba koja su ometala plovidbu.	uništi	107.0	6.0	True	False
+Dunavska komisija je odlučila da uništi dva stuba koja su ometala plovidbu.	stuba	107.0	8.0	False	False
+Prevencija bolesti kod ljudi postiže se vakcinacijom životinja protiv ove bolesti.	bolesti	110.0	2.0	True	False
+Prevencija bolesti kod ljudi postiže se vakcinacijom životinja protiv ove bolesti.	postiže	110.0	5.0	True	False
+Prevencija bolesti kod ljudi postiže se vakcinacijom životinja protiv ove bolesti.	bolesti	110.0	11.0	True	False
+Kao prestolonaslednik Danske, dobio je mesto u Državnom savetu i kasnije je pomagao svom ocu u obavljanju vladarskih dužnosti.	Kao	111.0	1.0	False	False
+Kao prestolonaslednik Danske, dobio je mesto u Državnom savetu i kasnije je pomagao svom ocu u obavljanju vladarskih dužnosti.	mesto	111.0	7.0	False	False
+Kao prestolonaslednik Danske, dobio je mesto u Državnom savetu i kasnije je pomagao svom ocu u obavljanju vladarskih dužnosti.	vladarskih	111.0	19.0	False	False
+Nemiri vezani za pirinač bili su bez premca u modernoj japanskoj istoriji po obimu, veličini i nasilju.	modernoj	112.0	10.0	False	False
+Nemiri vezani za pirinač bili su bez premca u modernoj japanskoj istoriji po obimu, veličini i nasilju.	istoriji	112.0	12.0	False	False
+Zapadno od Luvra, Katarina Mediči sagradila je za sebe palatu Tiljeri sa velikim vrtovima i pećinom.	sagradila	113.0	7.0	False	False
+Zapadno od Luvra, Katarina Mediči sagradila je za sebe palatu Tiljeri sa velikim vrtovima i pećinom.	pećinom	113.0	17.0	False	False
+Uprkos svemu tome, Perikle je ostao nepokolebljiv — mada je zaplakao kako bi odbranio Aspasiju kada je bila optužena da kvari atinsko društvo.	kvari	115.0	22.0	False	False
+Iako može da prisluškuje poruke između Alis i Boba, ona ne može da ih menja.	menja	116.0	16.0	False	False
+Kraljevska porodica se iz palate Vila Visosa vratila u Lisabon.	se			False	False
+Kraljevska porodica se iz palate Vila Visosa vratila u Lisabon.	palate	117.0	5.0	False	False
+Kraljevska porodica se iz palate Vila Visosa vratila u Lisabon.	Vila	117.0	6.0	True	False
+Prihvatio je i imenovanje grčkog patrijarha.	Prihvatio	119.0	1.0	False	False
+Na primer, grupe poreklom iz istočne i južne Evrope uglavnom su slabije prolazile po ovim merilima.	poreklom	120.0	5.0	False	False
+Na primer, grupe poreklom iz istočne i južne Evrope uglavnom su slabije prolazile po ovim merilima.	istočne	120.0	7.0	False	False
+Na primer, grupe poreklom iz istočne i južne Evrope uglavnom su slabije prolazile po ovim merilima.	prolazile	120.0	14.0	False	False
+Na primer, grupe poreklom iz istočne i južne Evrope uglavnom su slabije prolazile po ovim merilima.	merilima	120.0	17.0	False	False
+U gotovo svim slučajevima crkva se smešta na položaj koji se lako brani, uglavnom na vrhu brda.	položaj	121.0	9.0	False	False
+U gotovo svim slučajevima crkva se smešta na položaj koji se lako brani, uglavnom na vrhu brda.	brani	121.0	13.0	False	False
+Otac mu je bio ruski pravoslavni sveštenik i učitelj, a majka muzičarka.	učitelj	122.0	9.0	False	False
+Ovo mu je omogućilo da formuliše Paulijev princip isključenja, navodeći da dva elektrona ne mogu imati isto kvantno stanje u istom kvantnom sistemu.	isto	123.0	18.0	False	False
+Za razliku od svoje braće, princ Henri se pridružio vojsci, a ne Kraljevskoj mornarici.	se			False	False
+Za razliku od svoje braće, princ Henri se pridružio vojsci, a ne Kraljevskoj mornarici.	Kraljevskoj	125.0	15.0	False	False
+Do 1958. nosio je naziv Sirijski univerzitet, ali je ime promenjeno nakon osnivanja Univerziteta u Alepu.	univerzitet	126.0	7.0	False	False
+Do 1958. nosio je naziv Sirijski univerzitet, ali je ime promenjeno nakon osnivanja Univerziteta u Alepu.	Univerziteta	126.0	15.0	False	False
+Prvu dozu vakcine treba dati novorođenčadi između 6 i 15 nedelja starosti.	nedelja	128.0	11.0	True	False
+Fridrih VIII je u svakom smislu bio liberalni vladar i bio je mnogo naklonjeniji novom parlamentarnom sistemu nego njegov otac.	smislu	129.0	6.0	False	False
+Na povratku s putovanja u Nicu kralj Fridrih se kratko zaustavio u Hamburgu, odsevši u hotelu Hamburger Hof.	putovanja	130.0	4.0	False	False
+Prvi dokument u kom se pominje je iz 1526. godine.	Prvi	131.0	1.0	False	False
+Evropski odbor regija (CoR) sprovodi studije o različitim vidovima lokalne i regionalne dimenzije EU (obrazovanje, transport, socijalna pitanja, proširenje itd.).	sprovodi	132.0	7.0	False	True
+Evropski odbor regija (CoR) sprovodi studije o različitim vidovima lokalne i regionalne dimenzije EU (obrazovanje, transport, socijalna pitanja, proširenje itd.).	studije	132.0	8.0	False	False
+Evropski odbor regija (CoR) sprovodi studije o različitim vidovima lokalne i regionalne dimenzije EU (obrazovanje, transport, socijalna pitanja, proširenje itd.).	različitim	132.0	10.0	False	False
+Evropski odbor regija (CoR) sprovodi studije o različitim vidovima lokalne i regionalne dimenzije EU (obrazovanje, transport, socijalna pitanja, proširenje itd.).	vidovima	132.0	11.0	True	False
+Evropski odbor regija (CoR) sprovodi studije o različitim vidovima lokalne i regionalne dimenzije EU (obrazovanje, transport, socijalna pitanja, proširenje itd.).	dimenzije	132.0	15.0	True	False
+Evropski odbor regija (CoR) sprovodi studije o različitim vidovima lokalne i regionalne dimenzije EU (obrazovanje, transport, socijalna pitanja, proširenje itd.).	obrazovanje	132.0	18.0	False	False
+Evropski odbor regija (CoR) sprovodi studije o različitim vidovima lokalne i regionalne dimenzije EU (obrazovanje, transport, socijalna pitanja, proširenje itd.).	pitanja	132.0	23.0	False	False
+Evropski odbor regija (CoR) sprovodi studije o različitim vidovima lokalne i regionalne dimenzije EU (obrazovanje, transport, socijalna pitanja, proširenje itd.).	proširenje	132.0	25.0	False	False
+SnatchBot pomaže korisnicima da naprave botove za Fejsbukov Mesindžer, Skajp, Slek, SMS, Tviter i druge platforme društvenih mreža.	pomaže	134.0	2.0	False	False
+SnatchBot pomaže korisnicima da naprave botove za Fejsbukov Mesindžer, Skajp, Slek, SMS, Tviter i druge platforme društvenih mreža.	naprave	134.0	5.0	False	False
+SnatchBot pomaže korisnicima da naprave botove za Fejsbukov Mesindžer, Skajp, Slek, SMS, Tviter i druge platforme društvenih mreža.	druge	134.0	19.0	False	False
+SnatchBot pomaže korisnicima da naprave botove za Fejsbukov Mesindžer, Skajp, Slek, SMS, Tviter i druge platforme društvenih mreža.	platforme	134.0	20.0	True	False
+Genik je njihove sholastičke dokumente preveo s poljskog na engleski jezik.	dokumente	135.0	5.0	False	False
+Godine 1977. Španija ima svoje prve demokratske izbore, posle 41 godine pod Frankovim režimom.	Godine	137.0	1.0	False	False
+Godine 1977. Španija ima svoje prve demokratske izbore, posle 41 godine pod Frankovim režimom.	prve	137.0	6.0	False	False
+U decembru 2017. godine preko 30 miliona krajnjih korisnika komuniciralo je sa četbotovima napravljenim na platformi SnatchBot.	godine	138.0	4.0	False	False
+U decembru 2017. godine preko 30 miliona krajnjih korisnika komuniciralo je sa četbotovima napravljenim na platformi SnatchBot.	platformi	138.0	16.0	True	False
+Generalni sekretarijat sastoji se od pet direkcija: Članovi i plenarne sednice; Zakonodavni rad 1; Zakonodavni rad 2; Komunikacija; Ljudski resursi i Finansije.	sastoji			False	False
+Generalni sekretarijat sastoji se od pet direkcija: Članovi i plenarne sednice; Zakonodavni rad 1; Zakonodavni rad 2; Komunikacija; Ljudski resursi i Finansije.	rad	139.0	19.0	False	False
+Informacije se mogu koristiti i iznova koristiti u komercijalne ili nekomercijalne svrhe.	koristiti	140.0	4.0	False	False
+Informacije se mogu koristiti i iznova koristiti u komercijalne ili nekomercijalne svrhe.	koristiti	140.0	7.0	False	False
+Informacije se mogu koristiti i iznova koristiti u komercijalne ili nekomercijalne svrhe.	svrhe	140.0	12.0	False	False
+Kod dece kašalj traje duže od deset dana u 35–40 % slučajeva, a u 10 % slučajeva traje duže od 25 dana.	dana	141.0	8.0	False	False
+Kod dece kašalj traje duže od deset dana u 35–40 % slučajeva, a u 10 % slučajeva traje duže od 25 dana.	slučajeva	141.0	14.0	False	False
+Kod dece kašalj traje duže od deset dana u 35–40 % slučajeva, a u 10 % slučajeva traje duže od 25 dana.	dana	141.0	25.0	False	False
+Oni uglavnom jedu sedeći na zemlji.	uglavnom	142.0	2.0	False	False
+Oni uglavnom jedu sedeći na zemlji.	sedeći	142.0	4.0	False	False
+Oni uglavnom jedu sedeći na zemlji.	zemlji	142.0	6.0	False	False
+U logici, a posebno u njenoj primeni na matematiku i filozofiju, kontraprimer je izuzetak od predloženog opšteg pravila ili zakona.	logici	143.0	2.0	False	False
+U logici, a posebno u njenoj primeni na matematiku i filozofiju, kontraprimer je izuzetak od predloženog opšteg pravila ili zakona.	posebno	143.0	5.0	False	False
+U logici, a posebno u njenoj primeni na matematiku i filozofiju, kontraprimer je izuzetak od predloženog opšteg pravila ili zakona.	opšteg	143.0	19.0	False	False
+Tokom snošaja mužjak će zagristi kožu ženkinog vrata.	zagristi	144.0	5.0	False	False
+Albanija je 1924. godine postala republika.	postala	145.0	5.0	False	False
+Dobio je titulu barona 1872. godine.	barona	146.0	4.0	False	False
+Potpuno nezavisna Bugarska patrijaršija zvanično je priznata 927. godine.	patrijaršija	147.0	4.0	True	False
+Potpuno nezavisna Bugarska patrijaršija zvanično je priznata 927. godine.	priznata	147.0	7.0	False	False
+Genik i njegova porodica, supruga i četvoro dece pridružili su se grupi od 64 Ukrajinca koja su se iskrcala u grad Kvebek 22. juna 1896. godine.	pridružili			False	False
+Genik i njegova porodica, supruga i četvoro dece pridružili su se grupi od 64 Ukrajinca koja su se iskrcala u grad Kvebek 22. juna 1896. godine.	grupi	148.0	13.0	False	False
+Genik i njegova porodica, supruga i četvoro dece pridružili su se grupi od 64 Ukrajinca koja su se iskrcala u grad Kvebek 22. juna 1896. godine.	grad	148.0	22.0	True	False
+Genik i njegova porodica, supruga i četvoro dece pridružili su se grupi od 64 Ukrajinca koja su se iskrcala u grad Kvebek 22. juna 1896. godine.	godine	148.0	27.0	False	False
+Mogu brzo da plivaju.	brzo	150.0	2.0	False	False
+Pišete da vas brine da li će doći do nuklearnog rata između naše dve zemlje.	Pišete	151.0	1.0	False	False
+Ser Vilijam Heršel je otkrio planetu Uran.	Ser	152.0	1.0	True	False
+Ser Vilijam Heršel je otkrio planetu Uran.	otkrio	152.0	5.0	False	False
+Mi želimo mir–postoji nešto čime smo preokupirani: uzgajanjem žita, građenjem i pronalascima, pisanjem knjiga i letenjem u svemir.	mir	153.0	3.0	False	False
+Mi želimo mir–postoji nešto čime smo preokupirani: uzgajanjem žita, građenjem i pronalascima, pisanjem knjiga i letenjem u svemir.	pronalascima	153.0	16.0	False	False
+Mi želimo mir–postoji nešto čime smo preokupirani: uzgajanjem žita, građenjem i pronalascima, pisanjem knjiga i letenjem u svemir.	pisanjem	153.0	18.0	False	False
+Mi želimo mir–postoji nešto čime smo preokupirani: uzgajanjem žita, građenjem i pronalascima, pisanjem knjiga i letenjem u svemir.	knjiga	153.0	19.0	False	False
+Klaritromicin ili moksifloksacin se ponekad koriste umesto streptomicina.	koriste	154.0	6.0	True	False
+Između ta dva perioda postoji pauza od 15 minuta.	perioda	155.0	4.0	False	False
+Kralj Albert I poginuo je u nesreći prilikom planinarenja u selu Marš le Dam, u Ardenima u Belgiji.	selu	156.0	11.0	True	False
+Otprilike u isto vreme braća su počela da se pojavljuju u reklami za Baby Bottle Pops, u kojoj su pevali džingl.	isto	157.0	3.0	False	False
+Otprilike u isto vreme braća su počela da se pojavljuju u reklami za Baby Bottle Pops, u kojoj su pevali džingl.	reklami	157.0	12.0	False	False
+Otprilike u isto vreme braća su počela da se pojavljuju u reklami za Baby Bottle Pops, u kojoj su pevali džingl.	pevali	157.0	21.0	False	False
+Apolo 14 bila je osma misija s posadom u okviru programa Apolo Sjedinjenih Američkih Država, i treća koja je sletela na Mesec.	posadom	159.0	8.0	True	False
+Apolo 14 bila je osma misija s posadom u okviru programa Apolo Sjedinjenih Američkih Država, i treća koja je sletela na Mesec.	sletela	159.0	21.0	False	False
+Bio je to najbrže prodavan debitantski album u istoriji britanske muzike i brzo je postao kulturni fenomen.	muzike	160.0	11.0	False	False
+Bio je to najbrže prodavan debitantski album u istoriji britanske muzike i brzo je postao kulturni fenomen.	brzo	160.0	13.0	False	False
+Bio je to najbrže prodavan debitantski album u istoriji britanske muzike i brzo je postao kulturni fenomen.	postao	160.0	15.0	False	False
+Osnovno obeležje reda je beli emajlirani malteški krst.	Osnovno	161.0	1.0	False	False
+Osnovno obeležje reda je beli emajlirani malteški krst.	reda	161.0	3.0	False	False
+Osnovno obeležje reda je beli emajlirani malteški krst.	beli	161.0	5.0	False	False
+Valid el Huseini ili Valid Husein je Palestinac, esejista, pisac i bloger.	pisac	162.0	12.0	False	False
+Bakterijski krup može se podeliti na difteriju larinksa, bakterijski traheitis, laringotraheobronhitis i laringotraheobronhopneumonitis.	krup	163.0	2.0	True	False
+Bakterijski krup može se podeliti na difteriju larinksa, bakterijski traheitis, laringotraheobronhitis i laringotraheobronhopneumonitis.	podeliti	163.0	5.0	True	False
+Druga varijanta je da je Merkur mogao nastati iz solarne magline pre nego što se sunčeva energija stabilizovala.	Druga	164.0	1.0	False	False
+Anglo-švedski sporazum je doveo do stvaranja Treće koalicije.	doveo	167.0	6.0	False	False
+Formalna deklaracija nezavisnosti konačno je izdata na Kongresu u Tukumanu 9. jula 1816. godine.	Kongresu	168.0	8.0	True	False
+Formalna deklaracija nezavisnosti konačno je izdata na Kongresu u Tukumanu 9. jula 1816. godine.	godine	168.0	14.0	False	False
+Njegova maksimalna koncentracija u plazmi postiže se 1–2 sata nakon oralne primene.	koncentracija	169.0	3.0	True	False
+Koristi dva ključa, javni i privatni ključ.	Koristi	170.0	1.0	False	False
+Koristi dva ključa, javni i privatni ključ.	ključa	170.0	3.0	False	False
+Saznaćeš sve o našoj zemlji, upoznaćeš svoje vršnjake, posetiti međunarodni dečji kamp Artek na moru.	Saznaćeš	171.0	1.0	False	False
+Saznaćeš sve o našoj zemlji, upoznaćeš svoje vršnjake, posetiti međunarodni dečji kamp Artek na moru.	upoznaćeš	171.0	7.0	False	False
+Saznaćeš sve o našoj zemlji, upoznaćeš svoje vršnjake, posetiti međunarodni dečji kamp Artek na moru.	kamp	171.0	14.0	False	False
+Direktiva Evropskog saveta 92 / 43 / EEC od 21. maja 1992. o očuvanju prirodnih staništa i divlje faune i flore.	očuvanju	172.0	14.0	False	False
+Ova mapa prikazuje nove regije koje ispunjavaju uslove novog programskog ciklusa za godine 2007–2013. Evropskog socijalnog fonda.	nove	173.0	4.0	True	False
+Ova mapa prikazuje nove regije koje ispunjavaju uslove novog programskog ciklusa za godine 2007–2013. Evropskog socijalnog fonda.	ciklusa	173.0	11.0	False	False
+Ova mapa prikazuje nove regije koje ispunjavaju uslove novog programskog ciklusa za godine 2007–2013. Evropskog socijalnog fonda.	godine	173.0	13.0	False	False
+Pored toga, njegovi zubi su slični zubima drugih ranih kitova.	slični	174.0	7.0	False	False
+Pored toga, njegovi zubi su slični zubima drugih ranih kitova.	drugih	174.0	9.0	False	False
+Utoja pripada Savezu radničke omladine (AUF), omladinske grupe povezane s Radničkom partijom, koja tamo održava godišnji letnji kamp.	Savezu	175.0	3.0	False	False
+Utoja pripada Savezu radničke omladine (AUF), omladinske grupe povezane s Radničkom partijom, koja tamo održava godišnji letnji kamp.	grupe	175.0	11.0	False	False
+Utoja pripada Savezu radničke omladine (AUF), omladinske grupe povezane s Radničkom partijom, koja tamo održava godišnji letnji kamp.	povezane	175.0	12.0	False	False
+Utoja pripada Savezu radničke omladine (AUF), omladinske grupe povezane s Radničkom partijom, koja tamo održava godišnji letnji kamp.	održava	175.0	19.0	False	False
+U gradu se nalazi rafinerija nafte.	gradu	176.0	2.0	False	False
+U gradu se nalazi rafinerija nafte.	nafte	176.0	6.0	False	False
+Podržao je anektiranje Teksasa 1845. godine.	Podržao	177.0	1.0	False	False
+Džejms je bio jedino dete škotske kraljice Marije I i njenog drugog supruga, Henrija Stjuarta, vojvode od Olbenija, znanog kao lord Darnli.	jedino	179.0	4.0	False	False
+Džejms je bio jedino dete škotske kraljice Marije I i njenog drugog supruga, Henrija Stjuarta, vojvode od Olbenija, znanog kao lord Darnli.	dete	179.0	5.0	False	False
+Džejms je bio jedino dete škotske kraljice Marije I i njenog drugog supruga, Henrija Stjuarta, vojvode od Olbenija, znanog kao lord Darnli.	lord	179.0	24.0	False	False
+Gojaznost je širom sveta jedan od vodećih uzroka smrti koji se može sprečiti.	sveta	180.0	4.0	False	False
+Gojaznost je širom sveta jedan od vodećih uzroka smrti koji se može sprečiti.	sprečiti	180.0	13.0	False	False
+Možemo uočiti korice njegovog mača pričvršćene za pojas, koje se nose s leve strane.	uočiti	182.0	2.0	False	False
+Možemo uočiti korice njegovog mača pričvršćene za pojas, koje se nose s leve strane.	mača	182.0	5.0	False	False
+Možemo uočiti korice njegovog mača pričvršćene za pojas, koje se nose s leve strane.	nose	182.0	12.0	False	False
+Međutim, važe određeni uslovi i odredbe, pa se vize izdaju samo po diskrecionom pravu Ministarstva unutrašnjih poslova Katara.	uslovi	184.0	5.0	False	False
+Međutim, važe određeni uslovi i odredbe, pa se vize izdaju samo po diskrecionom pravu Ministarstva unutrašnjih poslova Katara.	unutrašnjih	184.0	18.0	False	False
+Međutim, važe određeni uslovi i odredbe, pa se vize izdaju samo po diskrecionom pravu Ministarstva unutrašnjih poslova Katara.	poslova	184.0	19.0	False	True
+Na trećem spratu treba da se razrade ideje za mirniju budućnost.	ideje	185.0	8.0	False	False
+Ovaj poduhvat izazvao je protivljenje Spartanaca i njihovih peloponeskih saveznika, uznemirenih zbog skorašnjeg porasta moći Atine.	skorašnjeg	186.0	14.0	False	False
+Ovaj poduhvat izazvao je protivljenje Spartanaca i njihovih peloponeskih saveznika, uznemirenih zbog skorašnjeg porasta moći Atine.	porasta	186.0	15.0	False	False
+Ovaj poduhvat izazvao je protivljenje Spartanaca i njihovih peloponeskih saveznika, uznemirenih zbog skorašnjeg porasta moći Atine.	moći	186.0	16.0	False	False
+Svojim zalaganjem podržavaju ostvarenje cilja Evropske unije da se CO2 smanji za 20 % do 2020. godine.	podržavaju	188.0	3.0	False	False
+Svojim zalaganjem podržavaju ostvarenje cilja Evropske unije da se CO2 smanji za 20 % do 2020. godine.	godine	188.0	17.0	False	False
+Gol se postiže ako lopta potpuno pređe liniju.	pređe	189.0	7.0	False	False
+U ranim istorijskim vremenima astronomija se svodila na posmatranje i predviđanje kretanja tela vidljivih golim okom.	vremenima	190.0	4.0	False	False
+U ranim istorijskim vremenima astronomija se svodila na posmatranje i predviđanje kretanja tela vidljivih golim okom.	tela	190.0	13.0	True	False
+U ranim istorijskim vremenima astronomija se svodila na posmatranje i predviđanje kretanja tela vidljivih golim okom.	vidljivih	190.0	14.0	False	False
+Afrički divlji magarac (Equus africanus) jeste divlji član porodice konja, Equidae.	Equus			False	False
+Afrički divlji magarac (Equus africanus) jeste divlji član porodice konja, Equidae.	konja	192.0	12.0	False	False
+Ima blag, sladak miris.	miris	194.0	5.0	False	False
+I na kraju sezone bili su na 4. poziciji.	poziciji	195.0	9.0	False	False
+Kongenitalni sifilis je onaj koji se prenosi tokom trudnoće ili tokom porođaja.	porođaja	196.0	12.0	False	False
+Četiri zvezdice predstavljaju četiri osnovna principa koja su prvobitno zabeležena u prvom ustavu Bangladeša 1972. godine: nacionalizam, sekularizam, socijalizam i demokratija.	predstavljaju	197.0	3.0	True	False
+Četiri zvezdice predstavljaju četiri osnovna principa koja su prvobitno zabeležena u prvom ustavu Bangladeša 1972. godine: nacionalizam, sekularizam, socijalizam i demokratija.	osnovna	197.0	5.0	False	False
+Četiri zvezdice predstavljaju četiri osnovna principa koja su prvobitno zabeležena u prvom ustavu Bangladeša 1972. godine: nacionalizam, sekularizam, socijalizam i demokratija.	prvom	197.0	12.0	False	False
+Četiri zvezdice predstavljaju četiri osnovna principa koja su prvobitno zabeležena u prvom ustavu Bangladeša 1972. godine: nacionalizam, sekularizam, socijalizam i demokratija.	godine	197.0	16.0	False	False
+Četiri zvezdice predstavljaju četiri osnovna principa koja su prvobitno zabeležena u prvom ustavu Bangladeša 1972. godine: nacionalizam, sekularizam, socijalizam i demokratija.	demokratija	197.0	24.0	False	False
+Spomenik takođe predstavlja mir, jer su mačevi zabijeni u čvrstu stenu, kako nikada ne bi bili izvučeni.	mačevi	198.0	8.0	False	False
+Spomenik takođe predstavlja mir, jer su mačevi zabijeni u čvrstu stenu, kako nikada ne bi bili izvučeni.	čvrstu	198.0	11.0	False	False
+Spomenik takođe predstavlja mir, jer su mačevi zabijeni u čvrstu stenu, kako nikada ne bi bili izvučeni.	izvučeni	198.0	19.0	False	False
+Međutim, mikrobna proizvodnja limunske kiseline nije bila industrijski razvijena sve dok Prvi svetski rat nije poremetio italijanski izvoz citrusa.	Prvi	199.0	13.0	False	False
+Vakcinacija dece protiv Streptococcus pneumoniae dovela je do smanjenja stope ovih infekcija kod odraslih, jer se mnogi odrasli zaraze od dece.	se			True	False
+Vakcinacija dece protiv Streptococcus pneumoniae dovela je do smanjenja stope ovih infekcija kod odraslih, jer se mnogi odrasli zaraze od dece.	dovela	200.0	6.0	False	False
+Vakcinacija dece protiv Streptococcus pneumoniae dovela je do smanjenja stope ovih infekcija kod odraslih, jer se mnogi odrasli zaraze od dece.	infekcija	200.0	12.0	False	False
+Žan-Batist Dima je 1857. objavio rad u kom opisuje odnose između različitih grupa metala.	odnose	201.0	12.0	False	False
+Žan-Batist Dima je 1857. objavio rad u kom opisuje odnose između različitih grupa metala.	grupa	201.0	15.0	False	False
+Područje je danas retko naseljeno i oni koji ovde žive uglavnom preživljavaju od uzgoja stoke kao što su ovce i koze.	žive	202.0	10.0	False	False
+Kod osoba kojima je potrebno bolničko lečenje mortalitet može biti i do 10 %, a kod onih kojima je potrebna intenzivna nega može dostići 30–50 %.	potrebno	203.0	5.0	True	False
+Kod osoba kojima je potrebno bolničko lečenje mortalitet može biti i do 10 %, a kod onih kojima je potrebna intenzivna nega može dostići 30–50 %.	potrebna	203.0	21.0	True	False
+Kod osoba kojima je potrebno bolničko lečenje mortalitet može biti i do 10 %, a kod onih kojima je potrebna intenzivna nega može dostići 30–50 %.	dostići	203.0	25.0	False	False
+Prema Statutu Centra SDEWES, svaka osoba se može prijaviti za članstvo pod istim uslovima.	Centra	204.0	3.0	False	False
+Prema Statutu Centra SDEWES, svaka osoba se može prijaviti za članstvo pod istim uslovima.	istim	204.0	14.0	False	False
+Prema Statutu Centra SDEWES, svaka osoba se može prijaviti za članstvo pod istim uslovima.	uslovima	204.0	15.0	False	False
+Softver sadrži obiman integrisani materijal za obuku, uključujući i elektronski udžbenik.	sadrži	205.0	2.0	False	False
+Čini se da je deksametazon u dozama od 0,15, 0,3 i 0,6 mg / kg jednako efikasan.	efikasan	207.0	18.0	False	False
+IMI je pokrenut u februaru 2008.	pokrenut	208.0	3.0	False	False
+Ovi testovi nisu toliko vremenski osetljivi jer ne zahtevaju žive bakterije za postavljanje dijagnoze.	toliko	209.0	4.0	False	False
+Ovi testovi nisu toliko vremenski osetljivi jer ne zahtevaju žive bakterije za postavljanje dijagnoze.	osetljivi	209.0	6.0	False	True
+Naziv hrama doslovno znači „Hram petog kralja koji se nalazi u blizini palate Dusit“.	znači	210.0	4.0	False	False
+Naziv hrama doslovno znači „Hram petog kralja koji se nalazi u blizini palate Dusit“.	Hram	210.0	6.0	True	False
+Naziv hrama doslovno znači „Hram petog kralja koji se nalazi u blizini palate Dusit“.	palate	210.0	14.0	False	False
+Oni pripremaju nacrte stanovišta i održavaju konferencije i seminare iz oblasti njihove nadležnosti.	nacrte	211.0	3.0	False	False
+Oni pripremaju nacrte stanovišta i održavaju konferencije i seminare iz oblasti njihove nadležnosti.	održavaju	211.0	6.0	False	False
+Među državama koje su prethodno navedene nalazi se nekoliko zaista nezavisnih država sa ograničenim međunarodnim priznanjem ili bez njega.	ograničenim	212.0	14.0	False	False
+Nemački hemičar Leopold Gmelin radio je koristeći ovaj princip, a do 1843. godine identifikovao je deset trijada, tri grupe od po četiri elementa, te jednu grupu od pet elemenata.	radio	213.0	5.0	False	False
+Nemački hemičar Leopold Gmelin radio je koristeći ovaj princip, a do 1843. godine identifikovao je deset trijada, tri grupe od po četiri elementa, te jednu grupu od pet elemenata.	koristeći	213.0	7.0	False	False
+Nemački hemičar Leopold Gmelin radio je koristeći ovaj princip, a do 1843. godine identifikovao je deset trijada, tri grupe od po četiri elementa, te jednu grupu od pet elemenata.	godine	213.0	14.0	False	False
+Nemački hemičar Leopold Gmelin radio je koristeći ovaj princip, a do 1843. godine identifikovao je deset trijada, tri grupe od po četiri elementa, te jednu grupu od pet elemenata.	grupe	213.0	21.0	False	False
+Nemački hemičar Leopold Gmelin radio je koristeći ovaj princip, a do 1843. godine identifikovao je deset trijada, tri grupe od po četiri elementa, te jednu grupu od pet elemenata.	grupu	213.0	29.0	False	False
+U jesen 1986. godine krenuo je u školu Smedslättsskolan u Bromi, koju je pohađao na početnom nivou.	krenuo	214.0	5.0	False	False
+U jesen 1986. godine krenuo je u školu Smedslättsskolan u Bromi, koju je pohađao na početnom nivou.	školu	214.0	8.0	False	False
+U jesen 1986. godine krenuo je u školu Smedslättsskolan u Bromi, koju je pohađao na početnom nivou.	nivou	214.0	18.0	False	False
+Unapred prevedena pitanja i odgovori, kao i mašinski prevod, omogućavaju im da komuniciraju na svom jeziku.	pitanja	215.0	3.0	False	False
+K. Vemer je otkrio da plesni roda Penicillium mogu proizvesti limunsku kiselinu iz šećera.	otkrio	216.0	4.0	False	False
+K. Vemer je otkrio da plesni roda Penicillium mogu proizvesti limunsku kiselinu iz šećera.	proizvesti	216.0	10.0	False	False
+Brodovi Gokstad i Oseberg bili su smešteni u privremenim skladištima na Univerzitetu u Oslu.	skladištima	217.0	10.0	False	False
+Tomas je takođe bio optužen za progon lokalnog plemstva, što je izazvalo niz pobuna protiv njegove vladavine.	izazvalo	218.0	13.0	False	False
+Tomas je takođe bio optužen za progon lokalnog plemstva, što je izazvalo niz pobuna protiv njegove vladavine.	vladavine	218.0	18.0	False	False
+Unutrašnjost katedrale prikazana je u filmu Elizabeta iz 1998.	filmu	220.0	6.0	False	False
+Mnoge knjige o religiji, filozofiji i nauci, koje su se u inostranstvu mogle smatrati kontroverznim, štampale su se u Holandiji i tajno izvozile u druge zemlje.	smatrati	221.0	16.0	False	False
+Mnoge knjige o religiji, filozofiji i nauci, koje su se u inostranstvu mogle smatrati kontroverznim, štampale su se u Holandiji i tajno izvozile u druge zemlje.	štampale	221.0	19.0	False	False
+Mnoge knjige o religiji, filozofiji i nauci, koje su se u inostranstvu mogle smatrati kontroverznim, štampale su se u Holandiji i tajno izvozile u druge zemlje.	druge	221.0	28.0	False	False
+Pretraživač Tor je besplatni softver koji osigurava pristup anonimiziranoj mreži koja omogućava anonimnu komunikaciju.	mreži	223.0	10.0	False	False
+Hart je počeo da postavlja kopije tekstova klasičnih dela kao što su Biblija, te dela Homera, Šekspira i Marka Tvena.	kopije	224.0	6.0	False	False
+Hart je počeo da postavlja kopije tekstova klasičnih dela kao što su Biblija, te dela Homera, Šekspira i Marka Tvena.	dela	224.0	16.0	False	False
+U XIX veku Krasnojarsk je bio centar sibirskog kozačkog pokreta.	veku	225.0	3.0	False	False
+Najstariji dokument, poznat do danas, u kojem se javlja ime Flambertenges, jeste akt iz 1066. godine.	Najstariji	226.0	1.0	False	False
+Najstariji dokument, poznat do danas, u kojem se javlja ime Flambertenges, jeste akt iz 1066. godine.	poznat	226.0	4.0	False	False
+Najstariji dokument, poznat do danas, u kojem se javlja ime Flambertenges, jeste akt iz 1066. godine.	akt	226.0	16.0	False	False
+Najstariji dokument, poznat do danas, u kojem se javlja ime Flambertenges, jeste akt iz 1066. godine.	godine	226.0	19.0	False	False
+Princeza Margaret se udala za grofa Anrija de Laborda de Monpeza, francuskog diplomatu, 10. juna 1967. godine u Crkvi Holmen u Kopenhagenu.	godine	227.0	19.0	False	False
+Obično se koriste cefaleksin ili nitrofurantoin jer se smatraju bezbednim u trudnoći.	smatraju	228.0	9.0	False	False
+Obično se koriste cefaleksin ili nitrofurantoin jer se smatraju bezbednim u trudnoći.	bezbednim	228.0	10.0	False	False
+Urođeni sifilis kod novorođenčadi može se sprečiti skriningom majki tokom rane trudnoće i lečenjem onih koje su inficirane.	sprečiti	230.0	7.0	False	False
+Sam je naučio da svira gitaru.	svira	231.0	5.0	False	False
+Upala pluća kod dece može se dodatno klasifikovati na osnovu znakova i simptoma kao umerena, teška ili veoma teška.	umerena	232.0	15.0	False	False
+Upala pluća kod dece može se dodatno klasifikovati na osnovu znakova i simptoma kao umerena, teška ili veoma teška.	teška	232.0	17.0	False	False
+Upala pluća kod dece može se dodatno klasifikovati na osnovu znakova i simptoma kao umerena, teška ili veoma teška.	veoma	232.0	19.0	False	False
+Upala pluća kod dece može se dodatno klasifikovati na osnovu znakova i simptoma kao umerena, teška ili veoma teška.	teška	232.0	20.0	False	False
+Najsjajniji među njima bio je na talasnoj dužini od 500,7 nanometara, što nije odgovaralo liniji nijednog poznatog elementa.	odgovaralo	234.0	15.0	True	False
+Najsjajniji među njima bio je na talasnoj dužini od 500,7 nanometara, što nije odgovaralo liniji nijednog poznatog elementa.	poznatog	234.0	18.0	True	False
+Najsjajniji među njima bio je na talasnoj dužini od 500,7 nanometara, što nije odgovaralo liniji nijednog poznatog elementa.	elementa	234.0	19.0	True	False
+Prema SI, merna jedinica sile je njutn (oznaka N).	njutn	235.0	8.0	True	False
+Premijer Vinston Čerčil saopštava da Ujedinjeno Kraljevstvo ima atomsku bombu.	Kraljevstvo	236.0	7.0	False	False
+Gnezdo prave na litici, drvetu ili nekoj zgradi.	prave	238.0	2.0	True	False
+Po nordijskom predanju, Sol je svakog dana jahala nebom na svojim kočijama koje su vukla dva konja, zvana Arvak i Alsvid.	dana	239.0	8.0	False	False
+Po nordijskom predanju, Sol je svakog dana jahala nebom na svojim kočijama koje su vukla dva konja, zvana Arvak i Alsvid.	nebom	239.0	10.0	False	False
+Godine 1750. postala je kolonija Danske krune.	Godine	240.0	1.0	False	False
+Godine 1750. postala je kolonija Danske krune.	postala	240.0	3.0	False	False
+Kako se krup pogoršava, stridor se može znatno smanjiti.	se			False	False
+Judaizam je usmeren na važnost vrednovanja života, i pošto je tako, samoubistvo je jednako poricanju Božje dobrote u svetu.	života	242.0	7.0	False	False
+Judaizam je usmeren na važnost vrednovanja života, i pošto je tako, samoubistvo je jednako poricanju Božje dobrote u svetu.	tako	242.0	12.0	False	False
+Judaizam je usmeren na važnost vrednovanja života, i pošto je tako, samoubistvo je jednako poricanju Božje dobrote u svetu.	jednako	242.0	16.0	False	False
+Judaizam je usmeren na važnost vrednovanja života, i pošto je tako, samoubistvo je jednako poricanju Božje dobrote u svetu.	dobrote	242.0	19.0	False	False
+Judaizam je usmeren na važnost vrednovanja života, i pošto je tako, samoubistvo je jednako poricanju Božje dobrote u svetu.	svetu	242.0	21.0	False	False
+Uprkos britanskoj vojnoj administraciji, Austrijskom carstvu zagarantovan je isti trgovinski status kao Ujedinjenom Kraljevstvu.	administraciji	243.0	4.0	False	False
+Uprkos britanskoj vojnoj administraciji, Austrijskom carstvu zagarantovan je isti trgovinski status kao Ujedinjenom Kraljevstvu.	carstvu	243.0	7.0	False	False
+Uprkos britanskoj vojnoj administraciji, Austrijskom carstvu zagarantovan je isti trgovinski status kao Ujedinjenom Kraljevstvu.	isti	243.0	10.0	False	False
+Uprkos britanskoj vojnoj administraciji, Austrijskom carstvu zagarantovan je isti trgovinski status kao Ujedinjenom Kraljevstvu.	Ujedinjenom	243.0	14.0	False	False
+Taj period obeležio je ekstremni nivo kriminala, bolesti, masovnih smrti, pa čak i kanibalizma i čedomorstva.	period	246.0	2.0	False	False
+Taj period obeležio je ekstremni nivo kriminala, bolesti, masovnih smrti, pa čak i kanibalizma i čedomorstva.	nivo	246.0	6.0	False	False
+Taj period obeležio je ekstremni nivo kriminala, bolesti, masovnih smrti, pa čak i kanibalizma i čedomorstva.	bolesti	246.0	9.0	True	False
+Taj period obeležio je ekstremni nivo kriminala, bolesti, masovnih smrti, pa čak i kanibalizma i čedomorstva.	smrti	246.0	12.0	False	False
+Dok se pobuna polako stišavala, postajalo je jasno da se kolonijalna vladavina Britanije više ne može održati.	vladavina	247.0	13.0	False	False
+Pogađa između 700.000 i 1,6 miliona trudnoća godišnje, što dovodi do spontanih pobačaja, mrtvorođene dece i kongenitalnog sifilisa.	godišnje	249.0	8.0	False	False
+Utvrdili su da je zakon o samoupravljanju osnova celokupnog društvenog poretka u Jugoslaviji.	osnova	250.0	8.0	False	False
+Lideri obe strane pokušali su da zaustave sukobe sklapanjem na desetine primirja, ali nijedno od njih nije trajalo duže od nekoliko dana.	strane	251.0	3.0	False	False
+Lideri obe strane pokušali su da zaustave sukobe sklapanjem na desetine primirja, ali nijedno od njih nije trajalo duže od nekoliko dana.	zaustave	251.0	7.0	False	False
+Lideri obe strane pokušali su da zaustave sukobe sklapanjem na desetine primirja, ali nijedno od njih nije trajalo duže od nekoliko dana.	nekoliko	251.0	22.0	False	False
+Lideri obe strane pokušali su da zaustave sukobe sklapanjem na desetine primirja, ali nijedno od njih nije trajalo duže od nekoliko dana.	dana	251.0	23.0	False	False
+Ipak, u administrativne svrhe formirali su jedinstvenu pokrajinu.	svrhe	252.0	5.0	False	False
+Ipak, u administrativne svrhe formirali su jedinstvenu pokrajinu.	jedinstvenu	252.0	8.0	False	False
+Ipak, u administrativne svrhe formirali su jedinstvenu pokrajinu.	pokrajinu	252.0	9.0	True	False
+Prvi put posle deset godina u celoj Evropi zavladao je mir.	Prvi	253.0	1.0	True	False
+Prvi put posle deset godina u celoj Evropi zavladao je mir.	celoj	253.0	7.0	False	False
+Prvi put posle deset godina u celoj Evropi zavladao je mir.	zavladao	253.0	9.0	False	False
+„Granma“ je zvanični glasnik Centralnog komiteta Komunističke partije Kube.	glasnik	254.0	6.0	False	False
+„Granma“ je zvanični glasnik Centralnog komiteta Komunističke partije Kube.	komiteta	254.0	8.0	False	False
+Istog meseca Oleskiv je kanadskom Odeljenju unutrašnjih poslova preporučio Genika za imigracionog agenta.	meseca	255.0	2.0	False	False
+Istog meseca Oleskiv je kanadskom Odeljenju unutrašnjih poslova preporučio Genika za imigracionog agenta.	unutrašnjih	255.0	7.0	False	False
+Istog meseca Oleskiv je kanadskom Odeljenju unutrašnjih poslova preporučio Genika za imigracionog agenta.	poslova	255.0	8.0	False	False
+Neke genetske varijante mogu izazvati astmu samo u kombinaciji sa specifičnim uslovima u okolini.	izazvati	256.0	5.0	False	False
+Neke genetske varijante mogu izazvati astmu samo u kombinaciji sa specifičnim uslovima u okolini.	samo	256.0	7.0	False	False
+Neke genetske varijante mogu izazvati astmu samo u kombinaciji sa specifičnim uslovima u okolini.	kombinaciji	256.0	9.0	True	False
+Neke genetske varijante mogu izazvati astmu samo u kombinaciji sa specifičnim uslovima u okolini.	specifičnim	256.0	11.0	False	False
+Neke genetske varijante mogu izazvati astmu samo u kombinaciji sa specifičnim uslovima u okolini.	uslovima	256.0	12.0	True	False
+Infekcija drugih organa može izazvati širok spektar simptoma.	izazvati	259.0	5.0	False	False
+U samo jednoj studiji više od 100 gena povezano je sa astmom; i još uvek se pronalaze novi.	studiji	260.0	4.0	True	False
+Kada se koriste kod hronične bolesti, lekovi mogu da odlože ili spreče razvoj simptoma u završnoj fazi.	odlože	262.0	11.0	False	False
+Kada se koriste kod hronične bolesti, lekovi mogu da odlože ili spreče razvoj simptoma u završnoj fazi.	spreče	262.0	13.0	False	False
+Najčešće korišćeni sistem za klasifikaciju težine krupa je Veslijev skor.	korišćeni	264.0	2.0	False	False
+Najčešće korišćeni sistem za klasifikaciju težine krupa je Veslijev skor.	težine	264.0	6.0	False	False
+Panda je specifična po tome što provodi 12–15 sati dnevno hraneći se.	provodi	265.0	7.0	False	True
+Panda je specifična po tome što provodi 12–15 sati dnevno hraneći se.	dnevno	265.0	12.0	False	False
+Radikali su važni u sagorevanju, atmosferskoj hemiji, polimerizaciji, hemiji plazme, biohemiji i mnogim drugim hemijskim procesima.	hemijskim			False	False
+Radikali su važni u sagorevanju, atmosferskoj hemiji, polimerizaciji, hemiji plazme, biohemiji i mnogim drugim hemijskim procesima.	drugim	267.0	18.0	False	False
+Godine 1988. Nobelova nagrada za mir dodeljena je mirovnim snagama Ujedinjenih nacija.	Godine	268.0	1.0	False	False
+Postoje različite teorije o poreklu reči Čile.	reči	269.0	6.0	True	False
+Najčešće su pogođena deca, a u ovoj starosnoj grupi infekcija može izazvati i slabo povećanje telesne težine, neuhranjenost i probleme u učenju.	grupi	270.0	10.0	False	False
+Najčešće su pogođena deca, a u ovoj starosnoj grupi infekcija može izazvati i slabo povećanje telesne težine, neuhranjenost i probleme u učenju.	izazvati	270.0	13.0	False	False
+Najčešće su pogođena deca, a u ovoj starosnoj grupi infekcija može izazvati i slabo povećanje telesne težine, neuhranjenost i probleme u učenju.	slabo	270.0	15.0	False	False
+Najčešće su pogođena deca, a u ovoj starosnoj grupi infekcija može izazvati i slabo povećanje telesne težine, neuhranjenost i probleme u učenju.	povećanje	270.0	16.0	False	False
+Najčešće su pogođena deca, a u ovoj starosnoj grupi infekcija može izazvati i slabo povećanje telesne težine, neuhranjenost i probleme u učenju.	probleme	270.0	22.0	False	False
+To je jedan od najvažnijih primarnih izvora za proučavanje nordijske mitologije.	mitologije	271.0	11.0	False	False
+Pojtingerova tabla (Tabula Peutingeriana) jeste itinerer koji prikazuje putnu mrežu (cursus publicus) u Rimskom carstvu.	Rimskom	272.0	18.0	False	False
+Pojtingerova tabla (Tabula Peutingeriana) jeste itinerer koji prikazuje putnu mrežu (cursus publicus) u Rimskom carstvu.	carstvu	272.0	19.0	False	False
+Lezije mogu biti bolne ili osetljive (30 %), a mogu se, osim na genitalijama, pojaviti i na drugim mestima (2–7 %).	osetljive	274.0	6.0	False	False
+Lezije mogu biti bolne ili osetljive (30 %), a mogu se, osim na genitalijama, pojaviti i na drugim mestima (2–7 %).	drugim	274.0	23.0	False	False
+Lezije mogu biti bolne ili osetljive (30 %), a mogu se, osim na genitalijama, pojaviti i na drugim mestima (2–7 %).	mestima	274.0	24.0	False	False
+Čini se da negativni simptomi više utiču na loš kvalitet života, funkcionalnu sposobnost i opterećivanje drugih osoba nego pozitivni simptomi.	negativni	275.0	4.0	False	False
+Čini se da negativni simptomi više utiču na loš kvalitet života, funkcionalnu sposobnost i opterećivanje drugih osoba nego pozitivni simptomi.	života	275.0	11.0	False	False
+Čini se da negativni simptomi više utiču na loš kvalitet života, funkcionalnu sposobnost i opterećivanje drugih osoba nego pozitivni simptomi.	sposobnost	275.0	14.0	False	False
+Čini se da negativni simptomi više utiču na loš kvalitet života, funkcionalnu sposobnost i opterećivanje drugih osoba nego pozitivni simptomi.	drugih	275.0	17.0	False	False
+Čini se da negativni simptomi više utiču na loš kvalitet života, funkcionalnu sposobnost i opterećivanje drugih osoba nego pozitivni simptomi.	pozitivni	275.0	20.0	True	False
+RETScreen International nagrađen je Priznanjem za izuzetnost u oblasti javne službe (the Public Service Award of Excellence), najvišom nagradom koju kanadska vlada dodeljuje svojim državnim službenicima.	nagrađen	278.0	3.0	False	False
+RETScreen International nagrađen je Priznanjem za izuzetnost u oblasti javne službe (the Public Service Award of Excellence), najvišom nagradom koju kanadska vlada dodeljuje svojim državnim službenicima.	Priznanjem	278.0	5.0	False	False
+RETScreen International nagrađen je Priznanjem za izuzetnost u oblasti javne službe (the Public Service Award of Excellence), najvišom nagradom koju kanadska vlada dodeljuje svojim državnim službenicima.	javne	278.0	10.0	False	False
+RETScreen International nagrađen je Priznanjem za izuzetnost u oblasti javne službe (the Public Service Award of Excellence), najvišom nagradom koju kanadska vlada dodeljuje svojim državnim službenicima.	najvišom	278.0	21.0	True	False
+RETScreen International nagrađen je Priznanjem za izuzetnost u oblasti javne službe (the Public Service Award of Excellence), najvišom nagradom koju kanadska vlada dodeljuje svojim državnim službenicima.	državnim	278.0	28.0	False	False
+Hram u Jerusalimu je uništen 70. godine nove ere.	godine	279.0	7.0	False	False
+Zimi mu perje postaje potpuno belo, izuzev crnog repa.	belo	280.0	6.0	True	False
+Termin se prvobitno koristio u ugovorima i odnosio se na povlačenje protivničkih trupa i obnavljanje predratne vlasti.	koristio	281.0	4.0	True	False
+Termin se prvobitno koristio u ugovorima i odnosio se na povlačenje protivničkih trupa i obnavljanje predratne vlasti.	vlasti	281.0	17.0	False	False
+Takmičenje među pripadnicima iste vrste poznato je kao intraspecifično takmičenje, dok je takmičenje između jedinki različitih vrsta poznato kao interspecifično takmičenje.	iste	282.0	4.0	False	False
+Takmičenje među pripadnicima iste vrste poznato je kao intraspecifično takmičenje, dok je takmičenje između jedinki različitih vrsta poznato kao interspecifično takmičenje.	vrste	282.0	5.0	True	False
+Takmičenje među pripadnicima iste vrste poznato je kao intraspecifično takmičenje, dok je takmičenje između jedinki različitih vrsta poznato kao interspecifično takmičenje.	poznato	282.0	6.0	True	False
+Takmičenje među pripadnicima iste vrste poznato je kao intraspecifično takmičenje, dok je takmičenje između jedinki različitih vrsta poznato kao interspecifično takmičenje.	poznato	282.0	19.0	False	False
+Zajedno sa sredstvima koja daju države članice pojedinačno, EU je najveći donator međunarodne pomoći u svetu.	sredstvima	283.0	3.0	False	False
+Zajedno sa sredstvima koja daju države članice pojedinačno, EU je najveći donator međunarodne pomoći u svetu.	daju	283.0	5.0	False	False
+Zajedno sa sredstvima koja daju države članice pojedinačno, EU je najveći donator međunarodne pomoći u svetu.	pojedinačno	283.0	8.0	False	False
+Zajedno sa sredstvima koja daju države članice pojedinačno, EU je najveći donator međunarodne pomoći u svetu.	najveći	283.0	12.0	False	False
+Zajedno sa sredstvima koja daju države članice pojedinačno, EU je najveći donator međunarodne pomoći u svetu.	svetu	283.0	17.0	False	False
+DJ Magazine je britanski časopis koji izlazi jednom mesečno i posvećen je elektronskoj dens muzici i di-džejevima.	izlazi	285.0	7.0	False	False
+Prisustvovale su još dve književne zvezde tog doba: Žan Froasar i Petrarka.	književne	287.0	5.0	False	False
+Prisustvovale su još dve književne zvezde tog doba: Žan Froasar i Petrarka.	zvezde	287.0	6.0	True	False
+Sve terestričke planete imaju približno istu strukturu: centralno metalno jezgro, uglavnom gvozdeno, sa okolnim silikatnim omotačem.	imaju	288.0	4.0	False	False
+Sve terestričke planete imaju približno istu strukturu: centralno metalno jezgro, uglavnom gvozdeno, sa okolnim silikatnim omotačem.	istu	288.0	6.0	False	False
+Sve terestričke planete imaju približno istu strukturu: centralno metalno jezgro, uglavnom gvozdeno, sa okolnim silikatnim omotačem.	centralno	288.0	9.0	False	False
+Ovi antibiotici se često daju intravenozno i koriste se u kombinaciji.	koriste	289.0	8.0	False	False
+Dve godine kasnije Konstantin je umro, a Juriju je dozvoljeno da se vrati u Vladimir.	dozvoljeno	290.0	11.0	False	False
+Tako je svaki životni ciklus postepeno podizao nivo zemljišta u gradovima, pa su se oni izdizali iznad okolne ravnice.	zemljišta	292.0	9.0	True	False
+Čini se da je rizik od prenosa putem deljenja igala ograničen.	deljenja	293.0	9.0	False	False
+Čini se da je rizik od prenosa putem deljenja igala ograničen.	ograničen	293.0	11.0	False	False
+Kada su ga 1998. godine pitali kako je postao tako dobar snajperista, Hejhe je odgovorio: „Vežba.“	godine	294.0	5.0	False	False
+Kada su ga 1998. godine pitali kako je postao tako dobar snajperista, Hejhe je odgovorio: „Vežba.“	postao	294.0	9.0	False	False
+Kada su ga 1998. godine pitali kako je postao tako dobar snajperista, Hejhe je odgovorio: „Vežba.“	tako	294.0	10.0	False	False
+Kada su ga 1998. godine pitali kako je postao tako dobar snajperista, Hejhe je odgovorio: „Vežba.“	dobar	294.0	11.0	False	False
+Kod slabih starijih osoba dobra oralna zdravstvena nega može smanjiti rizik od aspiracione pneumonije.	slabih	295.0	2.0	False	False
+Pneumonija često počinje kao infekcija gornjih disajnih puteva koja prelazi u donji respiratorni trakt.	kao	296.0	4.0	False	False
+Pneumonija često počinje kao infekcija gornjih disajnih puteva koja prelazi u donji respiratorni trakt.	prelazi	296.0	10.0	False	False
+Vakcinacija sprečava određene bakterijske i virusne pneumonije i kod dece i kod odraslih.	sprečava	297.0	2.0	False	False
+Vakcinacija sprečava određene bakterijske i virusne pneumonije i kod dece i kod odraslih.	određene	297.0	3.0	False	False
+Veruje se da je završen 731. godine, kada je Bede imao 59 godina.	Veruje	299.0	1.0	False	False
+Veruje se da je završen 731. godine, kada je Bede imao 59 godina.	godine	299.0	7.0	False	False
+Veruje se da je završen 731. godine, kada je Bede imao 59 godina.	godina	299.0	14.0	False	False
+Odmah je popravio štetu tek toliko da bi mogao da posmatra veliku kometu iz decembra 1680. godine.	popravio	300.0	3.0	False	False
+Odmah je popravio štetu tek toliko da bi mogao da posmatra veliku kometu iz decembra 1680. godine.	toliko	300.0	6.0	False	False
+Odmah je popravio štetu tek toliko da bi mogao da posmatra veliku kometu iz decembra 1680. godine.	posmatra	300.0	11.0	False	False
+Ovo se može desiti kada kontaminirano povrće nije dobro očišćeno ili skuvano.	očišćeno	301.0	10.0	False	False
+Kod dece zdrava težina varira u zavisnosti od starosti i pola.	zdrava	302.0	3.0	False	False
+Kod dece zdrava težina varira u zavisnosti od starosti i pola.	težina	302.0	4.0	False	False
+Ovo je bila jedna od prvih Linux instalacija na opterećenoj mreži i otkrila je mnoge greške u mrežnom kodu.	otkrila	304.0	13.0	False	False
+Hipokrat je pisao da „korpulencija nije bolest sama po sebi, već i predznak drugih bolesti”.	drugih	306.0	16.0	False	False
+Dostupna je sama ili u kombinaciji sa drugim vakcinama.	Dostupna	307.0	1.0	True	False
+Dostupna je sama ili u kombinaciji sa drugim vakcinama.	sama	307.0	3.0	False	False
+Jedini veći gradovi koji su izbegli uništenje bili su Novgorod i Pskov.	Jedini	308.0	1.0	False	False
+Bolest se obično širi kada ljudi jedu hranu ili piju vodu koja sadrži jaja ovih crva.	Bolest	309.0	1.0	True	False
+Bolest se obično širi kada ljudi jedu hranu ili piju vodu koja sadrži jaja ovih crva.	obično	309.0	3.0	False	False
+Bolest se obično širi kada ljudi jedu hranu ili piju vodu koja sadrži jaja ovih crva.	vodu	309.0	11.0	False	False
+Bolest se obično širi kada ljudi jedu hranu ili piju vodu koja sadrži jaja ovih crva.	sadrži	309.0	13.0	False	False
+Ozbiljne klimatske promene tokom ledenog doba imale su veliki uticaj na faunu i floru.	Ozbiljne	310.0	1.0	False	False
+Gojaznost povećava rizik od mnogih fizičkih i mentalnih poremećaja.	fizičkih	312.0	6.0	False	False
+Perikle je imao tako dalekosežan uticaj na atinsko društvo da ga je istoričar Tukidid, njegov savremenik, proglasio „prvim građaninom Atine“.	proglasio	313.0	19.0	False	False
+Njegov geografski položaj je pozitivno uticao na njegov razvoj i rast.	pozitivno	314.0	5.0	False	False
+Njegov geografski položaj je pozitivno uticao na njegov razvoj i rast.	razvoj	314.0	9.0	False	False
+Njegov geografski položaj je pozitivno uticao na njegov razvoj i rast.	rast	314.0	11.0	False	False
+Zbog gojaznosti može doći do društvene stigmatizacije i problema pri nalaženju posla.	gojaznosti	316.0	2.0	False	False
+Zbog gojaznosti može doći do društvene stigmatizacije i problema pri nalaženju posla.	doći	316.0	4.0	False	False
+Zbog gojaznosti može doći do društvene stigmatizacije i problema pri nalaženju posla.	problema	316.0	9.0	False	False
+Svaka ruka je imala četiri prsta, a nije imala palac (prvi prst).	ruka	318.0	2.0	False	False
+Svaka ruka je imala četiri prsta, a nije imala palac (prvi prst).	prvi	318.0	13.0	False	False
+Karlo Veliki je izgradio novi logor u Karlštatu.	Veliki	319.0	2.0	False	False
+Karlo Veliki je izgradio novi logor u Karlštatu.	izgradio	319.0	4.0	False	False
+Karlo Veliki je izgradio novi logor u Karlštatu.	novi	319.0	5.0	True	False
+Karlo Veliki je izgradio novi logor u Karlštatu.	logor	319.0	6.0	False	False
+Sedeći način života u velikoj meri doprinosi gojaznosti.	meri	320.0	6.0	False	False
+Sedeći način života u velikoj meri doprinosi gojaznosti.	doprinosi	320.0	7.0	False	False
+I tako počinje njihovo neverovatno putovanje.	tako	322.0	2.0	False	False
+Može se napraviti kod kuće ili kupiti u prodavnicama brze hrane.	napraviti	323.0	3.0	False	False
+Može se napraviti kod kuće ili kupiti u prodavnicama brze hrane.	kupiti	323.0	7.0	False	False
+Stabla muskatnog oraščića daju prvu berbu sedam do devet godina nakon sadnje, a pun rod dostižu nakon dvadeset godina.	prvu	325.0	5.0	False	False
+Stabla muskatnog oraščića daju prvu berbu sedam do devet godina nakon sadnje, a pun rod dostižu nakon dvadeset godina.	pun	325.0	15.0	False	False
+Njegove poslednje reči su navodno bile: „Pa, imao sam srećan život.“	navodno	326.0	5.0	False	False
+Njegove poslednje reči su navodno bile: „Pa, imao sam srećan život.“	život	326.0	14.0	False	False
+U tom periodu mnogi naučnici i istraživači značajno su doprineli razvoju ove teorije.	razvoju	331.0	11.0	False	False
+Smatralo se da je jedinstvena komanda neophodna za invaziju na Japan.	Smatralo	332.0	1.0	False	False
+Smatralo se da je jedinstvena komanda neophodna za invaziju na Japan.	jedinstvena	332.0	5.0	False	False
+Smatralo se da je jedinstvena komanda neophodna za invaziju na Japan.	komanda	332.0	6.0	False	False
+Gentleman’s Magazine počeo je da izlazi 1731. godine i ubrzo je postao najuticajniji časopis svog vremena koji su mnogi imitirali.	počeo	333.0	3.0	False	False
+Gentleman’s Magazine počeo je da izlazi 1731. godine i ubrzo je postao najuticajniji časopis svog vremena koji su mnogi imitirali.	izlazi	333.0	6.0	False	False
+Gentleman’s Magazine počeo je da izlazi 1731. godine i ubrzo je postao najuticajniji časopis svog vremena koji su mnogi imitirali.	godine	333.0	8.0	False	False
+Gentleman’s Magazine počeo je da izlazi 1731. godine i ubrzo je postao najuticajniji časopis svog vremena koji su mnogi imitirali.	postao	333.0	12.0	False	False
+Gentleman’s Magazine počeo je da izlazi 1731. godine i ubrzo je postao najuticajniji časopis svog vremena koji su mnogi imitirali.	vremena	333.0	16.0	False	False
+Gentleman’s Magazine počeo je da izlazi 1731. godine i ubrzo je postao najuticajniji časopis svog vremena koji su mnogi imitirali.	imitirali	333.0	20.0	False	False
+Tokom svoje rane istorije Amerika se sastojala od niza britanskih kolonija na istočnoj obali današnjih Sjedinjenih Država.	istorije	334.0	4.0	False	False
+Tokom svoje rane istorije Amerika se sastojala od niza britanskih kolonija na istočnoj obali današnjih Sjedinjenih Država.	niza	334.0	9.0	False	False
+Naziv siborgijum za element 106 je međunarodno priznat u okviru kompromisa koji se ticao elemenata 104 do 108.	se			False	False
+Naziv siborgijum za element 106 je međunarodno priznat u okviru kompromisa koji se ticao elemenata 104 do 108.	element	336.0	4.0	True	False
+Ova navika, zajedno s njihovim izgledom, uticala je na to da ljudi mešaju ove dve vrste kada ih vide van njihovog prirodnog staništa.	izgledom	337.0	7.0	False	False
+Ova navika, zajedno s njihovim izgledom, uticala je na to da ljudi mešaju ove dve vrste kada ih vide van njihovog prirodnog staništa.	vide	337.0	21.0	False	False
+Uz terapiju, većina tipova bakterijske pneumonije će se stabilizovati za 3–6 dana.	se			False	False
+Uz terapiju, većina tipova bakterijske pneumonije će se stabilizovati za 3–6 dana.	dana	338.0	15.0	False	False
+Pet svemirskih agencija, koje predstavljaju preko petnaest zemalja, radile su zajedno na izgradnji Međunarodne svemirske stanice.	predstavljaju	339.0	6.0	False	False
+Pet svemirskih agencija, koje predstavljaju preko petnaest zemalja, radile su zajedno na izgradnji Međunarodne svemirske stanice.	radile	339.0	11.0	False	False
+U prošlosti je bilo uobičajeno da poznate gejše unajme „danu“, odnosno pokrovitelja.	uobičajeno	340.0	5.0	False	False
+U prošlosti je bilo uobičajeno da poznate gejše unajme „danu“, odnosno pokrovitelja.	poznate	340.0	7.0	False	True
+Najveći deo sredstava je za hranu i ishranu.	Najveći	341.0	1.0	False	False
+Najveći deo sredstava je za hranu i ishranu.	sredstava	341.0	3.0	False	False
+Najveći deo sredstava je za hranu i ishranu.	ishranu	341.0	8.0	False	False
+Džon kasnije kaže Džeku: „Pogledao sam ovo ostrvo pravo u oči i ono što sam video bilo je prelepo.“	kaže	342.0	3.0	False	False
+Džon kasnije kaže Džeku: „Pogledao sam ovo ostrvo pravo u oči i ono što sam video bilo je prelepo.“	Pogledao	342.0	7.0	False	False
+Džon kasnije kaže Džeku: „Pogledao sam ovo ostrvo pravo u oči i ono što sam video bilo je prelepo.“	ostrvo	342.0	10.0	False	False
+I Pionir 10 i Pionir 11 sadrže ploče koje pružaju slikovne informacije o vremenu i mestu njihovog porekla.	sadrže	343.0	7.0	False	False
+I Pionir 10 i Pionir 11 sadrže ploče koje pružaju slikovne informacije o vremenu i mestu njihovog porekla.	ploče	343.0	8.0	False	False
+I Pionir 10 i Pionir 11 sadrže ploče koje pružaju slikovne informacije o vremenu i mestu njihovog porekla.	mestu	343.0	16.0	False	False
+I Pionir 10 i Pionir 11 sadrže ploče koje pružaju slikovne informacije o vremenu i mestu njihovog porekla.	porekla	343.0	18.0	False	False
+Nakon prvih demokratskih izbora održanih u Hrvatskoj Zagal je 23. jula 1990. promenio ime u Kroacija erlajns.	prvih	344.0	2.0	False	False
+Nakon prvih demokratskih izbora održanih u Hrvatskoj Zagal je 23. jula 1990. promenio ime u Kroacija erlajns.	promenio	344.0	13.0	False	False
+Vakcine su ispitivane kao uzročni faktori; međutim, većina studija ne pokazuje povezanost.	studija	345.0	11.0	False	False
+Vakcine su ispitivane kao uzročni faktori; međutim, većina studija ne pokazuje povezanost.	povezanost	345.0	14.0	False	False
+Od 1956. godine na njihovo mesto dolazi Olimpijski kulturni program.	godine	346.0	3.0	False	False
+Od 1956. godine na njihovo mesto dolazi Olimpijski kulturni program.	program	346.0	10.0	True	False
+SMTP (engl. Simple Mail Transfer Protocol) jeste internet standard za prenos elektronske pošte.	standard	347.0	11.0	False	False
+SMTP (engl. Simple Mail Transfer Protocol) jeste internet standard za prenos elektronske pošte.	prenos	347.0	13.0	False	False
+Njihov značaj je potvrđen Poveljom otvorenih podataka G8.	potvrđen	349.0	4.0	False	False
+Njihov značaj je potvrđen Poveljom otvorenih podataka G8.	otvorenih	349.0	6.0	False	False
+Mužjaci čuvaju teritorije koje brane od uljeza.	čuvaju	351.0	2.0	False	False
+Mužjaci čuvaju teritorije koje brane od uljeza.	brane	351.0	5.0	False	False
+Već sledeće godine ponovo se preselio u Sjedinjene Države da bi pohađao Univerzitet Harvard.	sledeće	352.0	2.0	False	False
+Već sledeće godine ponovo se preselio u Sjedinjene Države da bi pohađao Univerzitet Harvard.	godine	352.0	3.0	False	False
+Već sledeće godine ponovo se preselio u Sjedinjene Države da bi pohađao Univerzitet Harvard.	Države	352.0	9.0	False	False
+Već sledeće godine ponovo se preselio u Sjedinjene Države da bi pohađao Univerzitet Harvard.	Univerzitet	352.0	13.0	False	False
+Hari Poter i relikvije smrti jeste sedma i poslednja knjiga u seriji Hari Poter Dž. K. Rouling.	smrti	353.0	5.0	False	False
+Hari Poter i relikvije smrti jeste sedma i poslednja knjiga u seriji Hari Poter Dž. K. Rouling.	knjiga	353.0	10.0	False	False
+Ugovor obavezuje Evropsku komisiju i Veće ministara da konsultuju CoR (Comitee of the Regions) o ključnim oblastima od regionalnog značaja.	Veće	354.0	6.0	True	False
+Ugovor obavezuje Evropsku komisiju i Veće ministara da konsultuju CoR (Comitee of the Regions) o ključnim oblastima od regionalnog značaja.	oblastima	354.0	19.0	False	False
+Pri najvećoj zapadnoj elongaciji Merkur izlazi najranije, pre izlaska Sunca, dok pri najvećoj istočnoj elongaciji zalazi najkasnije, posle zalaska Sunca.	elongaciji	356.0	4.0	True	False
+Pri najvećoj zapadnoj elongaciji Merkur izlazi najranije, pre izlaska Sunca, dok pri najvećoj istočnoj elongaciji zalazi najkasnije, posle zalaska Sunca.	izlazi	356.0	6.0	False	False
+Pri najvećoj zapadnoj elongaciji Merkur izlazi najranije, pre izlaska Sunca, dok pri najvećoj istočnoj elongaciji zalazi najkasnije, posle zalaska Sunca.	najvećoj	356.0	15.0	False	False
+Pri najvećoj zapadnoj elongaciji Merkur izlazi najranije, pre izlaska Sunca, dok pri najvećoj istočnoj elongaciji zalazi najkasnije, posle zalaska Sunca.	elongaciji	356.0	17.0	True	False
+Ako bi se koristilo francusko nuklearno oružje, naredba za paljbu bi mogla proći kroz ovaj relej.	koristilo	357.0	4.0	False	False
+Ako bi se koristilo francusko nuklearno oružje, naredba za paljbu bi mogla proći kroz ovaj relej.	proći	357.0	14.0	False	False
+Kao hemijsko oružje, klasifikovano je od strane Ujedinjenih nacija kao oružje za masovno uništenje prema Rezoluciji 687 UN.	klasifikovano	359.0	5.0	True	False
+Kao hemijsko oružje, klasifikovano je od strane Ujedinjenih nacija kao oružje za masovno uništenje prema Rezoluciji 687 UN.	Rezoluciji	359.0	17.0	True	False
+Zajedno s kompanijinim alatima za mašinsko učenje, platforma omogućava kreiranje četbotova koji mogu analizirati namere korisnika.	kreiranje	360.0	11.0	False	False
+Red Bull je vlasnik dva tima Formule jedan, Red Bull Racing i Scuderia Toro Rosso.	tima	361.0	6.0	False	False
+Atom je najmanja čestica hemijskog elementa koja zadržava hemijske osobine tog elementa.	najmanja	362.0	3.0	False	False
+Atom je najmanja čestica hemijskog elementa koja zadržava hemijske osobine tog elementa.	zadržava	362.0	8.0	False	False
+Atom je najmanja čestica hemijskog elementa koja zadržava hemijske osobine tog elementa.	osobine	362.0	10.0	False	False
+Atom je najmanja čestica hemijskog elementa koja zadržava hemijske osobine tog elementa.	elementa	362.0	12.0	False	False
+Odrasla jedinka može preživeti više od godinu dana bez hrane.	preživeti	363.0	4.0	False	False
+Odrasla jedinka može preživeti više od godinu dana bez hrane.	dana	363.0	8.0	False	False
+General Motors je 1990. godine kupio 51 % automobilskog koncerna Saab Automobile, a ostatak deceniju kasnije.	godine	364.0	5.0	False	False
+Još u XIV veku bio je važan trgovački centar.	veku	366.0	4.0	False	False
+U školi mu je išlo odlično, dobio je veoma dobre ocene.	školi	367.0	2.0	False	False
+U školi mu je išlo odlično, dobio je veoma dobre ocene.	dobio	367.0	8.0	False	False
+U školi mu je išlo odlično, dobio je veoma dobre ocene.	veoma	367.0	10.0	False	False
+Posmatranje Merkura je komplikovano zbog njegove blizine Suncu, jer se veći deo vremena ne vidi od sunčevog sjaja.	veći	369.0	12.0	False	False
+Posmatranje Merkura je komplikovano zbog njegove blizine Suncu, jer se veći deo vremena ne vidi od sunčevog sjaja.	vidi	369.0	16.0	False	False
+Na ovaj način su ostvarili veći deo prihoda.	ostvarili	370.0	5.0	False	False
+Na ovaj način su ostvarili veći deo prihoda.	deo	370.0	7.0	False	False
+Ova vrsta je retka u Evropi.	vrsta	371.0	2.0	False	False
+Univerzitet u Ženevi je javni istraživački univerzitet koji se nalazi u Ženevi u Švajcarskoj.	univerzitet	373.0	7.0	False	False
+Prvi put je primećen 1979. godine pomoću svemirske sonde Vojadžer 1.	Prvi	375.0	1.0	False	False
+Prvi put je primećen 1979. godine pomoću svemirske sonde Vojadžer 1.	primećen	375.0	4.0	False	False
+Biograf Karla Velikog Ajnhard navodi da je Žizela bila posvećena religiji od detinjstva.	Velikog	376.0	3.0	False	False
+Biograf Karla Velikog Ajnhard navodi da je Žizela bila posvećena religiji od detinjstva.	navodi	376.0	5.0	False	False
+Delovi Dartmura korišćeni su kao vojni poligoni više od 200 godina.	Delovi	377.0	1.0	False	False
+Delovi Dartmura korišćeni su kao vojni poligoni više od 200 godina.	korišćeni	377.0	3.0	False	False
+To mu je donelo prvobitnu popularnost.	donelo	378.0	4.0	False	False
+To mu je donelo prvobitnu popularnost.	popularnost	378.0	6.0	False	False
+Tokom evolucije neke strukture mogu izgubiti svoju prvobitnu funkciju i postati rudimentarne.	funkciju	379.0	9.0	False	False
+Tokom evolucije neke strukture mogu izgubiti svoju prvobitnu funkciju i postati rudimentarne.	postati	379.0	11.0	False	False
+Reč „Indija“ je izvedena iz naziva reke Ind.	Reč	380.0	1.0	True	False
+Reč „Indija“ je izvedena iz naziva reke Ind.	izvedena	380.0	6.0	True	False
+Svoje sadašnje ime dobila je 1994. godine, kada je Evropska asocijacija proizvođača računara (ECMA) promenila ime kako bi odražavala globalni domet i aktivnosti organizacije.	godine	382.0	7.0	False	False
+Svoje sadašnje ime dobila je 1994. godine, kada je Evropska asocijacija proizvođača računara (ECMA) promenila ime kako bi odražavala globalni domet i aktivnosti organizacije.	promenila	382.0	18.0	False	False
+Osnovan je u XI veku i opisan kao „ključ do Engleske“ zbog svog odbrambenog značaja kroz istoriju.	opisan	383.0	7.0	False	False
+Osnovan je u XI veku i opisan kao „ključ do Engleske“ zbog svog odbrambenog značaja kroz istoriju.	ključ	383.0	10.0	True	False
+Osnovan je u XI veku i opisan kao „ključ do Engleske“ zbog svog odbrambenog značaja kroz istoriju.	istoriju	383.0	19.0	False	False
+Merkur se može posmatrati u kratkom periodu tokom jutarnjeg ili večernjeg sumraka.	posmatrati	384.0	4.0	False	False
+Ovaj biogeohemijski ciklus opisuje kretanje kiseonika unutar i između njegova tri glavna rezervoara na Zemlji: atmosfere, biosfere i litosfere.	ciklus	385.0	3.0	False	False
+Ovaj biogeohemijski ciklus opisuje kretanje kiseonika unutar i između njegova tri glavna rezervoara na Zemlji: atmosfere, biosfere i litosfere.	glavna	385.0	12.0	False	False
+Mnoga važna svojstva fizičkih sistema mogu se matematički predstaviti kao matrični problemi.	problemi	386.0	12.0	False	False
+Specijacija je proces u kojem se vrsta deli u dve ili više vrsta potomaka.	potomaka	387.0	14.0	True	False
+To je jaka kiselina koja se gotovo u potpunosti rastvara u vodi.	se			False	False
+To je jaka kiselina koja se gotovo u potpunosti rastvara u vodi.	jaka	388.0	3.0	False	False
+To je jaka kiselina koja se gotovo u potpunosti rastvara u vodi.	vodi	388.0	12.0	False	False
+Najstarija poznata mineralna zrna na Zemlji stara su oko 4,4 milijarde godina.	godina	389.0	12.0	False	False
+Pevao je i u kabaretskim predstavama u Café de Paris i u Café Royal.	Pevao	390.0	1.0	False	False
+Svi organizmi na Zemlji potiču od zajedničkog pretka ili genofonda predaka.	potiču	391.0	5.0	False	False
+Svi organizmi na Zemlji potiču od zajedničkog pretka ili genofonda predaka.	zajedničkog	391.0	7.0	False	False
+Glasanje se odvija u dva kruga.	Glasanje	392.0	1.0	False	False
+Glasanje se odvija u dva kruga.	kruga	392.0	6.0	False	True
+Pouzdani istorijski izvori o toj bici su retki.	Pouzdani	393.0	1.0	False	False
+Pouzdani istorijski izvori o toj bici su retki.	retki	393.0	8.0	False	False
+Ova usamljena relikvija ponovo je zakopana 1642. godine s novim obeležjem, a 100 godina kasnije zamenjena je spomenikom s više detalja.	godine	394.0	8.0	False	False
+Ova usamljena relikvija ponovo je zakopana 1642. godine s novim obeležjem, a 100 godina kasnije zamenjena je spomenikom s više detalja.	obeležjem	394.0	11.0	False	False
+Obavljao je i razne diplomatske poslove.	razne	396.0	4.0	False	False
+Majk Stok napisao je tekst pesme kao odgovor na ono što je saznao o Minogovoj pre njenog dolaska.	pesme	398.0	6.0	False	False
+Majk Stok napisao je tekst pesme kao odgovor na ono što je saznao o Minogovoj pre njenog dolaska.	saznao	398.0	13.0	False	False
+Higijena ruku i kašljanje u rukav takođe mogu biti efikasne preventivne mere.	efikasne	400.0	10.0	False	False
+Češće se koristi analiza krvi, jer se lakše radi.	koristi	401.0	3.0	False	False
+Češće se koristi analiza krvi, jer se lakše radi.	radi	401.0	10.0	False	False
+Bolnice nemaju uvek opremu ili iskusno osoblje, a testiranje se mora obaviti u roku od 10 minuta od uzimanja uzorka.	Bolnice	402.0	1.0	False	False
+Bolnice nemaju uvek opremu ili iskusno osoblje, a testiranje se mora obaviti u roku od 10 minuta od uzimanja uzorka.	opremu	402.0	4.0	False	False
+Tokom ovog perioda intenzivnog formiranja kratera, Merkur je dobio udare po celoj površini, što je bilo olakšano nedostatkom atmosfere koja bi usporila udarce.	perioda	403.0	3.0	False	False
+Tokom ovog perioda intenzivnog formiranja kratera, Merkur je dobio udare po celoj površini, što je bilo olakšano nedostatkom atmosfere koja bi usporila udarce.	intenzivnog	403.0	4.0	False	False
+Tokom ovog perioda intenzivnog formiranja kratera, Merkur je dobio udare po celoj površini, što je bilo olakšano nedostatkom atmosfere koja bi usporila udarce.	formiranja	403.0	5.0	False	False
+Tokom ovog perioda intenzivnog formiranja kratera, Merkur je dobio udare po celoj površini, što je bilo olakšano nedostatkom atmosfere koja bi usporila udarce.	dobio	403.0	10.0	False	False
+Tokom ovog perioda intenzivnog formiranja kratera, Merkur je dobio udare po celoj površini, što je bilo olakšano nedostatkom atmosfere koja bi usporila udarce.	površini	403.0	14.0	False	False
+Tokom ovog perioda intenzivnog formiranja kratera, Merkur je dobio udare po celoj površini, što je bilo olakšano nedostatkom atmosfere koja bi usporila udarce.	nedostatkom	403.0	20.0	False	False
+Tokom ovog perioda intenzivnog formiranja kratera, Merkur je dobio udare po celoj površini, što je bilo olakšano nedostatkom atmosfere koja bi usporila udarce.	udarce	403.0	25.0	True	False
+Čini se da je vakcina isplativa u zemljama u kojima je bolest uobičajena.	bolest	404.0	12.0	True	False
+Iako je dnevna temperatura na površini Merkura uglavnom izuzetno visoka, rezultati posmatranja jasno ukazuju na to da na Merkuru postoji led (zamrznuta voda).	površini	405.0	6.0	True	False
+Iako je dnevna temperatura na površini Merkura uglavnom izuzetno visoka, rezultati posmatranja jasno ukazuju na to da na Merkuru postoji led (zamrznuta voda).	visoka	405.0	10.0	False	False
+Iako je dnevna temperatura na površini Merkura uglavnom izuzetno visoka, rezultati posmatranja jasno ukazuju na to da na Merkuru postoji led (zamrznuta voda).	voda	405.0	25.0	False	False
+Ipak, godinu dana kasnije taj univerzitet i srednja škola su nacionalizovani.	srednja			False	False
+Ipak, godinu dana kasnije taj univerzitet i srednja škola su nacionalizovani.	univerzitet	407.0	7.0	False	False
+Samo bogate porodice mogle su da priušte učitelja.	Samo	408.0	1.0	False	False
+Samo bogate porodice mogle su da priušte učitelja.	učitelja	408.0	8.0	False	False
+U njegovom katalogu metapodataka primenjuju se međunarodni standardi kao što su: Dablinsko jezgro, rečnik kataloga podataka DCAT-AP i Asset Description Metadata Schema (ADMS).	primenjuju	409.0	5.0	True	False
+U njegovom katalogu metapodataka primenjuju se međunarodni standardi kao što su: Dablinsko jezgro, rečnik kataloga podataka DCAT-AP i Asset Description Metadata Schema (ADMS).	rečnik	409.0	16.0	False	False
+Evropljani su prvi put stupili u ovu oblast tokom putovanja Ameriga Vespučija 1502. godine.	prvi	411.0	3.0	False	False
+Evropljani su prvi put stupili u ovu oblast tokom putovanja Ameriga Vespučija 1502. godine.	putovanja	411.0	10.0	False	False
+Evropljani su prvi put stupili u ovu oblast tokom putovanja Ameriga Vespučija 1502. godine.	godine	411.0	14.0	False	False
+Prestajući sa uzimanjem onoga što nije dato, on se uzdržava od uzimanja onoga što nije dato.	dato	412.0	7.0	True	False
+Prestajući sa uzimanjem onoga što nije dato, on se uzdržava od uzimanja onoga što nije dato.	dato	412.0	17.0	True	False
+Francuska je usvojila ustav Četvrte republike 13. oktobra 1946. godine.	usvojila	413.0	3.0	False	False
+Francuska je usvojila ustav Četvrte republike 13. oktobra 1946. godine.	godine	413.0	10.0	False	False
+To su priznale savezničke sile na Bečkom kongresu.	priznale	414.0	3.0	False	False
+To su priznale savezničke sile na Bečkom kongresu.	sile	414.0	5.0	False	False
+Treća Republika Južne Koreje počela je da preuzima sve značajniju ulogu u međunarodnim odnosima.	Republika	418.0	2.0	False	False
+Prvi put je sigurno viđen 1690. godine, kada ga je Džon Flemstid opazio najmanje šest puta i katalogizovao ga kao 34 bika.	Prvi	419.0	1.0	False	False
+Prvi put je sigurno viđen 1690. godine, kada ga je Džon Flemstid opazio najmanje šest puta i katalogizovao ga kao 34 bika.	viđen	419.0	5.0	False	False
+Prvi put je sigurno viđen 1690. godine, kada ga je Džon Flemstid opazio najmanje šest puta i katalogizovao ga kao 34 bika.	opazio	419.0	14.0	False	False
+Tokom leta često ima suvih vetrova i peščanih oluja.	leta	420.0	2.0	True	False
+Bio je poznat širom Evrope među stručnjacima u ovoj oblasti po mnoštvu pronalazaka i tehnoloških inovacija.	poznat	421.0	3.0	False	True
+Bio je poznat širom Evrope među stručnjacima u ovoj oblasti po mnoštvu pronalazaka i tehnoloških inovacija.	mnoštvu	421.0	12.0	False	False
+Ubrzo nakon što je Hajzenberg objavio matričnu teoriju moderne kvantne mehanike, Pauli ju je primenio da izvede posmatrani spektar atoma vodonika.	objavio	422.0	6.0	False	False
+Ubrzo nakon što je Hajzenberg objavio matričnu teoriju moderne kvantne mehanike, Pauli ju je primenio da izvede posmatrani spektar atoma vodonika.	primenio	422.0	16.0	False	False
+Izgleda da Berengijer nije imao mnogo kontakata sa svojim kolegama trubadurima.	mnogo	424.0	6.0	False	False
+Tokom prve polovine XX veka grad je postao svetski centar industrije, trgovine i komunikacija.	prve	425.0	2.0	False	False
+Tokom prve polovine XX veka grad je postao svetski centar industrije, trgovine i komunikacija.	veka	425.0	5.0	False	False
+Tokom prve polovine XX veka grad je postao svetski centar industrije, trgovine i komunikacija.	postao	425.0	8.0	False	False
+Nepostojanje atmosfere, vremenske prilike i skorašnji geološki procesi znače da su mnogi od ovih kratera dobro očuvani.	atmosfere	427.0	2.0	False	False
+Nepostojanje atmosfere, vremenske prilike i skorašnji geološki procesi znače da su mnogi od ovih kratera dobro očuvani.	skorašnji	427.0	7.0	False	False
+Mesje 110 ili M110, takođe poznat i kao NGC 205, jeste patuljasta eliptična galaksija koja je satelit galaksije Andromeda.	poznat	428.0	7.0	False	False
+Zlatni lav je najveća nagrada koja se dodeljuje na Venecijanskom filmskom festivalu.	najveća	429.0	4.0	False	False
+Predsednik Buš je izjavio da je američko-sovjetska saradnja tokom Zalivskog rata 1990–1991. postavila temelje za partnerstvo u rešavanju bilateralnih i svetskih problema.	saradnja	430.0	10.0	False	False
+Predsednik Buš je izjavio da je američko-sovjetska saradnja tokom Zalivskog rata 1990–1991. postavila temelje za partnerstvo u rešavanju bilateralnih i svetskih problema.	svetskih	430.0	25.0	False	False
+Gasimov je počeo da peva kao veoma mlad i učestvovao je na nekoliko koncerata u raznim gradovima Azerbejdžana i Rusije.	kao	431.0	6.0	False	False
+Gasimov je počeo da peva kao veoma mlad i učestvovao je na nekoliko koncerata u raznim gradovima Azerbejdžana i Rusije.	veoma	431.0	7.0	False	False
+Gasimov je počeo da peva kao veoma mlad i učestvovao je na nekoliko koncerata u raznim gradovima Azerbejdžana i Rusije.	raznim	431.0	16.0	False	False
+Gasimov je počeo da peva kao veoma mlad i učestvovao je na nekoliko koncerata u raznim gradovima Azerbejdžana i Rusije.	gradovima	431.0	17.0	True	False
+Unutar gradskih zidina živelo je do 65.000 ljudi.	živelo	432.0	4.0	False	False
+U javnom kupatilu onsen, kao i u sentou, od svih gostiju se očekuje da se dobro operu i isperu pre nego što uđu u toplu vodu.	kupatilu	433.0	3.0	False	False
+U javnom kupatilu onsen, kao i u sentou, od svih gostiju se očekuje da se dobro operu i isperu pre nego što uđu u toplu vodu.	gostiju	433.0	13.0	False	False
+U javnom kupatilu onsen, kao i u sentou, od svih gostiju se očekuje da se dobro operu i isperu pre nego što uđu u toplu vodu.	očekuje	433.0	15.0	True	False
+U javnom kupatilu onsen, kao i u sentou, od svih gostiju se očekuje da se dobro operu i isperu pre nego što uđu u toplu vodu.	dobro	433.0	18.0	False	False
+U javnom kupatilu onsen, kao i u sentou, od svih gostiju se očekuje da se dobro operu i isperu pre nego što uđu u toplu vodu.	isperu	433.0	21.0	False	False
+Pošto su lezbijke više gradile svoj javni identitet, izraz „gej i lezbijka“ postao je češći.	gradile	434.0	5.0	False	False
+Pošto su lezbijke više gradile svoj javni identitet, izraz „gej i lezbijka“ postao je češći.	postao	434.0	16.0	False	False
+Italijanski univerzitet u Bolonji je, na primer, dozvoljavao ženama da pohađaju predavanja od samog početka 1088. godine.	univerzitet	435.0	2.0	False	False
+Italijanski univerzitet u Bolonji je, na primer, dozvoljavao ženama da pohađaju predavanja od samog početka 1088. godine.	početka	435.0	17.0	False	False
+Italijanski univerzitet u Bolonji je, na primer, dozvoljavao ženama da pohađaju predavanja od samog početka 1088. godine.	godine	435.0	19.0	False	False
+Od otprilike XVI veka do 1814, Norveška je koristila istu zastavu kao Danska, pošto je bila u zajednici s tom zemljom.	koristila	436.0	10.0	True	False
+Od otprilike XVI veka do 1814, Norveška je koristila istu zastavu kao Danska, pošto je bila u zajednici s tom zemljom.	zajednici	436.0	20.0	False	False
+Nakon smrti svoje prve žene 1742. godine, oženio se Španjolkom Anastasijom Maksarti Ksimenes.	smrti	437.0	2.0	False	False
+Kao glavni grad Španije, ovaj grad je privukao mnoge imigrante iz celog sveta.	privukao	440.0	9.0	False	False
+Međutim, monarh i dalje koristi tri prava: pravo da bude konsultovan, pravo da savetuje i pravo da opomene.	monarh	441.0	3.0	False	False
+Međutim, monarh i dalje koristi tri prava: pravo da bude konsultovan, pravo da savetuje i pravo da opomene.	dalje	441.0	5.0	False	False
+Međutim, monarh i dalje koristi tri prava: pravo da bude konsultovan, pravo da savetuje i pravo da opomene.	koristi	441.0	6.0	True	False
+Međutim, monarh i dalje koristi tri prava: pravo da bude konsultovan, pravo da savetuje i pravo da opomene.	prava	441.0	8.0	False	False
+Međutim, monarh i dalje koristi tri prava: pravo da bude konsultovan, pravo da savetuje i pravo da opomene.	pravo	441.0	10.0	False	False
+Međutim, monarh i dalje koristi tri prava: pravo da bude konsultovan, pravo da savetuje i pravo da opomene.	pravo	441.0	15.0	False	False
+Međutim, monarh i dalje koristi tri prava: pravo da bude konsultovan, pravo da savetuje i pravo da opomene.	pravo	441.0	19.0	False	False
+Međutim, monarh i dalje koristi tri prava: pravo da bude konsultovan, pravo da savetuje i pravo da opomene.	opomene	441.0	21.0	False	False
+Glavni izvor svetlosti na Zemlji je Sunce.	Glavni	442.0	1.0	False	False
+Nesvareni ostaci se izbacuju kroz usta.	usta	443.0	6.0	False	False
+Poslednje tri manjinske religije su zvanično priznate i zaštićene, i imaju rezervisana mesta u iranskom parlamentu.	priznate	444.0	7.0	False	False
+Poslednje tri manjinske religije su zvanično priznate i zaštićene, i imaju rezervisana mesta u iranskom parlamentu.	zaštićene	444.0	9.0	True	False
+Njutnovi zakoni kretanja su tri fizička zakona koja su zajedno postavila temelje klasične mehanike.	zajedno	445.0	10.0	False	False
+Wikimedia Commons (ili samo Commons), takođe poznata i kao Ostava ili Vikiostava, jeste skladište za slike, zvučne zapise i druge multimedijalne datoteke koje su licencirane nekom od slobodnih licenci.	poznata	446.0	10.0	False	False
+Wikimedia Commons (ili samo Commons), takođe poznata i kao Ostava ili Vikiostava, jeste skladište za slike, zvučne zapise i druge multimedijalne datoteke koje su licencirane nekom od slobodnih licenci.	skladište	446.0	18.0	False	False
+Wikimedia Commons (ili samo Commons), takođe poznata i kao Ostava ili Vikiostava, jeste skladište za slike, zvučne zapise i druge multimedijalne datoteke koje su licencirane nekom od slobodnih licenci.	zvučne	446.0	22.0	False	False
+Wikimedia Commons (ili samo Commons), takođe poznata i kao Ostava ili Vikiostava, jeste skladište za slike, zvučne zapise i druge multimedijalne datoteke koje su licencirane nekom od slobodnih licenci.	druge	446.0	25.0	False	False
+On je proširio teoriju atomske strukture Nilsa Bora uvodeći eliptične orbite, koncept koji je uveo i Arnold Zomerfeld.	proširio	447.0	3.0	False	False
+On je proširio teoriju atomske strukture Nilsa Bora uvodeći eliptične orbite, koncept koji je uveo i Arnold Zomerfeld.	uvodeći	447.0	9.0	False	False
+On je proširio teoriju atomske strukture Nilsa Bora uvodeći eliptične orbite, koncept koji je uveo i Arnold Zomerfeld.	uveo	447.0	16.0	True	False
+Fizička konstanta poznata kao Ridbergova konstanta, kao i Ridbergova jedinica, nazvane su po njemu.	poznata	448.0	3.0	False	False
+Fizička konstanta poznata kao Ridbergova konstanta, kao i Ridbergova jedinica, nazvane su po njemu.	jedinica	448.0	11.0	True	False
+Fizička konstanta poznata kao Ridbergova konstanta, kao i Ridbergova jedinica, nazvane su po njemu.	nazvane	448.0	13.0	True	False
+Pojedinci, među kojima je i Leonardo da Vinči, zagovarali su eksperimentisanje kao način objašnjavanja i protivili su se argumentima verskih autoriteta.	argumentima	449.0	21.0	False	False
+Pojedinci, među kojima je i Leonardo da Vinči, zagovarali su eksperimentisanje kao način objašnjavanja i protivili su se argumentima verskih autoriteta.	autoriteta	449.0	23.0	False	False
+Hiljade turista iz celog sveta svake godine dolaze da posete ove spomenike, što u velikoj meri doprinosi ekonomiji modernog grada.	sveta	454.0	5.0	False	False
+Hiljade turista iz celog sveta svake godine dolaze da posete ove spomenike, što u velikoj meri doprinosi ekonomiji modernog grada.	meri	454.0	17.0	False	False
+Hiljade turista iz celog sveta svake godine dolaze da posete ove spomenike, što u velikoj meri doprinosi ekonomiji modernog grada.	doprinosi	454.0	18.0	False	False
+Hiljade turista iz celog sveta svake godine dolaze da posete ove spomenike, što u velikoj meri doprinosi ekonomiji modernog grada.	ekonomiji	454.0	19.0	False	False
+Špansko-američki rat i Prvi svetski rat potvrdili su status zemlje kao globalne vojne sile.	Prvi	455.0	6.0	False	False
+Špansko-američki rat i Prvi svetski rat potvrdili su status zemlje kao globalne vojne sile.	potvrdili	455.0	9.0	False	False
+Grupa je svoje današnje ime dobila 1960. godine, kada je prvi put proširila svoj repertoar van perioda baroka.	godine	456.0	8.0	False	False
+Glavna misterija prve sezone vrti se oko ubistava žena povezanih sa Sukinim bratom Džejsonom.	vrti			False	False
+Glavna misterija prve sezone vrti se oko ubistava žena povezanih sa Sukinim bratom Džejsonom.	prve	458.0	3.0	False	False
+Glavna misterija prve sezone vrti se oko ubistava žena povezanih sa Sukinim bratom Džejsonom.	bratom	458.0	13.0	False	False
+Tatami je vrsta prostirke koja se koristi kao podna obloga u prostorijama u tradicionalnom japanskom stilu.	koristi	459.0	7.0	True	False
+Bizmark je morao da održava dobre odnose s Rusijom kako bi Francuska ostala izolovana.	ostala	460.0	13.0	False	False
+Bezjeove površi prvi je opisao 1962. godine francuski inženjer Pjer Bezije, koji ih je koristio za dizajn automobilskih karoserija.	prvi	461.0	3.0	True	False
+Svetska zdravstvena organizacija (SZO) preporučuje ljudima pod visokim rizikom upotrebu vakcina protiv kolere u kombinaciji sa drugim merama.	visokim	462.0	10.0	True	False
+Svetska zdravstvena organizacija (SZO) preporučuje ljudima pod visokim rizikom upotrebu vakcina protiv kolere u kombinaciji sa drugim merama.	rizikom	462.0	11.0	False	False
+Svetska zdravstvena organizacija (SZO) preporučuje ljudima pod visokim rizikom upotrebu vakcina protiv kolere u kombinaciji sa drugim merama.	kombinaciji	462.0	17.0	True	False
+Svetska zdravstvena organizacija (SZO) preporučuje ljudima pod visokim rizikom upotrebu vakcina protiv kolere u kombinaciji sa drugim merama.	drugim	462.0	19.0	False	False
+Svetska zdravstvena organizacija (SZO) preporučuje ljudima pod visokim rizikom upotrebu vakcina protiv kolere u kombinaciji sa drugim merama.	merama	462.0	20.0	False	False
+Ovde je otkrio svoj književni poziv.	otkrio	463.0	3.0	False	False
+Ovde je otkrio svoj književni poziv.	književni	463.0	5.0	False	False
+Ovde je otkrio svoj književni poziv.	poziv	463.0	6.0	True	False
+Hrane se insektima koje hvataju u letu ili na zemlji.	Hrane			False	False
+Ruski moreplovac Vasilij Golovnin pokušao je da istraži ostrvo i nacrta njegovu kartu 1811. godine, ali su ga japanske vlasti uhapsile pa je proveo dve godine u zatvoru.	istraži	465.0	8.0	False	False
+Ruski moreplovac Vasilij Golovnin pokušao je da istraži ostrvo i nacrta njegovu kartu 1811. godine, ali su ga japanske vlasti uhapsile pa je proveo dve godine u zatvoru.	ostrvo	465.0	9.0	False	False
+Ruski moreplovac Vasilij Golovnin pokušao je da istraži ostrvo i nacrta njegovu kartu 1811. godine, ali su ga japanske vlasti uhapsile pa je proveo dve godine u zatvoru.	godine	465.0	15.0	False	False
+Ruski moreplovac Vasilij Golovnin pokušao je da istraži ostrvo i nacrta njegovu kartu 1811. godine, ali su ga japanske vlasti uhapsile pa je proveo dve godine u zatvoru.	vlasti	465.0	21.0	False	False
+Godine 1733. otišao je u Madrid kao učitelj muzike princeze Marije Barbare, koja je udajom ušla u špansku kraljevsku kuću.	Godine	466.0	1.0	False	False
+Godine 1733. otišao je u Madrid kao učitelj muzike princeze Marije Barbare, koja je udajom ušla u špansku kraljevsku kuću.	kao	466.0	7.0	False	False
+Godine 1733. otišao je u Madrid kao učitelj muzike princeze Marije Barbare, koja je udajom ušla u špansku kraljevsku kuću.	ušla	466.0	17.0	False	False
+Godine 1733. otišao je u Madrid kao učitelj muzike princeze Marije Barbare, koja je udajom ušla u špansku kraljevsku kuću.	kuću	466.0	21.0	False	False
+Vest da će se Olimpijske igre vratiti u Grčku naišla je na dobar prijem u grčkoj javnosti, medijima i kraljevskoj porodici.	se			False	False
+Vest da će se Olimpijske igre vratiti u Grčku naišla je na dobar prijem u grčkoj javnosti, medijima i kraljevskoj porodici.	Vest	467.0	1.0	False	False
+Vest da će se Olimpijske igre vratiti u Grčku naišla je na dobar prijem u grčkoj javnosti, medijima i kraljevskoj porodici.	igre	467.0	6.0	True	False
+Vest da će se Olimpijske igre vratiti u Grčku naišla je na dobar prijem u grčkoj javnosti, medijima i kraljevskoj porodici.	dobar	467.0	13.0	False	False
+Vest da će se Olimpijske igre vratiti u Grčku naišla je na dobar prijem u grčkoj javnosti, medijima i kraljevskoj porodici.	porodici	467.0	22.0	False	False
+Grenland je prvi put došao na ideju o sopstvenoj zastavi 1973. godine, kada je pet Grenlanđana predložilo zastavu u zelenoj, beloj i plavoj boji.	prvi	468.0	3.0	False	False
+Grenland je prvi put došao na ideju o sopstvenoj zastavi 1973. godine, kada je pet Grenlanđana predložilo zastavu u zelenoj, beloj i plavoj boji.	godine	468.0	12.0	False	False
+Grenland je prvi put došao na ideju o sopstvenoj zastavi 1973. godine, kada je pet Grenlanđana predložilo zastavu u zelenoj, beloj i plavoj boji.	beloj	468.0	23.0	False	False
+Grenland je prvi put došao na ideju o sopstvenoj zastavi 1973. godine, kada je pet Grenlanđana predložilo zastavu u zelenoj, beloj i plavoj boji.	boji	468.0	26.0	True	False
+Tek nakon smrti Zaleskog 1972. godine dve frakcije su se ponovo ujedinile.	smrti	469.0	3.0	False	False
+Tek nakon smrti Zaleskog 1972. godine dve frakcije su se ponovo ujedinile.	godine	469.0	6.0	False	False
+Jedva primetan, tanak prsten, privremeno označen kao R / 2004 S 1, otkriven je u orbiti Atlantide.	primetan	470.0	2.0	False	False
+Jedva primetan, tanak prsten, privremeno označen kao R / 2004 S 1, otkriven je u orbiti Atlantide.	tanak	470.0	4.0	False	False
+Jedva primetan, tanak prsten, privremeno označen kao R / 2004 S 1, otkriven je u orbiti Atlantide.	otkriven	470.0	16.0	False	False
+Njegove granice su odgovarale nekadašnjem departmanu Lijaman, koji je postojao od 1793. do 1811. godine.	godine	471.0	16.0	False	False
+Nakon što je opservatorija dobila dodatne potvrdne fotografije, vest o otkriću je telegrafisana Opservatoriji koledža Harvard 13. marta 1930. godine.	vest	472.0	10.0	False	False
+Nakon što je opservatorija dobila dodatne potvrdne fotografije, vest o otkriću je telegrafisana Opservatoriji koledža Harvard 13. marta 1930. godine.	godine	472.0	21.0	False	False
+Bolest i porodične obaveze često su prekidale naučni rad Henrijete Levit na Harvardu.	Bolest	474.0	1.0	True	False
+Debi je izračunao uticaj temperature na rendgenske difrakcije kristalnih čvrstih materija sa Polom Šererom („faktor Debi–Valer“).	čvrstih			False	False
+Debi je izračunao uticaj temperature na rendgenske difrakcije kristalnih čvrstih materija sa Polom Šererom („faktor Debi–Valer“).	faktor	475.0	17.0	True	False
+Godine 1929. pomagao je Nevalnini u radu na Denžoaovoj pretpostavci o broju asimptotskih vrednosti cele funkcije.	Godine	476.0	1.0	False	False
+Godine 1929. pomagao je Nevalnini u radu na Denžoaovoj pretpostavci o broju asimptotskih vrednosti cele funkcije.	broju	476.0	12.0	False	False
+Kompletan skup vidljivih osobina koje čine strukturu i ponašanje nekog organizma naziva se njegov fenotip.	skup	477.0	2.0	True	False
+Kompletan skup vidljivih osobina koje čine strukturu i ponašanje nekog organizma naziva se njegov fenotip.	osobina	477.0	4.0	False	False
+Kompletan skup vidljivih osobina koje čine strukturu i ponašanje nekog organizma naziva se njegov fenotip.	ponašanje	477.0	9.0	False	False
+Biblija je najprevođenija knjiga na svetu.	knjiga	478.0	4.0	False	False
+Biblija je najprevođenija knjiga na svetu.	svetu	478.0	6.0	False	False
+Njujork Herald je bio prvi veliki list na Istočnoj obali koji je izvestio o otkriću zlata.	prvi	480.0	5.0	False	False
+Njujork Herald je bio prvi veliki list na Istočnoj obali koji je izvestio o otkriću zlata.	list	480.0	7.0	False	False
+Većina slučajeva dijabetesa uključuje mnogo gena, od kojih svaki malo doprinosi povećanju verovatnoće razvoja dijabetesa tipa 2.	slučajeva	481.0	2.0	False	False
+Većina slučajeva dijabetesa uključuje mnogo gena, od kojih svaki malo doprinosi povećanju verovatnoće razvoja dijabetesa tipa 2.	mnogo	481.0	5.0	False	False
+Većina slučajeva dijabetesa uključuje mnogo gena, od kojih svaki malo doprinosi povećanju verovatnoće razvoja dijabetesa tipa 2.	doprinosi	481.0	12.0	False	False
+Većina slučajeva dijabetesa uključuje mnogo gena, od kojih svaki malo doprinosi povećanju verovatnoće razvoja dijabetesa tipa 2.	povećanju	481.0	13.0	False	False
+Britanci su obećali obeštećenje, povoljne poslovne sporazume, nemešanje u islandske poslove i povlačenje svih snaga na kraju rata.	povoljne	483.0	6.0	False	False
+Britanci su obećali obeštećenje, povoljne poslovne sporazume, nemešanje u islandske poslove i povlačenje svih snaga na kraju rata.	sporazume	483.0	8.0	False	False
+Britanci su obećali obeštećenje, povoljne poslovne sporazume, nemešanje u islandske poslove i povlačenje svih snaga na kraju rata.	poslove	483.0	13.0	False	False
+Klasični simptomi su učestalo mokrenje, pojačana žeđ i glad i gubitak težine.	glad	484.0	10.0	False	False
+Klasični simptomi su učestalo mokrenje, pojačana žeđ i glad i gubitak težine.	težine	484.0	13.0	False	False
+Prvi Evropljanin koji je video ostrvo nakon vrhunca malog ledenog doba bio je Vilijam Bafin 1616.	Prvi	486.0	1.0	False	False
+Prvi Evropljanin koji je video ostrvo nakon vrhunca malog ledenog doba bio je Vilijam Bafin 1616.	video	486.0	5.0	False	False
+Prvi Evropljanin koji je video ostrvo nakon vrhunca malog ledenog doba bio je Vilijam Bafin 1616.	ostrvo	486.0	6.0	False	False
+Prvi Evropljanin koji je video ostrvo nakon vrhunca malog ledenog doba bio je Vilijam Bafin 1616.	vrhunca	486.0	8.0	False	False
+Dva meseca nakon završetka rata Džon, najmlađi sin kraljice Marije, umro je u trinaestoj godini.	završetka	487.0	4.0	False	False
+Dva meseca nakon završetka rata Džon, najmlađi sin kraljice Marije, umro je u trinaestoj godini.	godini	487.0	17.0	False	False
+Pripremajući se da demonstrira vremensku mašinu, Dok postavlja datum na 5. novembar 1955: dan kada je izumeo uređaj za putovanje kroz vreme.	izumeo	488.0	19.0	True	False
+Dve niže figure su uklesane na prednjem delu trona duž njegovih nogu: to su njegova žena Tije i majka Mutemvija.	prednjem	489.0	7.0	False	False
+Dve niže figure su uklesane na prednjem delu trona duž njegovih nogu: to su njegova žena Tije i majka Mutemvija.	delu	489.0	8.0	False	False
+Pitanje je da li svet postoji od nekog trenutka ili postoji oduvek.	Pitanje	490.0	1.0	False	False
+Svere je sa velikom flotom otplovio na jug.	velikom	491.0	4.0	False	False
+Svere je sa velikom flotom otplovio na jug.	otplovio	491.0	6.0	False	False
+Četrnaestogodišnja Elizabet je prvu radio emisiju imala tokom Bibisijevog Dečjeg sata i u njoj se obraćala drugoj deci koja su evakuisana iz gradova.	prvu	495.0	4.0	False	False
+Četrnaestogodišnja Elizabet je prvu radio emisiju imala tokom Bibisijevog Dečjeg sata i u njoj se obraćala drugoj deci koja su evakuisana iz gradova.	drugoj	495.0	17.0	False	False
+Čini se da je stav prema obrazovanju žena za medicinske specijalnosti u Italiji bio liberalniji nego na drugim mestima.	stav	496.0	5.0	False	False
+Čini se da je stav prema obrazovanju žena za medicinske specijalnosti u Italiji bio liberalniji nego na drugim mestima.	obrazovanju	496.0	7.0	False	False
+Čini se da je stav prema obrazovanju žena za medicinske specijalnosti u Italiji bio liberalniji nego na drugim mestima.	žena	496.0	8.0	False	False
+Čini se da je stav prema obrazovanju žena za medicinske specijalnosti u Italiji bio liberalniji nego na drugim mestima.	mestima	496.0	19.0	False	False
+Isus je skinut sa krsta i sahranjen.	krsta	498.0	5.0	False	False
+U kasnijem radu ovi rezultati ponovo su tumačeni, u nastojanju da se ideje testiraju jednostrano, usmeravanjem na jednu mogućnost i ignorisanjem alternativa.	radu	499.0	3.0	False	False
+Tri godine kasnije Justinijan II se osećao dovoljno jakim da izvrši invaziju na Bugarsku i obnovi svoju vlast nad ovim teritorijama.	se			False	False
+Tri godine kasnije Justinijan II se osećao dovoljno jakim da izvrši invaziju na Bugarsku i obnovi svoju vlast nad ovim teritorijama.	dovoljno	500.0	8.0	False	False
+Tri godine kasnije Justinijan II se osećao dovoljno jakim da izvrši invaziju na Bugarsku i obnovi svoju vlast nad ovim teritorijama.	obnovi	500.0	16.0	False	False
+Tri godine kasnije Justinijan II se osećao dovoljno jakim da izvrši invaziju na Bugarsku i obnovi svoju vlast nad ovim teritorijama.	vlast	500.0	18.0	False	False
