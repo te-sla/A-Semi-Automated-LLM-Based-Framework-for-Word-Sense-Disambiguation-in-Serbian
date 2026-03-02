@@ -86,7 +86,7 @@ model: `ollama pull llama3.3`.
    - Load annotation chunks (`sr-elexis-WSD_*.tsv`).
    - Load the sense inventory (`Elexis-WSD-Repo-sr-v2.xlsx`).
    - Disambiguate each token/MWE via the selected model.
-   - Write WebAnno-compatible TSVs to `output/`.
+  - Write WebAnno-compatible TSVs to `output/Phase1/` or `output/Phase2/`.
 
 ## Data
 
