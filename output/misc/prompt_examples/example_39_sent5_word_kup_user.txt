@@ -1,8 +1,0 @@
-Kontekst rečenice (ciljna reč je označena kao bold):
-"Kulminacija je bila ceremonija dodele \textbf{Kupa} devet vrednosti (Nine Values Cup), koji je osvojio fudbalski klub Barselona."
-
-Ciljna reč: "kup"
-
-Lista mogućih značenja:
-1. ID: CV0012 — sportsko takmičenje na principu eliminacije u kojem pobednik dobija pehar
-2. ID: ENG30-01859325-n — običan labud starog sveta, poznat po zvonkom i prijatnom glasu

@@ -13,7 +13,10 @@ highlighting (`**word**`) and Llama-specific prompt tokens.
 
 1. Load annotation chunks and the sense inventory (`Elexis-WSD-Repo-sr-v2.xlsx`).
 2. Disambiguate tokens/MWEs with zero-shot JSON-constrained prompts.
-3. Export results to `output/round_*/Llama/`.
+3. Export results to `output/`.
+
+Outputs in this presentation repository are organised into `output/Phase1/` and
+`output/Phase2/` (paper-aligned layout).
 
 **Prerequisites:** Install [Ollama](https://ollama.com/) and run `ollama pull llama3.3`.
 

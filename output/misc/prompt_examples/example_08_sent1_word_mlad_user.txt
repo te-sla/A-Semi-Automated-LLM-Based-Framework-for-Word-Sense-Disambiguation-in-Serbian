@@ -1,8 +1,0 @@
-Kontekst rečenice (ciljna reč je označena kao bold):
-"U petoj sezoni program je održan u skladu sa novim konceptom: jedan \textbf{mladi} fudbaler iz svake zemlje izabran je kao njen predstavnik."
-
-Ciljna reč: "mlad"
-
-Lista mogućih značenja:
-1. ID: ENG30-00818008-a — (useva) ubranih u ranoj fazi razvoja; pre potpune zrelosti
-2. ID: ENG30-01674464-a — koristi se za ljude i živa bića, koji su u ranom stadijumu života ili razvoja i rasta

@@ -1,8 +1,0 @@
-Kontekst rečenice (ciljna reč je označena kao bold):
-"Poznati fudbaleri, među kojima i srpski defanzivac Branislav Ivanović i holandski \textbf{napadač} Dirk Kojt, učestvovali su u raznim događajima širom sveta."
-
-Ciljna reč: "napadač"
-
-Lista mogućih značenja:
-1. ID: ENG30-00726567-n — pozicija fudbalera u zadnjem delu terena koji usmerava ofanzivnu igrom svog tima
-2. ID: ENG30-10663996-n — napadač u fudbalskom timu

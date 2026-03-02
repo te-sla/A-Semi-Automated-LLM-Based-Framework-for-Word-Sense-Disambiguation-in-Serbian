@@ -1,9 +1,0 @@
-Kontekst rečenice (ciljna reč je označena kao bold):
-"Više od 7000 ljudi otišlo je na premijeru \textbf{filma} u Damasku."
-
-Ciljna reč: "film"
-
-Lista mogućih značenja:
-1. ID: ENG30-03338821-n — Fotografski papir koji se sastoji of celuloidne osnove koja je prevučena fotografskom emulzijom i na kome se pravi negativ.
-2. ID: ENG30-06262567-n — Medijum koji širi pokretne slike.
-3. ID: ENG30-06613686-n — Oblik zabave koji predstavlja neku priču nizom slika koje stvaraju iluziju kontinuiranog kretanja.

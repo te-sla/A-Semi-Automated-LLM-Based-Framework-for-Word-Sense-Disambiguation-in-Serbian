@@ -1,7 +1,0 @@
-Kontekst rečenice (ciljna reč je označena kao bold):
-"Poznati fudbaleri, među kojima i srpski defanzivac Branislav Ivanović i \textbf{holandski} napadač Dirk Kojt, učestvovali su u raznim događajima širom sveta."
-
-Ciljna reč: "holandski"
-
-Lista mogućih značenja:
-1. ID: ENG30-02960686-a — koji se tiče Holandije, njenih ljudi i kulture

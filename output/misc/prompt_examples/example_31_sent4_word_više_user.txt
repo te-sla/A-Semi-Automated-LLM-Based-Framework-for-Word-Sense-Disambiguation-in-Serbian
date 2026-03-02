@@ -1,9 +1,0 @@
-Kontekst rečenice (ciljna reč je označena kao bold):
-"\textbf{Više} od 7000 ljudi otišlo je na premijeru filma u Damasku."
-
-Ciljna reč: "više"
-
-Lista mogućih značenja:
-1. ID: CV0061 — posle toga, dalje; odsad, ubuduće (u odričnim rečenicama i pitanjima)
-2. ID: ENG30-00099712-b — komparativ od mnogo; u većoj meri ili stepenu
-3. ID: ENG30-01555133-a — komparativ od mnogo, sa značenjem više od jednog po broju

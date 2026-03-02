@@ -10,7 +10,8 @@ Primary WSD notebook using OpenAI GPT 4.1 / GPT 5 via LangChain. Workflow:
 3. Run zero-shot disambiguation via `process_senses.py`.
 4. Export WebAnno / INCEpTION-compatible TSVs to `output/`.
 
-Results are organised under `output/round_*/ChatGPT/` (or `GPT-5/`).
+Outputs in this presentation repository are organised into `output/Phase1/` and
+`output/Phase2/` (paper-aligned layout).
 
 **Usage:**
 Set `OPENAI_API_KEY` in a `.env` file and run the notebook cells sequentially.

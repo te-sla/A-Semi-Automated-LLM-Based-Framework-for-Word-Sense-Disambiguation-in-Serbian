@@ -16,10 +16,9 @@ the WSD framework for Serbian language resources.
 4. [Google Gemini](#google-gemini)
 5. [Llama (Local via Ollama)](#llama-local-via-ollama)
 6. [Simple WSD (Sentence Transformers)](#simple-wsd-sentence-transformers)
-7. [RAG Pipeline (Second Round)](#rag-pipeline-second-round)
-8. [Configuration](#configuration)
-9. [Shared Pipeline Architecture](#shared-pipeline-architecture)
-10. [Output Traceability](#output-traceability)
+7. [Configuration](#configuration)
+8. [Shared Pipeline Architecture](#shared-pipeline-architecture)
+9. [Output Traceability](#output-traceability)
 
 ---
 
@@ -29,7 +28,7 @@ LexiSense-SR uses multiple AI models to annotate tokens with sense information f
 
 - **Cloud-based LLMs**: OpenAI ChatGPT, Google Gemini
 - **Local LLMs**: Llama via Ollama
-- **Embedding models**: Sentence Transformers, OpenAI Embeddings
+- **Embedding models**: Sentence Transformers
 
 All LLM pipelines share a common architecture using LangChain for prompt management and chain composition.
 
@@ -42,10 +41,9 @@ All LLM pipelines share a common architecture using LangChain for prompt managem
 | GPT-5 / GPT-4.1-nano | Cloud LLM | LangChain + OpenAI | Yes | `ChatGPT_sense.ipynb` |
 | Gemini 2.0 Flash Lite | Cloud LLM | LangChain + Google GenAI | Yes | `GEMINI_sense.ipynb` |
 | Llama 3.3 | Local LLM | LangChain + Ollama | No | `Llama_sense.ipynb` ¹ |
+| all-MiniLM-L6-v2 | Embeddings | Sentence Transformers | No | `simple_wsd.py` |
 
 ¹ Llama was not used in the paper due to computational constraints on the available local machine (see [Llama section](#llama-local-via-ollama) for details).
-| all-MiniLM-L6-v2 | Embeddings | Sentence Transformers | No | `simple_wsd.py` |
-| OpenAI Embeddings | Embeddings | LangChain + OpenAI | Yes | `ChatGPT_second_round.ipynb` |
 
 ---
 
@@ -53,7 +51,6 @@ All LLM pipelines share a common architecture using LangChain for prompt managem
 
 ### Models Used
 - `gpt-5` - Primary model for WSD
-- `gpt-4.1-nano-2025-04-14` - Used in RAG pipeline for selection/generation
 
 ### Integration
 
@@ -90,7 +87,6 @@ result = chain.invoke({
 
 ### Notebooks
 - `ChatGPT_sense.ipynb` - Primary WSD pipeline
-- `ChatGPT_second_round.ipynb` - RAG-based second-round processing
 
 ---
 
@@ -213,59 +209,6 @@ similarities = cosine_similarity([sentence_embedding], gloss_embeddings)
 
 ---
 
-## RAG Pipeline (Second Round)
-
-The `ChatGPT_second_round.ipynb` implements a Retrieval-Augmented Generation pipeline for cases where initial annotation failed or needs refinement.
-
-### Architecture
-
-```python
-from langchain_openai import OpenAIEmbeddings
-
-# Initialize embeddings
-embeddings = OpenAIEmbeddings()
-
-# Pre-compute sense embeddings
-sense_embeddings = {}
-for sense_id, definition in senses.items():
-    sense_embeddings[sense_id] = embeddings.embed_query(definition)
-```
-
-### Two-Stage Process
-
-**Stage 1: Selection Chain**
-```python
-selection_llm = ChatOpenAI(
-    model="gpt-4.1-nano-2025-04-14",
-    temperature=0
-)
-
-# Find top-N candidates via similarity search
-top_candidates = find_similar_senses(query_embedding, sense_embeddings, n=5)
-
-# LLM selects from candidates
-selection_chain = selection_prompt | selection_llm | JsonOutputParser()
-result = selection_chain.invoke({"candidates": top_candidates})
-```
-
-**Stage 2: Generation Chain (when no match found)**
-```python
-generation_chain = generation_prompt | selection_llm | JsonOutputParser()
-
-# Generate new sense definition
-new_sense = generation_chain.invoke({
-    "word": target_word,
-    "context": sentence
-})
-
-# Log to JSONL file
-with open("output/ai_generated_senses.jsonl", "a") as f:
-    json.dump(new_sense, f)
-    f.write("\n")
-```
-
----
-
 ## Configuration
 
 ### Environment Variables
@@ -294,7 +237,6 @@ SENSE_ORIGIN = "Origine"          # Model identifier tag
 | Model | Temperature | Notes |
 |-------|-------------|-------|
 | ChatGPT (gpt-5) | Default | Primary WSD |
-| ChatGPT (gpt-4.1-nano) | 0 | Selection/generation chains |
 | Gemini | 0 | 2s rate limit delay |
 | Llama | 0.0 | Special prompt format |
 
@@ -406,22 +348,16 @@ Each annotation includes an `Origine` field tracking how it was determined:
 
 ### Output Files
 
-Outputs are organised by experimental round, then by model:
+Outputs are organised into two paper-aligned phases:
 
 ```
 output/
-├── round_I/          # Round I (initial annotation)
-│   ├── ChatGPT/
-│   ├── Gemini/
-│   ├── SimpleWSD/
-│   └── SimpleWSD_Tesla/
-├── round_II/
-│   └── GPT-5/
-├── round_III/        # Round III (expanded sense inventory)
-│   ├── GPT-5/
-│   ├── SimpleWSD/
-│   └── SimpleWSD_Tesla/
-└── misc/             # Auxiliary files & prompt examples
+├── Phase1/           # Phase 1 exports (inputs + intermediate/test TSVs)
+│   ├── sr-elexis-WSD_*.tsv
+│   ├── gemini_inception_*.tsv
+│   └── LexiSense_Inception_test_*_ChatGPT-3-5.tsv
+└── Phase2/           # Phase 2 model outputs (paper results)
+    └── LexiSense_Inception_*_*.tsv
 ```
 
 ---

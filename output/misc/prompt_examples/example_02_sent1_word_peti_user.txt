@@ -1,7 +1,0 @@
-Kontekst rečenice (ciljna reč je označena kao bold):
-"U \textbf{petoj} sezoni program je održan u skladu sa novim konceptom: jedan mladi fudbaler iz svake zemlje izabran je kao njen predstavnik."
-
-Ciljna reč: "peti"
-
-Lista mogućih značenja:
-1. ID: ENG30-02202712-a — dolazi odmah posle četvrtog i neposredno pre šestog u položaju

@@ -1,7 +1,0 @@
-Kontekst rečenice (ciljna reč je označena kao bold):
-"Više od 7000 ljudi otišlo je na \textbf{premijeru} filma u Damasku."
-
-Ciljna reč: "premijera"
-
-Lista mogućih značenja:
-1. ID: ENG30-06893285-n — prvo javno izvođenje predstave ili filma

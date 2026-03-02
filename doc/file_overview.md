@@ -51,10 +51,6 @@ mirroring the WebAnno layer schema of the LLM pipeline.
 ### ChatGPT_sense.ipynb
 Primary WSD pipeline using GPT 4.1 / GPT 5 via LangChain + OpenAI.
 
-### ChatGPT_second_round.ipynb
-RAG-based second-round refinement using OpenAI embeddings for candidate
-retrieval and GPT-4.1-nano for sense selection/generation.
-
 ### GEMINI_sense.ipynb
 WSD pipeline using Gemini 2.0 Flash Lite via LangChain + Google GenAI.
 
@@ -79,23 +75,16 @@ counts, and exports statistics to `stats/`.
 | `sr-elexis-WSD_XXXX_YYYY.tsv` | Pre-chunked annotation files (500 sentences each) |
 
 ### output/
-Model outputs organised by experimental round, then by model:
+Model outputs organised into two paper-aligned phases:
 
 ```
 output/
-├── round_I/          # Round I (initial annotation)
-│   ├── ChatGPT/
-│   ├── Gemini/
-│   ├── SimpleWSD/
-│   └── SimpleWSD_Tesla/
-├── round_II/         # Round II
-│   └── GPT-5/
-├── round_III/        # Round III (expanded sense inventory)
-│   ├── GPT-5/
-│   ├── SimpleWSD/
-│   └── SimpleWSD_Tesla/
-└── misc/             # Auxiliary files & prompt examples
-    └── prompt_examples/
+├── Phase1/           # Phase 1 exports (inputs + intermediate/test TSVs)
+│   ├── sr-elexis-WSD_*.tsv
+│   ├── gemini_inception_*.tsv
+│   └── LexiSense_Inception_test_*_ChatGPT-3-5.tsv
+└── Phase2/           # Phase 2 model outputs (paper results)
+    └── LexiSense_Inception_*_*.tsv
 ```
 
 ### stats/

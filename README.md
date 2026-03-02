@@ -34,7 +34,6 @@ additional senses.
 
 ```
 ├── ChatGPT_sense.ipynb          # GPT 4.1 / GPT 5 WSD pipeline
-├── ChatGPT_second_round.ipynb   # RAG-based second-round refinement
 ├── GEMINI_sense.ipynb           # Gemini 2.0 Flash Lite WSD pipeline
 ├── Llama_sense.ipynb            # Llama 3.3 (local, via Ollama) WSD pipeline
 ├── SimpleWSD_sense.ipynb        # Embedding-baseline WSD notebook
@@ -50,19 +49,9 @@ additional senses.
 │   ├── Elexis-WSD-Repo-sr-v2.xlsx   # Sense inventory (current)
 │   ├── Elexis-WSD-Repo-sr-v1.xlsx   # Sense inventory (v1)
 │   └── sr-elexis-WSD_*.tsv          # Annotation chunks (500-sentence groups)
-├── output/                      # Model outputs organised by round & model
-│   ├── round_I/                 #   Round I results
-│   │   ├── ChatGPT/
-│   │   ├── Gemini/
-│   │   ├── SimpleWSD/
-│   │   └── SimpleWSD_Tesla/
-│   ├── round_II/                #   Round II results
-│   │   └── GPT-5/
-│   ├── round_III/               #   Round III results
-│   │   ├── GPT-5/
-│   │   ├── SimpleWSD/
-│   │   └── SimpleWSD_Tesla/
-│   └── misc/                    #   Auxiliary files & prompt examples
+├── output/                      # Paper-aligned outputs (Phase 1 / Phase 2)
+│   ├── Phase1/                  # Phase 1 exports (inputs + intermediate/test TSVs)
+│   └── Phase2/                  # Phase 2 model outputs used for reporting
 ├── stats/                       # Agreement CSVs produced by the notebooks
 └── doc/                         # Per-file documentation
 ```

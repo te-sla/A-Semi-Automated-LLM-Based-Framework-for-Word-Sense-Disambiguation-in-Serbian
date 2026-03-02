@@ -1,7 +1,0 @@
-Kontekst rečenice (ciljna reč je označena kao bold):
-"Poznati fudbaleri, među kojima i srpski \textbf{defanzivac} Branislav Ivanović i holandski napadač Dirk Kojt, učestvovali su u raznim događajima širom sveta."
-
-Ciljna reč: "defanzivac"
-
-Lista mogućih značenja:
-1. ID: CV0801 — igrač čiji je zadatak da zaštiti gol svog tima.
