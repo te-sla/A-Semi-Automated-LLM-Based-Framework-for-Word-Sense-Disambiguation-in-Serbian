@@ -353,9 +353,9 @@ Outputs are organised into two paper-aligned phases:
 ```
 output/
 ├── Phase1/           # Phase 1 exports (inputs + intermediate/test TSVs)
-│   ├── sr-elexis-WSD_*.tsv
-│   ├── gemini_inception_*.tsv
-│   └── LexiSense_Inception_test_*_ChatGPT-3-5.tsv
+│   ├── LexiSense_Inception_*_gemini_Iround.tsv
+│   ├── LexiSense_Inception_*_gpt-3.5_Iround_test.tsv
+│   └── LexiSense_Inception_*_gpt-4.1_Iround.tsv
 └── Phase2/           # Phase 2 model outputs (paper results)
     └── LexiSense_Inception_*_*.tsv
 ```
