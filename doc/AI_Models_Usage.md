@@ -355,7 +355,9 @@ output/
 ├── Phase1/           # Phase 1 exports (inputs + intermediate/test TSVs)
 │   ├── LexiSense_Inception_*_gemini_Iround.tsv
 │   ├── LexiSense_Inception_*_gpt-3.5_Iround_test.tsv
-│   └── LexiSense_Inception_*_gpt-4.1_Iround.tsv
+│   ├── LexiSense_Inception_*_gpt-4.1_Iround.tsv
+│   ├── LexiSense_Inception_*_simple_wsd_Iround.tsv
+│   └── LexiSense_Inception_*_simple_wsd_tesla_Iround.tsv
 └── Phase2/           # Phase 2 model outputs (paper results)
     └── LexiSense_Inception_*_*.tsv
 ```
