@@ -11,6 +11,9 @@ Utility module that centralises loading and discovery of data artifacts.
   reads the ELEXIS Excel file via `pandas`, keeps only the requested columns
   (defaulting to the schema in `config.py`), and optionally deduplicates on the
   non-ID columns.
+- `load_sense_repo_by_round(round=2)` – convenience wrapper that selects the
+  correct sense repository file (`SENSE_REPO` for round 2, `SENSE_REPO_OLD` for
+  round 1) and delegates to `load_sense_repo`.
 
 ## Chunked TSV helpers
 

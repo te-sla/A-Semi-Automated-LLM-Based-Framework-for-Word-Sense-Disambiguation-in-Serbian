@@ -23,6 +23,7 @@ from preprocessing import (
 	mark_token,
 	token_is_content_word,
 	token_is_not_in_mwe,
+	token_is_not_in_ne_not_in_filter,
 )
 
 
@@ -117,8 +118,10 @@ def disambiguate_sentence(
 		Sentence containing the ambiguous target word.
 	glosses:
 		Candidate sense definitions.
+	model:
+		Optional pre-loaded SentenceTransformer instance.
 	model_name:
-		Sentence transformer checkpoint to load.
+		Sentence transformer checkpoint to load (used only when *model* is None).
 
 	Returns
 	-------
@@ -153,6 +156,14 @@ def process_senses_with_simple_wsd(
 	origin_first = "FIRST"
 	sentence_total = len(sentences)
 	processed_count = 0
+
+	def _blank_wsd_layers(token):
+		"""Blank WSD-related layers for tokens we skip."""
+		token.add_layer(SENSE_ID_FIELD, "_")
+		token.add_layer(SENSE_COUNT_FIELD, "0")
+		token.add_layer(SENSE_LIST_FIELD, "_")
+		token.add_layer(SENSE_AINOTES_FIELD, "_")
+		token.add_layer(SENSE_ORIGIN, "_")
 
 	for sentence in sentences:
 		# --- Multiword expressions ---
@@ -205,13 +216,21 @@ def process_senses_with_simple_wsd(
 
 		# --- Single tokens ---
 		for token in sentence.tokens:
-			if not (token_is_content_word(token) and token_is_not_in_mwe(token)):
+			if not token_is_not_in_mwe(token):
+				continue
+
+			# Tokens that are not content words or are filtered out / in NE
+			# should explicitly get blank WSD layers so old annotations do not linger.
+			if not token_is_content_word(token) or not token_is_not_in_ne_not_in_filter(token):
+				_blank_wsd_layers(token)
 				continue
 
 			target_word = token.layers.get(L_LEMMA, "_")
 			if target_word == "_" or not target_word:
+				_blank_wsd_layers(token)
 				continue
 			if target_word[0].isdigit():
+				_blank_wsd_layers(token)
 				continue
 
 			senses_df_slice = get_token_senses(token, sentence, senses_df)

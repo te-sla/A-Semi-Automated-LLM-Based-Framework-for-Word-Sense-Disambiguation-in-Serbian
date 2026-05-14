@@ -8,8 +8,11 @@
 
 from pathlib import Path
 import shutil
+import sys
 
-DATA_DIR = Path(r"e:\Github\LexiSense-SR\Data")
+# Allow running as a standalone script
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from config import DATA_DIR
 SRC_NAME = "sr-elexis-WSD_0001_0500.tsv"
 DST_NAME = "sr-elexis-WSD_0001_0500_clean_test.tsv"
 

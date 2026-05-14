@@ -9,7 +9,7 @@ with the exact layer structure required by the annotation pipeline.
 - `CustomWebAnnoTSVWriter` – generic export matching the project’s custom
 	sense layer (`SenseID`, `Number_of_candidate_senses`, etc.). It rewrites plain
 	Wikidata IDs as full IRIs and preserves the original sense strings.
-- `IncetprionWebAnnoTSVWriter` – adapts the header and layer order to
+- `InceptionWebAnnoTSVWriter` – adapts the header and layer order to
 	Inception-compatible naming (`webanno.custom.WSD`). Also rewrites sense IDs to
 	the `http://llod.jerteh.rs/WSD/` namespace expected by that platform.
 

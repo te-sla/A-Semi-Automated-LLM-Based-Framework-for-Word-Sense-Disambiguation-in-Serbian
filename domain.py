@@ -74,7 +74,7 @@ DOMAIN_MAP: Dict[str, str] = {
     "mythology": "mitologija",
     "gastronomy": "gastronomska umetnost",
     "number": "broj",
-    "anatomy": "anatomiја",
+    "anatomy": "anatomija",
     "money": "novac",
     "time_period": "vremenski period",
     "entomology": "entomologija",

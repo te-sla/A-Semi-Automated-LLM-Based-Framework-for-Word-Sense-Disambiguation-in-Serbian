@@ -1,4 +1,4 @@
-# preprocessing_refactored.py
+# preprocessing.py
 # -*- coding: utf-8 -*-
 
 from typing import List, Dict, Any, Optional
@@ -144,13 +144,11 @@ def get_mwe_filtered_senses(
 
     Args:
         mwe: The MultiWordExpression object.
-        sentence: The AnnotatedSentenceWithMWEs object containing the MWE.
-                  (Not directly used in the filtering but might be needed for context).
         sense_repo_df: The pandas DataFrame representing the sense repository.
 
     Returns:
         A pandas DataFrame containing the filtered rows from the sense repository
-        that match the MWE's lemma and type.
+        that match the MWE's lemma.
         Returns None if the MWE is a placeholder (lemma is "*").
         Returns an empty DataFrame if no matching senses are found.
     """
@@ -185,7 +183,6 @@ def collect_mwe_senses(
             lemma = mwe.lemma
             if lemma == "*":  # skip placeholders
                 continue
-            type = mwe.type.split("[")[0].strip()
             # Lemma-only filtering (type constraint removed)
             filtered = sense_repo_df[(sense_repo_df[S_LEMMA] == lemma)]
             results.append({
@@ -293,10 +290,10 @@ def collect_simple_word_senses(
                 continue
 
             lemma = token.layers[L_LEMMA]
-            # Skip tokens with lema that start with a number (e.g., "1945.")
+            # Skip tokens with lemma that start with a number (e.g., "1945.")
             if lemma[0].isnumeric():
                 continue
-            #skip lemma that start with uppercase (aka those possessive form of presonal name aka Anderson's)
+            #skip lemma that start with uppercase (aka those possessive form of personal name aka Anderson's)
             if lemma[0].isupper():
                 continue
             upos = token.layers.get(L_UPOS, "")

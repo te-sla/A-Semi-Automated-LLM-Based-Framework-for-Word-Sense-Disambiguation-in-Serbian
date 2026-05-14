@@ -9,7 +9,7 @@ from data_loader import (
     get_group_tsv_path,
     get_next_group_path,
 )
-from config import DATA_DIR, SENSE_REPO, S_ID, S_DEFINITION, S_TYPE, S_POS, S_LEMMA, S_UPOS
+from config import DATA_DIR, SENSE_REPO, S_ID, S_DEFINITION, S_TYPE, S_POS, S_LEMMA, S_UPOS, S_LITERALS
 
 
 def test_list_group_tsvs_discovers_chunks():
@@ -49,7 +49,7 @@ def test_load_sense_repo_first_sheet_and_columns():
 
 def test_load_sense_repo_deduplicate_true_matches_manual():
     manual = pd.read_excel(SENSE_REPO, sheet_name=0, engine="openpyxl")
-    cols = [c for c in (S_ID, S_DEFINITION, S_TYPE, S_POS, S_LEMMA, S_UPOS) if c in manual.columns]
+    cols = [c for c in (S_ID, S_DEFINITION, S_TYPE, S_POS, S_LEMMA, S_UPOS, S_LITERALS) if c in manual.columns]
     manual = manual[cols].copy()
     # Deduplicate manually excluding S_ID
     manual_dedup = manual.drop_duplicates(subset=[c for c in cols if c != S_ID]).reset_index(drop=True)

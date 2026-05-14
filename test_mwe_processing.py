@@ -22,7 +22,7 @@ def test_mwe_token_extraction():
     # Load test data
     tsv_file = Path("Data/example-mwe.tsv")
     if not tsv_file.exists():
-        print(f"❌ Test file not found: {tsv_file}")
+        print(f"❌ Test file not found: {tsv_file} — skipping.")
         return
     
     print(f"🔍 Testing MWE processing from: {tsv_file}")

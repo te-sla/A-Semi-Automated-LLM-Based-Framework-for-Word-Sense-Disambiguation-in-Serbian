@@ -53,7 +53,7 @@ class CustomWebAnnoTSVWriter(BaseWebAnnoTSVWriter):
             sense_id, sense_count, sense_list, sense_comment, sense_ainotes
         ]
 
-class IncetprionWebAnnoTSVWriter(BaseWebAnnoTSVWriter):
+class InceptionWebAnnoTSVWriter(BaseWebAnnoTSVWriter):
     def _build_layer_header(self) -> str:
         """
         Constructs the layer header string used by WebAnno.
@@ -106,3 +106,7 @@ class IncetprionWebAnnoTSVWriter(BaseWebAnnoTSVWriter):
             pos, upos, identifier, ne_type, lemma, mwe_id, mwe_lemma, mwe_type,
             sense_comment, sense_ainotes, sense_id, sense_count, sense_origine, sense_list
         ]
+
+
+# Backward-compatible alias used by older notebooks and copied workflow code.
+IncetprionWebAnnoTSVWriter = InceptionWebAnnoTSVWriter

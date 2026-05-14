@@ -19,7 +19,7 @@ from preprocessing import (
     token_is_not_in_ne_not_in_filter,
 )
 from webanno_spacy_converter.parsers.tsv_parser_v3 import WebAnnoLEXISParser
-from writers import IncetprionWebAnnoTSVWriter
+from writers import InceptionWebAnnoTSVWriter
 
 
 ROUND_MARKER = "IIIround"
@@ -30,11 +30,11 @@ def _blank_wsd_layers(token) -> None:
 
     This mirrors the behavior inside `process_senses_with_chain` for skipped tokens.
     """
-    token.annotations[SENSE_ID_FIELD] = "_"
-    token.annotations[SENSE_COUNT_FIELD] = "0"
-    token.annotations[SENSE_LIST_FIELD] = "_"
-    token.annotations[SENSE_AINOTES_FIELD] = "_"
-    token.annotations[SENSE_ORIGIN] = "_"
+    token.add_layer(SENSE_ID_FIELD, "_")
+    token.add_layer(SENSE_COUNT_FIELD, "0")
+    token.add_layer(SENSE_LIST_FIELD, "_")
+    token.add_layer(SENSE_AINOTES_FIELD, "_")
+    token.add_layer(SENSE_ORIGIN, "_")
 
 
 def should_keep_wsd(token, senses_df: pd.DataFrame) -> bool:
@@ -64,7 +64,7 @@ def fix_file(path: Path, senses_df: pd.DataFrame, dry_run: bool = False) -> None
 
     - Loads sentences via WebAnnoLEXISParser.
     - For each token, decides whether to keep or blank WSD.
-    - Writes back using IncetprionWebAnnoTSVWriter.
+    - Writes back using InceptionWebAnnoTSVWriter.
     - Creates a .bak backup once when not in dry_run mode.
     """
     print(f"Processing file: {path}")
@@ -105,7 +105,7 @@ def fix_file(path: Path, senses_df: pd.DataFrame, dry_run: bool = False) -> None
         print(f"  Backup already exists: {backup_path.name}")
 
     # Write updated sentences back to the original path
-    writer = IncetprionWebAnnoTSVWriter(sentences)
+    writer = InceptionWebAnnoTSVWriter(sentences)
     writer.save(path)
     print(f"  Fixed file written: {path.name}\n")
 

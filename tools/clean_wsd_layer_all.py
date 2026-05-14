@@ -11,8 +11,11 @@ verified on sr-elexis-WSD_0001_0500.tsv.
 
 from pathlib import Path
 import shutil
+import sys
 
-DATA_DIR = Path(r"e:\Github\LexiSense-SR\Data")
+# Allow running as a standalone script
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from config import DATA_DIR
 
 
 def clean_wsd_layer_in_file(path: Path) -> None:

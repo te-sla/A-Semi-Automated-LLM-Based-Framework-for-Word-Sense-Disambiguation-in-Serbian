@@ -5,103 +5,150 @@
 
 ## Python Source Files
 
-### config.py
+### `config.py`
+
 Loads environment-backed secrets (`OPENAI_API_KEY`, `GOOGLE_GENAI_API_KEY`) and
 collects shared constants. Defines canonical paths for `Data/`, `output/`, and
 `stats/`, enumerates the annotation chunk TSVs, and centralises WebAnno layer
-names (lemma, POS, MWE, and sense fields) together with filtering helpers
-(`CONTENT_WORDS`, `EVENT_FILTER`).
+names for lemma, POS, MWE, and sense fields.
 
-### domain.py
-Provides the English → Serbian domain label map used for presenting sense
+### `domain.py`
+
+Provides the English-to-Serbian domain label map used for presenting sense
 metadata. Exposes `translate_domain` to normalise raw domain strings and fall
 back to `"nepoznato"` when a key is unknown.
 
-### preprocessing.py
+### `preprocessing.py`
+
 Utility helpers that operate on `webanno_spacy_converter` sentence objects:
 highlighting MWEs/tokens, filtering tokens based on MWE/NER/UPOS layers, and
-collecting candidate senses for MWEs and single tokens from the sense
-inventory DataFrame.
+collecting candidate senses from the sense inventory DataFrame.
 
-### process_senses.py
-Implements the LLM-driven disambiguation loop. Orchestrates sense candidate
-generation (via `preprocessing`), calls a LangChain-style `chain`, validates the
-returned sense IDs against the allowed list, and writes the results onto token
-layers so they can be exported. Includes retry logic for hallucinated sense IDs
-and a time-delayed variant for rate-limited APIs (e.g. Gemini).
+### `process_senses.py`
 
-### writers.py
-Defines two WebAnno TSV writers:
-`CustomWebAnnoTSVWriter` (generic export) and
-`IncetprionWebAnnoTSVWriter` (INCEpTION schema). Both extend the base writer to
-emit the exact layer order and decorate identifiers/URIs.
+Implements the shared LLM-driven disambiguation loop. It builds sense candidate
+blocks, calls a LangChain-style chain, validates returned sense IDs against the
+allowed list, retries invalid model responses where configured, and writes the
+selected sense layers back to tokens for export.
 
-### data_loader.py
-Loads the sense inventory Excel file (`Elexis-WSD-Repo-sr-v2.xlsx`) and chunked
-WebAnno TSV annotations. Enumerates available TSV groups, provides path
-builders, and offers iterators for streaming sentence batches.
+### `writers.py`
 
-### simple_wsd.py
-Embedding-based baseline that ranks candidate glosses with the
-`all-MiniLM-L6-v2` sentence transformer and annotates tokens/MWEs accordingly,
-mirroring the WebAnno layer schema of the LLM pipeline.
+Defines WebAnno and INCEpTION TSV writers that emit the expected WSD layer
+order and preserve token/MWE sense annotations.
+
+### `data_loader.py`
+
+Loads the sense inventory Excel files and chunked WebAnno TSV annotations.
+Supports selecting the sense repository by annotation round.
+
+### `simple_wsd.py`
+
+Embedding-based WSD baseline that ranks candidate glosses with
+sentence-transformer similarity and mirrors the WebAnno layer schema of the LLM
+pipeline.
+
+### `notebook_utils.py`
+
+Shared notebook helpers imported from the working repository for targeted model
+run support.
+
+### `tools/run_simple_wsd_range.py`
+
+Batch runner for configured SimpleWSD presets across one or both
+sense-repository rounds. It writes standard and INCEpTION TSV files and round
+comparison statistics.
 
 ## Notebooks
 
-### ChatGPT_sense.ipynb
-Primary WSD pipeline using GPT 4.1 / GPT 5 via LangChain + OpenAI.
-
-### GEMINI_sense.ipynb
-WSD pipeline using Gemini 2.0 Flash Lite via LangChain + Google GenAI.
-
-### Llama_sense.ipynb
-WSD pipeline using Llama 3.3 locally via Ollama. Not used in the paper due to
-computational constraints; validated on a 10-sample test.
-
-### SimpleWSD_sense.ipynb
-Notebook interface for the `all-MiniLM-L6-v2` embedding baseline.
-
-### post_anntotaion_stats.ipynb
-Post-hoc analysis: computes inter-model agreement/disagreement, NEW_SENSE
-counts, and exports statistics to `stats/`.
+| Notebook | Purpose |
+|---|---|
+| `ChatGPT_sense.ipynb` | GPT 4.1 / GPT 5 WSD pipeline |
+| `GEMINI_sense.ipynb` | Gemini 2.0 Flash Lite WSD pipeline |
+| `GEMINI_pro_sense.ipynb` | Gemini Pro WSD pipeline |
+| `Llama_sense.ipynb` | Llama4 WSD pipeline via local Ollama |
+| `Mistral_sense.ipynb` | MistralSmall3.2 WSD pipeline via local Ollama |
+| `Llama_sense_ablation_simplified_prompt.ipynb` | Llama4 simplified-prompt ablation |
+| `Llama_sense_ablation_no_new_sense.ipynb` | Llama4 ablation that disallows `NEW_SENSE` |
+| `Llama_sense_ablation_no_explanation.ipynb` | Llama4 ablation that returns only the sense ID |
+| `SimpleWSD_sense.ipynb` | Sentence-transformer embedding baseline |
+| `BaselineWSD_sense.ipynb` | Lesk-style baseline notebook |
+| `post_anntotaion_stats.ipynb` | Agreement, disagreement, and NEW_SENSE statistics |
 
 ## Data and Output
 
-### Data/
+### `Data/`
+
 | File | Description |
-|------|-------------|
-| `Elexis-WSD-Repo-sr-v2.xlsx` | Enhanced sense inventory (Serbian WordNet + additional senses) |
-| `Elexis-WSD-Repo-sr-v1.xlsx` | Original sense inventory (Round I) |
-| `sr-elexis-WSD_XXXX_YYYY.tsv` | Pre-chunked annotation files (500 sentences each) |
+|---|---|
+| `Elexis-WSD-Repo-sr-v2.xlsx` | Current enhanced sense inventory |
+| `Elexis-WSD-Repo-sr-v1.xlsx` | Original round 1 sense inventory |
+| `sr-elexis-WSD_XXXX_YYYY.tsv` | Pre-chunked annotation files in 500-sentence groups |
+| `gold_eval/` | Gold-standard development and held-out evaluation TSV files |
 
-### output/
-Model outputs organised into two paper-aligned phases:
+The targeted update does not replace the presentation repository workbooks
+with the working-folder `Elexis-WSD-Repo*.xlsx` names.
 
-```
+### `Data/gold_eval/`
+
+Gold-standard TSV files used for development and held-out evaluation:
+
+| File | Use | Sentence range |
+|---|---|---|
+| `sr-elexis-WSD_0001_0120-gold.tsv` | Development set | 1-120 |
+| `sr-elexis-WSD_0301-0400-gold.tsv` | Held-out test set | 301-400 |
+| `sr-elexis-WSD_0401-0500-gold.tsv` | Held-out test set | 401-500 |
+| `sr-elexis-WSD_0501-0600-gold.tsv` | Held-out test set | 501-600 |
+
+The three held-out files came from `gold-files-20260511T150250Z-3-001.zip`
+and provide 300 test sentences total. The 120-sentence file is kept as the
+development gold set.
+
+### `output/`
+
+Model outputs are organised into two paper-aligned phases:
+
+```text
 output/
-├── Phase1/           # Phase 1 exports (inputs + intermediate/test TSVs)
-│   ├── LexiSense_Inception_*_gemini_Iround.tsv
-│   ├── LexiSense_Inception_*_gpt-3.5_Iround_test.tsv
-│   ├── LexiSense_Inception_*_gpt-4.1_Iround.tsv
-│   ├── LexiSense_Inception_*_simple_wsd_Iround.tsv
-│   └── LexiSense_Inception_*_simple_wsd_tesla_Iround.tsv
-└── Phase2/           # Phase 2 model outputs (paper results)
-    └── LexiSense_Inception_*_*.tsv
+  Phase1/    # Round 1 exports and imported artifacts
+  Phase2/    # Round 2 exports and imported artifacts
 ```
 
-### stats/
-Derived CSV statistics (agreement scores, disagreement details) produced by
-`post_anntotaion_stats.ipynb`.
+Imported first-600 local-model artifacts preserve their source filenames, for
+example:
+
+- `output/Phase1/LexiSense_0501_0600_Llama4_round1.tsv`
+- `output/Phase2/LexiSense_Inception_0501_0600_Llama4_round2.tsv`
+
+Every copied Llama4, MistralSmall3.2, and Llama4 ablation range has both a
+standard `LexiSense_...tsv` file and an `LexiSense_Inception_...tsv` file.
+
+The `0501-1000` ChatGPT/GPT standard TSV files were recovered from downloaded
+output archives and renamed to match the phase naming convention:
+
+- round 1 ChatGPT 3.5/4.1 files are under `output/Phase1/` with `Iround`
+  suffixes.
+- round 2 GPT 4.1/5 files are under `output/Phase2/` with `IIround` suffixes.
+
+## Current Run Coverage
+
+Copied outputs cover `0001-0500` and `0501-0600` for:
+
+- `Llama4`
+- `MistralSmall3.2`
+- `Llama4_simple`
+- `Llama4_nonew`
+- `Llama4_noexp`
+
+The full `0501-1000` output pairs are not present yet for those origins.
+`GeminiPro_*` TSV output pairs are also not present yet. The accepted
+`0501-0600` runs should not be rerun for this update.
 
 ## Other Files
 
 | File | Purpose |
-|------|---------|
+|---|---|
+| `ablation_run_checklist.md` | First-600 Llama4 ablation completion checklist |
 | `requirements.txt` | Runtime Python dependencies |
 | `dev-requirements.txt` | Development/testing dependencies |
 | `LICENSE` | Project licence |
 | `.gitignore`, `.gitattributes` | Git configuration |
-
----
-For detailed documentation on each module, see the corresponding `.md` files in
-this folder.

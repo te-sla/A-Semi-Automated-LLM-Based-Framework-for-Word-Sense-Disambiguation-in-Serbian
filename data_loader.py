@@ -76,11 +76,13 @@ def load_sense_repo_by_round(
     sheet_name: int | str = 0,
     keep_columns: Iterable[str] = (S_ID, S_DEFINITION, S_TYPE, S_POS, S_LEMMA, S_UPOS, S_LITERALS),
     deduplicate: bool = False,
+    **kwargs,
 ) -> pd.DataFrame:
     """Load the Sense Repository for a specific annotation round.
 
     Args:
         round: The annotation round (1 for old/first round, 2 for current/second round).
+        round_number: Backward-compatible keyword alias accepted via kwargs.
         sheet_name: Sheet name or index to load from the Excel file.
         keep_columns: Columns to keep in the resulting DataFrame.
         deduplicate: Whether to remove duplicate rows.
@@ -91,6 +93,12 @@ def load_sense_repo_by_round(
     Raises:
         ValueError: If an invalid round number is provided.
     """
+    if "round_number" in kwargs:
+        round = kwargs.pop("round_number")
+    if kwargs:
+        unexpected = ", ".join(sorted(kwargs))
+        raise TypeError(f"Unexpected keyword argument(s): {unexpected}")
+
     if round == 1:
         path = SENSE_REPO_OLD
     elif round == 2:

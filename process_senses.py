@@ -24,11 +24,11 @@ Returns:
 import re
 import json
 import time
-from writers import CustomWebAnnoTSVWriter, IncetprionWebAnnoTSVWriter
+from writers import CustomWebAnnoTSVWriter, InceptionWebAnnoTSVWriter
 from config import S_ID, SENSE_ID_FIELD, SENSE_COUNT_FIELD, SENSE_LIST_FIELD, SENSE_AINOTES_FIELD, SENSE_ORIGIN, L_LEMMA
 from preprocessing import (
     get_mwe_tokens, mark_mwe, get_mwe_filtered_senses, get_token_senses,
-    mark_token, token_is_content_word, token_is_not_in_ne_not_in_filter, token_is_not_in_mwe
+    mark_token, token_is_content_word, token_is_not_in_mwe
 )
 
 MAX_HALLUCINATION_RETRIES = 3
@@ -156,7 +156,7 @@ def process_senses_with_chain(
     def _blank_wsd_layers(token):
         """Explicitly blank WSD-related layers for tokens we skip.
 
-        This ensures that non-content / filtered / non-MWE tokens do not
+        This ensures that skipped tokens do not
         accidentally keep stale WSD annotations from previous runs.
         """
         token.add_layer(SENSE_ID_FIELD, "_")
@@ -214,9 +214,9 @@ def process_senses_with_chain(
             if not token_is_not_in_mwe(token):
                 continue
 
-            # Tokens that are not content words or are filtered out / in NE
+            # Tokens that are not content words
             # should explicitly get blank WSD layers so old annotations do not linger.
-            if (not token_is_content_word(token)) or (not token_is_not_in_ne_not_in_filter(token)):
+            if not token_is_content_word(token):
                 _blank_wsd_layers(token)
                 continue
 

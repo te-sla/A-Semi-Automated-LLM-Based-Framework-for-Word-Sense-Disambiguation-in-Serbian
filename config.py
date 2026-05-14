@@ -55,7 +55,7 @@ ANNOTATIONS_TSV = (DATA_DIR / ANNOTATION_CHUNKS[0][2]) if ANNOTATION_CHUNKS else
 #T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue|coarseValue
 #T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
 #T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value 
-# NOte because thre two with same name value, latter get added _4 (ints intex) to avoid being the overwritten
+# Note: because there are two fields with the same name 'value', the latter gets added '_4' (its index) to avoid being overwritten
 L_POS    = "PosValue"
 L_UPOS   = "coarseValue" 
 L_LEMMA  = "value_4"
@@ -94,7 +94,7 @@ EVENT_FILTER  = ["ROLE", "EVENT", "DEMO", "PRODUCT", "WORK"]
 CONTENT_WORDS = ["NOUN", "VERB", "ADJ", "ADV"]
 
 # =============================
-# 6. WebAnno custom field names (UI)
+# 7. WebAnno custom field names (UI)
 # =============================
 #T_SP=webanno.custom.WSD|Comment|Explanation|KBid|NumberOfSenses|Origine|Possible
 
