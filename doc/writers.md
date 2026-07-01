@@ -1,7 +1,7 @@
 # writers.py
 
 > Part of the companion repository for *A Semi-Automated LLM-Based Framework
-> for Word Sense Disambiguation in Serbian* (submitted to SAGE Journal).
+> for Word Sense Disambiguation in Serbian* (accepted for publication; DOI and final citation pending).
 
 Extends `webanno_spacy_converter`'s `BaseWebAnnoTSVWriter` to emit TSV exports
 with the exact layer structure required by the annotation pipeline.

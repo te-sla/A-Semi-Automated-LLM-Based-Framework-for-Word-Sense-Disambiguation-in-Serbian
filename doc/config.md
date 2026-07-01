@@ -1,7 +1,7 @@
 # config.py
 
 > Part of the companion repository for *A Semi-Automated LLM-Based Framework
-> for Word Sense Disambiguation in Serbian* (submitted to SAGE Journal).
+> for Word Sense Disambiguation in Serbian* (accepted for publication; DOI and final citation pending).
 
 Central repository for constants shared across the annotation and analysis
 pipelines. The module loads optional environment variables (`OPENAI_API_KEY`,
@@ -21,6 +21,9 @@ Key groups of settings:
 	processing code.
 - **Sense repository columns** – `S_LEMMA`, `S_ID`, `S_DOMAIN`, etc., capture
 	the expected schema of the sense inventory.
+- **Baseline model presets** - `SIMPLE_WSD_MODEL_PRESETS` defines the `simple`,
+	`tesla`, and `mling` sentence-transformer configurations used by
+	`tools/run_simple_wsd_range.py`.
 - **Annotation output fields** – WebAnno custom layer keys (`SENSE_ID_FIELD`,
 	`SENSE_LIST_FIELD`, `SENSE_AINOTES_FIELD`, `SENSE_COMMENT_FIELD`, `SENSE_ORIGIN`)
 	used by `writers.py` and `process_senses.py` when emitting TSVs.

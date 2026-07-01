@@ -2,7 +2,12 @@
 import os
 from pathlib import Path
 from typing import List, Tuple
-from dotenv import load_dotenv
+
+try:
+	from dotenv import load_dotenv
+except ImportError:
+	def load_dotenv(*_args, **_kwargs):
+		return False
 
 # =============================
 # 1. Environment settings
@@ -86,6 +91,28 @@ L_MWE_TYPE  = "MWEtype"
 # =============================
 SWD_MODEL = "all-MiniLM-L6-v2"  # Sentence-transformer model for SimpleWSD
 TESLA_SWD_MODEL = "te-sla/TeslaXLM"  # Tesla sentence-transformer model
+MLING_SWD_MODEL = "intfloat/multilingual-e5-large"  # Multilingual E5 large embedding model
+
+SIMPLE_WSD_MODEL_PRESETS = {
+	"simple": {
+		"model_name": SWD_MODEL,
+		"origin": "simple_wsd",
+		"text_prefix": "",
+		"normalize_embeddings": False,
+	},
+	"tesla": {
+		"model_name": TESLA_SWD_MODEL,
+		"origin": "tesla_wsd",
+		"text_prefix": "",
+		"normalize_embeddings": False,
+	},
+	"mling": {
+		"model_name": MLING_SWD_MODEL,
+		"origin": "mling",
+		"text_prefix": "query: ",
+		"normalize_embeddings": True,
+	},
+}
 
 # =============================
 # 6. Filters

@@ -1,7 +1,7 @@
 # Llama_sense.ipynb
 
 > Part of the companion repository for *A Semi-Automated LLM-Based Framework
-> for Word Sense Disambiguation in Serbian* (submitted to SAGE Journal).
+> for Word Sense Disambiguation in Serbian* (accepted for publication; DOI and final citation pending).
 
 WSD notebook using Llama 3.3 locally via Ollama. Uses Markdown-bold target-word
 highlighting (`**word**`) and Llama-specific prompt tokens.

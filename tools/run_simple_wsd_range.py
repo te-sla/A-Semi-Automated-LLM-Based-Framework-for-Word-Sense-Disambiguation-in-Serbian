@@ -28,7 +28,7 @@ from config import (
 	S_ID,
 )
 from data_loader import load_sense_repo_by_round
-from lexisense_wsd_agent.compat import (
+from preprocessing import (
 	get_mwe_filtered_senses,
 	get_mwe_tokens,
 	get_token_senses,

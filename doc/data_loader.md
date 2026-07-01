@@ -1,7 +1,7 @@
 # data_loader.py
 
 > Part of the companion repository for *A Semi-Automated LLM-Based Framework
-> for Word Sense Disambiguation in Serbian* (submitted to SAGE Journal).
+> for Word Sense Disambiguation in Serbian* (accepted for publication; DOI and final citation pending).
 
 Utility module that centralises loading and discovery of data artifacts.
 

@@ -1,7 +1,7 @@
 # post_anntotaion_stats.ipynb
 
 > Part of the companion repository for *A Semi-Automated LLM-Based Framework
-> for Word Sense Disambiguation in Serbian* (submitted to SAGE Journal).
+> for Word Sense Disambiguation in Serbian* (accepted for publication; DOI and final citation pending).
 
 This notebook performs post-hoc analysis and comparison of sense-annotated TSV
 files produced by different LLM pipelines across the multi-round annotation

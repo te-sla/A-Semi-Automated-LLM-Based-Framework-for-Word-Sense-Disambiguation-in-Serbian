@@ -1,7 +1,7 @@
 # process_senses.py
 
 > Part of the companion repository for *A Semi-Automated LLM-Based Framework
-> for Word Sense Disambiguation in Serbian* (submitted to SAGE Journal).
+> for Word Sense Disambiguation in Serbian* (accepted for publication; DOI and final citation pending).
 
 Coordinates the LLM disambiguation workflow shared by the ChatGPT (GPT 4.1 /
 GPT 5), Gemini, and Llama pipelines. Major components:

@@ -1,16 +1,16 @@
 # simple_wsd.py
 
 > Part of the companion repository for *A Semi-Automated LLM-Based Framework
-> for Word Sense Disambiguation in Serbian* (submitted to SAGE Journal).
+> for Word Sense Disambiguation in Serbian* (accepted for publication; DOI and final citation pending).
 
-Implements the embedding-based WSD baseline (`all-MiniLM-L6-v2`) built on
-cosine similarity between sentence-transformer embeddings and candidate glosses.
-This serves as one of the two baseline models evaluated in the paper (alongside
-the Serbian-specific XLM-RoBERTa model).
+Implements the embedding-based WSD baselines built on cosine similarity between
+sentence-transformer embeddings and candidate glosses. The configured presets
+cover `all-MiniLM-L6-v2` (`simple`), the Serbian-specific `te-sla/TeslaXLM`
+(`tesla`), and `intfloat/multilingual-e5-large` (`mling`).
 
 ## Key functions
 
-- `disambiguate_sentence(sentence, glosses, model=None, model_name="all-MiniLM-L6-v2")`
+- `disambiguate_sentence(sentence, glosses, model=None, model_name="all-MiniLM-L6-v2", text_prefix="", normalize_embeddings=False)`
   – loads or reuses a `SentenceTransformer`, encodes the input sentence alongside
   the provided gloss definitions, and returns them ranked by cosine similarity.
   Useful for quick zero-shot experiments or CLI usage.
@@ -34,6 +34,8 @@ the Serbian-specific XLM-RoBERTa model).
 - Relies on `sentence-transformers` for embedding generation and uses the
   project constants from `config.py` to write WebAnno layers identical to the LLM
   workflow.
+- `config.SIMPLE_WSD_MODEL_PRESETS` defines the `simple`, `tesla`, and `mling`
+  presets used by the batch runner.
 - Shares token/MWE utilities (`mark_token`, `mark_mwe`, filtering helpers) with
   `preprocessing.py` to highlight target spans consistently.
 

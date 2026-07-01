@@ -35,10 +35,20 @@ def _ensure_model(
 	return model if model is not None else SentenceTransformer(model_name)
 
 
+def _with_text_prefix(text: str, text_prefix: str) -> str:
+	"""Add an embedding text prefix unless it is already present."""
+	if not text_prefix:
+		return str(text)
+	text = str(text)
+	return text if text.startswith(text_prefix) else f"{text_prefix}{text}"
+
+
 def _compute_similarity_scores(
 	model: SentenceTransformer,
 	sentence: str,
 	candidate_texts: Sequence[str],
+	text_prefix: str = "",
+	normalize_embeddings: bool = False,
 ) -> List[Tuple[int, float]]:
 	"""Compute cosine similarity scores for candidate glosses.
 
@@ -49,8 +59,15 @@ def _compute_similarity_scores(
 	if not candidate_texts:
 		return []
 
-	sentence_embedding = model.encode(sentence, convert_to_tensor=True)
-	gloss_embeddings = model.encode(list(candidate_texts), convert_to_tensor=True)
+	encode_kwargs = {"convert_to_tensor": True}
+	if normalize_embeddings:
+		encode_kwargs["normalize_embeddings"] = True
+
+	sentence_embedding = model.encode(_with_text_prefix(sentence, text_prefix), **encode_kwargs)
+	gloss_embeddings = model.encode(
+		[_with_text_prefix(text, text_prefix) for text in candidate_texts],
+		**encode_kwargs,
+	)
 
 	similarity_tensor = util.cos_sim(sentence_embedding, gloss_embeddings).squeeze(0)
 	if hasattr(similarity_tensor, "detach"):
@@ -109,6 +126,8 @@ def disambiguate_sentence(
 	glosses: Sequence[str],
 	model: Optional[SentenceTransformer] = None,
 	model_name: str = "all-MiniLM-L6-v2",
+	text_prefix: str = "",
+	normalize_embeddings: bool = False,
 ) -> List[Tuple[str, float]]:
 	"""Return glosses scored by cosine similarity to the sentence embedding.
 
@@ -122,6 +141,11 @@ def disambiguate_sentence(
 		Optional pre-loaded SentenceTransformer instance.
 	model_name:
 		Sentence transformer checkpoint to load (used only when *model* is None).
+	text_prefix:
+		Optional prefix applied before embedding each text. E5 models expect
+		"query: " for symmetric similarity or feature-style comparisons.
+	normalize_embeddings:
+		Whether to request normalized embeddings from SentenceTransformer.encode.
 
 	Returns
 	-------
@@ -133,7 +157,13 @@ def disambiguate_sentence(
 		raise ValueError("At least one gloss definition is required.")
 
 	model_instance = _ensure_model(model, model_name)
-	scores = _compute_similarity_scores(model_instance, sentence, list(glosses))
+	scores = _compute_similarity_scores(
+		model_instance,
+		sentence,
+		list(glosses),
+		text_prefix=text_prefix,
+		normalize_embeddings=normalize_embeddings,
+	)
 
 	# Sort in descending order of similarity
 	ordered = sorted(scores, key=lambda item: item[1], reverse=True)
@@ -150,6 +180,8 @@ def process_senses_with_simple_wsd(
 	n: int = 2000,
 	progress: bool = True,
 	notes_top_k: int = 3,
+	text_prefix: str = "",
+	normalize_embeddings: bool = False,
 ):
 	"""Annotate sentences using cosine similarity between sentence and gloss embeddings."""
 	model_instance = _ensure_model(model, model_name)
@@ -189,7 +221,13 @@ def process_senses_with_simple_wsd(
 				continue
 
 			candidate_texts = [_candidate_text_from_sense(sense) for sense in senses_records]
-			scores = _compute_similarity_scores(model_instance, mark_mwe(mwe, sentence), candidate_texts)
+			scores = _compute_similarity_scores(
+				model_instance,
+				mark_mwe(mwe, sentence),
+				candidate_texts,
+				text_prefix=text_prefix,
+				normalize_embeddings=normalize_embeddings,
+			)
 			scores_sorted = sorted(scores, key=lambda item: item[1], reverse=True)
 			if not scores_sorted:
 				best_index = 0
@@ -242,7 +280,13 @@ def process_senses_with_simple_wsd(
 				continue
 
 			candidate_texts = [_candidate_text_from_sense(sense) for sense in senses_records]
-			scores = _compute_similarity_scores(model_instance, mark_token(token, sentence), candidate_texts)
+			scores = _compute_similarity_scores(
+				model_instance,
+				mark_token(token, sentence),
+				candidate_texts,
+				text_prefix=text_prefix,
+				normalize_embeddings=normalize_embeddings,
+			)
 			scores_sorted = sorted(scores, key=lambda item: item[1], reverse=True)
 			if not scores_sorted:
 				best_index = 0

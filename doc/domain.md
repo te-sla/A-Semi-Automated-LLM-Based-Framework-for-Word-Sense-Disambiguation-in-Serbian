@@ -1,7 +1,7 @@
 # domain.py
 
 > Part of the companion repository for *A Semi-Automated LLM-Based Framework
-> for Word Sense Disambiguation in Serbian* (submitted to SAGE Journal).
+> for Word Sense Disambiguation in Serbian* (accepted for publication; DOI and final citation pending).
 
 Provides a lightweight mapping between the English domain labels present in the
 sense inventory and their Serbian equivalents. The module exposes:

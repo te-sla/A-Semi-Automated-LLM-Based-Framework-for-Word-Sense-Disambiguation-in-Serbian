@@ -1,7 +1,7 @@
 # File Overview
 
 > Companion repository for *A Semi-Automated LLM-Based Framework for Word Sense
-> Disambiguation in Serbian* (submitted to SAGE Journal).
+> Disambiguation in Serbian* (accepted for publication; DOI and final citation pending).
 
 ## Python Source Files
 
@@ -119,8 +119,9 @@ example:
 - `output/Phase1/LexiSense_0501_0600_Llama4_round1.tsv`
 - `output/Phase2/LexiSense_Inception_0501_0600_Llama4_round2.tsv`
 
-Every copied Llama4, MistralSmall3.2, and Llama4 ablation range has both a
-standard `LexiSense_...tsv` file and an `LexiSense_Inception_...tsv` file.
+Every copied Llama4, MistralSmall3.2, Llama4 ablation, and Lesk-baseline range
+has both a standard `LexiSense_...tsv` file and an
+`LexiSense_Inception_...tsv` file.
 
 The `0501-1000` ChatGPT/GPT standard TSV files were recovered from downloaded
 output archives and renamed to match the phase naming convention:
@@ -138,6 +139,7 @@ Copied outputs cover `0001-0500` and `0501-0600` for:
 - `Llama4_simple`
 - `Llama4_nonew`
 - `Llama4_noexp`
+- `baseline_lesk`
 
 The full `0501-1000` output pairs are not present yet for those origins.
 `GeminiPro_*` TSV output pairs are also not present yet. The accepted

@@ -1,7 +1,7 @@
 # ChatGPT_sense.ipynb
 
 > Part of the companion repository for *A Semi-Automated LLM-Based Framework
-> for Word Sense Disambiguation in Serbian* (submitted to SAGE Journal).
+> for Word Sense Disambiguation in Serbian* (accepted for publication; DOI and final citation pending).
 
 Primary WSD notebook using OpenAI GPT 4.1 / GPT 5 via LangChain. Workflow:
 

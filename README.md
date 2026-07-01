@@ -3,7 +3,7 @@
 Companion code and data for the paper:
 
 > **A Semi-Automated LLM-Based Framework for Word Sense Disambiguation in Serbian**
-> *Submitted to SAGE Journal*
+> *Accepted for publication; DOI and final citation pending*
 
 This repository implements a semi-automated annotation workflow for Word Sense
 Disambiguation (WSD) in Serbian, leveraging Large Language Models (LLMs) through
@@ -14,17 +14,18 @@ additional senses.
 
 ## Key Results
 
-| Model | Single-word accuracy | Multi-word accuracy |
-|-------|---------------------|---------------------|
-| GPT 4.1 | 83.1 % | 100 % |
-| GPT 5 | adaptive reasoning, excels on extreme polysemy and verbs | - |
-| Baselines (XLM-RoBERTa, all-MiniLM-L6-v2) | significantly lower | - |
+| Model | Overall accuracy | Single-word accuracy | Multi-word accuracy |
+|-------|------------------|----------------------|---------------------|
+| GPT-4.1 (Round 2 held-out test) | 92.7 % | 92.4 % | 95.2 % |
+| GPT-5.1 (Round 2 held-out test) | 83.6 % | 82.5 % | 93.0 % |
+| Best non-LLM baseline (`mling`) | 59.2 % | 56.0 % | 86.1 % |
+| Lesk baseline (`base-lesk`) | 53.6 % | 50.0 % | 86.6 % |
 
 ## Features
 
 - **LLM-based WSD** - zero-shot sense disambiguation via GPT 4.1 / GPT 5, Gemini 2.0 Flash Lite, Gemini Pro, Llama4, and MistralSmall3.2.
 - **Llama ablations** - simplified prompt, no `NEW_SENSE`, and no-explanation variants for the first 600 sentences in both sense-repository rounds.
-- **Embedding baselines** - cosine-similarity WSD with sentence-transformer models, including the original `all-MiniLM-L6-v2` setup and newer configured presets.
+- **Baselines** - cosine-similarity WSD with `all-MiniLM-L6-v2`, `te-sla/TeslaXLM`, and `intfloat/multilingual-e5-large`, plus a Lesk-style knowledge baseline.
 - **Custom sense inventory** - Serbian WordNet senses enriched with additional entries (`Elexis-WSD-Repo-sr-v2.xlsx`).
 - **Semi-automated annotation** - structured prompts produce constrained JSON; multi-round workflow with validation and retry logic.
 - **Multi-word expression handling** - automatic MWE extraction and disambiguation.
@@ -94,10 +95,10 @@ model used by your local Ollama setup.
 
 ## Run Status
 
-Imported local-model and ablation artifacts currently cover sentences
-`0001-0500` and `0501-0600` for both round 1 and round 2. These files are
-stored in the presentation layout: round 1 under `output/Phase1/` and round 2
-under `output/Phase2/`.
+Imported local-model, ablation, and Lesk-baseline artifacts currently cover
+sentences `0001-0500` and `0501-0600` for both round 1 and round 2. These
+files are stored in the presentation layout: round 1 under `output/Phase1/`
+and round 2 under `output/Phase2/`.
 
 The following full-range artifacts are not present in the working repository
 yet and therefore are not included here: `0501-1000` pairs for `Llama4`,
@@ -122,8 +123,8 @@ If you use this code or data, please cite:
 ```bibtex
 @article{lexisense-sr-2026,
   title   = {A Semi-Automated LLM-Based Framework for Word Sense Disambiguation in Serbian},
-  journal = {SAGE Journal},
-  year    = {2026}
+  year    = {2026},
+  note    = {Accepted for publication; DOI and final bibliographic details pending}
 }
 ```
 

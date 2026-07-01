@@ -2,7 +2,7 @@ Project Documentation
 =====================
 
 > Companion repository for *A Semi-Automated LLM-Based Framework for Word Sense
-> Disambiguation in Serbian* (submitted to SAGE Journal).
+> Disambiguation in Serbian* (accepted for publication; DOI and final citation pending).
 
 This folder contains detailed documentation for all modules and notebooks in the
 repository. The documentation is organised by file, providing an overview of the

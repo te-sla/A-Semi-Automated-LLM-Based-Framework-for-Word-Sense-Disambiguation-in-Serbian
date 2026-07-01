@@ -1,7 +1,7 @@
 # GEMINI_sense.ipynb
 
 > Part of the companion repository for *A Semi-Automated LLM-Based Framework
-> for Word Sense Disambiguation in Serbian* (submitted to SAGE Journal).
+> for Word Sense Disambiguation in Serbian* (accepted for publication; DOI and final citation pending).
 
 WSD notebook using Gemini 2.0 Flash Lite via LangChain + Google GenAI. Uses the
 same shared pipeline as the ChatGPT notebook but adds rate-limit throttling

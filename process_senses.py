@@ -164,23 +164,32 @@ def process_senses_with_chain(
         token.add_layer(SENSE_LIST_FIELD, "_")
         token.add_layer(SENSE_AINOTES_FIELD, "_")
         token.add_layer(SENSE_ORIGIN, "_")
+
+    def _mark_mwe_as_new_sense(mwe_tokens):
+        nonlocal n
+        for token in mwe_tokens:
+            token.add_layer(SENSE_ID_FIELD, f"NEW_SENSE[{n}]")
+            token.add_layer(SENSE_COUNT_FIELD, f"0[{n}]")
+            token.add_layer(SENSE_ORIGIN, "None")
+        n += 1
+
     for sentence in sentences:
         # Process multiword expressions (MWEs)
         for mwe in sentence.mwes:
             marked_sentence = mark_mwe(mwe, sentence)
             target_word = mwe.lemma
             senses_df_slice = get_mwe_filtered_senses(mwe, senses_df)
+            mwe_tokens = get_mwe_tokens(sentence, mwe)
+            if senses_df_slice is None or senses_df_slice.empty:
+                _mark_mwe_as_new_sense(mwe_tokens)
+                continue
+
             senses_list = senses_df_slice[S_ID].tolist()
             senses_candidates = ";".join(senses_list)
             valid_sense_ids = {_normalize_sense_id(sid) for sid in senses_list}
             senses = senses_df_slice.to_dict(orient="records")
-            mwe_tokens = get_mwe_tokens(sentence, mwe)
             if len(senses) == 0:
-                for token in mwe_tokens:
-                    token.add_layer(SENSE_ID_FIELD, f"NEW_SENSE[{n}]")
-                    token.add_layer(SENSE_COUNT_FIELD, f"0[{n}]")
-                    token.add_layer(SENSE_ORIGIN, "None")
-                n += 1
+                _mark_mwe_as_new_sense(mwe_tokens)
                 continue
             sense_id, notes, hallucinated = _invoke_chain_with_validation(
                 chain,

@@ -1,7 +1,7 @@
 # AI Models Usage
 
 > Part of the companion repository for *A Semi-Automated LLM-Based Framework
-> for Word Sense Disambiguation in Serbian* (submitted to SAGE Journal).
+> for Word Sense Disambiguation in Serbian* (accepted for publication; DOI and final citation pending).
 
 This document summarizes the model notebooks and output traceability used by
 the Serbian WSD framework.
@@ -74,6 +74,10 @@ The available SimpleWSD `0501-1000` round 1 pair was copied into
 `output/Phase1/`. Exact `_round2` SimpleWSD `0501-1000` files were not present
 under the same naming convention in the working repository; existing
 presentation `IIIround` files are preserved.
+
+Lesk baseline TSV pairs for `0001-0500` and `0501-0600` are included under
+`output/Phase1/` and `output/Phase2/`, matching the accepted first-600
+evaluation range.
 
 ## Output Traceability
 
