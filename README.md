@@ -3,7 +3,8 @@
 Companion code and data for the paper:
 
 > **A Semi-Automated LLM-Based Framework for Word Sense Disambiguation in Serbian**
-> *Accepted for publication; DOI and final citation pending*
+> Published online in *Intelligent Data Analysis* on 22 August 2026.
+> [https://doi.org/10.1177/1088467X261469292](https://doi.org/10.1177/1088467X261469292)
 
 This repository implements a semi-automated annotation workflow for Word Sense
 Disambiguation (WSD) in Serbian, leveraging Large Language Models (LLMs) through
@@ -121,10 +122,14 @@ when refreshing this repository.
 If you use this code or data, please cite:
 
 ```bibtex
-@article{lexisense-sr-2026,
+@article{petalinkar2026semi,
+  author  = {Petalinkar, Saša and Stanković, Ranka and Ikonić Nešić, Milica and Krstev, Cvetana},
   title   = {A Semi-Automated LLM-Based Framework for Word Sense Disambiguation in Serbian},
+  journal = {Intelligent Data Analysis},
   year    = {2026},
-  note    = {Accepted for publication; DOI and final bibliographic details pending}
+  doi     = {10.1177/1088467X261469292},
+  url     = {https://doi.org/10.1177/1088467X261469292},
+  note    = {OnlineFirst}
 }
 ```
 
