@@ -22,6 +22,12 @@ additional senses.
 | Best non-LLM baseline (`mling`) | 59.2 % | 56.0 % | 86.1 % |
 | Lesk baseline (`base-lesk`) | 53.6 % | 50.0 % | 86.6 % |
 
+## Paper-to-artifact map
+
+See [the paper results and artifact map](doc/paper_results_map.md) for the link between paper results, the two inventory rounds, the **120-sentence development set**, the **300-sentence held-out test set**, inference procedures and saved outputs. Each mapping is marked **confirmed**, **partially supported** or **unverified**. The map explicitly records missing evaluation outputs and the GPT-5/GPT-5.1 naming discrepancy; it does not claim that all paper scores can be reproduced from the current archive.
+
+Machine-readable citation metadata is available in [CITATION.cff](CITATION.cff). The inspected revision is [`80f8f64bcc899c28a59c9954e0eca4817a27f1dc`](https://github.com/te-sla/A-Semi-Automated-LLM-Based-Framework-for-Word-Sense-Disambiguation-in-Serbian/tree/80f8f64bcc899c28a59c9954e0eca4817a27f1dc), checked on 23 September 2026. It is a current documentation snapshot, not a verified historical release used for the publication.
+
 ## Features
 
 - **LLM-based WSD** - zero-shot sense disambiguation via GPT 4.1 / GPT 5, Gemini 2.0 Flash Lite, Gemini Pro, Llama4, and MistralSmall3.2.
@@ -136,3 +142,5 @@ If you use this code or data, please cite:
 ## License
 
 See `LICENSE` for details.
+
+The existing [LICENSE](LICENSE) declares **CC0-1.0** and is unchanged. Its scope does not override the rights in external lexical resources, ELEXIS-derived annotation material or model weights. Check the original data and model terms for the versions you use; this repository's license alone does not establish permission to redistribute every external resource. Article citation and model/resource attribution remain separate from the software license.
