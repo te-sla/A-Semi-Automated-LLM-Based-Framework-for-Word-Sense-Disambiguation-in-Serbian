@@ -24,13 +24,13 @@ additional senses.
 
 ## Paper-to-artifact map
 
-See [the paper results and artifact map](doc/paper_results_map.md) for the link between paper results, the two inventory rounds, the **120-sentence development set**, the **300-sentence held-out test set**, inference procedures and saved outputs. Each mapping is marked **confirmed**, **partially supported** or **unverified**. The map explicitly records missing evaluation outputs and the GPT-5/GPT-5.1 naming discrepancy; it does not claim that all paper scores can be reproduced from the current archive.
+See [the paper results and repository guide](doc/paper_results_map.md) for the two inventory rounds, the **120-sentence development set**, the **300-sentence held-out test set**, model notebooks and available prediction exports.
 
-Machine-readable citation metadata is available in [CITATION.cff](CITATION.cff). The inspected revision is [`80f8f64bcc899c28a59c9954e0eca4817a27f1dc`](https://github.com/te-sla/A-Semi-Automated-LLM-Based-Framework-for-Word-Sense-Disambiguation-in-Serbian/tree/80f8f64bcc899c28a59c9954e0eca4817a27f1dc), checked on 23 September 2026. It is a current documentation snapshot, not a verified historical release used for the publication.
+Machine-readable citation metadata is available in [CITATION.cff](CITATION.cff).
 
 ## Features
 
-- **LLM-based WSD** - zero-shot sense disambiguation via GPT 4.1 / GPT 5, Gemini 2.0 Flash Lite, Gemini Pro, Llama4, and MistralSmall3.2.
+- **LLM-based WSD** - zero-shot sense disambiguation via GPT-4.1 / GPT-5.1, Gemini 2.0 Flash Lite, Gemini Pro, Llama4, and MistralSmall3.2.
 - **Llama ablations** - simplified prompt, no `NEW_SENSE`, and no-explanation variants for the first 600 sentences in both sense-repository rounds.
 - **Baselines** - cosine-similarity WSD with `all-MiniLM-L6-v2`, `te-sla/TeslaXLM`, and `intfloat/multilingual-e5-large`, plus a Lesk-style knowledge baseline.
 - **Custom sense inventory** - Serbian WordNet senses enriched with additional entries (`Elexis-WSD-Repo-sr-v2.xlsx`).
